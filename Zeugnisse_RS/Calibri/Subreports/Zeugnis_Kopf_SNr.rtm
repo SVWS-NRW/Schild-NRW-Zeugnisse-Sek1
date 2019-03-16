@@ -1,0 +1,208 @@
+object Report: TppReport
+  OnFileDeviceCreate = ReportFileDeviceCreate
+  AutoStop = False
+  DataPipeline = dmPipelines.EigeneSchule
+  OnStartFirstPass = ReportStartFirstPass
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Zeugnis_Kopf_SNr.rtm'
+  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PrinterName = 'Default'
+  PrinterSetup.SaveDeviceSettings = False
+  PrinterSetup.mmMarginBottom = 0
+  PrinterSetup.mmMarginLeft = 0
+  PrinterSetup.mmMarginRight = 0
+  PrinterSetup.mmMarginTop = 0
+  PrinterSetup.mmPaperHeight = 297000
+  PrinterSetup.mmPaperWidth = 210000
+  PrinterSetup.PaperSize = 9
+  Template.FileName = 
+    'C:\Schulverwaltung-NRW\SchILD-NRW\SchILD-Reports\Subreports\Zeug' +
+    'nis_Kopf_SNr.rtm'
+  Template.Format = ftASCII
+  Units = utScreenPixels
+  ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
+  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
+  BeforePrint = ReportBeforePrint
+  BeforeEmail = ReportBeforeEmail
+  CachePages = True
+  DeviceType = 'Screen'
+  DefaultFileDeviceType = 'PDF'
+  EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.Enabled = True
+  LanguageID = 'Default'
+  OnInitializeParameters = ReportInitializeParameters
+  OnPreviewFormCreate = ReportPreviewFormCreate
+  OpenFile = False
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = False
+  ThumbnailSettings.Enabled = True
+  ThumbnailSettings.Visible = True
+  ThumbnailSettings.DeadSpace = 30
+  PDFSettings.EmbedFontOptions = []
+  PDFSettings.EncryptSettings.AllowCopy = True
+  PDFSettings.EncryptSettings.AllowInteract = True
+  PDFSettings.EncryptSettings.AllowModify = True
+  PDFSettings.EncryptSettings.AllowPrint = True
+  PDFSettings.EncryptSettings.Enabled = False
+  PDFSettings.EncryptSettings.KeyLength = kl40Bit
+  PDFSettings.FontEncoding = feAnsi
+  PDFSettings.ImageCompressionLevel = 25
+  PreviewFormSettings.ZoomSetting = zs100Percent
+  PreviewFormSettings.SinglePageOnly = True
+  RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
+  RTFSettings.DefaultFont.Color = clWindowText
+  RTFSettings.DefaultFont.Height = -13
+  RTFSettings.DefaultFont.Name = 'Arial'
+  RTFSettings.DefaultFont.Style = []
+  TextFileName = '($MyDocuments)\Report.pdf'
+  TextSearchSettings.DefaultString = '<Suchtext>'
+  TextSearchSettings.Enabled = True
+  XLSSettings.AppName = 'ReportBuilder'
+  XLSSettings.Author = 'ReportBuilder'
+  XLSSettings.Subject = 'Report'
+  XLSSettings.Title = 'Report'
+  Left = 128
+  Top = 8
+  Version = '15.05'
+  mmColumnWidth = 0
+  DataPipelineName = 'EigeneSchule'
+  object ppDetailBand3: TppDetailBand
+    Background1.Brush.Style = bsClear
+    Background2.Brush.Style = bsClear
+    PrintHeight = phDynamic
+    mmBottomOffset = 0
+    mmHeight = 28575
+    mmPrintPosition = 0
+    object ppDBText6: TppDBText
+      UserName = 'DBTeBezeichnung1'
+      AutoSize = True
+      DataField = 'Bezeichnung1'
+      DataPipeline = dmPipelines.EigeneSchule
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Times New Roman'
+      Font.Size = 22
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 8467
+      mmLeft = 82021
+      mmTop = 0
+      mmWidth = 45773
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel4: TppLabel
+      UserName = 'LaText'
+      AutoSize = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Times New Roman'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 5027
+      mmLeft = 0
+      mmTop = 23548
+      mmWidth = 210344
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppDBText1: TppDBText
+      UserName = 'DBTeBezeichnung2'
+      AutoSize = True
+      DataField = 'Bezeichnung2'
+      DataPipeline = dmPipelines.EigeneSchule
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Times New Roman'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 5027
+      mmLeft = 92869
+      mmTop = 8459
+      mmWidth = 24342
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppDBText2: TppDBText
+      UserName = 'DBTeBezeichnung3'
+      AutoSize = True
+      DataField = 'Bezeichnung3'
+      DataPipeline = dmPipelines.EigeneSchule
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Times New Roman'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 5027
+      mmLeft = 92869
+      mmTop = 13486
+      mmWidth = 24342
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppDBText3: TppDBText
+      UserName = 'DBTe_SchulNr'
+      AutoSize = True
+      DataField = 'SchulNr'
+      DataPipeline = dmPipelines.EigeneSchule
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Times New Roman'
+      Font.Size = 8
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      DataPipelineName = 'EigeneSchule'
+      mmHeight = 3704
+      mmLeft = 100286
+      mmTop = 19066
+      mmWidth = 9525
+      BandType = 4
+      LayerName = Foreground
+    end
+  end
+  object raCodeModule1: TraCodeModule
+    ProgramStream = {
+      01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650615
+      444254655F536368756C4E724F6E476574546578740B50726F6772616D547970
+      65070B747450726F63656475726506536F75726365066270726F636564757265
+      20444254655F536368756C4E724F6E476574546578742876617220546578743A
+      20537472696E67293B0D0A626567696E0D0A202054657874203A3D2027536368
+      756C6E756D6D65722027202B20546578740D0A656E643B0D0A0D436F6D706F6E
+      656E744E616D65060C444254655F536368756C4E72094576656E744E616D6506
+      094F6E47657454657874074576656E7449440235084361726574506F73010206
+      0202000001060F5472614576656E7448616E646C65720B50726F6772616D4E61
+      6D65061144657461696C4265666F72655072696E7406536F7572636506EF7072
+      6F6365647572652044657461696C4265666F72655072696E743B0D0A62656769
+      6E0D0A20204442546542657A656963686E756E67312E466F6E742E4E616D6520
+      3A3D20666F5F6E616D653B0D0A20204442546542657A656963686E756E67322E
+      466F6E742E4E616D65203A3D20666F5F6E616D653B0D0A20204442546542657A
+      656963686E756E67322E466F6E742E4E616D65203A3D20666F5F6E616D653B0D
+      0A2020444254655F536368756C4E722E466F6E742E4E616D65203A3D20666F5F
+      6E616D653B0D0A20204C61546578742E466F6E742E4E616D65203A3D20666F5F
+      6E616D653B0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606446574
+      61696C094576656E744E616D65060B4265666F72655072696E74074576656E74
+      49440218084361726574506F730102010208000000}
+  end
+  object ppDesignLayers1: TppDesignLayers
+    object ppDesignLayer1: TppDesignLayer
+      UserName = 'Foreground'
+      LayerType = ltBanded
+      Index = 0
+    end
+  end
+  object ppParameterList1: TppParameterList
+  end
+end
