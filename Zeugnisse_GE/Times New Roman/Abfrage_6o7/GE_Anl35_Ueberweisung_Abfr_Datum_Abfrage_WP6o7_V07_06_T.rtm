@@ -1,10 +1,8 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+  PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -18,25 +16,20 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schulverwaltung-NRW\SchILD-NRW\SchILD-Reports\Zeugnisse\Zeugn' +
-    'isse2017\V 7.06\Sek1\Gesamtschule Sek 1\Times New Roman\Abfrage_' +
-    '6o7\GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse_GE\Times ' +
+    'New Roman\Abfrage_6o7\GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_W' +
+    'P6o7_V07_06_T.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -99,7 +92,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+        PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -2846,7 +2839,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport12: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -3062,7 +3055,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport15: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+        PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -4594,7 +4587,7 @@ object Report: TppReport
                 ProgramStream = {
                   01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                   44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                  7450726F63656475726506536F75726365149D03000070726F63656475726520
+                  7450726F63656475726506536F75726365148203000070726F63656475726520
                   44657461696C4265666F72655072696E743B0D0A766172200D0A2020496E6B54
                   6578743A20737472696E673B0D0A2020666F65312C20666F65323A2073747269
                   6E673B0D0A626567696E0D0A2020496E6B54657874203A3D204C65726E616273
@@ -4613,19 +4606,18 @@ object Report: TppReport
                   7874202B2063687228313329202B202724455253494524270D0A20202020656C
                   736520496E6B74657874203A3D2053636875656C65725B27566F726E616D6527
                   5D3B200D0A20202020496E6B54657874203A3D20496E6B74657874202B202720
-                  777572646520696D2047656D65696E73616D656E204C65726E656E206D697420
-                  64656D2046C3B67264657273636877657270756E6B742027202B20666F65313B
-                  200D0A20202020696620666F6532203C3E202727200D0A202020207468656E20
-                  496E6B54657874203A3D20496E6B54657874202B202720756E642064656D2046
-                  C3B67264657273636877657270756E6B742027202B20666F65323B0D0A202020
-                  20496E6B54657874203A3D20496E6B54657874202B202720736F6E64657270C3
-                  A46461676F676973636820676566C3B6726465727420756E6420696D2042696C
-                  64756E677367616E672027202B20536368756C666F726D47202B202720756E74
-                  6572726963687465742E273B200D0A2020656E643B0D0A20204D656D6F5F4265
-                  6D2E54657874203A3D205A6575676E69735F546578745F626561726265697465
-                  6E28496E6B54657874293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D
-                  65060644657461696C094576656E744E616D65060B4265666F72655072696E74
-                  074576656E7449440218084361726574506F730102010201000000}
+                  777572646520696D2046C3B67264657273636877657270756E6B742027202B20
+                  666F65313B200D0A20202020696620666F6532203C3E202727200D0A20202020
+                  7468656E20496E6B54657874203A3D20496E6B54657874202B202720756E6420
+                  64656D2046C3B67264657273636877657270756E6B742027202B20666F65323B
+                  0D0A20202020496E6B54657874203A3D20496E6B54657874202B202720736F6E
+                  64657270C3A46461676F676973636820676566C3B6726465727420756E642069
+                  6D2042696C64756E677367616E672027202B20536368756C666F726D47202B20
+                  2720756E746572726963687465742E273B200D0A2020656E643B0D0A20204D65
+                  6D6F5F42656D2E54657874203A3D205A6575676E69735F546578745F62656172
+                  62656974656E28496E6B54657874293B0D0A656E643B0D0A0D436F6D706F6E65
+                  6E744E616D65060644657461696C094576656E744E616D65060B4265666F7265
+                  5072696E74074576656E7449440218084361726574506F730102010201000000}
               end
               object ppDesignLayers31: TppDesignLayers
                 object ppDesignLayer33: TppDesignLayer
@@ -4654,7 +4646,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport22: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -4729,7 +4721,7 @@ object Report: TppReport
                   mmMinHeight = 0
                   object ppChildReport29: TppChildReport
                     PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06.rtm'
+                    PrinterSetup.DocumentName = 'GE_Anl35_Ueberweisung_Abfr_Datum_Abfrage_WP6o7_V07_06_T.rtm'
                     PrinterSetup.Duplex = dpVertical
                     PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
