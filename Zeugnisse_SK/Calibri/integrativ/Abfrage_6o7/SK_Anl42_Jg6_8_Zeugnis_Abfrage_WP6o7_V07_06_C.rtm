@@ -4,7 +4,7 @@ object Report: TppReport
   PrinterSetup.BinName = 'Default'
   PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
   PrinterSetup.Duplex = dpVertical
-  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PaperName = 'A4 297 x 210 mm'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -16,9 +16,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse_Sekundars' +
-    'chule\Calibri\integrativ\Abfrage_6o7\SK_Anl42_Jg6_8_Zeugnis_Abfr' +
-    'age_WP6o7_V07_06_C.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_SK\Calibri\' +
+    'integrativ\Abfrage_6o7\SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_' +
+    '06_C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -94,7 +94,7 @@ object Report: TppReport
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
         PrinterSetup.Duplex = dpVertical
-        PrinterSetup.PaperName = 'A4'
+        PrinterSetup.PaperName = 'A4 297 x 210 mm'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -212,7 +212,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = '(Anl 21 + 23) Zeugnis 5 - 10 Gym V6.04.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -299,7 +299,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -525,7 +525,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -569,7 +569,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -698,7 +698,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -843,7 +843,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1010,7 +1010,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1161,7 +1161,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1207,7 +1207,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1357,7 +1357,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1500,7 +1500,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1642,7 +1642,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1686,7 +1686,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1834,7 +1834,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2020,7 +2020,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2066,7 +2066,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2215,7 +2215,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2359,7 +2359,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2507,7 +2507,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2678,7 +2678,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2749,7 +2749,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2794,7 +2794,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2905,7 +2905,7 @@ object Report: TppReport
                           DataPipeline = dmPipelines.plZUV
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'ZUV_AG.rtm'
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 10000
@@ -3065,7 +3065,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -3109,7 +3109,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3221,7 +3221,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3331,7 +3331,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3532,7 +3532,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -3738,7 +3738,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -3882,7 +3882,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4026,7 +4026,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl37_Abschluss_HA_A3_V07_05.rtm'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4335,7 +4335,7 @@ object Report: TppReport
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
         PrinterSetup.Duplex = dpVertical
-        PrinterSetup.PaperName = 'A4'
+        PrinterSetup.PaperName = 'A4 297 x 210 mm'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -4406,7 +4406,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4470,7 +4470,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -4553,7 +4553,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -4732,7 +4732,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -4815,7 +4815,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -5058,7 +5058,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5201,7 +5201,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5325,7 +5325,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5400,7 +5400,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -5489,7 +5489,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5580,7 +5580,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'SK_Anl42_Jg6_8_Zeugnis_Abfrage_WP6o7_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5730,7 +5730,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
