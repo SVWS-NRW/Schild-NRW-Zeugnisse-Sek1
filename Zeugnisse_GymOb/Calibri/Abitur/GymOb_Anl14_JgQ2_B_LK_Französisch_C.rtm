@@ -16,10 +16,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\Schulverwaltung-NRW\SchILD-NRW\SchILD-Reports\Zeugnisse_Calib' +
-    'ri\Zeugnisse2015\V7.051\Sek2\APO-GOSt B\Abitur\GymOb_Anl14_JgQ2_' +
-    'B_LK_Franz'#246'sisch_2016_01_03.rtm'
+  Template.FileName =
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calibri\Abitur\GymOb_Anl14_JgQ2_B_LK_Franz''#246''sisch_C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True

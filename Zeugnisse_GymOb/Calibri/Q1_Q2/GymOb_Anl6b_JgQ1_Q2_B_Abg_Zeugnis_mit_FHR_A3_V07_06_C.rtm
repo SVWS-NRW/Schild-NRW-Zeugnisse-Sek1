@@ -17,9 +17,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse-NRW\Zeugnis' +
-    'se_GymOb_2018_07_05\Zeugnisse Gymnasiale Oberstufe\Calibri\Q1_Q2' +
-    '\GymOb_Anl6b_JgQ1_Q2_B_Abg_Zeugnis_mit_FHR_A3_V07_06_C.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calib' +
+    'ri\Q1_Q2\GymOb_Anl6b_JgQ1_Q2_B_Abg_Zeugnis_mit_FHR_A3_V07_06_C.r' +
+    'tm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -2411,29 +2411,30 @@ object Report: TppReport
             074576656E7449440235084361726574506F730102010201000001060F547261
             4576656E7448616E646C65720B50726F6772616D4E616D650618444254655F4B
             6F6E66657373696F6E4F6E476574546578740B50726F6772616D54797065070B
-            747450726F63656475726506536F75726365069D70726F636564757265204442
+            747450726F63656475726506536F7572636506D070726F636564757265204442
             54655F4B6F6E66657373696F6E4F6E476574546578742876617220546578743A
-            20537472696E67293B0D0A626567696E0D0A202069662053636875656C65725B
-            274B6F6E66447275636B275D203D20272B270D0A20207468656E205465787420
-            3A3D20272D2027202B2054657874202B2027202D270D0A2020656C7365205465
-            7874203A3D2027273B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-            0F444254655F4B6F6E66657373696F6E094576656E744E616D6506094F6E4765
-            7454657874074576656E7449440235084361726574506F730102010201000001
-            060F5472614576656E7448616E646C65720B50726F6772616D4E616D65060D53
-            68617065314F6E5072696E740B50726F6772616D54797065070B747450726F63
-            656475726506536F75726365064570726F636564757265205368617065314F6E
-            5072696E743B0D0A626567696E0D0A20205368617065312E56697369626C6520
-            3A3D204D697452616E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D
-            650606536861706531094576656E744E616D6506074F6E5072696E7407457665
-            6E7449440220084361726574506F730102010201000001060F5472614576656E
-            7448616E646C65720B50726F6772616D4E616D6506114C615F5A6575676E6973
-            4F6E5072696E740B50726F6772616D54797065070B747450726F636564757265
-            06536F75726365065070726F636564757265204C615F5A6575676E69734F6E50
-            72696E743B0D0A626567696E0D0A2020666F5F6E616D65203A3D204C615F5A65
-            75676E69732E466F6E742E4E616D653B200D0A656E643B0D0A0D436F6D706F6E
-            656E744E616D65060A4C615F5A6575676E6973094576656E744E616D6506074F
-            6E5072696E74074576656E7449440220084361726574506F7301020102010000
-            00}
+            20537472696E67293B0D0A626567696E0D0A2020696620746578743D27272074
+            68656E20746578743A3D2053636875656C65725B2752656C6967696F6E41626B
+            275D3B0D0A202069662053636875656C65725B274B6F6E66447275636B275D20
+            3D20272B270D0A20207468656E2054657874203A3D20272D2027202B20546578
+            74202B2027202D270D0A2020656C73652054657874203A3D2027273B0D0A656E
+            643B0D0A0D436F6D706F6E656E744E616D65060F444254655F4B6F6E66657373
+            696F6E094576656E744E616D6506094F6E47657454657874074576656E744944
+            0235084361726574506F730102010201000001060F5472614576656E7448616E
+            646C65720B50726F6772616D4E616D65060D5368617065314F6E5072696E740B
+            50726F6772616D54797065070B747450726F63656475726506536F7572636506
+            4570726F636564757265205368617065314F6E5072696E743B0D0A626567696E
+            0D0A20205368617065312E56697369626C65203A3D204D697452616E643B0D0A
+            656E643B0D0A0D436F6D706F6E656E744E616D65060653686170653109457665
+            6E744E616D6506074F6E5072696E74074576656E744944022008436172657450
+            6F730102010201000001060F5472614576656E7448616E646C65720B50726F67
+            72616D4E616D6506114C615F5A6575676E69734F6E5072696E740B50726F6772
+            616D54797065070B747450726F63656475726506536F75726365065070726F63
+            6564757265204C615F5A6575676E69734F6E5072696E743B0D0A626567696E0D
+            0A2020666F5F6E616D65203A3D204C615F5A6575676E69732E466F6E742E4E61
+            6D653B200D0A656E643B0D0A0D436F6D706F6E656E744E616D65060A4C615F5A
+            6575676E6973094576656E744E616D6506074F6E5072696E74074576656E7449
+            440220084361726574506F730102010201000000}
         end
         object ppDesignLayers40: TppDesignLayers
           object ppDesignLayer44: TppDesignLayer
@@ -7711,58 +7712,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn19: TppTableColumn
+                        object ppTableColumn1: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn20: TppTableColumn
+                        object ppTableColumn2: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn21: TppTableColumn
+                        object ppTableColumn3: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn22: TppTableColumn
+                        object ppTableColumn4: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn23: TppTableColumn
+                        object ppTableColumn5: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn24: TppTableColumn
+                        object ppTableColumn6: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn25: TppTableColumn
+                        object ppTableColumn7: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn26: TppTableColumn
+                        object ppTableColumn8: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn27: TppTableColumn
+                        object ppTableColumn9: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn28: TppTableColumn
+                        object ppTableColumn10: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn29: TppTableColumn
+                        object ppTableColumn11: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn30: TppTableColumn
+                        object ppTableColumn12: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn31: TppTableColumn
+                        object ppTableColumn13: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn32: TppTableColumn
+                        object ppTableColumn14: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn33: TppTableColumn
+                        object ppTableColumn15: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn34: TppTableColumn
+                        object ppTableColumn16: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn35: TppTableColumn
+                        object ppTableColumn17: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn36: TppTableColumn
+                        object ppTableColumn18: TppTableColumn
                           mmWidth = 22225
                         end
                       end

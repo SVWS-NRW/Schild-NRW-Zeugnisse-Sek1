@@ -1,12 +1,10 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+  PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
   PrinterSetup.Duplex = dpVertical
-  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PaperName = 'A4 297 x 210 mm'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -18,25 +16,20 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schulverwaltung-NRW\SchILD-NRW\SchILD-Reports\Zeugnisse\Zeugn' +
-    'isse2017\V 7.06\Sek2\APO-GOSt B\Calibri\Q1_Q2\GymOb_Anl5a_JgQ1_Q' +
-    '2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calib' +
+    'ri\Q1_Q2\GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_' +
+    'C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -102,7 +95,7 @@ object Report: TppReport
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
         PrinterSetup.Duplex = dpVertical
-        PrinterSetup.PaperName = 'A4'
+        PrinterSetup.PaperName = 'A4 297 x 210 mm'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -510,7 +503,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = '(Anl 21 + 23) Zeugnis 5 - 10 Gym V6.04.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -602,7 +595,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -688,7 +681,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -794,7 +787,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1013,7 +1006,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -1093,7 +1086,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1198,7 +1191,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1423,7 +1416,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -1511,7 +1504,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1617,7 +1610,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1835,7 +1828,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -1905,7 +1898,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2012,7 +2005,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2226,7 +2219,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anl 5a (Schullaufbahn,ohneNachzuhPflicht,detDef) V7.013a.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2272,7 +2265,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2337,7 +2330,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3078,7 +3071,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anl 5a (Schullaufbahn,ohneNachzuhPflicht,detDef) V7.01.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -3193,7 +3186,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'Anl 5a (Schullaufbahn,ohneNachzuhPflicht,detDef) V7.012.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3493,7 +3486,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'NotenPunkte.rtm'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -6149,32 +6142,36 @@ object Report: TppReport
             656E7449440235084361726574506F730102010201000001060F547261457665
             6E7448616E646C65720B50726F6772616D4E616D650612444254655F4E616D65
             4F6E476574546578740B50726F6772616D54797065070B747450726F63656475
-            726506536F7572636506FE70726F63656475726520444254655F4E616D654F6E
-            476574546578742876617220546578743A20537472696E67293B0D0A62656769
-            6E0D0A202053636875656C6572566F724E6163686E616D65203A3D2053636875
-            656C65725B27566F726E616D654E616D65275D202B202720273B0D0A20205465
-            7874203A3D2053636875656C6572566F724E6163686E616D653B0D0A20206966
-            2053636875656C65725B274B6F6E66447275636B275D203D20272B270D0A2020
-            7468656E2054657874203A3D2054657874202B2027202827202B202053636875
-            656C65725B2752656C6967696F6E5A6575676E697362657A275D202B20272927
-            3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D650609444254655F4E61
-            6D65094576656E744E616D6506094F6E47657454657874074576656E74494402
-            35084361726574506F730102010201000001060F5472614576656E7448616E64
-            6C65720B50726F6772616D4E616D65060D5368617065314F6E5072696E740B50
-            726F6772616D54797065070B747450726F63656475726506536F757263650645
-            70726F636564757265205368617065314F6E5072696E743B0D0A626567696E0D
-            0A20205368617065312E56697369626C65203A3D204D697452616E643B0D0A65
-            6E643B0D0A0D436F6D706F6E656E744E616D650606536861706531094576656E
-            744E616D6506074F6E5072696E74074576656E7449440220084361726574506F
-            730102010201000001060F5472614576656E7448616E646C65720B50726F6772
-            616D4E616D6506174C615F426573636865696E6967756E674F6E5072696E740B
-            50726F6772616D54797065070B747450726F63656475726506536F7572636506
-            5C70726F636564757265204C615F426573636865696E6967756E674F6E507269
-            6E743B0D0A626567696E0D0A2020666F5F6E616D65203A3D204C615F42657363
-            6865696E6967756E672E466F6E742E4E616D653B200D0A656E643B0D0A0D436F
-            6D706F6E656E744E616D6506104C615F426573636865696E6967756E67094576
-            656E744E616D6506074F6E5072696E74074576656E7449440220084361726574
-            506F730102010201000000}
+            726506536F757263650C8101000070726F63656475726520444254655F4E616D
+            654F6E476574546578742876617220546578743A20537472696E67293B0D0A62
+            6567696E0D0A202053636875656C6572566F724E6163686E616D65203A3D2053
+            636875656C65725B27566F726E616D654E616D65275D202B202720273B0D0A20
+            2054657874203A3D2053636875656C6572566F724E6163686E616D653B0D0A20
+            2069662053636875656C65725B274B6F6E66447275636B275D203D20272B270D
+            0A20207468656E202020626567696E0D0A2020202069662053636875656C6572
+            5B2752656C6967696F6E5A6575676E697362657A275D203C3E20272720746865
+            6E200D0A2020202054657874203A3D2054657874202B20272827202B20536368
+            75656C65725B2752656C6967696F6E5A6575676E697362657A275D202B202729
+            2720656C73650D0A2020202054657874203A3D2054657874202B20272827202B
+            2053636875656C65725B2752656C6967696F6E41626B275D202B202729273B0D
+            0A2020656E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060944
+            4254655F4E616D65094576656E744E616D6506094F6E47657454657874074576
+            656E7449440235084361726574506F730102010201000001060F547261457665
+            6E7448616E646C65720B50726F6772616D4E616D65060D5368617065314F6E50
+            72696E740B50726F6772616D54797065070B747450726F63656475726506536F
+            75726365064570726F636564757265205368617065314F6E5072696E743B0D0A
+            626567696E0D0A20205368617065312E56697369626C65203A3D204D69745261
+            6E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065368617065
+            31094576656E744E616D6506074F6E5072696E74074576656E74494402200843
+            61726574506F730102010201000001060F5472614576656E7448616E646C6572
+            0B50726F6772616D4E616D6506174C615F426573636865696E6967756E674F6E
+            5072696E740B50726F6772616D54797065070B747450726F6365647572650653
+            6F75726365065C70726F636564757265204C615F426573636865696E6967756E
+            674F6E5072696E743B0D0A626567696E0D0A2020666F5F6E616D65203A3D204C
+            615F426573636865696E6967756E672E466F6E742E4E616D653B200D0A656E64
+            3B0D0A0D436F6D706F6E656E744E616D6506104C615F426573636865696E6967
+            756E67094576656E744E616D6506074F6E5072696E74074576656E7449440220
+            084361726574506F730102010201000000}
         end
         object ppDesignLayers3: TppDesignLayers
           object ppDesignLayer4: TppDesignLayer
@@ -6210,7 +6207,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport4: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+        PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -6264,7 +6261,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport22: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -6339,7 +6336,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 5a (Schullaufbahn,ohneNachzuhPflicht) V3.5'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -6535,7 +6532,7 @@ object Report: TppReport
                   mmMinHeight = 0
                   object ppChildReport24: TppChildReport
                     PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+                    PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
                     PrinterSetup.Duplex = dpVertical
                     PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
@@ -6702,7 +6699,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GymOb_Anl3_JgEF_B_Zeugnis_V07_052.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -6766,7 +6763,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl3_JgEF_B_Zeugnis_V07_052.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -6871,7 +6868,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl3_JgEF_B_Zeugnis_V07_052.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -7052,7 +7049,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'ASV_Neu.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -7187,7 +7184,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = '(Anl 14) Abschluss FOR(Q) HS A3'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -7306,7 +7303,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'AUE_SekI.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -7421,7 +7418,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport27: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -7496,7 +7493,7 @@ object Report: TppReport
                   mmMinHeight = 0
                   object ppChildReport30: TppChildReport
                     PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+                    PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
                     PrinterSetup.Duplex = dpVertical
                     PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
@@ -7585,7 +7582,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport33: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -7678,7 +7675,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport34: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -7762,7 +7759,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.EigeneSchule
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -7853,7 +7850,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport25: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06.rtm'
+              PrinterSetup.DocumentName = 'GymOb_Anl5a_JgQ1_Q2_B_Schullaufbahn_detDefKurse_V07_06_C.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'

@@ -15,10 +15,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse-NRW\Zeugnis' +
-    'se_GymOb_2018_07_05\Zeugnisse Gymnasiale Oberstufe\Calibri\Q1_Q2' +
-    '\GymOb_Anl7_JgQ1_Q2_B_Bewerbung_V07_06_C.rtm'
+  Template.FileName =
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calib' +
+    'ri\Q1_Q2\GymOb_Anl7_JgQ1_Q2_B_Bewerbung_V07_06_C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -2987,13 +2986,13 @@ object Report: TppReport
                   Font.Size = 8
                   Font.Style = []
                   Lines.Strings = (
-                    
+
                       'Notenstufen gem'#228#223' '#167'48 Abs. 3 SchulG: sehr gut (1), gut (2), befr' +
                       'iedigend (3), ausreichend(4), mangelhaft (5), ungen'#252'gend (6)'
-                    
+
                       'Leistungskurse werden von der Qualifikationsphase an auf erh'#246'hte' +
                       'm Anforderungsniveau unterrichtet.'
-                    
+
                       'Eine Abschlussnote wird nur am Ende des Jahreskurses ausgewiesen' +
                       '.'
                     'Bemerkungen gem'#228#223' Nr. 13.1 VVzAPO-GOSt: teilgenommen.')
@@ -3200,32 +3199,39 @@ object Report: TppReport
             76656E7449440218084361726574506F730102010201000001060F5472614576
             656E7448616E646C65720B50726F6772616D4E616D650612444254655F4E616D
             654F6E476574546578740B50726F6772616D54797065070B747450726F636564
-            75726506536F757263650C2101000070726F63656475726520444254655F4E61
+            75726506536F75726365140202000070726F63656475726520444254655F4E61
             6D654F6E476574546578742876617220546578743A20537472696E67293B0D0A
-            626567696E0D0A202054657874203A3D2053636875656C65725B27566F726E61
-            6D654E616D65275D202B202720273B0D0A202053636875656C6572566F724E61
-            63686E616D65203A3D20546578743B0D0A202069662053636875656C65725B27
-            4B6F6E66447275636B275D203D20272B27200D0A20207468656E205465787420
-            3A3D2054657874202B20272827202B2053636875656C65725B2752656C696769
-            6F6E5A6575676E697362657A275D202B202729273B0D0A20204153445F4A6168
-            7267616E67203A3D204C65726E61627363686E697474655B274153444A616872
-            67616E67275D3B200D0A656E643B0D0A0D436F6D706F6E656E744E616D650609
-            444254655F4E616D65094576656E744E616D6506094F6E476574546578740745
-            76656E7449440235084361726574506F730102010202000001060F5472614576
-            656E7448616E646C65720B50726F6772616D4E616D65060D5368617065314F6E
-            5072696E740B50726F6772616D54797065070B747450726F6365647572650653
-            6F75726365064570726F636564757265205368617065314F6E5072696E743B0D
-            0A626567696E0D0A20205368617065312E56697369626C65203A3D204D697452
-            616E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060653686170
-            6531094576656E744E616D6506074F6E5072696E74074576656E744944022008
-            4361726574506F730102010203000001060F5472614576656E7448616E646C65
-            720B50726F6772616D4E616D6506114C615F5A6575676E69734F6E5072696E74
-            0B50726F6772616D54797065070B747450726F63656475726506536F75726365
-            065070726F636564757265204C615F5A6575676E69734F6E5072696E743B0D0A
-            626567696E0D0A2020666F5F6E616D65203A3D204C615F5A6575676E69732E46
-            6F6E742E4E616D653B200D0A656E643B0D0A0D436F6D706F6E656E744E616D65
-            060A4C615F5A6575676E6973094576656E744E616D6506074F6E5072696E7407
-            4576656E7449440220084361726574506F730102010201000000}
+            626567696E0D0A202054657874203A3D202766C3BC722027202B205363687565
+            6C65725B27566F726E616D654E616D65275D202B20272C2027202B20466F726D
+            61744461746554696D65282764642E6D6D2E79797979272C53636875656C6572
+            5B2747656275727473646174756D275D293B0D0A202053636875656C6572566F
+            724E6163686E616D65203A3D2053636875656C65725B27566F726E616D654E61
+            6D65275D202B202720273B0D0A202069662053636875656C65725B274B6F6E66
+            447275636B275D203D20272B27200D0A20207468656E20626567696E0D0A2020
+            202069662053636875656C65725B2752656C6967696F6E5A6575676E69736265
+            7A275D203C3E202727207468656E200D0A2020202054657874203A3D20546578
+            74202B2027202827202B2053636875656C65725B2752656C6967696F6E5A6575
+            676E697362657A275D202B2027292720656C73650D0A2020202054657874203A
+            3D2054657874202B2027202827202B2053636875656C65725B2752656C696769
+            6F6E41626B275D202B202729273B0D0A2020656E643B0D0A20204153445F4A61
+            687267616E67203A3D204C65726E61627363686E697474655B274153444A6168
+            7267616E67275D3B200D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
+            09444254655F4E616D65094576656E744E616D6506094F6E4765745465787407
+            4576656E7449440235084361726574506F730102160209000001060F54726145
+            76656E7448616E646C65720B50726F6772616D4E616D65060D5368617065314F
+            6E5072696E740B50726F6772616D54797065070B747450726F63656475726506
+            536F75726365064570726F636564757265205368617065314F6E5072696E743B
+            0D0A626567696E0D0A20205368617065312E56697369626C65203A3D204D6974
+            52616E643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606536861
+            706531094576656E744E616D6506074F6E5072696E74074576656E7449440220
+            084361726574506F730102010203000001060F5472614576656E7448616E646C
+            65720B50726F6772616D4E616D6506114C615F5A6575676E69734F6E5072696E
+            740B50726F6772616D54797065070B747450726F63656475726506536F757263
+            65065070726F636564757265204C615F5A6575676E69734F6E5072696E743B0D
+            0A626567696E0D0A2020666F5F6E616D65203A3D204C615F5A6575676E69732E
+            466F6E742E4E616D653B200D0A656E643B0D0A0D436F6D706F6E656E744E616D
+            65060A4C615F5A6575676E6973094576656E744E616D6506074F6E5072696E74
+            074576656E7449440220084361726574506F730102010201000000}
         end
         object ppDesignLayers7: TppDesignLayers
           object ppDesignLayer8: TppDesignLayer
@@ -3287,7 +3293,7 @@ object Report: TppReport
           mmPrintPosition = 0
           object ppLabel9: TppLabel
             UserName = 'LaUebersicht'
-            Caption = 
+            Caption =
               'Diese '#220'bersicht dient zur Vorlage bei Bewerbungen; sie ist kein ' +
               'Zeugnis.'
             Font.Charset = DEFAULT_CHARSET
@@ -3350,7 +3356,7 @@ object Report: TppReport
                 mmPrintPosition = 0
                 object ppLabel20: TppLabel
                   UserName = 'LaAbgFaecher'
-                  Caption = 
+                  Caption =
                     'F'#228'cher, die am Ende des 1. Jahres der Qualifikationsphase abgesc' +
                     'hlossen wurden:'
                   Font.Charset = DEFAULT_CHARSET
@@ -3714,10 +3720,10 @@ object Report: TppReport
                   Font.Size = 11
                   Font.Style = []
                   Transparent = True
-                  mmHeight = 4784
+                  mmHeight = 4763
                   mmLeft = 0
                   mmTop = 529
-                  mmWidth = 66971
+                  mmWidth = 69586
                   BandType = 1
                   LayerName = Foreground9
                 end
@@ -3731,7 +3737,7 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2646
-                  mmLeft = 67733
+                  mmLeft = 70118
                   mmTop = 0
                   mmWidth = 1588
                   BandType = 1
@@ -4081,7 +4087,7 @@ object Report: TppReport
                   Font.Size = 11
                   Font.Style = []
                   Lines.Strings = (
-                    
+
                       'F'#252'r die modernen Fremdsprachen schlie'#223't dieses Zeugnis Kompetenz' +
                       'en des Gemeinsamen europ'#228'ischen '
                     'Referenzrahmens f'#252'r Sprachen (GeR) ein.')
@@ -4779,11 +4785,11 @@ object Report: TppReport
                   Font.Style = []
                   Lines.Strings = (
                     'Nach Entscheidung der Versetzungs-/Jahrgangsstufenkonferenz'
-                    
+
                       'Sind f'#252'r eine Sprache zwei Referenzniveaus ausgewiesen, ist das ' +
                       'niedrigere in vollem Umfang, das h'#246'here in Anteilen erreicht. Da' +
                       's ausgewiesene Niveau '
-                    
+
                       'kann auch in einem vorangegangenen Schuljahr erreicht worden sei' +
                       'n.')
                   RemoveEmptyLines = False

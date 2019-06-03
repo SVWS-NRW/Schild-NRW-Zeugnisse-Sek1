@@ -5,7 +5,7 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_06a_C.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'A3'
+  PrinterSetup.PaperName = 'A3 297 x 420 mm'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,12 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 256
+  PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\F_ZEUGNISSE_AKTUELL\Zeugnisse Gymna' +
-    'siale Oberstufe\Calibri\Abitur\GymOb_Anl12_JgQ2_B_Abiturzeugnis_' +
-    'bil-frz_V07_06a_C.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calib' +
+    'ri\Abitur\GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_06a_C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -96,7 +95,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_06a_C.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'A3 297 x 420 mm'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -105,7 +104,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Seite4_1'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -140,7 +139,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Abizeugnis_Seite_vier.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -205,7 +204,7 @@ object Report: TppReport
                   object ppChildReport15: TppChildReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = '!!!!!Anlage 12 (Abiturzeugnis) A4'
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 10000
@@ -368,7 +367,7 @@ object Report: TppReport
                           DataPipeline = dmPipelines.plSprachenfolge
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = '!!!!Anlage 12 (Abiturzeugnis) A4'
-                          PrinterSetup.PaperName = 'A4'
+                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 6350
@@ -877,7 +876,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = '(Anl 14) Abschluss FOR(Q) HS A3'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1062,7 +1061,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_051.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1578,7 +1577,7 @@ object Report: TppReport
               object ppChildReport1: TppChildReport
                 PrinterSetup.BinName = 'Default'
                 PrinterSetup.DocumentName = 'DynSubReport.rtm'
-                PrinterSetup.PaperName = 'A4'
+                PrinterSetup.PaperName = 'A4 297 x 210 mm'
                 PrinterSetup.PrinterName = 'Default'
                 PrinterSetup.SaveDeviceSettings = False
                 PrinterSetup.mmMarginBottom = 0
@@ -1875,15 +1874,16 @@ object Report: TppReport
             6E7449440220084361726574506F730102010201000001060F5472614576656E
             7448616E646C65720B50726F6772616D4E616D650618444254655F4B6F6E6665
             7373696F6E4F6E476574546578740B50726F6772616D54797065070B74745072
-            6F63656475726506536F7572636506A270726F63656475726520444254655F4B
+            6F63656475726506536F7572636506D370726F63656475726520444254655F4B
             6F6E66657373696F6E4F6E476574546578742876617220546578743A20537472
             696E67293B0D0A626567696E0D0A2020444254655F4B6F6E66657373696F6E2E
             56697369626C65203A3D2053636875656C65725B274B6F6E66447275636B275D
-            203D20272B273B0D0A0D0A202054657874203A3D204C6F6F6B7570284B6F6E66
-            42657A2C2054657874290D0A656E643B0D0A0D436F6D706F6E656E744E616D65
-            060F444254655F4B6F6E66657373696F6E094576656E744E616D6506094F6E47
-            657454657874074576656E7449440235084361726574506F7301020102010000
-            00}
+            203D20272B273B0D0A2020696620746578743D2727207468656E20746578743A
+            3D2053636875656C65725B2752656C6967696F6E41626B275D3B0D0A20205465
+            7874203A3D204C6F6F6B7570284B6F6E6642657A2C2054657874290D0A656E64
+            3B0D0A0D436F6D706F6E656E744E616D65060F444254655F4B6F6E6665737369
+            6F6E094576656E744E616D6506094F6E47657454657874074576656E74494402
+            35084361726574506F730102010201000000}
         end
         object ppDesignLayers3: TppDesignLayers
           object ppDesignLayer3: TppDesignLayer
@@ -1916,7 +1916,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_06a_C.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'A3 297 x 420 mm'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -1925,7 +1925,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Seite4_1'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -1959,7 +1959,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4 neu2'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2358,7 +2358,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -2654,7 +2654,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -2918,7 +2918,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -3186,7 +3186,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -3480,7 +3480,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -3775,7 +3775,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -4039,7 +4039,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -4316,7 +4316,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -4598,7 +4598,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl12_Jg13_C_Abiturzeugnis_bil-frz_V07_03.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -5174,7 +5174,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anl 5a (Schullaufbahn,ohneNachzuhPflicht,detDef) V7.01.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -5583,7 +5583,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_051.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -7969,58 +7969,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn19: TppTableColumn
+                        object ppTableColumn1: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn20: TppTableColumn
+                        object ppTableColumn2: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn21: TppTableColumn
+                        object ppTableColumn3: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn22: TppTableColumn
+                        object ppTableColumn4: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn23: TppTableColumn
+                        object ppTableColumn5: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn24: TppTableColumn
+                        object ppTableColumn6: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn25: TppTableColumn
+                        object ppTableColumn7: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn26: TppTableColumn
+                        object ppTableColumn8: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn27: TppTableColumn
+                        object ppTableColumn9: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn28: TppTableColumn
+                        object ppTableColumn10: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn29: TppTableColumn
+                        object ppTableColumn11: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn30: TppTableColumn
+                        object ppTableColumn12: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn31: TppTableColumn
+                        object ppTableColumn13: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn32: TppTableColumn
+                        object ppTableColumn14: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn33: TppTableColumn
+                        object ppTableColumn15: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn34: TppTableColumn
+                        object ppTableColumn16: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn35: TppTableColumn
+                        object ppTableColumn17: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn36: TppTableColumn
+                        object ppTableColumn18: TppTableColumn
                           mmWidth = 22225
                         end
                       end
@@ -8223,7 +8223,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4 neu'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PaperName = 'A4 297 x 210 mm'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -8417,7 +8417,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -8600,7 +8600,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -8783,7 +8783,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -8965,7 +8965,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -9133,7 +9133,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -9637,7 +9637,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'Anlage 12 (Abiturzeugnis) A4'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 6350
@@ -10243,7 +10243,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GymOb_Anl12_JgQ2_B_Abiturzeugnis_bil-frz_V07_051.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
+                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0

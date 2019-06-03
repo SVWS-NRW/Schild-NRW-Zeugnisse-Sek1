@@ -19,10 +19,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse-NRW\Zeugnis' +
-    'se_GymOb_2018_07_05\Zeugnisse Gymnasiale Oberstufe\Calibri\Q1_Q2' +
-    '\GymOb_Anl6a_JgQ1_Q2_B_Abg_Zeugnis_ohne_FHR_A3_LatAbfr_V07_06_C.' +
-    'rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW\Zeugnisse_GymOb\Calib' +
+    'ri\Q1_Q2\GymOb_Anl6a_JgQ1_Q2_B_Abg_Zeugnis_ohne_FHR_A3_LatAbfr_V' +
+    '07_06_C.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -2606,14 +2605,16 @@ object Report: TppReport
             506F730102010201000001060F5472614576656E7448616E646C65720B50726F
             6772616D4E616D650618444254655F4B6F6E66657373696F6E4F6E4765745465
             78740B50726F6772616D54797065070B747450726F63656475726506536F7572
-            6365069D70726F63656475726520444254655F4B6F6E66657373696F6E4F6E47
+            636506D070726F63656475726520444254655F4B6F6E66657373696F6E4F6E47
             6574546578742876617220546578743A20537472696E67293B0D0A626567696E
-            0D0A202069662053636875656C65725B274B6F6E66447275636B275D203D2027
-            2B270D0A20207468656E2054657874203A3D20272D2027202B2054657874202B
-            2027202D270D0A2020656C73652054657874203A3D2027273B0D0A656E643B0D
-            0A0D436F6D706F6E656E744E616D65060F444254655F4B6F6E66657373696F6E
-            094576656E744E616D6506094F6E47657454657874074576656E744944023508
-            4361726574506F730102010201000000}
+            0D0A2020696620746578743D2727207468656E20746578743A3D205363687565
+            6C65725B2752656C6967696F6E41626B275D3B0D0A202069662053636875656C
+            65725B274B6F6E66447275636B275D203D20272B270D0A20207468656E205465
+            7874203A3D20272D2027202B2054657874202B2027202D270D0A2020656C7365
+            2054657874203A3D2027273B0D0A656E643B0D0A0D436F6D706F6E656E744E61
+            6D65060F444254655F4B6F6E66657373696F6E094576656E744E616D6506094F
+            6E47657454657874074576656E7449440235084361726574506F730102320203
+            000000}
         end
         object ppDesignLayers39: TppDesignLayers
           object ppDesignLayer43: TppDesignLayer
@@ -7929,58 +7930,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn1: TppTableColumn
+                        object ppTableColumn19: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn2: TppTableColumn
+                        object ppTableColumn20: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn3: TppTableColumn
+                        object ppTableColumn21: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn4: TppTableColumn
+                        object ppTableColumn22: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn5: TppTableColumn
+                        object ppTableColumn23: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn6: TppTableColumn
+                        object ppTableColumn24: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn7: TppTableColumn
+                        object ppTableColumn25: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn8: TppTableColumn
+                        object ppTableColumn26: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn9: TppTableColumn
+                        object ppTableColumn27: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn10: TppTableColumn
+                        object ppTableColumn28: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn11: TppTableColumn
+                        object ppTableColumn29: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn12: TppTableColumn
+                        object ppTableColumn30: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn13: TppTableColumn
+                        object ppTableColumn31: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn14: TppTableColumn
+                        object ppTableColumn32: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn15: TppTableColumn
+                        object ppTableColumn33: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn16: TppTableColumn
+                        object ppTableColumn34: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn17: TppTableColumn
+                        object ppTableColumn35: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn18: TppTableColumn
+                        object ppTableColumn36: TppTableColumn
                           mmWidth = 22225
                         end
                       end
