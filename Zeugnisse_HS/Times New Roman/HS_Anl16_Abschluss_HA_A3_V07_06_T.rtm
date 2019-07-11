@@ -14,11 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse Hauptschu' +
-    'le\Times New Roman\HS_Anl16_Abschluss_HA_A3_V07_06_T.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse_HS_2019_0' +
+    '5_10\Times New Roman\HS_Anl16_Abschluss_HA_A3_V07_06_T.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -104,7 +104,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -561,8 +561,9 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -5025,6 +5026,7 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Seite3 neu'
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -5271,6 +5273,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -5342,7 +5345,7 @@ object Report: TppReport
                         AutoSize = False
                         Caption = 
                           'Der Hauptschulabschluss ist im Deutschen und Europ'#228'ischen Qualif' +
-                          'ikationsrahmen dem Niveau 2 zuge- ordnet.'
+                          'ikationsrahmen dem Niveau 2 zugeordnet.'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Times New Roman'
