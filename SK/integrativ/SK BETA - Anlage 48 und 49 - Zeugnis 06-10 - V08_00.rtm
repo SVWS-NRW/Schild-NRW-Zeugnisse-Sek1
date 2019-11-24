@@ -3466,7 +3466,7 @@ object Report: TppReport
                   Transparent = True
                   mmHeight = 2582
                   mmLeft = 69323
-                  mmTop = 0
+                  mmTop = 265
                   mmWidth = 1693
                   BandType = 1
                   LayerName = Foreground8
@@ -3609,8 +3609,8 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2582
-                  mmLeft = 80437
-                  mmTop = 0
+                  mmLeft = 80172
+                  mmTop = 265
                   mmWidth = 1693
                   BandType = 1
                   LayerName = Foreground21
