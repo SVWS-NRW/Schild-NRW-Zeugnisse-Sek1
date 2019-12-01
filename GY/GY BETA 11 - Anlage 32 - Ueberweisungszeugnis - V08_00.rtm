@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GY BETA 9 - Anlage 32 - Ueberweisungszeugnis - V08_00.rtm'
+  PrinterSetup.DocumentName = 'GY BETA 10 - Anlage 32 - Ueberweisungszeugnis - V08_00.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -17,8 +17,8 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     'D:\NRW-Programme\SchILD-NRW\SchILD-Reports\- Work -\- Zeugnisse ' +
-    'GY ab 2019 -\GY BETA 9 - Anlage 32 - Ueberweisungszeugnis - V08_' +
-    '00.rtm'
+    'GY ab 2019 -\GY BETA 10 - Anlage 32 - Ueberweisungszeugnis - V08' +
+    '_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -93,7 +93,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GY BETA 9 - Anlage 32 - Ueberweisungszeugnis - V08_00.rtm'
+        PrinterSetup.DocumentName = 'GY BETA 10 - Anlage 32 - Ueberweisungszeugnis - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -4611,6 +4611,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -4660,22 +4661,22 @@ object Report: TppReport
               'n zum Schulwechsel,\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberwei' +
               'sungs- oder Abgangszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li2' +
               '84\ri283 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri283\t' +
-              'qc\tx3402\tqr\tx9072\fs18 Bei der Bewertung einzelner Sch\'#39'fcler' +
-              'leistungen sowie in Zeugnissen werden die folgenden Notenstufen ' +
-              'gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt\fs20 :\par'#13#10 +
-              '\pard\nowidctlpar\fi-283\li567\ri283\tx1843 1.\tab sehr gut\tab ' +
-              '(1),\par'#13#10'2.\tab gut\tab (2),\par'#13#10'3.\tab befriedigend\tab (3),\' +
-              'par'#13#10'4.\tab ausreichend\tab (4),\par'#13#10'5.\tab mangelhaft\tab (5),' +
-              '\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\par'#13#10'\pard\nowidctlpar\fi-284' +
-              '\li284\ri283 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlp' +
-              'ar\li284\ri283 Gegen die Entscheidung, die Sch\'#39'fclerin oder den' +
-              ' Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren Abschluss' +
-              ' oder eine Berechtigung nicht zu vergeben, kann innerhalb eines ' +
-              'Monats nach Bekanntgabe des Zeugnisses Widerspruch erhoben werde' +
-              'n.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Str' +
-              'asse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erhebe' +
-              'n.\par'#13#10'\pard\nowidctlpar\qr\fs14 SNr: <SchulNr>, SForm: GY\par'#13 +
-              #10'\pard\nowidctlpar\fs20\par'#13#10'\pard\par'#13#10'\b\par'#13#10'}'#13#10#0
+              'qc\tx3402\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerleist' +
+              'ungen sowie in Zeugnissen werden die folgenden Notenstufen gem\'#39 +
+              'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13#10'\pard\nowid' +
+              'ctlpar\fi-283\li567\ri283\tx1843 1.\tab sehr gut\tab (1),\par'#13#10'2' +
+              '.\tab gut\tab (2),\par'#13#10'3.\tab befriedigend\tab (3),\par'#13#10'4.\tab' +
+              ' ausreichend\tab (4),\par'#13#10'5.\tab mangelhaft\tab (5),\par'#13#10'6.\ta' +
+              'b ungen\'#39'fcgend\tab (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri28' +
+              '3 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri' +
+              '283 Gegen die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler' +
+              ' nicht zu versetzen oder einen erreichbaren Abschluss oder eine ' +
+              'Berechtigung nicht zu vergeben, kann innerhalb eines Monats nach' +
+              ' Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der' +
+              ' Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ' +
+              '> <Ort>) schriftlich oder zur Niederschrift zu erheben.\par'#13#10'\pa' +
+              'rd\nowidctlpar\qr\fs14 SNr: <SchulNr>, SForm: GY\par'#13#10'\pard\nowi' +
+              'dctlpar\fs20\par'#13#10'\pard\par'#13#10'\b\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             mmHeight = 160602

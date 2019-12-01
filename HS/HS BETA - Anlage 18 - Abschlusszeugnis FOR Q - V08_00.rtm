@@ -18,9 +18,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 420000
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
-  Template.FileName = 
-    'S:\SchILD-NRW\SchILD-Reports\Zeugnisse HS BETA 1\HS BETA - Anlag' +
-    'e 18 - Abschlusszeugnis FOR Q - V08_00.rtm'
+  Template.FileName =
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-APO-SI\HS\HS BETA - Anlage 18 - Abschlusszeugnis FOR Q - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
