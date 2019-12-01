@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+  PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -15,9 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\RS 2019_Beta_1\RS A' +
-    'nlage 19 Zeugnis Jg5-10 V8.00.rtm'
+  Template.FileName =
+    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\RS 2019_Beta_8.02\RS Anlage 19 Zeugnis Jg5-10 V8.02.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -91,7 +90,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -103,6 +102,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -233,7 +233,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport41: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -1932,7 +1932,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport31: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -1944,6 +1944,7 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -1990,6 +1991,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -2026,7 +2028,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 36513
+                        mmLeft = 35983
                         mmTop = 0
                         mmWidth = 1587
                         BandType = 1
@@ -2210,7 +2212,7 @@ object Report: TppReport
                     AutoStop = False
                     DataPipeline = dmPipelines.plWahlpflichtbereich
                     PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+                    PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
                     PrinterSetup.Duplex = dpVertical
                     PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
@@ -3537,7 +3539,7 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2646
-                  mmLeft = 68792
+                  mmLeft = 69852
                   mmTop = 0
                   mmWidth = 1587
                   BandType = 1
@@ -3672,7 +3674,7 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2646
-                  mmLeft = 78317
+                  mmLeft = 80967
                   mmTop = 0
                   mmWidth = 1587
                   BandType = 1
@@ -3748,10 +3750,10 @@ object Report: TppReport
             ParentPrinterSetup = False
             ParentWidth = False
             TraverseAllData = False
-            mmHeight = 6352
+            mmHeight = 7408
             mmLeft = 10054
-            mmTop = 278349
-            mmWidth = 169455
+            mmTop = 270140
+            mmWidth = 169334
             BandType = 4
             LayerName = Foreground2
             mmBottomOffset = 0
@@ -3936,6 +3938,7 @@ object Report: TppReport
                   mmTop = 0
                   mmWidth = 181505
                   BandType = 4
+                  LayerName = PageLayer15
                 end
                 object ppMemo1: TppMemo
                   UserName = 'MemoWeitereBezeichnungen'
@@ -3956,6 +3959,7 @@ object Report: TppReport
                   mmTop = 8996
                   mmWidth = 181505
                   BandType = 4
+                  LayerName = PageLayer15
                   mmBottomOffset = 0
                   mmOverFlowOffset = 0
                   mmStopPosition = 0
@@ -3975,6 +3979,7 @@ object Report: TppReport
                   mmTop = 18785
                   mmWidth = 181505
                   BandType = 4
+                  LayerName = PageLayer15
                   mmBottomOffset = 0
                   mmOverFlowOffset = 0
                   mmStopPosition = 0
@@ -3997,6 +4002,7 @@ object Report: TppReport
                     mmTop = 19844
                     mmWidth = 181505
                     BandType = 4
+                    LayerName = PageLayer15
                   end
                 end
                 object ppDBImage2: TppDBImage
@@ -4015,6 +4021,7 @@ object Report: TppReport
                   mmTop = 0
                   mmWidth = 31750
                   BandType = 4
+                  LayerName = PageLayer15
                 end
               end
               object raCodeModule28: TraCodeModule
@@ -4202,7 +4209,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport9: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -4231,7 +4238,7 @@ object Report: TppReport
             Weight = 0.750000000000000000
             mmHeight = 2117
             mmLeft = 10056
-            mmTop = 244976
+            mmTop = 240471
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -4399,7 +4406,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport30: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -4532,7 +4539,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 0
-            mmTop = 190502
+            mmTop = 189707
             mmWidth = 210000
             BandType = 4
             LayerName = Foreground3
@@ -4542,7 +4549,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport28: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -4554,6 +4561,7 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4578,6 +4586,7 @@ object Report: TppReport
                   mmTop = 0
                   mmWidth = 33867
                   BandType = 4
+                  LayerName = Foreground5
                 end
                 object ppLine1: TppLine
                   UserName = 'Line1'
@@ -4588,6 +4597,7 @@ object Report: TppReport
                   mmTop = 12703
                   mmWidth = 92869
                   BandType = 4
+                  LayerName = Foreground5
                 end
                 object ppLabel32: TppLabel
                   UserName = 'LaUnterschrift1'
@@ -4604,163 +4614,12 @@ object Report: TppReport
                   mmTop = 14788
                   mmWidth = 31221
                   BandType = 4
+                  LayerName = Foreground5
                 end
               end
               object ppDesignLayers34: TppDesignLayers
                 object ppDesignLayer32: TppDesignLayer
                   UserName = 'Foreground5'
-                  LayerType = ltBanded
-                  Index = 0
-                end
-              end
-            end
-          end
-          object ppSubReport31: TppSubReport
-            UserName = 'SubReport_SprechtagWiederbeginn'
-            ExpandAll = False
-            NewPrintJob = False
-            OutlineSettings.CreateNode = True
-            TraverseAllData = False
-            mmHeight = 6352
-            mmLeft = 0
-            mmTop = 215924
-            mmWidth = 210000
-            BandType = 4
-            LayerName = Foreground3
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
-            object ppChildReport34: TppChildReport
-              PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 Zeugnis Jg5-10 V8.00.rtm'
-              PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
-              PrinterSetup.PrinterName = 'Default'
-              PrinterSetup.SaveDeviceSettings = False
-              PrinterSetup.mmMarginBottom = 0
-              PrinterSetup.mmMarginLeft = 0
-              PrinterSetup.mmMarginRight = 0
-              PrinterSetup.mmMarginTop = 0
-              PrinterSetup.mmPaperHeight = 297000
-              PrinterSetup.mmPaperWidth = 210000
-              PrinterSetup.PaperSize = 9
-              Template.Format = ftASCII
-              Units = utScreenPixels
-              Version = '15.05'
-              mmColumnWidth = 0
-              object ppDetailBand35: TppDetailBand
-                Background1.Brush.Style = bsClear
-                Background2.Brush.Style = bsClear
-                mmBottomOffset = 0
-                mmHeight = 18521
-                mmPrintPosition = 0
-                object ppLabel63: TppLabel
-                  UserName = 'La_Elternsprechtag'
-                  Caption = 'Elternsprechtag: '
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 10
-                  Font.Style = []
-                  Transparent = True
-                  mmHeight = 4233
-                  mmLeft = 14817
-                  mmTop = 0
-                  mmWidth = 24342
-                  BandType = 4
-                  LayerName = PageLayer16
-                end
-                object ppLabel64: TppLabel
-                  UserName = 'La_ElternsprechtagTermin'
-                  AutoSize = False
-                  Caption = 'La_ElternsprechtagTermin'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 10
-                  Font.Style = []
-                  Transparent = True
-                  WordWrap = True
-                  mmHeight = 10054
-                  mmLeft = 39158
-                  mmTop = 0
-                  mmWidth = 153433
-                  BandType = 4
-                  LayerName = PageLayer16
-                end
-                object ppLabel65: TppLabel
-                  UserName = 'La_Wiederbeginn'
-                  Caption = 'Wiederbeginn'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 10
-                  Font.Style = []
-                  Transparent = True
-                  mmHeight = 4233
-                  mmLeft = 14817
-                  mmTop = 11594
-                  mmWidth = 20373
-                  BandType = 4
-                  LayerName = PageLayer16
-                end
-              end
-              object raCodeModule32: TraCodeModule
-                ProgramStream = {
-                  01060D54726156617250726F6772616D094368696C645479706502110B50726F
-                  6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
-                  0B747450726F63656475726506536F75726365065670726F6365647572652056
-                  61726961626C65733B0D0A7661720D0A2020456C7465726E7370726563687461
-                  675F766F7268616E64656E3A20626F6F6C65616E3B2020200D0A0D0A62656769
-                  6E0D0A0D0A656E643B0D0A084361726574506F7301021C0202000001060F5472
-                  614576656E7448616E646C65720B50726F6772616D4E616D6506184C615F5769
-                  65646572626567696E6E4F6E476574546578740B50726F6772616D5479706507
-                  0B747450726F63656475726506536F75726365065D70726F636564757265204C
-                  615F576965646572626567696E6E4F6E47657454657874287661722054657874
-                  3A20537472696E67293B0D0A626567696E0D0A202054657874203A3D20576965
-                  646572626567696E6E3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
-                  060F4C615F576965646572626567696E6E094576656E744E616D6506094F6E47
-                  657454657874074576656E7449440235084361726574506F7301020102010000
-                  01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650619
-                  4C615F456C7465726E7370726563687461674F6E5072696E740B50726F677261
-                  6D54797065070B747450726F63656475726506536F75726365066F70726F6365
-                  64757265204C615F456C7465726E7370726563687461674F6E5072696E743B0D
-                  0A626567696E0D0A20204C615F456C7465726E7370726563687461672E566973
-                  69626C65203A3D20456C7465726E7370726563687461675F766F7268616E6465
-                  6E3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506124C615F456C74
-                  65726E737072656368746167094576656E744E616D6506074F6E5072696E7407
-                  4576656E7449440220084361726574506F730102010201000001060F54726145
-                  76656E7448616E646C65720B50726F6772616D4E616D6506214C615F456C7465
-                  726E7370726563687461675465726D696E4F6E476574546578740B50726F6772
-                  616D54797065070B747450726F63656475726506536F757263650C6F01000070
-                  726F636564757265204C615F456C7465726E7370726563687461675465726D69
-                  6E4F6E476574546578742876617220546578743A20537472696E67293B0D0A62
-                  6567696E0D0A2020696620456C7465726E7370726563687461675F766F726861
-                  6E64656E0D0A20207468656E20626567696E0D0A2020202054657874203A3D20
-                  27616D20272B205A6575676E6973496E666F726D6174696F6E656E456C746572
-                  6E737072656368746167416E67616265313B0D0A202020206966205A6575676E
-                  6973496E666F726D6174696F6E656E456C7465726E737072656368746167416E
-                  6761626531203C3E2027270D0A202020207468656E2054657874203A3D205465
-                  7874202B2063687228313329202B202720756E6420616D2027202B205A657567
-                  6E6973496E666F726D6174696F6E656E456C7465726E73707265636874616741
-                  6E67616265323B0D0A2020656E640D0A2020656C73652054657874203A3D2027
-                  273B20200D0A656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506184C61
-                  5F456C7465726E7370726563687461675465726D696E094576656E744E616D65
-                  06094F6E47657454657874074576656E7449440235084361726574506F730102
-                  590207000001060F5472614576656E7448616E646C65720B50726F6772616D4E
-                  616D65061144657461696C4265666F72655072696E740B50726F6772616D5479
-                  7065070B747450726F63656475726506536F75726365067E70726F6365647572
-                  652044657461696C4265666F72655072696E743B0D0A626567696E0D0A202045
-                  6C7465726E7370726563687461675F766F7268616E64656E203A3D205A657567
-                  6E6973496E666F726D6174696F6E656E456C7465726E73707265636874616741
-                  6E676162653120203C3E2027273B0D0A656E643B0D0A0D436F6D706F6E656E74
-                  4E616D65060644657461696C094576656E744E616D65060B4265666F72655072
-                  696E74074576656E7449440218084361726574506F730102010201000000}
-              end
-              object ppDesignLayers44: TppDesignLayers
-                object ppDesignLayer46: TppDesignLayer
-                  UserName = 'PageLayer16'
                   LayerType = ltBanded
                   Index = 0
                 end
@@ -4778,7 +4637,7 @@ object Report: TppReport
             DataPipelineName = 'EigeneSchule'
             mmHeight = 6285
             mmLeft = 10056
-            mmTop = 247093
+            mmTop = 243118
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -4802,6 +4661,7 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4844,18 +4704,18 @@ object Report: TppReport
                     'tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowi' +
                     'e in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a' +
                     '7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt: \par'#13#10'1. s' +
-                    'ehr gut (1), 2. gut (2), 3. befriedigend (3), 4. ausreichend(4),' +
-                    ' 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar\' +
-                    'fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 3.\tab Rechtsbehe' +
-                    'lfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283\tx284\tqc\tx453' +
-                    '6\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fclerin oder den S' +
-                    'ch\'#39'fcler nicht zu versetzen oder einen erreichbaren Abschluss o' +
-                    'der eine Berechtigung nicht zu vergeben, kann innerhalb eines Mo' +
-                    'nats nach Bekanntgabe des Zeugnisses Widerspruch erhoben werden.' +
-                    '\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Stras' +
-                    'se>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.' +
-                    '\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\f1\fs16\par' +
-                    #13#10'}'#13#10#0
+                    'ehr gut (1), 2. gut (2), 3. befriedigend (3), 4. ausreichend (4)' +
+                    ', 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar' +
+                    '\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 3.\tab Rechtsbeh' +
+                    'elfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283\tx284\tqc\tx45' +
+                    '36\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fclerin oder den ' +
+                    'Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren Abschluss ' +
+                    'oder eine Berechtigung nicht zu vergeben, kann innerhalb eines M' +
+                    'onats nach Bekanntgabe des Zeugnisses Widerspruch erhoben werden' +
+                    '.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Stra' +
+                    'sse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben' +
+                    '.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\f1\fs16\pa' +
+                    'r'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 61383
@@ -4939,6 +4799,7 @@ object Report: TppReport
                   mmTop = 0
                   mmWidth = 22564
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLabel37: TppLabel
                   UserName = 'LaSiegel'
@@ -4956,6 +4817,7 @@ object Report: TppReport
                   mmTop = 18481
                   mmWidth = 10583
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLabel24: TppLabel
                   UserName = 'La_Schulleitung'
@@ -4972,6 +4834,7 @@ object Report: TppReport
                   mmTop = 26988
                   mmWidth = 43127
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLabel27: TppLabel
                   UserName = 'La_Klassenleitung'
@@ -4988,6 +4851,7 @@ object Report: TppReport
                   mmTop = 26988
                   mmWidth = 24342
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLabel29: TppLabel
                   UserName = 'La_KLassenleitung_StV'
@@ -5004,6 +4868,7 @@ object Report: TppReport
                   mmTop = 30692
                   mmWidth = 24342
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLine9: TppLine
                   UserName = 'Line1'
@@ -5014,6 +4879,7 @@ object Report: TppReport
                   mmTop = 24871
                   mmWidth = 74083
                   BandType = 4
+                  LayerName = Foreground4
                 end
                 object ppLine10: TppLine
                   UserName = 'Line8'
@@ -5024,6 +4890,7 @@ object Report: TppReport
                   mmTop = 24871
                   mmWidth = 74083
                   BandType = 4
+                  LayerName = Foreground4
                 end
               end
               object raCodeModule24: TraCodeModule
@@ -5241,6 +5108,161 @@ object Report: TppReport
               end
             end
           end
+          object ppSubReport31: TppSubReport
+            UserName = 'SubReport_SprechtagWiederbeginn'
+            ExpandAll = False
+            NewPrintJob = False
+            OutlineSettings.CreateNode = True
+            ParentPrinterSetup = False
+            ParentWidth = False
+            TraverseAllData = False
+            mmHeight = 6352
+            mmLeft = 14288
+            mmTop = 207963
+            mmWidth = 181505
+            BandType = 4
+            LayerName = Foreground3
+            mmBottomOffset = 0
+            mmOverFlowOffset = 0
+            mmStopPosition = 0
+            mmMinHeight = 0
+            object ppChildReport29: TppChildReport
+              PrinterSetup.BinName = 'Default'
+              PrinterSetup.DocumentName = 'GY_Anl31_u_35_Jg5_9-10_Zeugnis_V07_10.rtm'
+              PrinterSetup.Duplex = dpVertical
+              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PrinterName = 'Default'
+              PrinterSetup.SaveDeviceSettings = False
+              PrinterSetup.mmMarginBottom = 0
+              PrinterSetup.mmMarginLeft = 0
+              PrinterSetup.mmMarginRight = 28575
+              PrinterSetup.mmMarginTop = 0
+              PrinterSetup.mmPaperHeight = 297000
+              PrinterSetup.mmPaperWidth = 210000
+              PrinterSetup.PaperSize = 9
+              Template.Format = ftASCII
+              Units = utScreenPixels
+              Version = '15.05'
+              mmColumnWidth = 0
+              object ppDetailBand35: TppDetailBand
+                Background1.Brush.Style = bsClear
+                Background2.Brush.Style = bsClear
+                mmBottomOffset = 0
+                mmHeight = 16669
+                mmPrintPosition = 0
+                object ppLabel63: TppLabel
+                  UserName = 'La_Elternsprechtag'
+                  Caption = 'Elternsprechtag: '
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clBlack
+                  Font.Name = 'Calibri'
+                  Font.Size = 10
+                  Font.Style = []
+                  Transparent = True
+                  mmHeight = 4233
+                  mmLeft = 0
+                  mmTop = 0
+                  mmWidth = 24342
+                  BandType = 4
+                  LayerName = PageLayer14
+                end
+                object ppLabel64: TppLabel
+                  UserName = 'La_ElternsprechtagTermin'
+                  AutoSize = False
+                  Caption = 'La_ElternsprechtagTermin'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clBlack
+                  Font.Name = 'Calibri'
+                  Font.Size = 10
+                  Font.Style = []
+                  Transparent = True
+                  WordWrap = True
+                  mmHeight = 10054
+                  mmLeft = 24318
+                  mmTop = 0
+                  mmWidth = 153433
+                  BandType = 4
+                  LayerName = PageLayer14
+                end
+                object ppLabel65: TppLabel
+                  UserName = 'La_Wiederbeginn'
+                  Caption = 'Wiederbeginn'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clBlack
+                  Font.Name = 'Calibri'
+                  Font.Size = 10
+                  Font.Style = []
+                  Transparent = True
+                  mmHeight = 4233
+                  mmLeft = 0
+                  mmTop = 11594
+                  mmWidth = 20373
+                  BandType = 4
+                  LayerName = PageLayer14
+                end
+              end
+              object raCodeModule25: TraCodeModule
+                ProgramStream = {
+                  01060D54726156617250726F6772616D094368696C645479706502110B50726F
+                  6772616D4E616D6506095661726961626C65730B50726F6772616D5479706507
+                  0B747450726F63656475726506536F75726365065670726F6365647572652056
+                  61726961626C65733B0D0A7661720D0A2020456C7465726E7370726563687461
+                  675F766F7268616E64656E3A20626F6F6C65616E3B2020200D0A0D0A62656769
+                  6E0D0A0D0A656E643B0D0A084361726574506F730102010201000001060F5472
+                  614576656E7448616E646C65720B50726F6772616D4E616D6506184C615F5769
+                  65646572626567696E6E4F6E476574546578740B50726F6772616D5479706507
+                  0B747450726F63656475726506536F75726365067770726F636564757265204C
+                  615F576965646572626567696E6E4F6E47657454657874287661722054657874
+                  3A20537472696E67293B0D0A626567696E0D0A202054657874203A3D205A6575
+                  676E6973496E666F726D6174696F6E656E576965646572616E66616E67416E67
+                  6162653B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060F4C615F57
+                  6965646572626567696E6E094576656E744E616D6506094F6E47657454657874
+                  074576656E7449440235084361726574506F730102010201000001060F547261
+                  4576656E7448616E646C65720B50726F6772616D4E616D6506194C615F456C74
+                  65726E7370726563687461674F6E5072696E740B50726F6772616D5479706507
+                  0B747450726F63656475726506536F75726365066F70726F636564757265204C
+                  615F456C7465726E7370726563687461674F6E5072696E743B0D0A626567696E
+                  0D0A20204C615F456C7465726E7370726563687461672E56697369626C65203A
+                  3D20456C7465726E7370726563687461675F766F7268616E64656E3B0D0A656E
+                  643B0D0A0D436F6D706F6E656E744E616D6506124C615F456C7465726E737072
+                  656368746167094576656E744E616D6506074F6E5072696E74074576656E7449
+                  440220084361726574506F730102010201000001060F5472614576656E744861
+                  6E646C65720B50726F6772616D4E616D6506214C615F456C7465726E73707265
+                  63687461675465726D696E4F6E476574546578740B50726F6772616D54797065
+                  070B747450726F63656475726506536F757263650C6F01000070726F63656475
+                  7265204C615F456C7465726E7370726563687461675465726D696E4F6E476574
+                  546578742876617220546578743A20537472696E67293B0D0A626567696E0D0A
+                  2020696620456C7465726E7370726563687461675F766F7268616E64656E0D0A
+                  20207468656E20626567696E0D0A2020202054657874203A3D2027616D20272B
+                  205A6575676E6973496E666F726D6174696F6E656E456C7465726E7370726563
+                  68746167416E67616265313B0D0A202020206966205A6575676E6973496E666F
+                  726D6174696F6E656E456C7465726E737072656368746167416E676162653220
+                  3C3E2027270D0A202020207468656E2054657874203A3D2054657874202B2063
+                  687228313329202B202720756E6420616D2027202B205A6575676E6973496E66
+                  6F726D6174696F6E656E456C7465726E737072656368746167416E6761626532
+                  3B0D0A2020656E640D0A2020656C73652054657874203A3D2027273B20200D0A
+                  656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506184C615F456C746572
+                  6E7370726563687461675465726D696E094576656E744E616D6506094F6E4765
+                  7454657874074576656E7449440235084361726574506F730102320206000001
+                  060F5472614576656E7448616E646C65720B50726F6772616D4E616D65061144
+                  657461696C4265666F72655072696E740B50726F6772616D54797065070B7474
+                  50726F63656475726506536F75726365067E70726F6365647572652044657461
+                  696C4265666F72655072696E743B0D0A626567696E0D0A2020456C7465726E73
+                  70726563687461675F766F7268616E64656E203A3D205A6575676E6973496E66
+                  6F726D6174696F6E656E456C7465726E737072656368746167416E6761626531
+                  20203C3E2027273B0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606
+                  44657461696C094576656E744E616D65060B4265666F72655072696E74074576
+                  656E7449440218084361726574506F730102010201000000}
+              end
+              object ppDesignLayers44: TppDesignLayers
+                object ppDesignLayer46: TppDesignLayer
+                  UserName = 'PageLayer14'
+                  LayerType = ltBanded
+                  Index = 0
+                end
+              end
+            end
+          end
         end
         object ppPageStyle2: TppPageStyle
           Background.Brush.Style = bsClear
@@ -5375,7 +5397,7 @@ object Report: TppReport
       6C6568726572203A20626F6F6C65616E3B0D0A20200D0A2020536368756C6162
       7363686C7573735175656C6C65203A20737472696E673B2020200D0A0D0A2020
       576965646572626567696E6E3A20737472696E673B200D0A0D0A626567696E0D
-      0A0D0A656E643B0D0A084361726574506F730102010201000001060A54726150
+      0A0D0A656E643B0D0A084361726574506F730102350211000001060A54726150
       726F6772616D094368696C645479706502130B50726F6772616D4E616D65060E
       476C6F62616C4F6E4372656174650B50726F6772616D54797065070B74745072
       6F63656475726506536F75726365065D70726F63656475726520476C6F62616C
@@ -6134,18 +6156,18 @@ object Report: TppReport
       676562656E3F27293B20202020202020202020200D0A20202020656E643B0D0A
       0D0A2020736C4461746569696E68616C742E467265653B0D0A2020736C45696E
       7374656C6C756E67656E2E467265653B0D0A202020200D0A656E643B0D0A0843
-      61726574506F73010205039501000001060F5472614576656E7448616E646C65
-      720B50726F6772616D4E616D6506115265706F72744265666F72655072696E74
-      0B50726F6772616D54797065070B747450726F63656475726506536F75726365
-      06BB70726F636564757265205265706F72744265666F72655072696E743B0D0A
-      7661720D0A2020703A20696E74656765723B0D0A626567696E0D0A2020536368
-      756C4F7274203A3D20456967656E65536368756C655B274F7274275D3B0D0A20
-      20536368756C666F726D47203A3D20276465722027202B20536368756C666F72
-      6D3B0D0A202045535F416E7A4162203A3D20456967656E65536368756C655B27
-      416E7A61686C41627363686E69747465275D3B0D0A0D0A656E643B0D0A0D436F
-      6D706F6E656E744E616D6506065265706F7274094576656E744E616D65060B42
-      65666F72655072696E74074576656E7449440201084361726574506F73010201
-      0201000000}
+      61726574506F730102010201000001060F5472614576656E7448616E646C6572
+      0B50726F6772616D4E616D6506115265706F72744265666F72655072696E740B
+      50726F6772616D54797065070B747450726F63656475726506536F7572636506
+      BB70726F636564757265205265706F72744265666F72655072696E743B0D0A76
+      61720D0A2020703A20696E74656765723B0D0A626567696E0D0A202053636875
+      6C4F7274203A3D20456967656E65536368756C655B274F7274275D3B0D0A2020
+      536368756C666F726D47203A3D20276465722027202B20536368756C666F726D
+      3B0D0A202045535F416E7A4162203A3D20456967656E65536368756C655B2741
+      6E7A61686C41627363686E69747465275D3B0D0A0D0A656E643B0D0A0D436F6D
+      706F6E656E744E616D6506065265706F7274094576656E744E616D65060B4265
+      666F72655072696E74074576656E7449440201084361726574506F7301020102
+      01000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

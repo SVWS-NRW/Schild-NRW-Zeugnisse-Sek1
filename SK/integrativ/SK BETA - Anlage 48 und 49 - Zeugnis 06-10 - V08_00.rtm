@@ -15,10 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
-    'O-SI\SK\integrativ\SK BETA - Anlage 48 und 49 - Zeugnis 06-10 - ' +
-    'V08_00.rtm'
+  Template.FileName =
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-APO-SI\SK\integrativ\SK BETA - Anlage 48 und 49 - Zeugnis 06-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -105,6 +103,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -4510,6 +4509,7 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4521,17 +4521,17 @@ object Report: TppReport
                 mmPrintPosition = 0
                 object ppLabel61: TppLabel
                   UserName = 'LaZuweisungen1'
-                  Caption = 'Zuweisungen:'
+                  Caption = 'Zuweisungen'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
                   Font.Size = 12
-                  Font.Style = []
+                  Font.Style = [fsBold]
                   Transparent = True
-                  mmHeight = 5165
+                  mmHeight = 5027
                   mmLeft = 0
                   mmTop = 0
-                  mmWidth = 23876
+                  mmWidth = 23813
                   BandType = 1
                   LayerName = Foreground9
                 end
@@ -5192,17 +5192,17 @@ object Report: TppReport
                 object ppLabel10: TppLabel
                   UserName = 'LaBemerkung'
                   AutoSize = False
-                  Caption = 'Bemerkungen:'
+                  Caption = 'Bemerkungen'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
                   Font.Size = 11
-                  Font.Style = []
+                  Font.Style = [fsBold]
                   Transparent = True
                   mmHeight = 4784
                   mmLeft = 0
                   mmTop = 530
-                  mmWidth = 23114
+                  mmWidth = 24606
                   BandType = 1
                   LayerName = Foreground40
                 end
@@ -5227,9 +5227,9 @@ object Report: TppReport
                   Stretch = True
                   Transparent = True
                   mmHeight = 6350
-                  mmLeft = 4232
+                  mmLeft = 0
                   mmTop = 0
-                  mmWidth = 166700
+                  mmWidth = 173302
                   BandType = 4
                   LayerName = Foreground40
                   mmBottomOffset = 0
@@ -5339,12 +5339,12 @@ object Report: TppReport
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
                   Font.Size = 12
-                  Font.Style = []
+                  Font.Style = [fsBold]
                   Transparent = True
-                  mmHeight = 5165
-                  mmLeft = 14817
+                  mmHeight = 5027
+                  mmLeft = 0
                   mmTop = 0
-                  mmWidth = 55753
+                  mmWidth = 57415
                   BandType = 4
                   LayerName = Foreground25
                 end
@@ -5360,9 +5360,9 @@ object Report: TppReport
                   Transparent = True
                   WordWrap = True
                   mmHeight = 10585
-                  mmLeft = 19315
+                  mmLeft = 0
                   mmTop = 5285
-                  mmWidth = 171715
+                  mmWidth = 192352
                   BandType = 4
                   LayerName = Foreground25
                 end

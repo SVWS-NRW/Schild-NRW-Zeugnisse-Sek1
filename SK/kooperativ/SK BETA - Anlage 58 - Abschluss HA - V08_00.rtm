@@ -4186,7 +4186,7 @@ object Report: TppReport
                       mmPrintPosition = 0
                       object ppLabel23: TppLabel
                         UserName = 'LaBemerkung'
-                        Caption = 'Bemerkungen:'
+                        Caption = 'Bemerkungen'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
                         Font.Name = 'Calibri'
@@ -4196,7 +4196,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 24077
+                        mmWidth = 23019
                         BandType = 1
                         LayerName = Foreground32
                       end

@@ -3682,6 +3682,7 @@ object Report: TppReport
                   mmTop = 1060
                   mmWidth = 12700
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppDBText7: TppDBText
                   UserName = 'DBTe_Klasse'
@@ -3701,6 +3702,7 @@ object Report: TppReport
                   mmTop = 1060
                   mmWidth = 10583
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppLabel54: TppLabel
                   UserName = 'La_Schuljahr'
@@ -3717,6 +3719,7 @@ object Report: TppReport
                   mmTop = 1058
                   mmWidth = 21696
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppDBText15: TppDBText
                   UserName = 'DBTe_Halbjahr'
@@ -3737,6 +3740,7 @@ object Report: TppReport
                   mmTop = 1060
                   mmWidth = 15875
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppLabel8: TppLabel
                   UserName = 'LaVersaemteStunden'
@@ -3752,6 +3756,7 @@ object Report: TppReport
                   mmTop = 8468
                   mmWidth = 35454
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppLabel9: TppLabel
                   UserName = 'La_FehlStd'
@@ -3767,6 +3772,7 @@ object Report: TppReport
                   mmTop = 8468
                   mmWidth = 18521
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppLine5: TppLine
                   UserName = 'Line5'
@@ -3777,6 +3783,7 @@ object Report: TppReport
                   mmTop = 12703
                   mmWidth = 189971
                   BandType = 4
+                  LayerName = PageLayer19
                 end
                 object ppLine2: TppLine
                   UserName = 'Line7'
@@ -3787,6 +3794,7 @@ object Report: TppReport
                   mmTop = 5295
                   mmWidth = 189971
                   BandType = 4
+                  LayerName = PageLayer19
                 end
               end
               object raCodeModule35: TraCodeModule
@@ -4068,7 +4076,7 @@ object Report: TppReport
                 end
                 object ppLabel7: TppLabel
                   UserName = 'LaZuweisungen1'
-                  Caption = 'Zuweisungen:'
+                  Caption = 'Zuweisungen'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
@@ -4078,7 +4086,7 @@ object Report: TppReport
                   mmHeight = 5027
                   mmLeft = 0
                   mmTop = 0
-                  mmWidth = 24871
+                  mmWidth = 23813
                   BandType = 1
                   LayerName = Foreground33
                 end
@@ -4338,7 +4346,7 @@ object Report: TppReport
                 mmPrintPosition = 0
                 object ppLabel10: TppLabel
                   UserName = 'LaBemerkung'
-                  Caption = 'Bemerkungen:'
+                  Caption = 'Bemerkungen'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
@@ -4348,7 +4356,7 @@ object Report: TppReport
                   mmHeight = 4763
                   mmLeft = 0
                   mmTop = 529
-                  mmWidth = 24077
+                  mmWidth = 23019
                   BandType = 1
                   LayerName = Foreground38
                 end
@@ -4485,12 +4493,12 @@ object Report: TppReport
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
                   Font.Size = 12
-                  Font.Style = []
+                  Font.Style = [fsBold]
                   Transparent = True
-                  mmHeight = 5165
-                  mmLeft = 14817
+                  mmHeight = 5027
+                  mmLeft = 0
                   mmTop = 0
-                  mmWidth = 55753
+                  mmWidth = 57415
                   BandType = 4
                   LayerName = Foreground25
                 end
@@ -4506,9 +4514,9 @@ object Report: TppReport
                   Transparent = True
                   WordWrap = True
                   mmHeight = 10585
-                  mmLeft = 19315
+                  mmLeft = 0
                   mmTop = 5285
-                  mmWidth = 171715
+                  mmWidth = 191030
                   BandType = 4
                   LayerName = Foreground25
                 end
