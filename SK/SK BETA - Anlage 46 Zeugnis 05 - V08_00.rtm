@@ -2304,7 +2304,7 @@ object Report: TppReport
                               TextAlignment = taCentered
                               DataPipelineName = 'plZUV'
                               mmHeight = 4784
-                              mmLeft = 95250
+                              mmLeft = 111654
                               mmTop = 529
                               mmWidth = 63500
                               BandType = 4
@@ -2417,7 +2417,7 @@ object Report: TppReport
                               TextAlignment = taCentered
                               DataPipelineName = 'plZUV'
                               mmHeight = 4784
-                              mmLeft = 95250
+                              mmLeft = 111654
                               mmTop = 529
                               mmWidth = 63500
                               BandType = 4
@@ -2453,7 +2453,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               Transparent = True
                               mmHeight = 3440
-                              mmLeft = 160334
+                              mmLeft = 174909
                               mmTop = 0
                               mmWidth = 15346
                               BandType = 4
@@ -2645,7 +2645,7 @@ object Report: TppReport
                               TextAlignment = taCentered
                               DataPipelineName = 'ppEGS'
                               mmHeight = 4784
-                              mmLeft = 95250
+                              mmLeft = 111654
                               mmTop = 529
                               mmWidth = 63500
                               BandType = 4
@@ -2760,7 +2760,7 @@ object Report: TppReport
                               TextAlignment = taCentered
                               DataPipelineName = 'ppEGS'
                               mmHeight = 4784
-                              mmLeft = 95250
+                              mmLeft = 111654
                               mmTop = 529
                               mmWidth = 63500
                               BandType = 4
@@ -2873,7 +2873,7 @@ object Report: TppReport
                               TextAlignment = taCentered
                               DataPipelineName = 'ppEGS'
                               mmHeight = 4784
-                              mmLeft = 95250
+                              mmLeft = 111654
                               mmTop = 529
                               mmWidth = 63500
                               BandType = 4
@@ -3082,7 +3082,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         DataPipelineName = 'plAGGT'
                         mmHeight = 4784
-                        mmLeft = 95250
+                        mmLeft = 111654
                         mmTop = 529
                         mmWidth = 63500
                         BandType = 4
