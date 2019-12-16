@@ -4,7 +4,7 @@ object Report: TppReport
   PrinterSetup.BinName = 'Default'
   PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
   PrinterSetup.Duplex = dpVertical
-  PrinterSetup.PaperName = 'A4 297 x 210 mm'
+  PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -16,8 +16,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-neu\Gesamtschule\BETA' +
-    ' 4\GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+    'C:\Verwaltung\SchILD-NRW\SchILD-Reports\Zeugnisse\Zeugnisse GE B' +
+    'ETA 4\GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -93,7 +93,7 @@ object Report: TppReport
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
-        PrinterSetup.PaperName = 'A4 297 x 210 mm'
+        PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -103,6 +103,7 @@ object Report: TppReport
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 210000
         PrinterSetup.PaperSize = 9
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -139,7 +140,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GY_Anl31_u_35_Jg5_9-10_Zeugnis_V07_10 - Neue Formatierung.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -339,7 +340,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GY_Anl31_u_35_Jg5_9-10_Zeugnis_V07_10.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -433,22 +434,6 @@ object Report: TppReport
                   BandType = 4
                   LayerName = PageLayer18
                 end
-                object ppLabel9: TppLabel
-                  UserName = 'LaVersaemteStunden'
-                  Caption = 'Vers'#228'umte Stunden: '
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 12
-                  Font.Style = []
-                  Transparent = True
-                  mmHeight = 5027
-                  mmLeft = 4240
-                  mmTop = 8468
-                  mmWidth = 35454
-                  BandType = 4
-                  LayerName = PageLayer18
-                end
                 object ppLabel17: TppLabel
                   UserName = 'La_FehlStd'
                   Caption = 'La_FehlStd'
@@ -459,8 +444,8 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 5027
-                  mmLeft = 40223
-                  mmTop = 8468
+                  mmLeft = 4233
+                  mmTop = 8467
                   mmWidth = 18521
                   BandType = 4
                   LayerName = PageLayer18
@@ -529,24 +514,25 @@ object Report: TppReport
                   440235084361726574506F730102160203000001060F5472614576656E744861
                   6E646C65720B50726F6772616D4E616D6506134C615F4665686C5374644F6E47
                   6574546578740B50726F6772616D54797065070B747450726F63656475726506
-                  536F757263650CD401000070726F636564757265204C615F4665686C5374644F
+                  536F75726365140A02000070726F636564757265204C615F4665686C5374644F
                   6E476574546578742876617220546578743A20537472696E67293B0D0A766172
                   0D0A20206665686C2C2075656665686C3A20696E74656765723B0D0A62656769
                   6E0D0A20206665686C203A3D204C65726E61627363686E697474655B2753756D
-                  4665686C537464275D3B0D0A202054657874203A3D20496E74546F7374722866
-                  65686C293B0D0A20206966206665686C203E20300D0A20207468656E20626567
-                  696E0D0A2020202075656665686C203A3D204C65726E61627363686E69747465
-                  5B2753756D6665686C53746455275D3B0D0A2020202054657874203A3D205465
-                  7874202B20272C206461766F6E20756E656E74736368756C646967743A20273B
-                  0D0A2020202069662075656665686C203E20310D0A202020207468656E205465
-                  7874203A3D2054657874202B20496E74546F5374722875656665686C29202B20
-                  27205374756E64656E270D0A20202020656C73652069662075656665686C203D
-                  20310D0A202020207468656E2054657874203A3D2054657874202B2027312053
-                  74756E6465270D0A20202020656C73652054657874203A3D2054657874202B20
-                  276B65696E65205374756E6465273B0D0A2020656E643B0D0A656E643B0D0A0D
-                  436F6D706F6E656E744E616D65060A4C615F4665686C537464094576656E744E
-                  616D6506094F6E47657454657874074576656E7449440235084361726574506F
-                  730102050211000000}
+                  4665686C537464275D3B0D0A202054657874203A3D202756657273C3A4756D74
+                  65205374756E64656E3A2027202B20496E74546F737472286665686C293B0D0A
+                  20206966206665686C203E2030207468656E200D0A2020626567696E0D0A2020
+                  202075656665686C203A3D204C65726E61627363686E697474655B2753756D66
+                  65686C53746455275D3B0D0A2020202054657874203A3D2054657874202B2027
+                  2C206461766F6E20756E656E74736368756C646967743A20273B0D0A20202020
+                  69662075656665686C203E2031207468656E200D0A2020202020205465787420
+                  3A3D2054657874202B20496E74546F5374722875656665686C29202B20272053
+                  74756E64656E270D0A20202020656C7365200D0A202020202020696620756566
+                  65686C203D2031207468656E200D0A202020202020202054657874203A3D2054
+                  657874202B202731205374756E6465270D0A202020202020656C7365200D0A20
+                  2020202020202054657874203A3D2054657874202B20276B65696E6520537475
+                  6E6465273B0D0A2020656E643B0D0A656E643B0D0A0D436F6D706F6E656E744E
+                  616D65060A4C615F4665686C537464094576656E744E616D6506094F6E476574
+                  54657874074576656E7449440235084361726574506F7301021C020F000000}
               end
               object ppDesignLayers45: TppDesignLayers
                 object ppDesignLayer47: TppDesignLayer
@@ -633,7 +619,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -678,7 +664,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -824,7 +810,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -970,7 +956,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1113,7 +1099,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1158,7 +1144,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1307,7 +1293,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1499,7 +1485,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1546,7 +1532,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1697,7 +1683,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -1842,7 +1828,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -1889,7 +1875,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2039,7 +2025,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2186,7 +2172,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2319,7 +2305,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2451,7 +2437,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2603,7 +2589,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2757,7 +2743,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -2831,7 +2817,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -2876,7 +2862,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -2990,7 +2976,7 @@ object Report: TppReport
                           DataPipeline = dmPipelines.plZUV
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'ZUV_AG.rtm'
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 10000
@@ -3154,7 +3140,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -3199,7 +3185,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3314,7 +3300,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3427,7 +3413,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -3635,7 +3621,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
                     PrinterSetup.Duplex = dpVertical
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -3845,7 +3831,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -3989,7 +3975,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4132,7 +4118,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl37_Abschluss_HA_A3_V07_05.rtm'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4447,7 +4433,7 @@ object Report: TppReport
         PrinterSetup.BinName = 'Default'
         PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
-        PrinterSetup.PaperName = 'A4 297 x 210 mm'
+        PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -4501,7 +4487,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Inklusion_5_8_A3_V07_06.rtm'
               PrinterSetup.Duplex = dpHorizontal
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -4565,7 +4551,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Inklusion_5_8_A3_V07_06.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -4651,7 +4637,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Inklusion_5_8_A3_V07_06.rtm'
                           PrinterSetup.Duplex = dpHorizontal
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -4842,7 +4828,7 @@ object Report: TppReport
                     PrinterSetup.BinName = 'Default'
                     PrinterSetup.DocumentName = 'GE_Inklusion_5_8_A3_V07_06.rtm'
                     PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                    PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
                     PrinterSetup.SaveDeviceSettings = False
                     PrinterSetup.mmMarginBottom = 0
@@ -4882,7 +4868,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE BETA 1 - Anlage 39 und 40 - Zeugnis 05-10 - V08_00.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -4949,7 +4935,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE BETA 1 - Anlage 39 und 40 - Zeugnis 05-10 - V08_00.rtm'
                           PrinterSetup.Duplex = dpVertical
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -5045,7 +5031,7 @@ object Report: TppReport
                           PrinterSetup.BinName = 'Default'
                           PrinterSetup.DocumentName = 'GE_Inklusion_5_8_A3_V07_06.rtm'
                           PrinterSetup.Duplex = dpHorizontal
-                          PrinterSetup.PaperName = 'A4 297 x 210 mm'
+                          PrinterSetup.PaperName = 'A4'
                           PrinterSetup.PrinterName = 'Default'
                           PrinterSetup.SaveDeviceSettings = False
                           PrinterSetup.mmMarginBottom = 0
@@ -5322,7 +5308,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5466,7 +5452,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5525,62 +5511,70 @@ object Report: TppReport
                 ProgramStream = {
                   01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650616
                   4C615F5665727365747A756E674F6E476574546578740B50726F6772616D5479
-                  7065070B747450726F63656475726506536F75726365146C05000070726F6365
+                  7065070B747450726F63656475726506536F75726365147006000070726F6365
                   64757265204C615F5665727365747A756E674F6E476574546578742876617220
                   546578743A20537472696E67293B0D0A7661720D0A2020666F6C676573747566
                   652C20666F6C67656B6C617373653A20737472696E673B0D0A20207665727365
                   747A5F6B727A5F7478743A20737472696E673B0D0A626567696E0D0A20205465
                   7874203A3D2027273B0D0A20206966204C65726E61627363686E697474655B27
-                  41627363686E697474275D203D2045535F416E7A41620D0A20207468656E2062
-                  6567696E0D0A20202020666F6C67656B6C61737365203A3D204C65726E616273
-                  63686E69747465205B27466F6C67656B6C61737365275D3B0D0A20202020666F
-                  6C67657374756665203A3D206F664E28436F70792028666F6C67656B6C617373
-                  652C20312C203229293B0D0A2020202044656C6574652028666F6C67656B6C61
-                  7373652C20312C2032293B0D0A202020207665727365747A5F6B727A5F747874
-                  203A3D204C65726E61627363686E69747465205B275665727365747A756E674B
-                  727A275D3B0D0A202020206966207665727365747A5F6B727A5F747874203D20
-                  275656270D0A202020207468656E20626567696E0D0A202020202020666F6C67
-                  657374756665203A3D20496E74546F53747228537472546F496E7428666F6C67
-                  65737475666529202B2031293B0D0A202020202020666F6C67656B6C61737365
-                  203A3D2027270D0A20202020656E643B0D0A2020202069662053636875656C65
-                  725B2747657363686C65636874275D203D2033200D0A202020207468656E2054
-                  657874203A3D202745722027200D0A20202020656C73652054657874203A3D20
-                  2753696520273B0D0A202020206966206E65756E5F7A65686E207468656E2062
-                  6567696E0D0A202020202020696620287665727365747A5F6B727A5F74787420
-                  3D2027562729206F7220287665727365747A5F6B727A5F747874203D20275656
-                  27290D0A2020202020207468656E2054657874203A3D2054657874202B202720
-                  7769726420696E20646965204B6C617373652027202B20666F6C676573747566
-                  65202B20666F6C67656B6C61737365202B2027207665727365747A742E270D0A
-                  202020202020656C7365206966207665727365747A5F6B727A5F747874203D20
-                  275650270D0A2020202020207468656E2054657874203A3D2054657874202B20
-                  27207769726420696E20646965204B6C617373652027202B20666F6C67657374
-                  756665202B20666F6C67656B6C61737365202B2027206175662050726F626520
-                  7665727365747A742E270D0A202020202020656C73652054657874203A3D2054
-                  657874202B20272077697264206E6963687420696E20646965204B6C61737365
-                  2027202B20666F6C67657374756665202B2027207665727365747A742E273B0D
-                  0A20202020656E6420656C736520626567696E0D0A2020202020206966202876
-                  65727365747A5F6B727A5F747874203D2027562729206F722028766572736574
-                  7A5F6B727A5F747874203D2027565627290D0A2020202020207468656E205465
-                  7874203A3D2054657874202B2027206765687420696E20646965204B6C617373
-                  652027202B20666F6C67657374756665202B20666F6C67656B6C61737365202B
-                  202720C3BC6265722E270D0A202020202020656C736520696620766572736574
-                  7A5F6B727A5F747874203D20275650270D0A2020202020207468656E20546578
-                  74203A3D2054657874202B2027206765687420696E20646965204B6C61737365
-                  2027202B20666F6C67657374756665202B20666F6C67656B6C61737365202B20
-                  27206175662050726F626520C3BC6265722E270D0A202020202020656C736520
-                  54657874203A3D2027273B0D0A20202020656E643B0D0A2020656E643B0D0A65
-                  6E643B0D0A0D0A0D436F6D706F6E656E744E616D65060D4C615F566572736574
-                  7A756E67094576656E744E616D6506094F6E47657454657874074576656E7449
-                  440235084361726574506F73010218021A000001060F5472614576656E744861
-                  6E646C65720B50726F6772616D4E616D6506134C615F4B6F6E666572656E7A4F
-                  6E5072696E740B50726F6772616D54797065070B747450726F63656475726506
-                  536F75726365068070726F636564757265204C615F4B6F6E666572656E7A4F6E
-                  5072696E743B0D0A626567696E0D0A20204C615F4B6F6E666572656E7A2E5669
-                  7369626C65203A3D202845535F416E7A4162203D204C65726E61627363686E69
-                  7474655B2741627363686E697474275D2920616E64206E65756E5F7A65686E3B
-                  0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C4C615F4B6F6E6665
-                  72656E7A094576656E744E616D6506074F6E5072696E74074576656E74494402
-                  20084361726574506F730102010201000000}
+                  41627363686E697474275D203D2045535F416E7A4162207468656E200D0A2020
+                  626567696E0D0A20202020666F6C67656B6C61737365203A3D204C65726E6162
+                  7363686E69747465205B27466F6C67656B6C61737365275D3B0D0A2020202066
+                  6F6C67657374756665203A3D206F664E28436F70792028666F6C67656B6C6173
+                  73652C20312C203229293B0D0A2020202044656C6574652028666F6C67656B6C
+                  617373652C20312C2032293B0D0A202020207665727365747A5F6B727A5F7478
+                  74203A3D204C65726E61627363686E69747465205B275665727365747A756E67
+                  4B727A275D3B0D0A202020206966207665727365747A5F6B727A5F747874203D
+                  2027565627207468656E200D0A20202020626567696E0D0A202020202020666F
+                  6C67657374756665203A3D20496E74546F53747228537472546F496E7428666F
+                  6C6765737475666529202B2031293B0D0A202020202020666F6C67656B6C6173
+                  7365203A3D2027270D0A20202020656E643B0D0A202020206966205363687565
+                  6C65725B2747657363686C65636874275D203D2033207468656E200D0A202020
+                  20202054657874203A3D202745722027200D0A20202020656C7365200D0A2020
+                  2020202054657874203A3D202753696520273B0D0A202020206966206E65756E
+                  5F7A65686E207468656E200D0A20202020626567696E0D0A2020202020206966
+                  20287665727365747A5F6B727A5F747874203D2027562729206F722028766572
+                  7365747A5F6B727A5F747874203D202756562729207468656E200D0A20202020
+                  2020202054657874203A3D2054657874202B2027207769726420696E20646965
+                  204B6C617373652027202B20666F6C67657374756665202B20666F6C67656B6C
+                  61737365202B2027207665727365747A742E270D0A202020202020656C736520
+                  0D0A20202020202020206966207665727365747A5F6B727A5F747874203D2027
+                  565027207468656E200D0A2020202020202020202054657874203A3D20546578
+                  74202B2027207769726420696E20646965204B6C617373652027202B20666F6C
+                  67657374756665202B20666F6C67656B6C61737365202B202720617566205072
+                  6F6265207665727365747A742E270D0A2020202020202020656C7365200D0A20
+                  2020202020202020206966207665727365747A5F6B727A5F747874203D202741
+                  27207468656E0D0A20202020202020202020202054657874203A3D2054657874
+                  202B20272077697264206E6963687420696E20646965204B6C61737365202720
+                  2B20666F6C67657374756665202B2027207665727365747A742E270D0A202020
+                  20202020202020656C73650D0A20202020202020202020202054657874203A3D
+                  2054657874202B20272077697264206E6963687420696E20646965204B6C6173
+                  73652027202B20496E74546F53747228537472546F496E7428666F6C67657374
+                  756665292B3129202B2027207665727365747A742E273B0D0A20202020656E64
+                  200D0A20202020656C7365200D0A20202020626567696E0D0A20202020202069
+                  6620287665727365747A5F6B727A5F747874203D2027562729206F7220287665
+                  727365747A5F6B727A5F747874203D202756562729207468656E200D0A202020
+                  202020202054657874203A3D2054657874202B2027206765687420696E206469
+                  65204B6C617373652027202B20666F6C67657374756665202B20666F6C67656B
+                  6C61737365202B202720C3BC6265722E270D0A202020202020656C7365200D0A
+                  20202020202020206966207665727365747A5F6B727A5F747874203D20275650
+                  27207468656E200D0A2020202020202020202054657874203A3D205465787420
+                  2B2027206765687420696E20646965204B6C617373652027202B20666F6C6765
+                  7374756665202B20666F6C67656B6C61737365202B2027206175662050726F62
+                  6520C3BC6265722E270D0A2020202020202020656C7365200D0A202020202020
+                  2020202054657874203A3D2027273B0D0A20202020656E643B0D0A2020656E64
+                  3B0D0A656E643B0D0A0D0A0D436F6D706F6E656E744E616D65060D4C615F5665
+                  727365747A756E67094576656E744E616D6506094F6E47657454657874074576
+                  656E7449440235084361726574506F7301025F021E000001060F547261457665
+                  6E7448616E646C65720B50726F6772616D4E616D6506134C615F4B6F6E666572
+                  656E7A4F6E5072696E740B50726F6772616D54797065070B747450726F636564
+                  75726506536F75726365068070726F636564757265204C615F4B6F6E66657265
+                  6E7A4F6E5072696E743B0D0A626567696E0D0A20204C615F4B6F6E666572656E
+                  7A2E56697369626C65203A3D202845535F416E7A4162203D204C65726E616273
+                  63686E697474655B2741627363686E697474275D2920616E64206E65756E5F7A
+                  65686E3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C4C615F4B
+                  6F6E666572656E7A094576656E744E616D6506074F6E5072696E74074576656E
+                  7449440220084361726574506F730102010201000000}
               end
               object ppDesignLayers40: TppDesignLayers
                 object ppDesignLayer42: TppDesignLayer
@@ -5613,7 +5607,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GY_Anl31_u_35_Jg5_9-10_Zeugnis_V07_10.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -5623,6 +5617,7 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -5774,11 +5769,11 @@ object Report: TppReport
                   2020765F6E203A3D20765F6E202B202720273B0D0A20202020656E640D0A2020
                   656C7365200D0A20202020765F6E203A3D2027273B200D0A20200D0A20205265
                   73756C74203A3D20765F6E3B0D0A20200D0A656E643B0D0A084361726574506F
-                  7301022E0208000001060A54726150726F6772616D094368696C645479706502
+                  730102010201000001060A54726150726F6772616D094368696C645479706502
                   150E497346756E6374696F6E54797065090B50726F6772616D4E616D65062655
                   6E746572736368726966747362657A656963686E756E675A7573616D6D656E73
                   65747A656E0B50726F6772616D54797065070A747446756E6374696F6E06536F
-                  757263650CEF05000066756E6374696F6E20556E746572736368726966747362
+                  757263650CF405000066756E6374696F6E20556E746572736368726966747362
                   657A656963686E756E675A7573616D6D656E7365747A656E284175734B756572
                   7A656C4C6164656E3A20626F6F6C65616E3B20766172204C5F4B7565727A656C
                   2C204C5F4E616D652C204C5F566F726E616D652C204C5F546974656C2C204C5F
@@ -5789,165 +5784,165 @@ object Report: TppReport
                   0A20207342657A656963686E756E673A20737472696E673B0D0A20200D0A6265
                   67696E0D0A20200D0A20207342657A656963686E756E67203A3D2027273B0D0A
                   200D0A2020696620284175734B7565727A656C4C6164656E20616E6420284C5F
-                  4B7565727A656C203C3E2027272929207468656E204C6568726572646174656E
-                  4C6164656E284C5F4B7565727A656C2C204C5F4E616D652C204C5F566F726E61
-                  6D652C204C5F416E726564652C204C5F546974656C2C204C5F416D747362657A
-                  293B0D0A200D0A20204C5F416E72656465203A3D205472696D284C5F416E7265
-                  6465293B0D0A20200D0A202073546974656C203A3D205472696D284C5F546974
-                  656C293B0D0A202069662073546974656C203C3E202727207468656E200D0A20
-                  202020626567696E0D0A202020202020696620506F7328272E272C2073546974
-                  656C29203D2030207468656E2073546974656C203A3D2073546974656C202B20
-                  272E273B0D0A20202020202073546974656C203A3D2073546974656C202B2027
-                  20273B200D0A20202020656E643B0D0A20200D0A202073566F726E616D65203A
-                  3D204C5F564E616D655F41626B284C5F566F726E616D65293B0D0A2020734E61
-                  63686E616D65203A3D205472696D284C5F4E616D65293B0D0A20200D0A202073
-                  416D747362657A203A3D205472696D284C5F416D747362657A293B0D0A202069
-                  66202873416D747362657A203C3E20272729207468656E200D0A202020207341
-                  6D747362657A203A3D20272C2027202B2073416D747362657A0D0A2020656C73
-                  65200D0A2020202073416D747362657A203A3D2027273B0D0A0D0A2020734675
-                  6E6B74696F6E203A3D205472696D284C5F46756E6B74696F6E293B0D0A20200D
-                  0A202069662028204175734B7565727A656C4C6164656E20616E6420284C5F4B
-                  7565727A656C203C3E2027272920616E6420284C5F416E72656465203D202746
-                  726175272929207468656E0D0A202020207346756E6B74696F6E203A3D207346
-                  756E6B74696F6E202B2027696E273B0D0A20200D0A20206966202820556E7465
-                  7273636872696674656E4D69744E6163686E616D656E20414E442028734E6163
-                  686E616D65203C3E20272729297468656E0D0A20202020626567696E0D0A2020
-                  20202020696620556E74657273636872696674656E4D6974546974656C207468
+                  4B7565727A656C203C3E2027272929207468656E0D0A202020204C6568726572
+                  646174656E4C6164656E284C5F4B7565727A656C2C204C5F4E616D652C204C5F
+                  566F726E616D652C204C5F416E726564652C204C5F546974656C2C204C5F416D
+                  747362657A293B0D0A200D0A20204C5F416E72656465203A3D205472696D284C
+                  5F416E72656465293B0D0A20200D0A202073546974656C203A3D205472696D28
+                  4C5F546974656C293B0D0A202069662073546974656C203C3E20272720746865
+                  6E200D0A20202020626567696E0D0A202020202020696620506F7328272E272C
+                  2073546974656C29203D2030207468656E2073546974656C203A3D2073546974
+                  656C202B20272E273B0D0A20202020202073546974656C203A3D207354697465
+                  6C202B202720273B200D0A20202020656E643B0D0A20200D0A202073566F726E
+                  616D65203A3D204C5F564E616D655F41626B284C5F566F726E616D65293B0D0A
+                  2020734E6163686E616D65203A3D205472696D284C5F4E616D65293B0D0A2020
+                  0D0A202073416D747362657A203A3D205472696D284C5F416D747362657A293B
+                  0D0A20206966202873416D747362657A203C3E20272729207468656E200D0A20
+                  20202073416D747362657A203A3D20272C2027202B2073416D747362657A0D0A
+                  2020656C7365200D0A2020202073416D747362657A203A3D2027273B0D0A0D0A
+                  20207346756E6B74696F6E203A3D205472696D284C5F46756E6B74696F6E293B
+                  0D0A20200D0A2020696620284175734B7565727A656C4C6164656E20616E6420
+                  284C5F4B7565727A656C203C3E2027272920616E6420284C5F416E7265646520
+                  3D202746726175272929207468656E0D0A202020207346756E6B74696F6E203A
+                  3D207346756E6B74696F6E202B2027696E273B0D0A20200D0A20206966202855
+                  6E74657273636872696674656E4D69744E6163686E616D656E20414E44202873
+                  4E6163686E616D65203C3E20272729297468656E0D0A20202020626567696E0D
+                  0A202020202020696620556E74657273636872696674656E4D6974546974656C
+                  207468656E207342657A656963686E756E67203A3D207342657A656963686E75
+                  6E67202B2073546974656C3B0D0A202020202020696620556E74657273636872
+                  696674656E4D6974566F726E616D656E207468656E207342657A656963686E75
+                  6E67203A3D207342657A656963686E756E67202B2073566F726E616D653B200D
+                  0A2020202020207342657A656963686E756E67203A3D207342657A656963686E
+                  756E67202B20734E6163686E616D653B0D0A202020202020696620556E746572
+                  73636872696674656E4D6974416D747362657A656963686E756E67656E207468
                   656E207342657A656963686E756E67203A3D207342657A656963686E756E6720
-                  2B2073546974656C3B0D0A202020202020696620556E74657273636872696674
-                  656E4D6974566F726E616D656E207468656E207342657A656963686E756E6720
-                  3A3D207342657A656963686E756E67202B2073566F726E616D653B200D0A2020
-                  202020207342657A656963686E756E67203A3D207342657A656963686E756E67
-                  202B20734E6163686E616D653B0D0A202020202020696620556E746572736368
-                  72696674656E4D6974416D747362657A656963686E756E67656E207468656E20
-                  7342657A656963686E756E67203A3D207342657A656963686E756E67202B2073
-                  416D747362657A3B0D0A20202020656E643B0D0A202020200D0A202069662073
-                  42657A656963686E756E67203C3E202727207468656E207342657A656963686E
-                  756E67203A3D207342657A656963686E756E67202B2027202827202B20734675
-                  6E6B74696F6E202B202729273B0D0A20200D0A2020526573756C74203A3D2073
-                  42657A656963686E756E673B0D0A20200D0A656E643B0D0A084361726574506F
-                  730102300215000001060F5472614576656E7448616E646C65720B50726F6772
-                  616D4E616D6506144C615F4F7274446174756D4F6E476574546578740B50726F
-                  6772616D54797065070B747450726F63656475726506536F757263650C330400
-                  0070726F636564757265204C615F4F7274446174756D4F6E4765745465787428
-                  76617220546578743A20537472696E67293B0D0A7661720D0A2020645A657567
-                  6E6973646174756D203A20446174653B0D0A20200D0A626567696E0D0A202069
-                  66205A6575676E6973446174756D5175656C6C65203D20275A27207468656E0D
-                  0A202020205A6575676E6973446174756D416E67616265203A3D204461746554
-                  6F537472284C65726E61627363686E697474655B275A6575676E697344617475
-                  6D275D290D0A2020656C7365206966205A6575676E6973446174756D5175656C
-                  6C65203D20274B27207468656E0D0A202020205A6575676E6973446174756D41
-                  6E67616265203A3D2044617465546F537472284C65726E61627363686E697474
-                  655B274B6F6E666572656E7A446174756D275D290D0A2020656C736520696620
-                  5A6575676E6973446174756D5175656C6C65203D20274527207468656E0D0A20
-                  2020205A6575676E6973446174756D416E67616265203A3D2044617465546F53
-                  74722853636875656C65725B27456E746C617373646174756D275D290D0A2020
-                  656C7365206966205A6575676E6973446174756D5175656C6C65203D20275327
-                  207468656E0D0A202020205A6575676E6973446174756D416E67616265203A3D
-                  2044617465546F5374722853636875656C65725B27536368756C776563687365
-                  6C646174756D275D290D0A2020656C7365206966205A6575676E697344617475
-                  6D5175656C6C65203D20275627207468656E0D0A20202020626567696E0D0A20
-                  202020696620282875707065726361736528436F7079284C65726E6162736368
-                  6E697474655B275665727365747A756E674B727A275D2C31202C312929203D20
-                  27562729206F72202875707065726361736528436F7079284C65726E61627363
-                  686E697474655B275665727365747A756E674B727A275D2C31202C312929203D
-                  202741272929207468656E0D0A2020202020205A6575676E6973446174756D41
-                  6E67616265203A3D2044617465546F537472284C65726E61627363686E697474
-                  655B275A6575676E6973446174756D275D290D0A20202020656C7365200D0A20
-                  20202020205A6575676E6973446174756D416E67616265203A3D204461746554
-                  6F537472284C65726E61627363686E697474655B274B6F6E666572656E7A4461
-                  74756D275D293B0D0A20202020656E643B0D0A20200D0A2020696620285A6575
-                  676E6973446174756D416E67616265203C3E20272729207468656E0D0A202020
-                  20645A6575676E6973646174756D203A3D20537472546F44617465285A657567
-                  6E6973446174756D416E67616265293B0D0A20200D0A202054657874203A3D20
-                  456967656E65536368756C655B274F7274275D202B20466F726D617444617465
-                  54696D652827222C2064656E2022642E206D6D6D6D2079797979272C20645A65
-                  75676E6973646174756D293B0D0A656E643B0D0A0D436F6D706F6E656E744E61
-                  6D65060B4C615F4F7274446174756D094576656E744E616D6506094F6E476574
-                  54657874074576656E7449440235084361726574506F73010201020100000106
-                  0F5472614576656E7448616E646C65720B50726F6772616D4E616D6506184C61
-                  5F536368756C6C656974756E674F6E476574546578740B50726F6772616D5479
-                  7065070B747450726F63656475726506536F757263650CD903000070726F6365
-                  64757265204C615F536368756C6C656974756E674F6E47657454657874287661
-                  7220546578743A20537472696E67293B0D0A7661720D0A20207342657A656963
-                  686E756E67203A20737472696E673B0D0A20200D0A626567696E0D0A20200D0A
-                  20207342657A656963686E756E67203A3D2027273B0D0A20200D0A2020696620
-                  28556E74657273636872696674656E506572736F6E656E203D20275327292074
-                  68656E200D0A202020207342657A656963686E756E67203A3D20556E74657273
-                  6368726966747362657A656963686E756E675A7573616D6D656E7365747A656E
-                  2866616C73652C2027272C20456967656E65536368756C655B27536368756C6C
-                  65697465724E616D65275D2C20456967656E65536368756C655B27536368756C
-                  6C6569746572566F726E616D65275D2C20456967656E65536368756C655B2753
-                  6368756C6C6569746572546974656C275D2C20456967656E65536368756C655B
-                  27536368756C6C6569746572416D747362657A275D2C20456967656E65536368
-                  756C655B27536368756C6C65697465724D57275D293B0D0A20200D0A20206966
-                  2028556E74657273636872696674656E506572736F6E656E203D202741272920
-                  7468656E0D0A202020207342657A656963686E756E67203A3D20556E74657273
-                  6368726966747362657A656963686E756E675A7573616D6D656E7365747A656E
-                  28747275652C2053636875656C65724B6C617373655B2741627465696C756E67
-                  736C65697465724B727A275D2C2027272C2027272C2027272C2027272C202741
-                  627465696C756E67736C656974657227293B2020202020202020202020202020
-                  202020202020202020200D0A0D0A202069662028556E74657273636872696674
-                  656E506572736F6E656E203D2027542729207468656E0D0A202020207342657A
-                  656963686E756E67203A3D20556E74657273636872696674656E534C414C5465
-                  78743B0D0A0D0A20206966207342657A656963686E756E67203D202727207468
-                  656E0D0A20202020626567696E20200D0A20202020202069662028556E746572
-                  73636872696674656E506572736F6E656E203D2027412729207468656E0D0A20
-                  202020202020207342657A656963686E756E67203A3D202741627465696C756E
-                  67736C65697465722F696E206F6465722056657274726574756E67270D0A2020
-                  20202020656C73650D0A20202020202020207342657A656963686E756E67203A
-                  3D2027536368756C6C65697465722F696E206F6465722056657274726574756E
-                  67273B0D0A20202020656E643B20200D0A0D0A202054657874203A3D20734265
-                  7A656963686E756E673B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E61
-                  6D65060F4C615F536368756C6C656974756E67094576656E744E616D6506094F
-                  6E47657454657874074576656E7449440235084361726574506F730102010201
-                  000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D65
-                  061A4C615F4B6C617373656E6C656974756E674F6E476574546578740B50726F
-                  6772616D54797065070B747450726F63656475726506536F757263650CAB0100
-                  0070726F636564757265204C615F4B6C617373656E6C656974756E674F6E4765
-                  74546578742876617220546578743A20537472696E67293B0D0A7661720D0A20
-                  207342657A656963686E756E67203A20737472696E673B0D0A20200D0A626567
-                  696E0D0A20200D0A20207342657A656963686E756E67203A3D20556E74657273
-                  6368726966747362657A656963686E756E675A7573616D6D656E7365747A656E
-                  2866616C73652C2027272C204C65726E61627363686E697474655B274B4C4E61
-                  63686E616D65275D2C204C65726E61627363686E697474655B274B4C566F726E
-                  616D65275D2C204C65726E61627363686E697474655B274B4C546974656C275D
-                  2C204C65726E61627363686E697474655B274B4C416D747362657A275D2C204C
-                  65726E61627363686E697474655B274B6C617373656E6C65687265724D57275D
-                  293B0D0A20200D0A20206966207342657A656963686E756E67203D2027272074
-                  68656E207342657A656963686E756E67203A3D20274B6C617373656E6C656872
-                  65722F696E273B0D0A0D0A202054657874203A3D207342657A656963686E756E
-                  673B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506114C615F4B
-                  6C617373656E6C656974756E67094576656E744E616D6506094F6E4765745465
-                  7874074576656E7449440235084361726574506F730102010201000001060F54
-                  72614576656E7448616E646C65720B50726F6772616D4E616D65061E4C615F4B
-                  4C617373656E6C656974756E675F5374564F6E476574546578740B50726F6772
-                  616D54797065070B747450726F63656475726506536F757263650CB601000070
-                  726F636564757265204C615F4B4C617373656E6C656974756E675F5374564F6E
-                  476574546578742876617220546578743A20537472696E67293B0D0A76617220
-                  7342657A656963686E756E67203A20737472696E673B0D0A20200D0A62656769
-                  6E0D0A20207342657A656963686E756E67203A3D20556E746572736368726966
-                  747362657A656963686E756E675A7573616D6D656E7365747A656E2866616C73
-                  652C2027272C204C65726E61627363686E697474655B275374764B4C4E616368
-                  6E616D65275D2C204C65726E61627363686E697474655B275374764B4C566F72
-                  6E616D65275D2C204C65726E61627363686E697474655B275374764B4C546974
-                  656C275D2C204C65726E61627363686E697474655B275374764B4C416D747362
-                  657A275D2C204C65726E61627363686E697474655B275374764B6C617373656E
-                  6C65687265724D57275D293B200D0A20206966207342657A656963686E756E67
-                  203D202727207468656E200D0A202020207342657A656963686E756E67203A3D
-                  20274B6C617373656E6C65687265722F696E273B0D0A202054657874203A3D20
-                  7342657A656963686E756E673B0D0A656E643B0D0A0D436F6D706F6E656E744E
-                  616D6506154C615F4B4C617373656E6C656974756E675F537456094576656E74
-                  4E616D6506094F6E47657454657874074576656E744944023508436172657450
-                  6F730102010208000001060F5472614576656E7448616E646C65720B50726F67
-                  72616D4E616D65061144657461696C4265666F72655072696E740B50726F6772
-                  616D54797065070B747450726F63656475726506536F75726365067270726F63
-                  65647572652044657461696C4265666F72655072696E743B0D0A626567696E0D
-                  0A20204C615F4B6C617373656E6C656974756E675F5374762E56697369626C65
-                  203A3D20556E74657273636872696674656E4D69745374764B6C617373656E6C
-                  65687265723B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506064465
-                  7461696C094576656E744E616D65060B4265666F72655072696E74074576656E
-                  7449440218084361726574506F730102010201000000}
+                  2B2073416D747362657A3B0D0A20202020656E643B0D0A202020200D0A202069
+                  66207342657A656963686E756E67203C3E202727207468656E207342657A6569
+                  63686E756E67203A3D207342657A656963686E756E67202B2027202827202B20
+                  7346756E6B74696F6E202B202729273B0D0A202020200D0A2020526573756C74
+                  203A3D207342657A656963686E756E673B0D0A20200D0A656E643B0D0A084361
+                  726574506F730102070225000001060F5472614576656E7448616E646C65720B
+                  50726F6772616D4E616D6506144C615F4F7274446174756D4F6E476574546578
+                  740B50726F6772616D54797065070B747450726F63656475726506536F757263
+                  650C3304000070726F636564757265204C615F4F7274446174756D4F6E476574
+                  546578742876617220546578743A20537472696E67293B0D0A7661720D0A2020
+                  645A6575676E6973646174756D203A20446174653B0D0A20200D0A626567696E
+                  0D0A20206966205A6575676E6973446174756D5175656C6C65203D20275A2720
+                  7468656E0D0A202020205A6575676E6973446174756D416E67616265203A3D20
+                  44617465546F537472284C65726E61627363686E697474655B275A6575676E69
+                  73446174756D275D290D0A2020656C7365206966205A6575676E697344617475
+                  6D5175656C6C65203D20274B27207468656E0D0A202020205A6575676E697344
+                  6174756D416E67616265203A3D2044617465546F537472284C65726E61627363
+                  686E697474655B274B6F6E666572656E7A446174756D275D290D0A2020656C73
+                  65206966205A6575676E6973446174756D5175656C6C65203D20274527207468
+                  656E0D0A202020205A6575676E6973446174756D416E67616265203A3D204461
+                  7465546F5374722853636875656C65725B27456E746C617373646174756D275D
+                  290D0A2020656C7365206966205A6575676E6973446174756D5175656C6C6520
+                  3D20275327207468656E0D0A202020205A6575676E6973446174756D416E6761
+                  6265203A3D2044617465546F5374722853636875656C65725B27536368756C77
+                  65636873656C646174756D275D290D0A2020656C7365206966205A6575676E69
+                  73446174756D5175656C6C65203D20275627207468656E0D0A20202020626567
+                  696E0D0A20202020696620282875707065726361736528436F7079284C65726E
+                  61627363686E697474655B275665727365747A756E674B727A275D2C31202C31
+                  2929203D2027562729206F72202875707065726361736528436F7079284C6572
+                  6E61627363686E697474655B275665727365747A756E674B727A275D2C31202C
+                  312929203D202741272929207468656E0D0A2020202020205A6575676E697344
+                  6174756D416E67616265203A3D2044617465546F537472284C65726E61627363
+                  686E697474655B275A6575676E6973446174756D275D290D0A20202020656C73
+                  65200D0A2020202020205A6575676E6973446174756D416E67616265203A3D20
+                  44617465546F537472284C65726E61627363686E697474655B274B6F6E666572
+                  656E7A446174756D275D293B0D0A20202020656E643B0D0A20200D0A20206966
+                  20285A6575676E6973446174756D416E67616265203C3E20272729207468656E
+                  0D0A20202020645A6575676E6973646174756D203A3D20537472546F44617465
+                  285A6575676E6973446174756D416E67616265293B0D0A20200D0A2020546578
+                  74203A3D20456967656E65536368756C655B274F7274275D202B20466F726D61
+                  744461746554696D652827222C2064656E2022642E206D6D6D6D207979797927
+                  2C20645A6575676E6973646174756D293B0D0A656E643B0D0A0D436F6D706F6E
+                  656E744E616D65060B4C615F4F7274446174756D094576656E744E616D650609
+                  4F6E47657454657874074576656E7449440235084361726574506F7301020102
+                  01000001060F5472614576656E7448616E646C65720B50726F6772616D4E616D
+                  6506184C615F536368756C6C656974756E674F6E476574546578740B50726F67
+                  72616D54797065070B747450726F63656475726506536F757263650CBF030000
+                  70726F636564757265204C615F536368756C6C656974756E674F6E4765745465
+                  78742876617220546578743A20537472696E67293B0D0A7661720D0A20207342
+                  657A656963686E756E67203A20737472696E673B0D0A20200D0A626567696E0D
+                  0A20200D0A20207342657A656963686E756E67203A3D2027273B0D0A200D0A20
+                  2069662028556E74657273636872696674656E506572736F6E656E203D202753
+                  2729207468656E200D0A202020207342657A656963686E756E67203A3D20556E
+                  746572736368726966747362657A656963686E756E675A7573616D6D656E7365
+                  747A656E2866616C73652C2027272C20456967656E65536368756C655B275363
+                  68756C6C65697465724E616D65275D2C20456967656E65536368756C655B2753
+                  6368756C6C6569746572566F726E616D65275D2C20456967656E65536368756C
+                  655B27536368756C6C6569746572546974656C275D2C20456967656E65536368
+                  756C655B27536368756C6C6569746572416D747362657A275D2C20456967656E
+                  65536368756C655B27536368756C6C65697465724D57275D293B0D0A200D0A20
+                  2069662028556E74657273636872696674656E506572736F6E656E203D202741
+                  2729207468656E0D0A202020207342657A656963686E756E67203A3D20556E74
+                  6572736368726966747362657A656963686E756E675A7573616D6D656E736574
+                  7A656E28747275652C2053636875656C65724B6C617373655B2741627465696C
+                  756E67736C65697465724B727A275D2C2027272C2027272C2027272C2027272C
+                  202741627465696C756E67736C656974657227293B0D0A0D0A20206966202855
+                  6E74657273636872696674656E506572736F6E656E203D202754272920746865
+                  6E0D0A202020207342657A656963686E756E67203A3D20556E74657273636872
+                  696674656E534C414C546578743B0D0A0D0A20206966207342657A656963686E
+                  756E67203D202727207468656E0D0A20202020626567696E20200D0A20202020
+                  202069662028556E74657273636872696674656E506572736F6E656E203D2027
+                  412729207468656E0D0A20202020202020207342657A656963686E756E67203A
+                  3D202741627465696C756E67736C65697465722F696E206F6465722056657274
+                  726574756E67270D0A202020202020656C73650D0A2020202020202020734265
+                  7A656963686E756E67203A3D2027536368756C6C65697465722F696E206F6465
+                  722056657274726574756E67273B0D0A20202020656E643B20200D0A0D0A2020
+                  54657874203A3D207342657A656963686E756E673B0D0A0D0A656E643B0D0A0D
+                  436F6D706F6E656E744E616D65060F4C615F536368756C6C656974756E670945
+                  76656E744E616D6506094F6E47657454657874074576656E7449440235084361
+                  726574506F73010217020F000001060F5472614576656E7448616E646C65720B
+                  50726F6772616D4E616D65061A4C615F4B6C617373656E6C656974756E674F6E
+                  476574546578740B50726F6772616D54797065070B747450726F636564757265
+                  06536F757263650CB101000070726F636564757265204C615F4B6C617373656E
+                  6C656974756E674F6E476574546578742876617220546578743A20537472696E
+                  67293B0D0A7661720D0A20207342657A656963686E756E67203A20737472696E
+                  673B0D0A20200D0A626567696E0D0A20200D0A20207342657A656963686E756E
+                  67203A3D20556E746572736368726966747362657A656963686E756E675A7573
+                  616D6D656E7365747A656E2866616C73652C2027272C204C65726E6162736368
+                  6E697474655B274B4C4E6163686E616D65275D2C204C65726E61627363686E69
+                  7474655B274B4C566F726E616D65275D2C204C65726E61627363686E69747465
+                  5B274B4C546974656C275D2C204C65726E61627363686E697474655B274B4C41
+                  6D747362657A275D2C204C65726E61627363686E697474655B274B6C61737365
+                  6E6C65687265724D57275D293B0D0A20200D0A20206966207342657A65696368
+                  6E756E67203D202727207468656E200D0A202020207342657A656963686E756E
+                  67203A3D20274B6C617373656E6C65687265722F696E273B0D0A0D0A20205465
+                  7874203A3D207342657A656963686E756E673B0D0A0D0A656E643B0D0A0D436F
+                  6D706F6E656E744E616D6506114C615F4B6C617373656E6C656974756E670945
+                  76656E744E616D6506094F6E47657454657874074576656E7449440235084361
+                  726574506F73010202020C000001060F5472614576656E7448616E646C65720B
+                  50726F6772616D4E616D65061E4C615F4B4C617373656E6C656974756E675F53
+                  74564F6E476574546578740B50726F6772616D54797065070B747450726F6365
+                  6475726506536F757263650CB601000070726F636564757265204C615F4B4C61
+                  7373656E6C656974756E675F5374564F6E476574546578742876617220546578
+                  743A20537472696E67293B0D0A766172207342657A656963686E756E67203A20
+                  737472696E673B0D0A20200D0A626567696E0D0A20207342657A656963686E75
+                  6E67203A3D20556E746572736368726966747362657A656963686E756E675A75
+                  73616D6D656E7365747A656E2866616C73652C2027272C204C65726E61627363
+                  686E697474655B275374764B4C4E6163686E616D65275D2C204C65726E616273
+                  63686E697474655B275374764B4C566F726E616D65275D2C204C65726E616273
+                  63686E697474655B275374764B4C546974656C275D2C204C65726E6162736368
+                  6E697474655B275374764B4C416D747362657A275D2C204C65726E6162736368
+                  6E697474655B275374764B6C617373656E6C65687265724D57275D293B200D0A
+                  20206966207342657A656963686E756E67203D202727207468656E200D0A2020
+                  20207342657A656963686E756E67203A3D20274B6C617373656E6C6568726572
+                  2F696E273B0D0A202054657874203A3D207342657A656963686E756E673B0D0A
+                  656E643B0D0A0D436F6D706F6E656E744E616D6506154C615F4B4C617373656E
+                  6C656974756E675F537456094576656E744E616D6506094F6E47657454657874
+                  074576656E7449440235084361726574506F730102010208000001060F547261
+                  4576656E7448616E646C65720B50726F6772616D4E616D65061144657461696C
+                  4265666F72655072696E740B50726F6772616D54797065070B747450726F6365
+                  6475726506536F75726365067270726F6365647572652044657461696C426566
+                  6F72655072696E743B0D0A626567696E0D0A20204C615F4B6C617373656E6C65
+                  6974756E675F5374762E56697369626C65203A3D20556E746572736368726966
+                  74656E4D69745374764B6C617373656E6C65687265723B0D0A656E643B0D0A0D
+                  436F6D706F6E656E744E616D65060644657461696C094576656E744E616D6506
+                  0B4265666F72655072696E74074576656E7449440218084361726574506F7301
+                  02010201000000}
               end
               object ppDesignLayers16: TppDesignLayers
                 object ppDesignLayer18: TppDesignLayer
@@ -5979,7 +5974,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -6111,7 +6106,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE BETA 4 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -6269,7 +6264,7 @@ object Report: TppReport
               PrinterSetup.BinName = 'Default'
               PrinterSetup.DocumentName = 'GE_Anl27_Jg5_8_Zeugnis_V07_03.rtm'
               PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4 297 x 210 mm'
+              PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
