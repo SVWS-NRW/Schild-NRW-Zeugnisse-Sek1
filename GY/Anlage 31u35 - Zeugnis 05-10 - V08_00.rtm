@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GY BETA 12 - Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
+  PrinterSetup.DocumentName = 'Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -15,10 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'D:\NRW-Programme\SchILD-NRW\SchILD-Reports\- Work -\- Zeugnisse ' +
-    'GY ab 2019 -\GY BETA 12 - Anlage 31u35 - Zeugnis 05-10 - V08_00.' +
-    'rtm'
+  Template.FileName =
+    'C:\NRW-Programme\SchILD-NRW\SchILD-Reports\- Work -\- Zeugnisse GY ab 2019 -\Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -93,7 +91,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GY BETA 12 - Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
+        PrinterSetup.DocumentName = 'Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -2157,7 +2155,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plWahlpflichtbereich
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GY BETA 12 - Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
+              PrinterSetup.DocumentName = 'Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -3674,7 +3672,7 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2646
-                  mmLeft = 79377
+                  mmLeft = 79907
                   mmTop = 0
                   mmWidth = 1587
                   BandType = 1
@@ -4104,7 +4102,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport14: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GY BETA 12 - Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
+        PrinterSetup.DocumentName = 'Anlage 31u35 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'

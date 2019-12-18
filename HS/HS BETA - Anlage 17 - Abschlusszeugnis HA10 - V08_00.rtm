@@ -19,7 +19,7 @@ object Report: TppReport
   PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'S:\SchILD-NRW\SchILD-Reports\Zeugnisse HS BETA 1\HS BETA - Anlag' +
+    'S:\SchILD-NRW\SchILD-Reports\Zeugnisse HS BETA 2\HS BETA - Anlag' +
     'e 17 - Abschlusszeugnis HA10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
@@ -852,6 +852,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -1631,6 +1632,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'LNW'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1922,6 +1924,7 @@ object Report: TppReport
                         OutlineSettings.CreateNode = True
                         ParentPrinterSetup = False
                         ParentWidth = False
+                        ShiftRelativeTo = ppSubReport15
                         TraverseAllData = False
                         DataPipelineName = 'plArbeitslehre'
                         mmHeight = 6350
@@ -1950,6 +1953,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'Sub AL1'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -2080,6 +2084,7 @@ object Report: TppReport
                         NewPrintJob = False
                         OutlineSettings.CreateNode = True
                         ParentWidth = False
+                        ShiftRelativeTo = ppSubReport23
                         TraverseAllData = False
                         DataPipelineName = 'plKunstUndMusik'
                         mmHeight = 6350
