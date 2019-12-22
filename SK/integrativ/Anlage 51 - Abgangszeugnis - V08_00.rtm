@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'SK BETA - Anlage 51 - Abgangszeugnis - V08_00.rtm'
+  PrinterSetup.DocumentName = 'Anlage 51 - Abgangszeugnis - V08_00.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'A3'
@@ -18,8 +18,7 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
-    'O-SI\SK\integrativ\SK BETA - Anlage 51 - Abgangszeugnis - V08_00' +
-    '.rtm'
+    'O-SI\SK\integrativ\Anlage 51 - Abgangszeugnis - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -94,7 +93,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'SK BETA - Anlage 51 - Abgangszeugnis - V08_00.rtm'
+        PrinterSetup.DocumentName = 'Anlage 51 - Abgangszeugnis - V08_00.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -616,7 +615,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'SK BETA - Anlage 51 - Abgangszeugnis - V08_00.rtm'
+        PrinterSetup.DocumentName = 'Anlage 51 - Abgangszeugnis - V08_00.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'A3'
@@ -937,7 +936,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText22: TppDBText
                               UserName = 'DBTe_Note_RL'
@@ -951,7 +950,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plReligion'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1060,7 +1059,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText24: TppDBText
                               UserName = 'DBTe_Note_D'
@@ -1074,7 +1073,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plDeutsch'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50006
                               mmTop = 529
                               mmWidth = 30000
@@ -1228,7 +1227,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText9: TppDBText
                               UserName = 'DBTe_Note_FS'
@@ -1242,7 +1241,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plFremdsprachen'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1397,7 +1396,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText23: TppDBText
                               UserName = 'DBTe_Note_KuMu'
@@ -1411,7 +1410,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plKunstUndMusik'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1567,7 +1566,7 @@ object Report: TppReport
                                   Background1.Brush.Style = bsClear
                                   Background2.Brush.Style = bsClear
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText18: TppDBText
                                     UserName = 'DBTeNote_GL_Lb'
@@ -1581,11 +1580,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plGesellschaftslehre'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50000
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = PageLayer7
                                   end
                                   object ppLabel21: TppLabel
                                     UserName = 'LaGesellschaftslehre_Lb'
@@ -1601,6 +1601,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 28744
                                     BandType = 4
+                                    LayerName = PageLayer7
                                   end
                                   object ppLabel35: TppLabel
                                     UserName = 'La_HaF_GL_Lb'
@@ -1616,6 +1617,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = PageLayer7
                                   end
                                 end
                                 object ppSummaryBand5: TppSummaryBand
@@ -1637,6 +1639,7 @@ object Report: TppReport
                                     mmTop = 530
                                     mmWidth = 28744
                                     BandType = 7
+                                    LayerName = PageLayer7
                                   end
                                 end
                                 object raCodeModule30: TraCodeModule
@@ -1735,7 +1738,7 @@ object Report: TppReport
                                   Background1.Brush.Style = bsClear
                                   Background2.Brush.Style = bsClear
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText33: TppDBText
                                     UserName = 'DBTeNote_GL_Fa'
@@ -1749,11 +1752,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plGesellschaftslehre'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50000
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                   object ppDBText36: TppDBText
                                     UserName = 'DBTeFach_GL_Fa'
@@ -1771,8 +1775,9 @@ object Report: TppReport
                                     mmHeight = 4763
                                     mmLeft = 4233
                                     mmTop = 529
-                                    mmWidth = 38100
+                                    mmWidth = 40746
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                   object ppLabel58: TppLabel
                                     UserName = 'La_HaF_GL_Fa'
@@ -1788,6 +1793,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                 end
                                 object raCodeModule32: TraCodeModule
@@ -1877,7 +1883,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText20: TppDBText
                               UserName = 'DBTe_Note_M'
@@ -1891,7 +1897,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plMathematik'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -2086,7 +2092,7 @@ object Report: TppReport
                                   Background1.Brush.Style = bsClear
                                   Background2.Brush.Style = bsClear
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppLabel17: TppLabel
                                     UserName = 'LaNaturwissenschaften_Lb'
@@ -2102,6 +2108,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 33105
                                     BandType = 4
+                                    LayerName = Foreground6
                                   end
                                   object ppDBText13: TppDBText
                                     UserName = 'DBTeNote_NW_Lb'
@@ -2115,11 +2122,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plNaturwissenschaften'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50006
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = Foreground6
                                   end
                                   object ppLabel36: TppLabel
                                     UserName = 'La_HaF_NW_Lb'
@@ -2135,6 +2143,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = Foreground6
                                   end
                                 end
                                 object ppSummaryBand3: TppSummaryBand
@@ -2156,6 +2165,7 @@ object Report: TppReport
                                     mmTop = 530
                                     mmWidth = 33105
                                     BandType = 7
+                                    LayerName = Foreground6
                                   end
                                 end
                                 object raCodeModule11: TraCodeModule
@@ -2253,7 +2263,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   ColumnTraversal = ctLeftToRight
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText19: TppDBText
                                     UserName = 'DBTeNote_NW_Fa'
@@ -2267,11 +2277,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plNaturwissenschaften'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50000
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = PageLayer14
                                   end
                                   object ppDBText21: TppDBText
                                     UserName = 'DBTeFach_NW_Fa'
@@ -2287,10 +2298,11 @@ object Report: TppReport
                                     Transparent = True
                                     DataPipelineName = 'plNaturwissenschaften'
                                     mmHeight = 4763
-                                    mmLeft = 4233
+                                    mmLeft = 0
                                     mmTop = 529
-                                    mmWidth = 38100
+                                    mmWidth = 45773
                                     BandType = 4
+                                    LayerName = PageLayer14
                                   end
                                   object ppLabel23: TppLabel
                                     UserName = 'La_HaF_NW_Fa'
@@ -2306,6 +2318,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = PageLayer14
                                   end
                                   object ppDBText26: TppDBText
                                     UserName = 'DBTe_Kursart_NW_Fa'
@@ -2325,6 +2338,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 11906
                                     BandType = 4
+                                    LayerName = PageLayer14
                                   end
                                   object ppLabel30: TppLabel
                                     UserName = 'La_EG_NW_Fa'
@@ -2340,6 +2354,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 2117
                                     BandType = 4
+                                    LayerName = PageLayer14
                                   end
                                 end
                                 object raCodeModule17: TraCodeModule
@@ -2483,7 +2498,7 @@ object Report: TppReport
                                   Background1.Brush.Style = bsClear
                                   Background2.Brush.Style = bsClear
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText29: TppDBText
                                     UserName = 'DBTeNote_AL_Lb'
@@ -2497,11 +2512,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plArbeitslehre'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50000
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = PageLayer13
                                   end
                                   object ppLabel22: TppLabel
                                     UserName = 'LaArbeitslehre_Lb'
@@ -2517,6 +2533,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 19431
                                     BandType = 4
+                                    LayerName = PageLayer13
                                   end
                                   object ppLabel39: TppLabel
                                     UserName = 'La_HaF_AL_Lb'
@@ -2532,6 +2549,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = PageLayer13
                                   end
                                 end
                                 object ppSummaryBand4: TppSummaryBand
@@ -2553,6 +2571,7 @@ object Report: TppReport
                                     mmTop = 530
                                     mmWidth = 19431
                                     BandType = 7
+                                    LayerName = PageLayer13
                                   end
                                 end
                                 object raCodeModule18: TraCodeModule
@@ -2650,7 +2669,7 @@ object Report: TppReport
                                   Background1.Brush.Style = bsClear
                                   Background2.Brush.Style = bsClear
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText35: TppDBText
                                     UserName = 'DBTeNote_AL_Fa'
@@ -2664,11 +2683,12 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plArbeitslehre'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 50000
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = Foreground201
                                   end
                                   object ppDBText34: TppDBText
                                     UserName = 'DBTeFach_AL_Fa'
@@ -2686,8 +2706,9 @@ object Report: TppReport
                                     mmHeight = 4763
                                     mmLeft = 4233
                                     mmTop = 529
-                                    mmWidth = 38100
+                                    mmWidth = 43127
                                     BandType = 4
+                                    LayerName = Foreground201
                                   end
                                   object ppLabel62: TppLabel
                                     UserName = 'La_HaF_AL_Fa'
@@ -2703,6 +2724,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = Foreground201
                                   end
                                 end
                                 object raCodeModule26: TraCodeModule
@@ -2791,7 +2813,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText4: TppDBText
                               UserName = 'DBTe_Note_Sp'
@@ -2805,7 +2827,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plSport'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -2958,7 +2980,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText8: TppDBText
                         UserName = 'DBTeNote_WPI'
@@ -2972,7 +2994,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plWahlpflichtbereich'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 145521
                         mmTop = 529
                         mmWidth = 30000
@@ -3572,7 +3594,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   ColumnTraversal = ctLeftToRight
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText7: TppDBText
                                     UserName = 'DBTeNote_ZUV'
@@ -3586,7 +3608,7 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plZUV'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 100013
                                     mmTop = 529
                                     mmWidth = 63500
@@ -3712,7 +3734,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   ColumnTraversal = ctLeftToRight
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText25: TppDBText
                                     UserName = 'DBTeNote_KMFOE'
@@ -3726,7 +3748,7 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'plZUV'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 100013
                                     mmTop = 529
                                     mmWidth = 63500
@@ -3896,7 +3918,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   PrintHeight = phDynamic
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText28: TppDBText
                                     UserName = 'DBTe_Kurs_EGS1'
@@ -3930,7 +3952,7 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'ppEGS'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 100013
                                     mmTop = 529
                                     mmWidth = 63500
@@ -4012,7 +4034,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   PrintHeight = phDynamic
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText38: TppDBText
                                     UserName = 'DBTe_Kurs_EES'
@@ -4046,7 +4068,7 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'ppEGS'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 100013
                                     mmTop = 529
                                     mmWidth = 63500
@@ -4126,7 +4148,7 @@ object Report: TppReport
                                   Background2.Brush.Style = bsClear
                                   PrintHeight = phDynamic
                                   mmBottomOffset = 529
-                                  mmHeight = 5292
+                                  mmHeight = 5821
                                   mmPrintPosition = 0
                                   object ppDBText49: TppDBText
                                     UserName = 'DBTe_Kurs_EGSN'
@@ -4160,7 +4182,7 @@ object Report: TppReport
                                     Font.Style = [fsItalic]
                                     TextAlignment = taCentered
                                     DataPipelineName = 'ppEGS'
-                                    mmHeight = 4784
+                                    mmHeight = 5292
                                     mmLeft = 100013
                                     mmTop = 529
                                     mmWidth = 29898
@@ -4335,7 +4357,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText44: TppDBText
                               UserName = 'DBTe_Kurs_AG'
@@ -4369,7 +4391,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plAGGT'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 100013
                               mmTop = 529
                               mmWidth = 63500
