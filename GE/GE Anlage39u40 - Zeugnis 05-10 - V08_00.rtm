@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+  PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -16,8 +16,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-Reports\Zeugnisse\Zeugnisse GE BETA 5\GE BETA 5 Anlage' +
-    '39u40 - Zeugnis 05-10 - V08_00.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-neu\Finale Versionen\' +
+    'Gesamtschule\GE-Zeugnisse_2019_12_19\Zeugnisse GE\GE Anlage39u40' +
+    ' - Zeugnis 05-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -91,7 +92,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+        PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -673,6 +674,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -683,7 +685,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText24: TppDBText
                         UserName = 'DBTeNote_D'
@@ -697,7 +699,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plDeutsch'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50006
                         mmTop = 529
                         mmWidth = 30000
@@ -819,6 +821,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -829,7 +832,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText40: TppDBText
                         UserName = 'DBTeNote_FS'
@@ -843,7 +846,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plFremdsprachen'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50000
                         mmTop = 529
                         mmWidth = 30000
@@ -965,6 +968,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -975,7 +979,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText20: TppDBText
                         UserName = 'DBTeNote_M'
@@ -989,7 +993,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plMathematik'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50000
                         mmTop = 529
                         mmWidth = 30000
@@ -1012,7 +1016,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 1058
+                        mmWidth = 33602
                         BandType = 4
                         LayerName = Foreground30
                       end
@@ -1108,6 +1112,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -1153,6 +1158,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperHeight = 297000
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1163,7 +1169,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 1058
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppLabel3: TppLabel
                               UserName = 'LaNaturwissenschaften_Lb'
@@ -1193,7 +1199,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plNaturwissenschaften'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50006
                               mmTop = 529
                               mmWidth = 30000
@@ -1302,6 +1308,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperHeight = 297000
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1312,7 +1319,7 @@ object Report: TppReport
                             Background2.Brush.Style = bsClear
                             ColumnTraversal = ctLeftToRight
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText52: TppDBText
                               UserName = 'DBTeNote_NW_Fa'
@@ -1326,7 +1333,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plNaturwissenschaften'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1495,6 +1502,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
                     Template.DatabaseSettings.Name = 'Sub GL2'
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -1542,6 +1550,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'Sub GL1'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1551,7 +1560,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 1000
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText17: TppDBText
                               UserName = 'DBTeNoteGL_Lb'
@@ -1565,7 +1574,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plGesellschaftslehre'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1693,6 +1702,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'Sub GL2'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1703,7 +1713,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText27: TppDBText
                               UserName = 'DBTeNote_GL_Fa'
@@ -1717,7 +1727,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plGesellschaftslehre'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -1838,6 +1848,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
                     Template.DatabaseSettings.Name = 'Sub GL2'
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -1885,6 +1896,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'Sub GL1'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1895,7 +1907,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 1000
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText8: TppDBText
                               UserName = 'DBTeNote_AL_Lb'
@@ -1909,7 +1921,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plArbeitslehre'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -2035,6 +2047,7 @@ object Report: TppReport
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
                           Template.DatabaseSettings.Name = 'Sub GL2'
+                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -2044,7 +2057,7 @@ object Report: TppReport
                             Background1.Brush.Style = bsClear
                             Background2.Brush.Style = bsClear
                             mmBottomOffset = 529
-                            mmHeight = 5292
+                            mmHeight = 5821
                             mmPrintPosition = 0
                             object ppDBText9: TppDBText
                               UserName = 'DBTeNote_AL_Fa'
@@ -2058,7 +2071,7 @@ object Report: TppReport
                               Font.Style = [fsItalic]
                               TextAlignment = taCentered
                               DataPipelineName = 'plArbeitslehre'
-                              mmHeight = 4784
+                              mmHeight = 5292
                               mmLeft = 50000
                               mmTop = 529
                               mmWidth = 30000
@@ -2181,6 +2194,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -2191,7 +2205,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText22: TppDBText
                         UserName = 'DBTeNote_RL'
@@ -2205,7 +2219,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plReligion'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50000
                         mmTop = 529
                         mmWidth = 30000
@@ -2314,6 +2328,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -2323,7 +2338,7 @@ object Report: TppReport
                       Background1.Brush.Style = bsClear
                       Background2.Brush.Style = bsClear
                       mmBottomOffset = 1000
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText13: TppDBText
                         UserName = 'DBTeFach_Sp'
@@ -2339,10 +2354,10 @@ object Report: TppReport
                         ParentDataPipeline = False
                         Transparent = True
                         DataPipelineName = 'plSport'
-                        mmHeight = 5557
+                        mmHeight = 6086
                         mmLeft = 0
                         mmTop = 530
-                        mmWidth = 1058
+                        mmWidth = 33602
                         BandType = 4
                         LayerName = Foreground23
                       end
@@ -2374,7 +2389,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plSport'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50006
                         mmTop = 529
                         mmWidth = 30000
@@ -2446,6 +2461,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -2456,7 +2472,7 @@ object Report: TppReport
                       Background2.Brush.Style = bsClear
                       ColumnTraversal = ctLeftToRight
                       mmBottomOffset = 529
-                      mmHeight = 5292
+                      mmHeight = 5821
                       mmPrintPosition = 0
                       object ppDBText1: TppDBText
                         UserName = 'DBTeNote_KuMu'
@@ -2470,7 +2486,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         TextAlignment = taCentered
                         DataPipelineName = 'plKunstUndMusik'
-                        mmHeight = 4784
+                        mmHeight = 5292
                         mmLeft = 50000
                         mmTop = 529
                         mmWidth = 30000
@@ -4430,7 +4446,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport14: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+        PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -5449,7 +5465,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport36: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+              PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -5969,7 +5985,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport33: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+              PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -6101,7 +6117,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport34: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'GE BETA 5 Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
+              PrinterSetup.DocumentName = 'GE Anlage39u40 - Zeugnis 05-10 - V08_00.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
