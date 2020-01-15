@@ -17,9 +17,7 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'S:\SchILD-NRW\SchILD-Reports\HS-Zeugnisse_2019_12_23\Anlage 12u1' +
-    '3 Zeugnis 05-10 - V08_00.rtm'
+  Template.FileName = 'S:\SchILD-NRW\SchILD-Reports\HS-Zeugnisse_2020_01_06\Anlage 12u13 Zeugnis 05-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
