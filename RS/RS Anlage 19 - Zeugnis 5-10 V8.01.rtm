@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+  PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -16,8 +16,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse RS ab 201' +
-    '9\RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
+    'O-SI\RS\RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -27,6 +27,7 @@ object Report: TppReport
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
   OpenFile = False
@@ -91,7 +92,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -234,7 +235,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport41: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -1933,7 +1934,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport31: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -2213,7 +2214,7 @@ object Report: TppReport
                     AutoStop = False
                     DataPipeline = dmPipelines.plWahlpflichtbereich
                     PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+                    PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
                     PrinterSetup.Duplex = dpVertical
                     PrinterSetup.PaperName = 'A4'
                     PrinterSetup.PrinterName = 'Default'
@@ -4211,7 +4212,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport9: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -4408,7 +4409,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport30: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -4551,7 +4552,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport28: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.00.rtm'
+              PrinterSetup.DocumentName = 'RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -6198,15 +6199,16 @@ object Report: TppReport
       653B0D0A202020200D0A656E643B0D0A084361726574506F7301020503A80100
       0001060F5472614576656E7448616E646C65720B50726F6772616D4E616D6506
       115265706F72744265666F72655072696E740B50726F6772616D54797065070B
-      747450726F63656475726506536F7572636506BB70726F636564757265205265
+      747450726F63656475726506536F7572636506D970726F636564757265205265
       706F72744265666F72655072696E743B0D0A7661720D0A2020703A20696E7465
-      6765723B0D0A626567696E0D0A2020536368756C4F7274203A3D20456967656E
-      65536368756C655B274F7274275D3B0D0A2020536368756C666F726D47203A3D
-      20276465722027202B20536368756C666F726D3B0D0A202045535F416E7A4162
-      203A3D20456967656E65536368756C655B27416E7A61686C41627363686E6974
-      7465275D3B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060652
-      65706F7274094576656E744E616D65060B4265666F72655072696E7407457665
-      6E7449440201084361726574506F730102010201000000}
+      6765723B0D0A626567696E0D0A2020536368756C666F726D203A3D2027526561
+      6C736368756C65273B0D0A2020536368756C4F7274203A3D20456967656E6553
+      6368756C655B274F7274275D3B0D0A2020536368756C666F726D47203A3D2027
+      6465722027202B20536368756C666F726D3B0D0A202045535F416E7A4162203A
+      3D20456967656E65536368756C655B27416E7A61686C41627363686E69747465
+      275D3B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606526570
+      6F7274094576656E744E616D65060B4265666F72655072696E74074576656E74
+      49440201084361726574506F730102010201000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

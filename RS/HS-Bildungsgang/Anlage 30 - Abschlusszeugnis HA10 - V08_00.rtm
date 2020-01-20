@@ -5,7 +5,7 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'Custom'
+  PrinterSetup.PaperName = 'A3'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,11 +14,12 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 256
+  PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse RS - Bild' +
-    'ungsgang HS\Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
+    'O-SI\RS\HS-Bildungsgang\Anlage 30 - Abschlusszeugnis HA10 - V08_' +
+    '00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -28,6 +29,7 @@ object Report: TppReport
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
   OpenFile = False
@@ -95,7 +97,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -104,7 +106,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -442,7 +444,7 @@ object Report: TppReport
               PrinterSetup.DocumentName = 'Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
               PrinterSetup.Duplex = dpHorizontal
               PrinterSetup.Orientation = poLandscape
-              PrinterSetup.PaperName = 'Custom'
+              PrinterSetup.PaperName = 'A3'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
@@ -451,7 +453,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 0
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 256
+              PrinterSetup.PaperSize = 8
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -629,7 +631,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -638,7 +640,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -3836,7 +3838,7 @@ object Report: TppReport
                       ProgramStream = {
                         01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                         44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                        7450726F63656475726506536F75726365144604000070726F63656475726520
+                        7450726F63656475726506536F75726365143D04000070726F63656475726520
                         44657461696C4265666F72655072696E743B0D0A766172200D0A2020496E6B54
                         6578743A20737472696E673B0D0A2020666F65312C20666F65323A2073747269
                         6E673B0D0A626567696E0D0A2020496E6B54657874203A3D2027273B0D0A2020
@@ -3861,19 +3863,18 @@ object Report: TppReport
                         2B202720756E642064656D2046C3B67264657273636877657270756E6B742027
                         202B20666F65323B0D0A20202020496E6B54657874203A3D20496E6B54657874
                         202B202720736F6E64657270C3A46461676F676973636820676566C3B6726465
-                        727420756E6420696D2042696C64756E677367616E672027202B20536368756C
-                        666F726D47202B202720756E746572726963687465742E273B200D0A2020656E
-                        643B0D0A2020696620496E6B54657874203C3E2027270D0A20207468656E2049
-                        6E6B54657874203A3D20496E6B54657874202B2063687228313329202B205265
-                        706C6163655465787420284C65726E61627363686E697474655B275A6575676E
-                        697342656D275D2C2053636875656C65725B27566F726E616D65275D2C202724
-                        4552534945242729200D0A2020656C736520496E6B54657874203A3D204C6572
-                        6E61627363686E697474655B275A6575676E697342656D275D3B0D0A20200D0A
-                        20204D656D6F5F42656D2E54657874203A3D205A6575676E69735F546578745F
-                        6265617262656974656E28496E6B54657874293B0D0A656E643B0D0A0D436F6D
-                        706F6E656E744E616D65060644657461696C094576656E744E616D65060B4265
-                        666F72655072696E74074576656E7449440218084361726574506F7301020102
-                        01000000}
+                        727420756E6420616E206465722027202B20536368756C666F726D47202B2027
+                        20756E746572726963687465742E273B200D0A2020656E643B0D0A2020696620
+                        496E6B54657874203C3E2027270D0A20207468656E20496E6B54657874203A3D
+                        20496E6B54657874202B2063687228313329202B205265706C61636554657874
+                        20284C65726E61627363686E697474655B275A6575676E697342656D275D2C20
+                        53636875656C65725B27566F726E616D65275D2C202724455253494524272920
+                        0D0A2020656C736520496E6B54657874203A3D204C65726E61627363686E6974
+                        74655B275A6575676E697342656D275D3B0D0A20200D0A20204D656D6F5F4265
+                        6D2E54657874203A3D205A6575676E69735F546578745F626561726265697465
+                        6E28496E6B54657874293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D
+                        65060644657461696C094576656E744E616D65060B4265666F72655072696E74
+                        074576656E7449440218084361726574506F730102010201000000}
                     end
                     object ppDesignLayers36: TppDesignLayers
                       object ppDesignLayer40: TppDesignLayer
@@ -6142,17 +6143,17 @@ object Report: TppReport
       202020200D0A656E643B0D0A084361726574506F7301020503A801000001060F
       5472614576656E7448616E646C65720B50726F6772616D4E616D650611526570
       6F72744265666F72655072696E740B50726F6772616D54797065070B74745072
-      6F63656475726506536F7572636506E970726F636564757265205265706F7274
-      4265666F72655072696E743B0D0A626567696E0D0A2020536368756C666F726D
-      203A3D20274861757074736368756C65273B0D0A2020536368756C4F7274203A
-      3D20456967656E65536368756C655B274F7274275D3B0D0A2020536368756C66
-      6F726D41203A3D20276469652027202B20536368756C666F726D3B0D0A202053
-      6368756C666F726D47203A3D20276465722027202B20536368756C666F726D3B
-      0D0A202045535F416E7A4162203A3D20456967656E65536368756C655B27416E
-      7A61686C41627363686E69747465275D3B0D0A656E643B0D0A0D436F6D706F6E
-      656E744E616D6506065265706F7274094576656E744E616D65060B4265666F72
-      655072696E74074576656E7449440201084361726574506F7301020102010000
-      00}
+      6F63656475726506536F757263650C0401000070726F63656475726520526570
+      6F72744265666F72655072696E743B0D0A626567696E0D0A2020536368756C66
+      6F726D203A3D20275265616C736368756C6520696D2042696C64756E67736761
+      6E67204861757074736368756C65273B0D0A2020536368756C4F7274203A3D20
+      456967656E65536368756C655B274F7274275D3B0D0A2020536368756C666F72
+      6D41203A3D20276469652027202B20536368756C666F726D3B0D0A2020536368
+      756C666F726D47203A3D20276465722027202B20536368756C666F726D3B0D0A
+      202045535F416E7A4162203A3D20456967656E65536368756C655B27416E7A61
+      686C41627363686E69747465275D3B0D0A656E643B0D0A0D436F6D706F6E656E
+      744E616D6506065265706F7274094576656E744E616D65060B4265666F726550
+      72696E74074576656E7449440201084361726574506F7301021C0203000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

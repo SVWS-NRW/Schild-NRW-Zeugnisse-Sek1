@@ -2,10 +2,10 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.00.rtm'
+  PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.01.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'Custom'
+  PrinterSetup.PaperName = 'A3'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,11 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 256
+  PrinterSetup.PaperSize = 8
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\P_Peters_Arbeit\Zeugnisse RS ab 201' +
-    '9\RS Anlage 23 - HA_nach09 Format A3 V8.00.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
+    'O-SI\RS\RS Anlage 23 - HA_nach09 Format A3 V8.01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -28,6 +28,7 @@ object Report: TppReport
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
   OpenFile = False
@@ -92,10 +93,10 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.01.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -104,7 +105,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -581,10 +582,10 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.00.rtm'
+        PrinterSetup.DocumentName = 'RS Anlage 23 - HA_nach09 Format A3 V8.01.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'Custom'
+        PrinterSetup.PaperName = 'A3'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -593,7 +594,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -6543,15 +6544,16 @@ object Report: TppReport
       0D0A084361726574506F7301020503A801000001060F5472614576656E744861
       6E646C65720B50726F6772616D4E616D6506115265706F72744265666F726550
       72696E740B50726F6772616D54797065070B747450726F63656475726506536F
-      7572636506D070726F636564757265205265706F72744265666F72655072696E
-      743B0D0A626567696E0D0A2020536368756C4F7274203A3D20456967656E6553
-      6368756C655B274F7274275D3B0D0A2020536368756C666F726D41203A3D2027
-      6469652027202B20536368756C666F726D3B0D0A2020536368756C666F726D47
-      203A3D20276465722027202B20536368756C666F726D3B0D0A202045535F416E
-      7A4162203A3D20456967656E65536368756C655B27416E7A61686C4162736368
-      6E69747465275D3B0D0A20200D0A0D0A656E643B0D0A0D436F6D706F6E656E74
-      4E616D6506065265706F7274094576656E744E616D65060B4265666F72655072
-      696E74074576656E7449440201084361726574506F730102010201000000}
+      7572636506EF70726F636564757265205265706F72744265666F72655072696E
+      743B0D0A626567696E0D0A2020536368756C666F726D47203A3D20275265616C
+      736368756C65273B0D0A2020536368756C4F7274203A3D20456967656E655363
+      68756C655B274F7274275D3B0D0A2020536368756C666F726D41203A3D202764
+      69652027202B20536368756C666F726D3B0D0A2020536368756C666F726D4720
+      3A3D20276465722027202B20536368756C666F726D3B0D0A202045535F416E7A
+      4162203A3D20456967656E65536368756C655B27416E7A61686C41627363686E
+      69747465275D3B0D0A20200D0A0D0A656E643B0D0A0D436F6D706F6E656E744E
+      616D6506065265706F7274094576656E744E616D65060B4265666F7265507269
+      6E74074576656E7449440201084361726574506F730102010201000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer
