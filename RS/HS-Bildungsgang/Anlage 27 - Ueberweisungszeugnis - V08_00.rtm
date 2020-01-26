@@ -4525,16 +4525,16 @@ object Report: TppReport
                     'erreicht haben,\par'#13#10'-\tab den "Hauptschulabschluss nach Klasse ' +
                     '10 " f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Kla' +
                     'sse 10 der Hauptschule erreicht haben.\par'#13#10'Wer den Hauptschulbi' +
-                    'ldungsgang der Realschuele nach erf\'#39'fcllter Schulpflicht verl\'#39 +
-                    'e4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abg' +
-                    'angszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'Gegen die ' +
-                    'Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu vers' +
-                    'etzen oder einen erreichbaren Abschluss oder eine Berechtigung n' +
-                    'icht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe d' +
-                    'es Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch i' +
-                    'st bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schri' +
-                    'ftlich oder zur Niederschrift zu erheben.\par'#13#10'SNr: <SchulNr>, S' +
-                    'Form: RS\par'#13#10'\b\par'#13#10'}'#13#10#0
+                    'ldungsgang der Realschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e' +
+                    '4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abga' +
+                    'ngszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'Gegen die E' +
+                    'ntscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu verse' +
+                    'tzen oder einen erreichbaren Abschluss oder eine Berechtigung ni' +
+                    'cht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe de' +
+                    's Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch is' +
+                    't bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schrif' +
+                    'tlich oder zur Niederschrift zu erheben.\par'#13#10'SNr: <SchulNr>, SF' +
+                    'orm: RS\par'#13#10'\b\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100277

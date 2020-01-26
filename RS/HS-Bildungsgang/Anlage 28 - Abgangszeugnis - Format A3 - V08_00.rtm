@@ -476,18 +476,18 @@ object Report: TppReport
                     'ht haben,\par'#13#10'\tab - den "Hauptschulabschluss nach Klasse 10 " ' +
                     'f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Klasse 1' +
                     '0 der Hauptschule erreicht haben.\par'#13#10'\tab Wer den Hauptschulbi' +
-                    'ldungsgang der Realschuele nach erf\'#39'fcllter Schulpflicht verl\'#39 +
-                    'e4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abg' +
-                    'angszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\tab Gegen' +
-                    ' die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu' +
-                    ' versetzen oder einen erreichbaren Abschluss oder eine Berechtig' +
-                    'ung nicht zu vergeben, \par'#13#10'\tab kann innerhalb eines Monats na' +
-                    'ch Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'\' +
-                    'tab Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse' +
-                    '>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.\p' +
-                    'ar'#13#10'\pard\nowidctlpar\ri200\tab\tab\tab\tab\tab\tab\tab\tab\tab\' +
-                    'tab\tab SNr: <SchulNr>, SForm: RS\par'#13#10'\pard\nowidctlpar\ri200\q' +
-                    'r\par'#13#10'\pard\nowidctlpar\qr\cf1\f1\fs16\par'#13#10'}'#13#10#0
+                    'ldungsgang der Realschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e' +
+                    '4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abga' +
+                    'ngszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\tab Gegen ' +
+                    'die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu ' +
+                    'versetzen oder einen erreichbaren Abschluss oder eine Berechtigu' +
+                    'ng nicht zu vergeben, \par'#13#10'\tab kann innerhalb eines Monats nac' +
+                    'h Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'\t' +
+                    'ab Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse>' +
+                    ', <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.\pa' +
+                    'r'#13#10'\pard\nowidctlpar\ri200\tab\tab\tab\tab\tab\tab\tab\tab\tab\t' +
+                    'ab\tab SNr: <SchulNr>, SForm: RS\par'#13#10'\pard\nowidctlpar\ri200\qr' +
+                    '\par'#13#10'\pard\nowidctlpar\qr\cf1\f1\fs16\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100542
@@ -4036,7 +4036,7 @@ object Report: TppReport
                       ProgramStream = {
                         01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                         44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                        7450726F63656475726506536F7572636514B303000070726F63656475726520
+                        7450726F63656475726506536F7572636514B203000070726F63656475726520
                         44657461696C4265666F72655072696E743B0D0A766172200D0A2020496E6B54
                         6578743A20737472696E673B0D0A2020666F65312C20666F65323A2073747269
                         6E673B0D0A626567696E0D0A2020496E6B54657874203A3D2027273B0D0A2020
@@ -4057,18 +4057,18 @@ object Report: TppReport
                         6D2046C3B67264657273636877657270756E6B742027202B20666F65323B0D0A
                         20202020496E6B54657874203A3D20496E6B54657874202B202720736F6E6465
                         7270C3A46461676F676973636820676566C3B6726465727420756E6420616E20
-                        6465722027202B20536368756C666F726D47202B202720756E74657272696368
-                        7465742E273B200D0A2020656E643B0D0A2020696620496E6B54657874203C3E
-                        2027270D0A20207468656E20496E6B54657874203A3D20496E6B54657874202B
-                        2063687228313329202B205265706C6163655465787420284C65726E61627363
-                        686E697474655B275A6575676E697342656D275D2C2053636875656C65725B27
-                        566F726E616D65275D2C2027244552534945242729200D0A2020656C73652049
-                        6E6B54657874203A3D204C65726E61627363686E697474655B275A6575676E69
-                        7342656D275D3B0D0A20200D0A20204D656D6F5F42656D2E54657874203A3D20
-                        5A6575676E69735F546578745F6265617262656974656E28496E6B5465787429
-                        3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060644657461696C09
-                        4576656E744E616D65060B4265666F72655072696E74074576656E7449440218
-                        084361726574506F730102420213000000}
+                        6465722027202B20536368756C666F726D202B202720756E7465727269636874
+                        65742E273B200D0A2020656E643B0D0A2020696620496E6B54657874203C3E20
+                        27270D0A20207468656E20496E6B54657874203A3D20496E6B54657874202B20
+                        63687228313329202B205265706C6163655465787420284C65726E6162736368
+                        6E697474655B275A6575676E697342656D275D2C2053636875656C65725B2756
+                        6F726E616D65275D2C2027244552534945242729200D0A2020656C736520496E
+                        6B54657874203A3D204C65726E61627363686E697474655B275A6575676E6973
+                        42656D275D3B0D0A20200D0A20204D656D6F5F42656D2E54657874203A3D205A
+                        6575676E69735F546578745F6265617262656974656E28496E6B54657874293B
+                        0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060644657461696C0945
+                        76656E744E616D65060B4265666F72655072696E74074576656E744944021808
+                        4361726574506F730102500213000000}
                     end
                     object ppDesignLayers4: TppDesignLayers
                       object ppDesignLayer4: TppDesignLayer
