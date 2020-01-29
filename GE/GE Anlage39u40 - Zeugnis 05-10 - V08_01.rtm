@@ -15,10 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-neu\Finale Versionen\' +
-    'Gesamtschule\GE-Zeugnisse_2020_01_01\Zeugnisse GE\GE Anlage39u40' +
-    ' - Zeugnis 05-10 - V08_01.rtm'
+  Template.FileName =
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-APO-SI\GE\GE Anlage39u40 - Zeugnis 05-10 - V08_01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True

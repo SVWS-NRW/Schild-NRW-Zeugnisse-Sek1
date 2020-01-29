@@ -14,10 +14,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-neu\Finale Versionen\' +
-    'Gesamtschule\GE-Zeugnisse_2019_12_19\Zeugnisse GE\GE Anlage38 - ' +
-    'Prognosemitteilung - V08_00.rtm'
+  Template.FileName =
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-APO-SI\GE\GE Anlage38 - Prognosemitteilung - V08_01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
