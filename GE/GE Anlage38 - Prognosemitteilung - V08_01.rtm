@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'GE Anlage38 - Prognosemitteilung - V08_00.rtm'
+  PrinterSetup.DocumentName = 'GE Anlage38 - Prognosemitteilung - V08_01.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -14,8 +14,9 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName =
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-APO-SI\GE\GE Anlage38 - Prognosemitteilung - V08_01.rtm'
+  Template.FileName = 
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\GE\GE Anlage38' +
+    ' - Prognosemitteilung - V08_01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -43,7 +44,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
@@ -2613,6 +2616,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
