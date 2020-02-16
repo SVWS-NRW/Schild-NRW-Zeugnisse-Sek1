@@ -36,7 +36,7 @@ object Report: TppReport
   ThumbnailSettings.Enabled = False
   ThumbnailSettings.Visible = False
   ThumbnailSettings.DeadSpace = 30
-  PDFSettings.EmbedFontOptions = [efUseSubset]
+  PDFSettings.EmbedFontOptions = []
   PDFSettings.EncryptSettings.AllowCopy = True
   PDFSettings.EncryptSettings.AllowInteract = True
   PDFSettings.EncryptSettings.AllowModify = True
@@ -2616,6 +2616,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList2: TppParameterList
+  object ppParameterList1: TppParameterList
   end
 end
