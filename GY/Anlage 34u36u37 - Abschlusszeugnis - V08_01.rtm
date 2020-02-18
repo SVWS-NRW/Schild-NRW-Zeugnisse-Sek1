@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Anlage 34u36u37 - Abschlusszeugnis - V08_00.rtm'
+  PrinterSetup.DocumentName = 'Anlage 34u36u37 - Abschlusszeugnis - V08_01.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'Custom'
@@ -17,8 +17,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'D:\NRW-Programme\SchILD-NRW\SchILD-Reports\- Work -\- Zeugnisse ' +
-    'GY ab 2019 -\Anlage 34u36u37 - Abschlusszeugnis - V08_00.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\GY\Anlage 34u3' +
+    '6u37 - Abschlusszeugnis - V08_01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -47,7 +47,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
@@ -618,7 +620,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport3: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Anlage 34u36u37 - Abschlusszeugnis - V08_00.rtm'
+        PrinterSetup.DocumentName = 'Anlage 34u36u37 - Abschlusszeugnis - V08_01.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'Custom'

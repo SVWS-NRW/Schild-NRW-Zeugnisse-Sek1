@@ -14,12 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
-    'O-SI\RS\HS-Bildungsgang\Anlage 30 - Abschlusszeugnis HA10 - V08_' +
-    '00.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\RS\HS-Bildungs' +
+    'gang\Anlage 30 - Abschlusszeugnis HA10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -48,7 +47,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
@@ -106,7 +107,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -453,7 +454,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 0
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -640,7 +641,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels

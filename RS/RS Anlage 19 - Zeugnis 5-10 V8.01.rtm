@@ -16,8 +16,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
-    'O-SI\RS\RS Anlage 19 - Zeugnis 5-10 V8.01.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\RS\RS Anlage 1' +
+    '9 - Zeugnis 5-10 V8.01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -46,7 +46,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET

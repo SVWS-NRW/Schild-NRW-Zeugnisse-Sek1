@@ -1,8 +1,6 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
   PrinterSetup.DocumentName = 'Anlage 12u13 Zeugnis 05-10 - V08_00.rtm'
   PrinterSetup.Duplex = dpVertical
@@ -17,23 +15,20 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 'S:\SchILD-NRW\SchILD-Reports\HS-Zeugnisse_2020_01_06\Anlage 12u13 Zeugnis 05-10 - V08_00.rtm'
+  Template.FileName = 
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\HS\Anlage 12u1' +
+    '3 Zeugnis 05-10 - V08_00.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -50,7 +45,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
