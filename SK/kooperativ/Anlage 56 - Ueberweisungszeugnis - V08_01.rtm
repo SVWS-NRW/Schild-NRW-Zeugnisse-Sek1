@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Anlage 56 - '#220'berweisungszeugnis - V08_01.rtm'
+  PrinterSetup.DocumentName = 'Anlage 56 - Ueberweisungszeugnis - V08_01.rtm'
   PrinterSetup.Duplex = dpVertical
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
@@ -16,8 +16,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\NRW-Programme\SchILD-NRW\SchILD-Reports\SK-Zeugnisse_2020_01_' +
-    '06\kooperativ\Anlage 56 - '#220'berweisungszeugnis - V08_01.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
+    'O-SI\SK\kooperativ\Anlage 56 - Ueberweisungszeugnis - V08_01.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -46,7 +46,9 @@ object Report: TppReport
   PDFSettings.EncryptSettings.Enabled = False
   PDFSettings.EncryptSettings.KeyLength = kl40Bit
   PDFSettings.FontEncoding = feAnsi
-  PDFSettings.ImageCompressionLevel = 25
+  PDFSettings.ImageCompressionLevel = 90
+  PDFSettings.PDFA = True
+  PDFSettings.ScaleImages = False
   PreviewFormSettings.ZoomSetting = zs100Percent
   PreviewFormSettings.SinglePageOnly = True
   RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
@@ -92,7 +94,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Anlage 56 - '#220'berweisungszeugnis - V08_01.rtm'
+        PrinterSetup.DocumentName = 'Anlage 56 - Ueberweisungszeugnis - V08_01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -2458,7 +2460,7 @@ object Report: TppReport
             mmMinHeight = 0
             object ppChildReport12: TppChildReport
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'Anlage 56 - '#220'berweisungszeugnis - V08_01.rtm'
+              PrinterSetup.DocumentName = 'Anlage 56 - Ueberweisungszeugnis - V08_01.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
@@ -2883,7 +2885,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport15: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Anlage 56 - '#220'berweisungszeugnis - V08_01.rtm'
+        PrinterSetup.DocumentName = 'Anlage 56 - Ueberweisungszeugnis - V08_01.rtm'
         PrinterSetup.Duplex = dpVertical
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
@@ -4427,7 +4429,7 @@ object Report: TppReport
                 ProgramStream = {
                   01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                   44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                  7450726F63656475726506536F7572636514BC03000070726F63656475726520
+                  7450726F63656475726506536F75726365148E03000070726F63656475726520
                   44657461696C4265666F72655072696E743B0D0A766172200D0A2020496E6B54
                   6578743A20737472696E673B0D0A2020666F65312C20666F65323A2073747269
                   6E673B0D0A626567696E0D0A2020496E6B54657874203A3D2027273B0D0A2020
@@ -4451,15 +4453,14 @@ object Report: TppReport
                   42696C64756E677367616E672027202B20536368756C666F726D47202B202720
                   756E746572726963687465742E273B200D0A2020656E643B0D0A202069662049
                   6E6B54657874203C3E2027270D0A20207468656E20496E6B54657874203A3D20
-                  496E6B54657874202B2063687228313329202B205265706C6163655465787420
-                  284C65726E61627363686E697474655B275A6575676E697342656D275D2C2053
-                  636875656C65725B27566F726E616D65275D2C2027244552534945242729200D
-                  0A2020656C736520496E6B54657874203A3D204C65726E61627363686E697474
-                  655B275A6575676E697342656D275D3B0D0A20200D0A20204D656D6F5F42656D
-                  2E54657874203A3D205A6575676E69735F546578745F6265617262656974656E
-                  28496E6B54657874293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
-                  060644657461696C094576656E744E616D65060B4265666F72655072696E7407
-                  4576656E7449440218084361726574506F730102010201000000}
+                  496E6B54657874202B2063687228313329202B204C65726E61627363686E6974
+                  74655B275A6575676E697342656D275D200D0A2020656C736520496E6B546578
+                  74203A3D204C65726E61627363686E697474655B275A6575676E697342656D27
+                  5D3B0D0A20200D0A20204D656D6F5F42656D2E54657874203A3D205A6575676E
+                  69735F546578745F6265617262656974656E28496E6B54657874293B0D0A656E
+                  643B0D0A0D436F6D706F6E656E744E616D65060644657461696C094576656E74
+                  4E616D65060B4265666F72655072696E74074576656E74494402180843617265
+                  74506F730102010201000000}
               end
               object ppDesignLayers31: TppDesignLayers
                 object ppDesignLayer33: TppDesignLayer
