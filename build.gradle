@@ -1,0 +1,32 @@
+plugins {
+	id 'maven-publish'
+	id 'distribution'
+}
+
+group = 'zeunisse.svws.nrw.de'
+version = '0.0.1-SNAPSHOT'
+
+publishing {
+    publications {
+        mavenZip(MavenPublication) {
+            artifact  distZip
+            artifactId = 'svws-nrw-zeugnisse'
+            pom {
+                name = 'SVWS NRW Zeugnisse'
+                description = 'Diese Bibliothek stellt die ZIP-Archive für den Zeugnisdownload Sek1 in NRW bereit.'
+                url = 'http://www.svws.nrw.de'
+                licenses {
+                    license {
+                        name = 'MIT License'
+                        url = 'http://www.opensource.org/licenses/mit-license.php'
+                    }
+                }
+                scm {
+        			connection = 'scm:git@github.com/FPfotenhauer/Zeugnisse-NRW.git'
+        			developerConnection = 'scm:git@github.com/FPfotenhauer/Zeugnisse-NRW.git'
+                    url = 'https://github.com/FPfotenhauer/Zeugnisse-NRW.git'
+                }
+            }
+        }
+    }
+}
