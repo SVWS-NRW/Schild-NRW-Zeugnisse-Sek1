@@ -972,7 +972,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText22: TppDBText
-                              UserName = 'DBTe_Note_RL'
+                              UserName = 'DBTeNote_RL'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plReligion
@@ -988,6 +988,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 30000
                               BandType = 4
+                              LayerName = PageLayer15
                             end
                             object ppDBText12: TppDBText
                               UserName = 'DBTe_Fach_RL'
@@ -1007,6 +1008,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 36449
                               BandType = 4
+                              LayerName = PageLayer15
                             end
                             object ppLabel38: TppLabel
                               UserName = 'La_HaF_RL'
@@ -1022,6 +1024,7 @@ object Report: TppReport
                               mmTop = 265
                               mmWidth = 5503
                               BandType = 4
+                              LayerName = PageLayer15
                             end
                           end
                           object raCodeModule8: TraCodeModule
@@ -1034,7 +1037,14 @@ object Report: TppReport
                               6546616563686572285265706F72742E44617461506970656C696E65293B0D0A
                               656E643B0D0A0D436F6D706F6E656E744E616D6506094C615F4861465F524C09
                               4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-                              61726574506F730102010201000000}
+                              61726574506F730102010201000001060F5472614576656E7448616E646C6572
+                              0B50726F6772616D4E616D650612444254654E6F74655F524C4F6E5072696E74
+                              0B50726F6772616D54797065070B747450726F63656475726506536F75726365
+                              065470726F63656475726520444254654E6F74655F524C4F6E5072696E743B0D
+                              0A626567696E0D0A2020444254654E6F74655F524C2E436F6C6F72203A3D2046
+                              617262654E6F74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E74
+                              4E616D65060B444254654E6F74655F524C094576656E744E616D6506074F6E50
+                              72696E74074576656E7449440220084361726574506F7301020E0203000000}
                           end
                           object ppDesignLayers16: TppDesignLayers
                             object ppDesignLayer17: TppDesignLayer
@@ -1093,7 +1103,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText24: TppDBText
-                              UserName = 'DBTe_Note_D'
+                              UserName = 'DBTeNote_D'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plDeutsch
@@ -1109,6 +1119,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 30000
                               BandType = 4
+                              LayerName = Foreground20
                             end
                             object ppDBText14: TppDBText
                               UserName = 'DBTe_Fach_D'
@@ -1128,6 +1139,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 36449
                               BandType = 4
+                              LayerName = Foreground20
                             end
                             object ppLabel39: TppLabel
                               UserName = 'La_HaF_D'
@@ -1143,6 +1155,7 @@ object Report: TppReport
                               mmTop = 0
                               mmWidth = 5503
                               BandType = 4
+                              LayerName = Foreground20
                             end
                           end
                           object raCodeModule2: TraCodeModule
@@ -1155,7 +1168,14 @@ object Report: TppReport
                               616563686572285265706F72742E44617461506970656C696E65293B0D0A656E
                               643B0D0A0D436F6D706F6E656E744E616D6506084C615F4861465F4409457665
                               6E744E616D6506094F6E47657454657874074576656E74494402350843617265
-                              74506F730102010201000000}
+                              74506F730102010201000001060F5472614576656E7448616E646C65720B5072
+                              6F6772616D4E616D650611444254654E6F74655F444F6E5072696E740B50726F
+                              6772616D54797065070B747450726F63656475726506536F7572636506527072
+                              6F63656475726520444254654E6F74655F444F6E5072696E743B0D0A62656769
+                              6E0D0A2020444254654E6F74655F442E436F6C6F72203A3D2046617262654E6F
+                              74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060A
+                              444254654E6F74655F44094576656E744E616D6506074F6E5072696E74074576
+                              656E7449440220084361726574506F7301020D0203000000}
                           end
                           object ppDesignLayers23: TppDesignLayers
                             object ppDesignLayer24: TppDesignLayer
@@ -1214,7 +1234,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText7: TppDBText
-                              UserName = 'DBTe_Note_FS'
+                              UserName = 'DBTeNote_FS'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plFremdsprachen
@@ -1279,7 +1299,14 @@ object Report: TppReport
                               6546616563686572285265706F72742E44617461506970656C696E65293B0D0A
                               656E643B0D0A0D436F6D706F6E656E744E616D6506094C615F4861465F465309
                               4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-                              61726574506F730102030203000000}
+                              61726574506F730102030203000001060F5472614576656E7448616E646C6572
+                              0B50726F6772616D4E616D650612444254654E6F74655F46534F6E5072696E74
+                              0B50726F6772616D54797065070B747450726F63656475726506536F75726365
+                              065470726F63656475726520444254654E6F74655F46534F6E5072696E743B0D
+                              0A626567696E0D0A2020444254654E6F74655F46532E436F6C6F72203A3D2046
+                              617262654E6F74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E74
+                              4E616D65060B444254654E6F74655F4653094576656E744E616D6506074F6E50
+                              72696E74074576656E7449440220084361726574506F7301020E0203000000}
                           end
                           object ppDesignLayers18: TppDesignLayers
                             object ppDesignLayer6: TppDesignLayer
@@ -1496,7 +1523,15 @@ object Report: TppReport
                                     203A3D2048696E77656973416C746546616563686572285265706F72742E4461
                                     7461506970656C696E65293B0D0A656E643B0D0A0D436F6D706F6E656E744E61
                                     6D65060C4C615F4861465F474C5F4C62094576656E744E616D6506094F6E4765
-                                    7454657874074576656E7449440235084361726574506F730102010204000000}
+                                    7454657874074576656E7449440235084361726574506F730102010204000001
+                                    060F5472614576656E7448616E646C65720B50726F6772616D4E616D65061544
+                                    4254654E6F74655F474C5F4C624F6E5072696E740B50726F6772616D54797065
+                                    070B747450726F63656475726506536F75726365065A70726F63656475726520
+                                    444254654E6F74655F474C5F4C624F6E5072696E743B0D0A626567696E0D0A20
+                                    20444254654E6F74655F474C5F4C622E436F6C6F72203A3D2046617262654E6F
+                                    74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060E
+                                    444254654E6F74655F474C5F4C62094576656E744E616D6506074F6E5072696E
+                                    74074576656E7449440220084361726574506F730102110203000000}
                                 end
                                 object ppDesignLayers10: TppDesignLayers
                                   object ppDesignLayer14: TppDesignLayer
@@ -1573,6 +1608,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                   object ppDBText33: TppDBText
                                     UserName = 'DBTeFach_GL_Fa'
@@ -1592,6 +1628,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 38100
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                   object ppLabel58: TppLabel
                                     UserName = 'La_HaF_GL_Fa'
@@ -1607,6 +1644,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = Foreground21
                                   end
                                 end
                                 object raCodeModule15: TraCodeModule
@@ -1627,7 +1665,15 @@ object Report: TppReport
                                     77656973416C746546616563686572285265706F72742E44617461506970656C
                                     696E65293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C4C615F
                                     4861465F474C5F4661094576656E744E616D6506094F6E476574546578740745
-                                    76656E7449440235084361726574506F7301021D0203000000}
+                                    76656E7449440235084361726574506F7301021D0203000001060F5472614576
+                                    656E7448616E646C65720B50726F6772616D4E616D650615444254654E6F7465
+                                    5F474C5F46614F6E5072696E740B50726F6772616D54797065070B747450726F
+                                    63656475726506536F75726365065A70726F63656475726520444254654E6F74
+                                    655F474C5F46614F6E5072696E743B0D0A626567696E0D0A2020444254654E6F
+                                    74655F474C5F46612E436F6C6F72203A3D2046617262654E6F74656E66656C64
+                                    3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060E444254654E6F74
+                                    655F474C5F4661094576656E744E616D6506074F6E5072696E74074576656E74
+                                    49440220084361726574506F730102110203000000}
                                 end
                                 object ppDesignLayers24: TppDesignLayers
                                   object ppDesignLayer25: TppDesignLayer
@@ -1686,7 +1732,6 @@ object Report: TppReport
                           PrinterSetup.mmPaperHeight = 297000
                           PrinterSetup.mmPaperWidth = 210000
                           PrinterSetup.PaperSize = 9
-                          Template.Offset = 284
                           Template.Format = ftASCII
                           Units = utScreenPixels
                           Version = '15.05'
@@ -1700,7 +1745,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText20: TppDBText
-                              UserName = 'DBTe_Note_M'
+                              UserName = 'DBTeNote_M'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plMathematik
@@ -1765,7 +1810,14 @@ object Report: TppReport
                               616563686572285265706F72742E44617461506970656C696E65293B0D0A656E
                               643B0D0A0D436F6D706F6E656E744E616D6506084C615F4861465F4D09457665
                               6E744E616D6506094F6E47657454657874074576656E74494402350843617265
-                              74506F730102010201000000}
+                              74506F730102010201000001060F5472614576656E7448616E646C65720B5072
+                              6F6772616D4E616D650611444254654E6F74655F4D4F6E5072696E740B50726F
+                              6772616D54797065070B747450726F63656475726506536F7572636506527072
+                              6F63656475726520444254654E6F74655F4D4F6E5072696E743B0D0A62656769
+                              6E0D0A2020444254654E6F74655F4D2E436F6C6F72203A3D2046617262654E6F
+                              74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060A
+                              444254654E6F74655F4D094576656E744E616D6506074F6E5072696E74074576
+                              656E7449440220084361726574506F7301020D0203000000}
                           end
                           object ppDesignLayers11: TppDesignLayers
                             object ppDesignLayer15: TppDesignLayer
@@ -1981,7 +2033,14 @@ object Report: TppReport
                                     44617461506970656C696E65293B0D0A656E643B0D0A0D436F6D706F6E656E74
                                     4E616D65060C4C615F4861465F4E575F4C62094576656E744E616D6506094F6E
                                     47657454657874074576656E7449440235084361726574506F73010201020400
-                                    0000}
+                                    0001060F5472614576656E7448616E646C65720B50726F6772616D4E616D6506
+                                    15444254654E6F74655F4E575F4C624F6E5072696E740B50726F6772616D5479
+                                    7065070B747450726F63656475726506536F75726365065A70726F6365647572
+                                    6520444254654E6F74655F4E575F4C624F6E5072696E743B0D0A626567696E0D
+                                    0A2020444254654E6F74655F4E575F4C622E436F6C6F72203A3D204661726265
+                                    4E6F74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
+                                    060E444254654E6F74655F4E575F4C62094576656E744E616D6506074F6E5072
+                                    696E74074576656E7449440220084361726574506F730102110203000000}
                                 end
                                 object ppDesignLayers13: TppDesignLayers
                                   object ppDesignLayer20: TppDesignLayer
@@ -2057,6 +2116,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 30000
                                     BandType = 4
+                                    LayerName = PageLayer19
                                   end
                                   object ppDBText18: TppDBText
                                     UserName = 'DBTeFach_NW_Fa'
@@ -2076,6 +2136,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 38100
                                     BandType = 4
+                                    LayerName = PageLayer19
                                   end
                                   object ppLabel44: TppLabel
                                     UserName = 'La_HaF_NW_Fa'
@@ -2091,6 +2152,7 @@ object Report: TppReport
                                     mmTop = 0
                                     mmWidth = 5503
                                     BandType = 4
+                                    LayerName = PageLayer19
                                   end
                                 end
                                 object raCodeModule26: TraCodeModule
@@ -2111,7 +2173,15 @@ object Report: TppReport
                                     3A3D204E6174757277697373656E736368616674656E5B27466163686B727A27
                                     5D203C3E20274E57273B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
                                     060644657461696C094576656E744E616D65060B4265666F72655072696E7407
-                                    4576656E7449440218084361726574506F730102010201000000}
+                                    4576656E7449440218084361726574506F730102010201000001060F54726145
+                                    76656E7448616E646C65720B50726F6772616D4E616D650615444254654E6F74
+                                    655F4E575F46614F6E5072696E740B50726F6772616D54797065070B74745072
+                                    6F63656475726506536F75726365065A70726F63656475726520444254654E6F
+                                    74655F4E575F46614F6E5072696E743B0D0A626567696E0D0A2020444254654E
+                                    6F74655F4E575F46612E436F6C6F72203A3D2046617262654E6F74656E66656C
+                                    643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060E444254654E6F
+                                    74655F4E575F4661094576656E744E616D6506074F6E5072696E74074576656E
+                                    7449440220084361726574506F730102110203000000}
                                 end
                                 object ppDesignLayers17: TppDesignLayers
                                   object ppDesignLayer21: TppDesignLayer
@@ -2183,7 +2253,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText23: TppDBText
-                              UserName = 'DBTe_Note_KuMu'
+                              UserName = 'DBTeNote_KuMu'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plKunstUndMusik
@@ -2248,7 +2318,15 @@ object Report: TppReport
                               6546616563686572285265706F72742E44617461506970656C696E65293B0D0A
                               656E643B0D0A0D436F6D706F6E656E744E616D6506094C615F4861465F537009
                               4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-                              61726574506F730102010201000000}
+                              61726574506F730102010201000001060F5472614576656E7448616E646C6572
+                              0B50726F6772616D4E616D650614444254654E6F74655F4B754D754F6E507269
+                              6E740B50726F6772616D54797065070B747450726F63656475726506536F7572
+                              6365065870726F63656475726520444254654E6F74655F4B754D754F6E507269
+                              6E743B0D0A626567696E0D0A2020444254654E6F74655F4B754D752E436F6C6F
+                              72203A3D2046617262654E6F74656E66656C643B0D0A656E643B0D0A0D436F6D
+                              706F6E656E744E616D65060D444254654E6F74655F4B754D75094576656E744E
+                              616D6506074F6E5072696E74074576656E7449440220084361726574506F7301
+                              02100203000000}
                           end
                           object ppDesignLayers22: TppDesignLayers
                             object ppDesignLayer27: TppDesignLayer
@@ -2307,7 +2385,7 @@ object Report: TppReport
                             mmHeight = 5292
                             mmPrintPosition = 0
                             object ppDBText26: TppDBText
-                              UserName = 'DBTe_Note_Sp'
+                              UserName = 'DBTeNote_Sp'
                               Color = clSilver
                               DataField = 'NotenKlartext'
                               DataPipeline = dmPipelines.plSport
@@ -2323,6 +2401,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 30000
                               BandType = 4
+                              LayerName = Foreground14
                             end
                             object ppDBText30: TppDBText
                               UserName = 'DBTe_Fach_Sp'
@@ -2342,6 +2421,7 @@ object Report: TppReport
                               mmTop = 529
                               mmWidth = 36449
                               BandType = 4
+                              LayerName = Foreground14
                             end
                             object ppLabel27: TppLabel
                               UserName = 'La_HaF_Sp'
@@ -2357,6 +2437,7 @@ object Report: TppReport
                               mmTop = 0
                               mmWidth = 5503
                               BandType = 4
+                              LayerName = Foreground14
                             end
                           end
                           object raCodeModule32: TraCodeModule
@@ -2369,7 +2450,14 @@ object Report: TppReport
                               6546616563686572285265706F72742E44617461506970656C696E65293B0D0A
                               656E643B0D0A0D436F6D706F6E656E744E616D6506094C615F4861465F537009
                               4576656E744E616D6506094F6E47657454657874074576656E74494402350843
-                              61726574506F730102010201000000}
+                              61726574506F730102010201000001060F5472614576656E7448616E646C6572
+                              0B50726F6772616D4E616D650612444254654E6F74655F53704F6E5072696E74
+                              0B50726F6772616D54797065070B747450726F63656475726506536F75726365
+                              065470726F63656475726520444254654E6F74655F53704F6E5072696E743B0D
+                              0A626567696E0D0A2020444254654E6F74655F53702E436F6C6F72203A3D2046
+                              617262654E6F74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E74
+                              4E616D65060B444254654E6F74655F5370094576656E744E616D6506074F6E50
+                              72696E74074576656E7449440220084361726574506F7301020E0203000000}
                           end
                           object ppDesignLayers25: TppDesignLayers
                             object ppDesignLayer28: TppDesignLayer
@@ -2647,7 +2735,15 @@ object Report: TppReport
                               205761686C70666C69636874626572656963685B275A6575676E697362657A65
                               6963686E756E67275D3B200D0A656E643B0D0A0D436F6D706F6E656E744E616D
                               65060D444254655F466163685F575031094576656E744E616D6506094F6E4765
-                              7454657874074576656E7449440235084361726574506F730102010201000000}
+                              7454657874074576656E7449440235084361726574506F730102010201000001
+                              060F5472614576656E7448616E646C65720B50726F6772616D4E616D65061344
+                              4254654E6F74655F5750314F6E5072696E740B50726F6772616D54797065070B
+                              747450726F63656475726506536F75726365065670726F636564757265204442
+                              54654E6F74655F5750314F6E5072696E743B0D0A626567696E0D0A2020444254
+                              654E6F74655F5750312E436F6C6F72203A3D2046617262654E6F74656E66656C
+                              643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C444254654E6F
+                              74655F575031094576656E744E616D6506074F6E5072696E74074576656E7449
+                              440220084361726574506F7301020F0203000000}
                           end
                           object ppDesignLayers2: TppDesignLayers
                             object ppDesignLayer2: TppDesignLayer
@@ -2792,7 +2888,15 @@ object Report: TppReport
                               74203D20275750322729206F722028444254654B7572736172745F5750552E54
                               657874203D202757505527293B20200D0A656E643B0D0A0D436F6D706F6E656E
                               744E616D65060644657461696C094576656E744E616D65060B4265666F726550
-                              72696E74074576656E7449440218084361726574506F730102010201000000}
+                              72696E74074576656E7449440218084361726574506F73010201020100000106
+                              0F5472614576656E7448616E646C65720B50726F6772616D4E616D6506134442
+                              54654E6F74655F5750554F6E5072696E740B50726F6772616D54797065070B74
+                              7450726F63656475726506536F75726365065670726F63656475726520444254
+                              654E6F74655F5750554F6E5072696E743B0D0A626567696E0D0A202044425465
+                              4E6F74655F5750552E436F6C6F72203A3D2046617262654E6F74656E66656C64
+                              3B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C444254654E6F74
+                              655F575055094576656E744E616D6506074F6E5072696E74074576656E744944
+                              0220084361726574506F7301020F0203000000}
                           end
                           object ppDesignLayers12: TppDesignLayers
                             object ppDesignLayer16: TppDesignLayer
@@ -2952,6 +3056,7 @@ object Report: TppReport
                               mmTop = 0
                               mmWidth = 210000
                               BandType = 4
+                              LayerName = PageLayer7
                               mmBottomOffset = 0
                               mmOverFlowOffset = 0
                               mmStopPosition = 0
@@ -3066,7 +3171,14 @@ object Report: TppReport
                                     742E44617461506970656C696E65293B0D0A656E643B0D0A0D436F6D706F6E65
                                     6E744E616D65060A4C615F4861465F5A5556094576656E744E616D6506094F6E
                                     47657454657874074576656E7449440235084361726574506F73010201020100
-                                    0000}
+                                    0001060F5472614576656E7448616E646C65720B50726F6772616D4E616D6506
+                                    13444254654E6F74655F5A55564F6E5072696E740B50726F6772616D54797065
+                                    070B747450726F63656475726506536F75726365065670726F63656475726520
+                                    444254654E6F74655F5A55564F6E5072696E743B0D0A626567696E0D0A202044
+                                    4254654E6F74655F5A55562E436F6C6F72203A3D2046617262654E6F74656E66
+                                    656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C44425465
+                                    4E6F74655F5A5556094576656E744E616D6506074F6E5072696E74074576656E
+                                    7449440220084361726574506F7301020F0203000000}
                                 end
                                 object ppDesignLayers7: TppDesignLayers
                                   object ppDesignLayer11: TppDesignLayer
@@ -3090,6 +3202,7 @@ object Report: TppReport
                               mmTop = 6351
                               mmWidth = 210000
                               BandType = 4
+                              LayerName = PageLayer7
                               mmBottomOffset = 0
                               mmOverFlowOffset = 0
                               mmStopPosition = 0
@@ -3140,6 +3253,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 63500
                                     BandType = 4
+                                    LayerName = PageLayer6
                                   end
                                   object ppDBText16: TppDBText
                                     UserName = 'DBTe_Kurs_KMFOE'
@@ -3159,6 +3273,7 @@ object Report: TppReport
                                     mmTop = 529
                                     mmWidth = 33602
                                     BandType = 4
+                                    LayerName = PageLayer6
                                   end
                                 end
                                 object raCodeModule6: TraCodeModule
@@ -3179,7 +3294,15 @@ object Report: TppReport
                                     7A656963686E756E67285265706F72742E44617461506970656C696E65293B0D
                                     0A656E643B0D0A0D436F6D706F6E656E744E616D65060F444254655F4B757273
                                     5F4B4D464F45094576656E744E616D6506094F6E47657454657874074576656E
-                                    7449440235084361726574506F730102010201000000}
+                                    7449440235084361726574506F730102010201000001060F5472614576656E74
+                                    48616E646C65720B50726F6772616D4E616D650615444254654E6F74655F4B4D
+                                    464F454F6E5072696E740B50726F6772616D54797065070B747450726F636564
+                                    75726506536F75726365065A70726F63656475726520444254654E6F74655F4B
+                                    4D464F454F6E5072696E743B0D0A626567696E0D0A2020444254654E6F74655F
+                                    4B4D464F452E436F6C6F72203A3D2046617262654E6F74656E66656C643B0D0A
+                                    656E643B0D0A0D436F6D706F6E656E744E616D65060E444254654E6F74655F4B
+                                    4D464F45094576656E744E616D6506074F6E5072696E74074576656E74494402
+                                    20084361726574506F730102110203000000}
                                 end
                                 object ppDesignLayers8: TppDesignLayers
                                   object ppDesignLayer12: TppDesignLayer
@@ -3326,7 +3449,7 @@ object Report: TppReport
                                     LayerName = Foreground38
                                   end
                                   object ppDBText37: TppDBText
-                                    UserName = 'DBTeNote_ESG1'
+                                    UserName = 'DBTeNote_EGS1'
                                     Color = clSilver
                                     DataField = 'NotenKlartext'
                                     DataPipeline = dmPipelines.ppEGS
@@ -3364,7 +3487,14 @@ object Report: TppReport
                                     61506970656C696E65293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D
                                     65060E444254655F4B7572735F45475331094576656E744E616D6506094F6E47
                                     657454657874074576656E7449440235084361726574506F7301020102010000
-                                    00}
+                                    01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650614
+                                    444254654E6F74655F454753314F6E5072696E740B50726F6772616D54797065
+                                    070B747450726F63656475726506536F75726365065870726F63656475726520
+                                    444254654E6F74655F454753314F6E5072696E743B0D0A626567696E0D0A2020
+                                    444254654E6F74655F454753312E436F6C6F72203A3D2046617262654E6F7465
+                                    6E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060D4442
+                                    54654E6F74655F45475331094576656E744E616D6506074F6E5072696E740745
+                                    76656E7449440220084361726574506F730102100203000000}
                                 end
                                 object ppDesignLayers9: TppDesignLayers
                                   object ppDesignLayer29: TppDesignLayer
@@ -3479,7 +3609,15 @@ object Report: TppReport
                                     3D204B7572735F42657A656963686E756E67285265706F72742E446174615069
                                     70656C696E65293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060D
                                     444254655F4B7572735F454553094576656E744E616D6506094F6E4765745465
-                                    7874074576656E7449440235084361726574506F730102010201000000}
+                                    7874074576656E7449440235084361726574506F730102010201000001060F54
+                                    72614576656E7448616E646C65720B50726F6772616D4E616D65061344425465
+                                    4E6F74655F4545534F6E5072696E740B50726F6772616D54797065070B747450
+                                    726F63656475726506536F75726365065670726F63656475726520444254654E
+                                    6F74655F4545534F6E5072696E743B0D0A626567696E0D0A2020444254654E6F
+                                    74655F4545532E436F6C6F72203A3D2046617262654E6F74656E66656C643B0D
+                                    0A656E643B0D0A0D436F6D706F6E656E744E616D65060C444254654E6F74655F
+                                    454553094576656E744E616D6506074F6E5072696E74074576656E7449440220
+                                    084361726574506F730102100203000000}
                                 end
                                 object ppDesignLayers30: TppDesignLayers
                                   object ppDesignLayer32: TppDesignLayer
@@ -3556,7 +3694,7 @@ object Report: TppReport
                                     LayerName = PageLayer9
                                   end
                                   object ppDBText50: TppDBText
-                                    UserName = 'DBTeNote_ESGN'
+                                    UserName = 'DBTeNote_EGSN'
                                     Color = clSilver
                                     DataField = 'NotenKlartext'
                                     DataPipeline = dmPipelines.ppEGS
@@ -3594,7 +3732,14 @@ object Report: TppReport
                                     61506970656C696E65293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D
                                     65060E444254655F4B7572735F4547534E094576656E744E616D6506094F6E47
                                     657454657874074576656E7449440235084361726574506F7301020102010000
-                                    00}
+                                    01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650614
+                                    444254654E6F74655F4547534E4F6E5072696E740B50726F6772616D54797065
+                                    070B747450726F63656475726506536F75726365065870726F63656475726520
+                                    444254654E6F74655F4547534E4F6E5072696E743B0D0A626567696E0D0A2020
+                                    444254654E6F74655F4547534E2E436F6C6F72203A3D2046617262654E6F7465
+                                    6E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060D4442
+                                    54654E6F74655F4547534E094576656E744E616D6506074F6E5072696E740745
+                                    76656E7449440220084361726574506F730102100203000000}
                                 end
                                 object ppDesignLayers20: TppDesignLayers
                                   object ppDesignLayer23: TppDesignLayer
@@ -3794,7 +3939,15 @@ object Report: TppReport
                               5F42657A656963686E756E67285265706F72742E44617461506970656C696E65
                               293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060C444254655F4B
                               7572735F4147094576656E744E616D6506094F6E47657454657874074576656E
-                              7449440235084361726574506F730102010201000000}
+                              7449440235084361726574506F730102010201000001060F5472614576656E74
+                              48616E646C65720B50726F6772616D4E616D650612444254654E6F74655F4147
+                              4F6E5072696E740B50726F6772616D54797065070B747450726F636564757265
+                              06536F75726365065570726F63656475726520444254654E6F74655F41474F6E
+                              5072696E743B0D0A626567696E0D0A202020444254654E6F74655F41472E436F
+                              6C6F72203A3D2046617262654E6F74656E66656C643B0D0A656E643B0D0A0D43
+                              6F6D706F6E656E744E616D65060B444254654E6F74655F4147094576656E744E
+                              616D6506074F6E5072696E74074576656E7449440220084361726574506F7301
+                              020F0203000000}
                           end
                           object ppDesignLayers28: TppDesignLayers
                             object ppDesignLayer31: TppDesignLayer
