@@ -1,6 +1,8 @@
 name: Continuous Release
 on:
   push:
+    branches:
+      - master
 jobs:
   create-zip:
     runs-on: ubuntu-latest
