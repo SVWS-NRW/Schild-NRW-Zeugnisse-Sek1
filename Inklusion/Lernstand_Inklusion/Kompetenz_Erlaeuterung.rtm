@@ -1,0 +1,1297 @@
+object Report: TppReport
+  PrinterSetup.BinName = 'Default'
+  PrinterSetup.DocumentName = 'Kompetenz_Erlaeuterung.rtm'
+  PrinterSetup.PaperName = 'A4'
+  PrinterSetup.PrinterName = 'Default'
+  PrinterSetup.SaveDeviceSettings = False
+  PrinterSetup.mmMarginBottom = 7000
+  PrinterSetup.mmMarginLeft = 15000
+  PrinterSetup.mmMarginRight = 15000
+  PrinterSetup.mmMarginTop = 5000
+  PrinterSetup.mmPaperHeight = 297000
+  PrinterSetup.mmPaperWidth = 210000
+  PrinterSetup.PaperSize = 9
+  SaveAsTemplate = True
+  Template.FileName = 
+    'D:\schild_entwicklung\NeueVersion\SchILD-Reports\GS-Zeugnisse\SU' +
+    '-HansAlfredKeller\Kompetenz_Erlaeuterung.rtm'
+  Template.Format = ftASCII
+  Units = utMillimeters
+  AllowPrintToArchive = True
+  AllowPrintToFile = True
+  ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
+  DeviceType = 'Screen'
+  DefaultFileDeviceType = 'PDF'
+  EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.Enabled = True
+  LanguageID = 'Default'
+  OpenFile = False
+  OutlineSettings.CreateNode = True
+  OutlineSettings.CreatePageNodes = True
+  OutlineSettings.Enabled = False
+  OutlineSettings.Visible = False
+  ThumbnailSettings.Enabled = True
+  ThumbnailSettings.Visible = True
+  ThumbnailSettings.DeadSpace = 30
+  PDFSettings.EmbedFontOptions = [efUseSubset]
+  PDFSettings.EncryptSettings.AllowCopy = True
+  PDFSettings.EncryptSettings.AllowInteract = True
+  PDFSettings.EncryptSettings.AllowModify = True
+  PDFSettings.EncryptSettings.AllowPrint = True
+  PDFSettings.EncryptSettings.Enabled = False
+  PDFSettings.EncryptSettings.KeyLength = kl40Bit
+  PDFSettings.FontEncoding = feUnicode
+  PDFSettings.ImageCompressionLevel = 1
+  PreviewFormSettings.ZoomSetting = zs100Percent
+  PreviewFormSettings.SinglePageOnly = True
+  RTFSettings.DefaultFont.Charset = DEFAULT_CHARSET
+  RTFSettings.DefaultFont.Color = clWindowText
+  RTFSettings.DefaultFont.Height = -13
+  RTFSettings.DefaultFont.Name = 'Arial'
+  RTFSettings.DefaultFont.Style = []
+  TextFileName = '($MyDocuments)\Report.pdf'
+  TextSearchSettings.DefaultString = '<Suchtext>'
+  TextSearchSettings.Enabled = False
+  XLSSettings.AppName = 'ReportBuilder'
+  XLSSettings.Author = 'ReportBuilder'
+  XLSSettings.Subject = 'Report'
+  XLSSettings.Title = 'Report'
+  Left = 128
+  Top = 8
+  Version = '15.05'
+  mmColumnWidth = 0
+  object ppDetailBand1: TppDetailBand
+    Background1.Brush.Style = bsClear
+    Background2.Brush.Style = bsClear
+    mmBottomOffset = 0
+    mmHeight = 236803
+    mmPrintPosition = 0
+    object ppLine1: TppLine
+      UserName = 'Line1'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 45000
+      mmWidth = 160000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine2: TppLine
+      UserName = 'Line2'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10054
+      mmTop = 75000
+      mmWidth = 160000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine3: TppLine
+      UserName = 'Line3'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10054
+      mmTop = 84000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine4: TppLine
+      UserName = 'Line4'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 179000
+      mmLeft = 10000
+      mmTop = 45000
+      mmWidth = 5000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine5: TppLine
+      UserName = 'Line5'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 179000
+      mmLeft = 170000
+      mmTop = 44979
+      mmWidth = 5000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine6: TppLine
+      UserName = 'Line6'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 224000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine7: TppLine
+      UserName = 'Line7'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 179000
+      mmLeft = 50000
+      mmTop = 44979
+      mmWidth = 5000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine8: TppLine
+      UserName = 'Line8'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 179000
+      mmLeft = 90000
+      mmTop = 45000
+      mmWidth = 5000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine9: TppLine
+      UserName = 'Line9'
+      Position = lpLeft
+      Weight = 0.750000000000000000
+      mmHeight = 179000
+      mmLeft = 130000
+      mmTop = 45000
+      mmWidth = 5000
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine10: TppLine
+      UserName = 'Line10'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10054
+      mmTop = 98000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine11: TppLine
+      UserName = 'Line101'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 112000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine12: TppLine
+      UserName = 'Line12'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 126000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine13: TppLine
+      UserName = 'Line13'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 135000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine14: TppLine
+      UserName = 'Line14'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10054
+      mmTop = 149000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine15: TppLine
+      UserName = 'Line15'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 158000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine16: TppLine
+      UserName = 'Line16'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 172000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine17: TppLine
+      UserName = 'Line17'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 186000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine18: TppLine
+      UserName = 'Line18'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 197000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine19: TppLine
+      UserName = 'Line19'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 206000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLine20: TppLine
+      UserName = 'Line20'
+      Weight = 0.750000000000000000
+      mmHeight = 3969
+      mmLeft = 10000
+      mmTop = 215000
+      mmWidth = 160073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel1: TppLabel
+      UserName = 'Label1'
+      Caption = 'Zeugnislegende'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 14
+      Font.Style = [fsBold]
+      Transparent = True
+      mmHeight = 5821
+      mmLeft = 67733
+      mmTop = 27781
+      mmWidth = 39158
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel3: TppLabel
+      UserName = 'Label3'
+      Caption = 'oberer Bereich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 18521
+      mmTop = 50000
+      mmWidth = 27517
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel4: TppLabel
+      UserName = 'Label4'
+      Caption = 'mittlerer Bereich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 55563
+      mmTop = 50006
+      mmWidth = 30163
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel5: TppLabel
+      UserName = 'Label5'
+      Caption = 'mittlerer Bereich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 95515
+      mmTop = 50006
+      mmWidth = 30163
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel6: TppLabel
+      UserName = 'Label6'
+      Caption = 'unterer Bereich'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 135467
+      mmTop = 50006
+      mmWidth = 28046
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel7: TppLabel
+      UserName = 'Label7'
+      Caption = 'Tendenz nach oben'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      WordWrap = True
+      mmHeight = 10054
+      mmLeft = 56886
+      mmTop = 56356
+      mmWidth = 30163
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel8: TppLabel
+      UserName = 'Label8'
+      Caption = 'Tendenz nach unten'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      TextAlignment = taCentered
+      Transparent = True
+      WordWrap = True
+      mmHeight = 10055
+      mmLeft = 96573
+      mmTop = 56356
+      mmWidth = 30163
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel9: TppLabel
+      UserName = 'Label9'
+      Caption = #167#167#167#167
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Wingdings'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 25135
+      mmTop = 67998
+      mmWidth = 8467
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel10: TppLabel
+      UserName = 'Label10'
+      Caption = #167#167#167
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Wingdings'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 69850
+      mmTop = 67998
+      mmWidth = 6350
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel11: TppLabel
+      UserName = 'Label11'
+      Caption = #167#167
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Wingdings'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 109538
+      mmTop = 67998
+      mmWidth = 4233
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel12: TppLabel
+      UserName = 'Label12'
+      Caption = #167
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Wingdings'
+      Font.Size = 12
+      Font.Style = [fsBold]
+      TextAlignment = taCentered
+      Transparent = True
+      mmHeight = 4498
+      mmLeft = 149225
+      mmTop = 67998
+      mmWidth = 2117
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel13: TppLabel
+      UserName = 'Label13'
+      Caption = #9679' sehr sicher'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 76994
+      mmWidth = 23813
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel14: TppLabel
+      UserName = 'Label14'
+      Caption = #9679' sicher'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 51858
+      mmTop = 76994
+      mmWidth = 14817
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel15: TppLabel
+      UserName = 'Label15'
+      Caption = #9679' teilweise sicher'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 91546
+      mmTop = 76994
+      mmWidth = 32015
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel16: TppLabel
+      UserName = 'Label16'
+      Caption = #9679' unsicher'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 131234
+      mmTop = 76994
+      mmWidth = 19050
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel2: TppLabel
+      UserName = 'Label2'
+      Caption = #9679' sehr selbstst'#228'ndig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 87842
+      mmWidth = 37042
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel17: TppLabel
+      UserName = 'Label17'
+      Caption = #9679' selbstst'#228'ndig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 87842
+      mmWidth = 28046
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel18: TppLabel
+      UserName = 'Label18'
+      Caption = #9679' teilweise'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      WordWrap = True
+      mmHeight = 5027
+      mmLeft = 91546
+      mmTop = 87842
+      mmWidth = 25400
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel19: TppLabel
+      UserName = 'Label19'
+      Caption = 'unselbstst'#228'ndig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 95515
+      mmTop = 92075
+      mmWidth = 28575
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel20: TppLabel
+      UserName = 'Label20'
+      Caption = #9679' unselbst'#228'ndig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      WordWrap = True
+      mmHeight = 5027
+      mmLeft = 131234
+      mmTop = 87842
+      mmWidth = 31221
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel21: TppLabel
+      UserName = 'Label21'
+      Caption = #9679' sehr zuverl'#228'ssig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 101865
+      mmWidth = 33073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel22: TppLabel
+      UserName = 'Label22'
+      Caption = #9679' zuverl'#228'ssig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 101865
+      mmWidth = 24078
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel23: TppLabel
+      UserName = 'Label23'
+      Caption = #9679' teilweise'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      WordWrap = True
+      mmHeight = 5027
+      mmLeft = 91546
+      mmTop = 101865
+      mmWidth = 25400
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel24: TppLabel
+      UserName = 'Label24'
+      Caption = 'unzuverl'#228'ssig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 95515
+      mmTop = 106363
+      mmWidth = 24606
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel25: TppLabel
+      UserName = 'Label25'
+      Caption = #9679' unzuverl'#228'ssig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 131234
+      mmTop = 101865
+      mmWidth = 28310
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel26: TppLabel
+      UserName = 'Label26'
+      Caption = #9679' sehr ordentlich'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 115888
+      mmWidth = 30427
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel27: TppLabel
+      UserName = 'Label27'
+      Caption = #9679' ordentlich'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 115888
+      mmWidth = 21432
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel28: TppLabel
+      UserName = 'Label28'
+      Caption = #9679' teilweise'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 91546
+      mmTop = 115888
+      mmWidth = 19844
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel29: TppLabel
+      UserName = 'Label29'
+      Caption = 'unordentlich'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 95515
+      mmTop = 120121
+      mmWidth = 21960
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel30: TppLabel
+      UserName = 'Label30'
+      Caption = #9679' unordentlich'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 131234
+      mmTop = 115888
+      mmWidth = 25664
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel31: TppLabel
+      UserName = 'Label31'
+      Caption = #9679' sehr engagiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 11377
+      mmTop = 128323
+      mmWidth = 30163
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel32: TppLabel
+      UserName = 'Label32'
+      Caption = #9679' engagiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 51858
+      mmTop = 128323
+      mmWidth = 21167
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel33: TppLabel
+      UserName = 'Label33'
+      Caption = #9679' teilweise engagiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 91546
+      mmTop = 128323
+      mmWidth = 38365
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel34: TppLabel
+      UserName = 'Label34'
+      Caption = #9679' nicht engagiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 131234
+      mmTop = 128323
+      mmWidth = 30691
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel35: TppLabel
+      UserName = 'Label35'
+      Caption = #9679' sehr interessiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 138907
+      mmWidth = 33073
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel36: TppLabel
+      UserName = 'Label36'
+      Caption = #9679' interessiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 138907
+      mmWidth = 24078
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel37: TppLabel
+      UserName = 'Label37'
+      Caption = #9679' teilweise'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 91546
+      mmTop = 138642
+      mmWidth = 19844
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel38: TppLabel
+      UserName = 'Label38'
+      Caption = 'nicht interessiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 95515
+      mmTop = 142875
+      mmWidth = 29898
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel39: TppLabel
+      UserName = 'Label39'
+      Caption = #9679' nicht interessiert'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 131234
+      mmTop = 138907
+      mmWidth = 33602
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel40: TppLabel
+      UserName = 'Label40'
+      Caption = #9679' sehr kreativ'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 11377
+      mmTop = 151342
+      mmWidth = 24871
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel41: TppLabel
+      UserName = 'Label401'
+      Caption = #9679' kreativ'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 151342
+      mmWidth = 15875
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel42: TppLabel
+      UserName = 'Label402'
+      Caption = #9679' wenig kreativ'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 91546
+      mmTop = 151342
+      mmWidth = 27781
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel43: TppLabel
+      UserName = 'Label403'
+      Caption = #9679' nicht kreativ'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 131234
+      mmTop = 151342
+      mmWidth = 25400
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel44: TppLabel
+      UserName = 'Label404'
+      Caption = #9679' sehr'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 12435
+      mmTop = 161396
+      mmWidth = 11642
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel45: TppLabel
+      UserName = 'Label45'
+      Caption = 'aufgeschlossen'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 15346
+      mmTop = 165629
+      mmWidth = 28575
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel46: TppLabel
+      UserName = 'Label46'
+      Caption = #9679' wenig'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 91546
+      mmTop = 161396
+      mmWidth = 14552
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel47: TppLabel
+      UserName = 'Label47'
+      Caption = 'aufgeschlossen'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 95515
+      mmTop = 165629
+      mmWidth = 28575
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel48: TppLabel
+      UserName = 'Label48'
+      Caption = #9679' nicht'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 131498
+      mmTop = 161396
+      mmWidth = 12171
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel49: TppLabel
+      UserName = 'Label49'
+      Caption = 'aufgeschlossen'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 135467
+      mmTop = 165629
+      mmWidth = 28575
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel50: TppLabel
+      UserName = 'Label50'
+      Caption = #9679' aufgeschlossen'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 51858
+      mmTop = 161396
+      mmWidth = 32280
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel51: TppLabel
+      UserName = 'Label51'
+      Caption = #9679' fehlerfrei'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 12435
+      mmTop = 175684
+      mmWidth = 19580
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel52: TppLabel
+      UserName = 'Label52'
+      Caption = #9679' mit wenigen'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51594
+      mmTop = 175684
+      mmWidth = 25664
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel53: TppLabel
+      UserName = 'Label53'
+      Caption = 'Fehlern'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 55563
+      mmTop = 179917
+      mmWidth = 13758
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel54: TppLabel
+      UserName = 'Label54'
+      Caption = #9679' fehlerhaft'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 91546
+      mmTop = 175684
+      mmWidth = 20373
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel55: TppLabel
+      UserName = 'Label55'
+      Caption = #9679' mit vielen Fehlern'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 131234
+      mmTop = 175684
+      mmWidth = 35718
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel56: TppLabel
+      UserName = 'Label56'
+      Caption = #9679' ohne Hilfe'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 12435
+      mmTop = 189707
+      mmWidth = 21961
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel57: TppLabel
+      UserName = 'Label57'
+      Caption = #9679' mit wenig Hilfe'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 51858
+      mmTop = 189707
+      mmWidth = 30428
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel58: TppLabel
+      UserName = 'Label58'
+      Caption = #9679' mit Hilfe'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 91546
+      mmTop = 189707
+      mmWidth = 18521
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel59: TppLabel
+      UserName = 'Label59'
+      Caption = #9679' mit intensiver Hilfe'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4762
+      mmLeft = 131498
+      mmTop = 189707
+      mmWidth = 37042
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel60: TppLabel
+      UserName = 'Label60'
+      Caption = #9679' vorbildlich'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 12435
+      mmTop = 198702
+      mmWidth = 21961
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel61: TppLabel
+      UserName = 'Label61'
+      Caption = #9679' hervorragend'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 12435
+      mmTop = 208492
+      mmWidth = 28046
+      BandType = 4
+      LayerName = Foreground
+    end
+    object ppLabel62: TppLabel
+      UserName = 'Label62'
+      Caption = #9679' selten/noch nicht'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Name = 'Arial'
+      Font.Size = 12
+      Font.Style = []
+      Transparent = True
+      mmHeight = 4763
+      mmLeft = 131498
+      mmTop = 217223
+      mmWidth = 33867
+      BandType = 4
+      LayerName = Foreground
+    end
+  end
+  object ppDesignLayers1: TppDesignLayers
+    object ppDesignLayer1: TppDesignLayer
+      UserName = 'Foreground'
+      LayerType = ltBanded
+      Index = 0
+    end
+  end
+  object ppParameterList2: TppParameterList
+    object ppArchivierung: TppParameter
+      AutoSearchSettings.LogicalPrefix = []
+      AutoSearchSettings.Mandatory = True
+      AutoSearchSettings.SearchExpression = 'Schildvorgabe'
+      DataType = dtString
+      LookupSettings.DisplayType = dtNameOnly
+      LookupSettings.SortOrder = soName
+      Value = 'Schildvorgabe'
+      UserName = 'Archivierung'
+    end
+  end
+end
