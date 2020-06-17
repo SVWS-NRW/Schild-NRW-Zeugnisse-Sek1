@@ -1,8 +1,6 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
   PrinterSetup.DocumentName = 'Anlage 12u13 Zeugnis 05-10 - V08_10.rtm'
   PrinterSetup.Duplex = dpVertical
@@ -18,24 +16,20 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'S:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-master\HS\Anlage 12u1' +
-    '3 Zeugnis 05-10 - V08_10.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW\HS' +
+    '\Anlage 12u13 Zeugnis 05-10 - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -4615,7 +4609,6 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
-              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4674,7 +4667,7 @@ object Report: TppReport
                   61726574506F730102010201000001060F5472614576656E7448616E646C6572
                   0B50726F6772616D4E616D6506164C615F5665727365747A756E674F6E476574
                   546578740B50726F6772616D54797065070B747450726F63656475726506536F
-                  75726365147F07000070726F636564757265204C615F5665727365747A756E67
+                  75726365148407000070726F636564757265204C615F5665727365747A756E67
                   4F6E476574546578742876617220546578743A20537472696E67293B0D0A7661
                   720D0A2020666F6C676573747566652C20666F6C67656B6C617373653A207374
                   72696E673B0D0A20207665727365747A5F7478742C207665727365747A5F6B72
@@ -4729,14 +4722,14 @@ object Report: TppReport
                   65725B27566F726E616D65275D202B20272077697264206E6963687420696E20
                   646965204B6C617373652027202B20666F6C67657374756665202B2076657273
                   65747A5F7478743B0D0A202020202020656E643B0D0A20202020656E643B0D0A
-                  2020202054657874203A3D207665727365747A5F7478743B0D0A2020656E643B
-                  200D0A0D0A20206966205472696D2841535653656B5F495B2742656D65726B75
-                  6E67205665727365747A756E67275D29203C3E202727207468656E0D0A202062
-                  6567696E0D0A2020202054657874203A3D205472696D2841535653656B5F495B
-                  2742656D65726B756E67205665727365747A756E67275D290D0A2020656E643B
-                  0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060D4C615F5665727365
-                  747A756E67094576656E744E616D6506094F6E47657454657874074576656E74
-                  49440235084361726574506F730102090225000000}
+                  2020202054657874203A3D207665727365747A5F7478743B0D0A202020206966
+                  205472696D2841535653656B5F495B2742656D65726B756E6720566572736574
+                  7A756E67275D29203C3E202727207468656E0D0A20202020626567696E0D0A20
+                  202020202054657874203A3D205472696D2841535653656B5F495B2742656D65
+                  726B756E67205665727365747A756E67275D290D0A20202020656E643B0D0A20
+                  20656E643B200D0A0D0A200D0A0D436F6D706F6E656E744E616D65060D4C615F
+                  5665727365747A756E67094576656E744E616D6506094F6E4765745465787407
+                  4576656E7449440235084361726574506F730102020235000000}
               end
               object ppDesignLayers34: TppDesignLayers
                 object ppDesignLayer36: TppDesignLayer

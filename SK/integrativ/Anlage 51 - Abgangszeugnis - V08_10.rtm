@@ -281,72 +281,6 @@ object Report: TppReport
             mmOverFlowOffset = 0
             mmStopPosition = 0
             mmMinHeight = 0
-            object ppShape4: TppShape
-              UserName = 'Shape1'
-              mmHeight = 277000
-              mmLeft = 220119
-              mmTop = 10054
-              mmWidth = 190000
-              BandType = 4
-              LayerName = Foreground15
-            end
-            object ppDBImage2: TppDBImage
-              UserName = 'DBImage2'
-              AlignHorizontal = ahCenter
-              AlignVertical = avCenter
-              MaintainAspectRatio = True
-              Stretch = True
-              DataField = 'SchulLogo'
-              DataPipeline = dmPipelines.EigeneSchule
-              GraphicType = 'AutoDetect'
-              ParentDataPipeline = False
-              DataPipelineName = 'EigeneSchule'
-              mmHeight = 30956
-              mmLeft = 299773
-              mmTop = 79375
-              mmWidth = 30692
-              BandType = 4
-              LayerName = Foreground15
-            end
-            object ppLabel33: TppLabel
-              UserName = 'LaZeugnis'
-              Caption = 'A b g a n g s z e u g n i s'
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWindowText
-              Font.Name = 'Calibri'
-              Font.Size = 28
-              Font.Style = [fsBold]
-              TextAlignment = taCentered
-              Transparent = True
-              mmHeight = 11906
-              mmLeft = 268685
-              mmTop = 132292
-              mmWidth = 92869
-              BandType = 4
-              LayerName = Foreground15
-            end
-            object ppDBText42: TppDBText
-              UserName = 'DBTeName'
-              AutoSize = True
-              DataField = 'NameVorname'
-              DataPipeline = dmPipelines.Schueler
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Name = 'Calibri'
-              Font.Size = 8
-              Font.Style = []
-              ParentDataPipeline = False
-              TextAlignment = taCentered
-              Transparent = True
-              Visible = False
-              DataPipelineName = 'Schueler'
-              mmHeight = 3440
-              mmLeft = 227807
-              mmTop = 10848
-              mmWidth = 18785
-              BandType = 4
-              LayerName = Foreground15
-            end
             object ppSubReport40: TppSubReport
               UserName = 'SubReport_Schulkopf'
               ExpandAll = False
@@ -531,6 +465,72 @@ object Report: TppReport
                   end
                 end
               end
+            end
+            object ppShape4: TppShape
+              UserName = 'Shape1'
+              mmHeight = 277000
+              mmLeft = 220119
+              mmTop = 10054
+              mmWidth = 190000
+              BandType = 4
+              LayerName = Foreground15
+            end
+            object ppDBImage2: TppDBImage
+              UserName = 'DBImage2'
+              AlignHorizontal = ahCenter
+              AlignVertical = avCenter
+              MaintainAspectRatio = True
+              Stretch = True
+              DataField = 'SchulLogo'
+              DataPipeline = dmPipelines.EigeneSchule
+              GraphicType = 'AutoDetect'
+              ParentDataPipeline = False
+              DataPipelineName = 'EigeneSchule'
+              mmHeight = 30956
+              mmLeft = 299773
+              mmTop = 79375
+              mmWidth = 30692
+              BandType = 4
+              LayerName = Foreground15
+            end
+            object ppLabel33: TppLabel
+              UserName = 'LaZeugnis'
+              Caption = 'A b g a n g s z e u g n i s'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWindowText
+              Font.Name = 'Calibri'
+              Font.Size = 28
+              Font.Style = [fsBold]
+              TextAlignment = taCentered
+              Transparent = True
+              mmHeight = 11906
+              mmLeft = 268685
+              mmTop = 132292
+              mmWidth = 92869
+              BandType = 4
+              LayerName = Foreground15
+            end
+            object ppDBText42: TppDBText
+              UserName = 'DBTeName'
+              AutoSize = True
+              DataField = 'NameVorname'
+              DataPipeline = dmPipelines.Schueler
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Calibri'
+              Font.Size = 8
+              Font.Style = []
+              ParentDataPipeline = False
+              TextAlignment = taCentered
+              Transparent = True
+              Visible = False
+              DataPipelineName = 'Schueler'
+              mmHeight = 3440
+              mmLeft = 227807
+              mmTop = 10848
+              mmWidth = 18785
+              BandType = 4
+              LayerName = Foreground15
             end
             object ppDBText45: TppDBText
               UserName = 'DBTextSchuelerID'
