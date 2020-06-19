@@ -1,10 +1,8 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06_2Hinweise.rtm'
+  PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
   PrinterSetup.PaperName = 'Custom'
@@ -16,29 +14,24 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 256
+  PrinterSetup.PaperSize = 157
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schulverwaltung-NRW\Schild-NRW\SchILD-Reports\Zeugnisse\Zeugn' +
-    'isse2017\V 7.06\Inklusion\Sekundarschule\Calibri\kooperativ\erwe' +
-    'iterte Hinweise\SK_Inklusion_Abschluss_nach_35_2_A3_V07_06_2Hinw' +
-    'eise.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\Inklusion\SK_I' +
+    'nklusion\kooperativ\SK_Inklusion_Abschluss_nach_35_2_A3_V07_06.r' +
+    'tm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -101,7 +94,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport7: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06_2Hinweise.rtm'
+        PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'Custom'
@@ -113,7 +106,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 157
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -158,7 +151,7 @@ object Report: TppReport
               Stretch = True
               DataField = 'SchulLogo'
               DataPipeline = dmPipelines.EigeneSchule
-              GraphicType = 'JPEG'
+              GraphicType = 'AutoDetect'
               ParentDataPipeline = False
               DataPipelineName = 'EigeneSchule'
               mmHeight = 30956
@@ -567,40 +560,29 @@ object Report: TppReport
                       ProgramStream = {
                         01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                         44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                        7450726F63656475726506536F7572636514DB03000070726F63656475726520
-                        44657461696C4265666F72655072696E743B0D0A766172200D0A2020496E6B54
-                        6578743A20737472696E673B0D0A2020666F65312C20666F65323A2073747269
-                        6E673B0D0A626567696E0D0A2020496E6B54657874203A3D204C65726E616273
-                        63686E697474655B275A6575676E697342656D275D3B0D0A2020666F6531203A
-                        3D20466F65726465725F535750313B0D0A2020666F6532203A3D20466F657264
-                        65725F535750323B0D0A2020696620666F6531203D2027272020202020202020
-                        2020202020202F2F206B65696E2046C3B65350312065696E676574726167656E
-                        0D0A20207468656E20626567696E0D0A20202020666F6531203A3D20666F6532
-                        3B20202020202020202020202F2F206DC3B6676C69636865722046C3B6535032
-                        20776972642046C3B65350310D0A20202020666F6532203A3D2027273B202020
-                        202020202020202020202F2F2046C3B6535032207769726420756E7769726B73
-                        616D0D0A2020656E643B0D0A2020696620666F6531203C3E2027270D0A202074
-                        68656E206966206E6F7420426573746165746967756E67282746C3B672646572
-                        73636877657270756E6B7428652920647275636B656E3F27290D0A2020746865
-                        6E20666F6531203A3D2027273B0D0A2020696620666F6531203C3E202727200D
-                        0A20207468656E20626567696E0D0A20202020696620496E6B74657874203C3E
-                        2027270D0A202020207468656E20496E6B54657874203A3D20496E6B54657874
-                        202B2063687228313329202B202724455253494524270D0A20202020656C7365
-                        20496E6B74657874203A3D2053636875656C65725B27566F726E616D65275D3B
-                        200D0A20202020496E6B54657874203A3D20496E6B74657874202B2027207775
-                        72646520696D2047656D65696E73616D656E204C65726E656E206D6974206465
-                        6D2046C3B67264657273636877657270756E6B742027202B20666F65313B200D
-                        0A20202020696620666F6532203C3E202727200D0A202020207468656E20496E
-                        6B54657874203A3D20496E6B54657874202B202720756E642064656D2046C3B6
-                        7264657273636877657270756E6B742027202B20666F65323B0D0A2020202049
-                        6E6B54657874203A3D20496E6B54657874202B202720736F6E64657270C3A464
-                        61676F676973636820676566C3B6726465727420756E6420696D2042696C6475
-                        6E677367616E672027202B20536368756C666F726D47202B202720756E746572
-                        726963687465742E273B200D0A2020656E643B0D0A20204D656D6F5F42656D2E
-                        54657874203A3D205A6575676E69735F546578745F6265617262656974656E28
-                        496E6B54657874293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-                        0644657461696C094576656E744E616D65060B4265666F72655072696E740745
-                        76656E7449440218084361726574506F7301020A020E000000}
+                        7450726F63656475726506536F75726365147C02000070726F63656475726520
+                        44657461696C4265666F72655072696E743B0D0A766172200D0A202042656D54
+                        6578743A20737472696E673B0D0A20200D0A626567696E0D0A202042656D5465
+                        7874203A3D2027273B0D0A20200D0A20206966205472696D2841535653656B5F
+                        495B2742656D65726B756E672046C3B67264657273636877657270756E6B7427
+                        5D293C3E2727200D0A20207468656E20696620426573746165746967756E6728
+                        53636875656C65725B274E616D65566F726E616D65275D202B20273A27202B20
+                        63687228313329202B202742656D65726B756E67207A756D2046C3B672646572
+                        73636877657270756E6B7420647275636B656E3F27290D0A20207468656E2042
+                        656D54657874203A3D205472696D2841535653656B5F495B2742656D65726B75
+                        6E672046C3B67264657273636877657270756E6B74275D293B0D0A2020200D0A
+                        202069662042656D54657874203C3E202727207468656E0D0A20202020626567
+                        696E200D0A2020202020206966205472696D284C65726E61627363686E697474
+                        655B275A6575676E697342656D275D29203C3E202727207468656E200D0A2020
+                        20202020202042656D54657874203A3D2042656D54657874202B204368722831
+                        3329202B205472696D284C65726E61627363686E697474655B275A6575676E69
+                        7342656D275D293B0D0A20202020656E64200D0A2020656C73650D0A20202020
+                        42656D54657874203A3D205472696D284C65726E61627363686E697474655B27
+                        5A6575676E697342656D275D293B0D0A20200D0A20204D656D6F5F42656D2E54
+                        657874203A3D205A6575676E69735F546578745F6265617262656974656E2842
+                        656D54657874293B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D65
+                        060644657461696C094576656E744E616D65060B4265666F72655072696E7407
+                        4576656E7449440218084361726574506F7301020A020E000000}
                     end
                     object ppDesignLayers15: TppDesignLayers
                       object ppDesignLayer17: TppDesignLayer
@@ -1381,7 +1363,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport8: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06_2Hinweise.rtm'
+        PrinterSetup.DocumentName = 'SK_Inklusion_Abschluss_nach_35_2_A3_V07_06.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
         PrinterSetup.PaperName = 'Custom'
@@ -1393,7 +1375,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 157
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
