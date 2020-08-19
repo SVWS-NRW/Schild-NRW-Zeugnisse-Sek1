@@ -699,6 +699,7 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Seite2V4.0'
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4268,7 +4269,7 @@ object Report: TppReport
                           
                             'F'#252'r die modernen Fremdsprachen schlie'#223't dieses Zeugnis Kompetenz' +
                             'en des Gemeinsamen europ'#228'ischen '
-                          'Referenzrahmens f'#252'r Sprachen (GeR) ein  :')
+                          'Referenzrahmens f'#252'r Sprachen (GeR) ein:')
                         RemoveEmptyLines = False
                         Transparent = True
                         mmHeight = 10588
@@ -4381,7 +4382,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 66675
+                        mmLeft = 66146
                         mmTop = 9525
                         mmWidth = 1058
                         BandType = 1
@@ -4816,6 +4817,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -5150,6 +5152,7 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Seite3 neu'
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
