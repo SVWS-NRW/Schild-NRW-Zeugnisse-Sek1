@@ -5,7 +5,7 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'Anlage 59 - Abschluss HA10 - V08_10.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'A3'
+  PrinterSetup.PaperName = 'Custom'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,11 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW\SK' +
-    '\kooperativ\Anlage 59 - Abschluss HA10 - V08_10.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\SK\kooperativ\' +
+    'Anlage 59 - Abschluss HA10 - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -98,7 +98,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 59 - Abschluss HA10 - V08_10.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -107,7 +107,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -623,7 +623,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 59 - Abschluss HA10 - V08_10.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -632,7 +632,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -3828,7 +3828,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 82021
+                        mmLeft = 79904
                         mmTop = 265
                         mmWidth = 1693
                         BandType = 1
@@ -4167,22 +4167,6 @@ object Report: TppReport
                         BandType = 1
                         LayerName = PageLayer13
                       end
-                      object ppLabel79: TppLabel
-                        UserName = 'La2'
-                        Caption = '2)'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 6
-                        Font.Style = []
-                        Transparent = True
-                        mmHeight = 2646
-                        mmLeft = 67463
-                        mmTop = 9255
-                        mmWidth = 1587
-                        BandType = 1
-                        LayerName = PageLayer13
-                      end
                       object ppMemo1: TppMemo
                         UserName = 'MemoFremdsprachen'
                         Caption = 'MemoFremdsprachen'
@@ -4210,6 +4194,22 @@ object Report: TppReport
                         mmStopPosition = 0
                         mmMinHeight = 0
                         mmLeading = 0
+                      end
+                      object ppLabel79: TppLabel
+                        UserName = 'La2'
+                        Caption = '2)'
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clBlack
+                        Font.Name = 'Calibri'
+                        Font.Size = 6
+                        Font.Style = []
+                        Transparent = True
+                        mmHeight = 2646
+                        mmLeft = 66146
+                        mmTop = 9255
+                        mmWidth = 1587
+                        BandType = 1
+                        LayerName = PageLayer13
                       end
                     end
                     object ppDetailBand5: TppDetailBand

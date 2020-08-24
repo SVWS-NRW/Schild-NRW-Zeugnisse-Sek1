@@ -14,11 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW\SK' +
-    '\kooperativ\Anlage 60 - Abschluss FOR(Q) - V08_10.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\SK\kooperativ\' +
+    'Anlage 60 - Abschluss FOR(Q) - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -107,7 +107,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -636,7 +636,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -4589,22 +4589,6 @@ object Report: TppReport
                         BandType = 1
                         LayerName = PageLayer15
                       end
-                      object ppLabel79: TppLabel
-                        UserName = 'La2'
-                        Caption = '2)'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 6
-                        Font.Style = []
-                        Transparent = True
-                        mmHeight = 2646
-                        mmLeft = 68523
-                        mmTop = 9520
-                        mmWidth = 1587
-                        BandType = 1
-                        LayerName = PageLayer15
-                      end
                       object ppMemo1: TppMemo
                         UserName = 'MemoFremdsprachen'
                         Caption = 'MemoFremdsprachen'
@@ -4632,6 +4616,22 @@ object Report: TppReport
                         mmStopPosition = 0
                         mmMinHeight = 0
                         mmLeading = 0
+                      end
+                      object ppLabel79: TppLabel
+                        UserName = 'La2'
+                        Caption = '2)'
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clBlack
+                        Font.Name = 'Calibri'
+                        Font.Size = 6
+                        Font.Style = []
+                        Transparent = True
+                        mmHeight = 2646
+                        mmLeft = 66146
+                        mmTop = 9520
+                        mmWidth = 1587
+                        BandType = 1
+                        LayerName = PageLayer15
                       end
                     end
                     object ppDetailBand11: TppDetailBand

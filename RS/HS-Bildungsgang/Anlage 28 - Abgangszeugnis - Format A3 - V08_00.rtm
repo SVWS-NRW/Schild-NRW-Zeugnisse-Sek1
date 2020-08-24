@@ -604,6 +604,7 @@ object Report: TppReport
         PrinterSetup.mmPaperWidth = 420000
         PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -648,6 +649,7 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Seite2 V4.0'
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -2613,196 +2615,6 @@ object Report: TppReport
                     end
                   end
                 end
-                object ppSubReport16: TppSubReport
-                  UserName = 'SubReport_WP'
-                  ExpandAll = False
-                  NewPrintJob = False
-                  OutlineSettings.CreateNode = True
-                  ParentPrinterSetup = False
-                  ParentWidth = False
-                  ShiftRelativeTo = ppSubReport1
-                  TraverseAllData = False
-                  DataPipelineName = 'plWahlpflichtbereich'
-                  mmHeight = 6350
-                  mmLeft = 14288
-                  mmTop = 48948
-                  mmWidth = 181505
-                  BandType = 4
-                  LayerName = Foreground4
-                  mmBottomOffset = 0
-                  mmOverFlowOffset = 0
-                  mmStopPosition = 0
-                  mmMinHeight = 0
-                  object ppChildReport16: TppChildReport
-                    AutoStop = False
-                    DataPipeline = dmPipelines.plWahlpflichtbereich
-                    PrinterSetup.BinName = 'Default'
-                    PrinterSetup.DocumentName = '(Anl 11) Abgang HS A3'
-                    PrinterSetup.Duplex = dpHorizontal
-                    PrinterSetup.PaperName = 'A4'
-                    PrinterSetup.PrinterName = 'Default'
-                    PrinterSetup.SaveDeviceSettings = False
-                    PrinterSetup.mmMarginBottom = 0
-                    PrinterSetup.mmMarginLeft = 0
-                    PrinterSetup.mmMarginRight = 0
-                    PrinterSetup.mmMarginTop = 0
-                    PrinterSetup.mmPaperHeight = 297000
-                    PrinterSetup.mmPaperWidth = 210000
-                    PrinterSetup.PaperSize = 9
-                    Template.DatabaseSettings.Name = 'WP'
-                    Template.Format = ftASCII
-                    Units = utScreenPixels
-                    Version = '15.05'
-                    mmColumnWidth = 184944
-                    DataPipelineName = 'plWahlpflichtbereich'
-                    object ppTitleBand3: TppTitleBand
-                      Background.Brush.Style = bsClear
-                      mmBottomOffset = 0
-                      mmHeight = 5821
-                      mmPrintPosition = 0
-                      object ppLabel14: TppLabel
-                        UserName = 'LaWP'
-                        Caption = 'Wahlpflichtunterricht'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clWindowText
-                        Font.Name = 'Calibri'
-                        Font.Size = 11
-                        Font.Style = []
-                        Transparent = True
-                        mmHeight = 4784
-                        mmLeft = 0
-                        mmTop = 530
-                        mmWidth = 44979
-                        BandType = 1
-                        LayerName = Foreground1
-                      end
-                    end
-                    object ppDetailBand10: TppDetailBand
-                      Background1.Brush.Style = bsClear
-                      Background2.Brush.Style = bsClear
-                      ColumnTraversal = ctLeftToRight
-                      mmBottomOffset = 529
-                      mmHeight = 5821
-                      mmPrintPosition = 0
-                      object ppDBText1: TppDBText
-                        UserName = 'DBTeNote_WP'
-                        Color = clSilver
-                        DataField = 'NotenKlartext'
-                        DataPipeline = dmPipelines.plWahlpflichtbereich
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clWindowText
-                        Font.Name = 'Calibri'
-                        Font.Size = 11
-                        Font.Style = [fsItalic]
-                        TextAlignment = taCentered
-                        DataPipelineName = 'plWahlpflichtbereich'
-                        mmHeight = 5292
-                        mmLeft = 96044
-                        mmTop = 529
-                        mmWidth = 29898
-                        BandType = 4
-                        LayerName = Foreground1
-                      end
-                      object ppDBText30: TppDBText
-                        UserName = 'DBTe_Fach_WP'
-                        AutoSize = True
-                        DataField = 'KursZeugnisbez'
-                        DataPipeline = dmPipelines.plWahlpflichtbereich
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clWindowText
-                        Font.Name = 'Calibri'
-                        Font.Size = 11
-                        Font.Style = []
-                        ParentDataPipeline = False
-                        Transparent = True
-                        DataPipelineName = 'plWahlpflichtbereich'
-                        mmHeight = 4763
-                        mmLeft = 0
-                        mmTop = 529
-                        mmWidth = 24606
-                        BandType = 4
-                        LayerName = Foreground1
-                      end
-                      object ppDBText3: TppDBText
-                        UserName = 'DBTe_Kursart_WP'
-                        DataField = 'Kursart'
-                        DataPipeline = dmPipelines.plWahlpflichtbereich
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clWindowText
-                        Font.Name = 'Calibri'
-                        Font.Size = 11
-                        Font.Style = [fsItalic]
-                        Transparent = True
-                        Visible = False
-                        DataPipelineName = 'plWahlpflichtbereich'
-                        mmHeight = 4763
-                        mmLeft = 148432
-                        mmTop = 529
-                        mmWidth = 17198
-                        BandType = 4
-                        LayerName = Foreground1
-                      end
-                      object ppLabel10: TppLabel
-                        UserName = 'La_HaF_WP'
-                        Caption = 'La_HaF_WP'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clWindowText
-                        Font.Name = 'Calibri'
-                        Font.Size = 8
-                        Font.Style = [fsItalic]
-                        Transparent = True
-                        mmHeight = 3440
-                        mmLeft = 125942
-                        mmTop = 0
-                        mmWidth = 14023
-                        BandType = 4
-                        LayerName = Foreground1
-                      end
-                    end
-                    object ppSummaryBand2: TppSummaryBand
-                      Background.Brush.Style = bsClear
-                      mmBottomOffset = 0
-                      mmHeight = 2117
-                      mmPrintPosition = 0
-                    end
-                    object raCodeModule16: TraCodeModule
-                      ProgramStream = {
-                        01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650612
-                        4C615F4861465F57504F6E476574546578740B50726F6772616D54797065070B
-                        747450726F63656475726506536F75726365067470726F636564757265204C61
-                        5F4861465F57504F6E476574546578742876617220546578743A20537472696E
-                        67293B0D0A626567696E0D0A202054657874203A3D2048696E77656973416C74
-                        6546616563686572285265706F72742E44617461506970656C696E65293B0D0A
-                        656E643B0D0A0D0A0D436F6D706F6E656E744E616D6506094C615F4861465F57
-                        50094576656E744E616D6506094F6E47657454657874074576656E7449440235
-                        084361726574506F730102010201000001060F5472614576656E7448616E646C
-                        65720B50726F6772616D4E616D650615444254655F466163685F57504F6E4765
-                        74546578740B50726F6772616D54797065070B747450726F6365647572650653
-                        6F75726365068E70726F63656475726520444254655F466163685F57504F6E47
-                        6574546578742876617220546578743A20537472696E67293B0D0A626567696E
-                        0D0A202069662054657874203D2027270D0A20207468656E2054657874203A3D
-                        205761686C70666C69636874626572656963685B2755655A6575676E69736265
-                        7A656963686E756E67275D3B200D0A656E643B0D0A0D436F6D706F6E656E744E
-                        616D65060C444254655F466163685F5750094576656E744E616D6506094F6E47
-                        657454657874074576656E7449440235084361726574506F7301020102010000
-                        01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650612
-                        444254654E6F74655F57504F6E5072696E740B50726F6772616D54797065070B
-                        747450726F63656475726506536F75726365065470726F636564757265204442
-                        54654E6F74655F57504F6E5072696E743B0D0A626567696E0D0A202044425465
-                        4E6F74655F57502E436F6C6F72203A3D2046617262654E6F74656E66656C643B
-                        0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060B444254654E6F7465
-                        5F5750094576656E744E616D6506074F6E5072696E74074576656E7449440220
-                        084361726574506F7301020E0203000000}
-                    end
-                    object ppDesignLayers2: TppDesignLayers
-                      object ppDesignLayer2: TppDesignLayer
-                        UserName = 'Foreground1'
-                        LayerType = ltBanded
-                        Index = 0
-                      end
-                    end
-                  end
-                end
                 object ppSubReport3: TppSubReport
                   UserName = 'SubReport_ZUV_AG_EGS'
                   ExpandAll = False
@@ -2810,11 +2622,11 @@ object Report: TppReport
                   OutlineSettings.CreateNode = True
                   ParentPrinterSetup = False
                   ParentWidth = False
-                  ShiftRelativeTo = ppSubReport16
+                  ShiftRelativeTo = ppSubReport1
                   TraverseAllData = False
                   mmHeight = 6350
                   mmLeft = 14288
-                  mmTop = 55033
+                  mmTop = 48938
                   mmWidth = 181505
                   BandType = 4
                   LayerName = Foreground4
@@ -3950,7 +3762,7 @@ object Report: TppReport
                   TraverseAllData = False
                   mmHeight = 6350
                   mmLeft = 14288
-                  mmTop = 61119
+                  mmTop = 55024
                   mmWidth = 181505
                   BandType = 4
                   LayerName = Foreground4
@@ -4085,7 +3897,7 @@ object Report: TppReport
                   TraverseAllData = False
                   mmHeight = 6350
                   mmLeft = 14288
-                  mmTop = 67204
+                  mmTop = 61109
                   mmWidth = 181505
                   BandType = 4
                   LayerName = Foreground4
@@ -4216,7 +4028,7 @@ object Report: TppReport
                   TraverseAllData = False
                   mmHeight = 6350
                   mmLeft = 14288
-                  mmTop = 73290
+                  mmTop = 67195
                   mmWidth = 181505
                   BandType = 4
                   LayerName = Foreground4

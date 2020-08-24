@@ -3685,7 +3685,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 81232
+                        mmLeft = 79904
                         mmTop = 0
                         mmWidth = 1693
                         BandType = 1

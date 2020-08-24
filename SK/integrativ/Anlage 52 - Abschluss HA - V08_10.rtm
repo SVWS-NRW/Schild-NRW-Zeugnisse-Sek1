@@ -5,7 +5,7 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'Anlage 52 - Abschluss HA - V08_10.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'A3'
+  PrinterSetup.PaperName = 'Custom'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,11 +14,11 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW\SK' +
-    '\integrativ\Anlage 52 - Abschluss HA - V08_10.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\SK\integrativ\' +
+    'Anlage 52 - Abschluss HA - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -98,7 +98,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 52 - Abschluss HA - V08_10.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -107,7 +107,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -624,7 +624,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 52 - Abschluss HA - V08_10.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -633,7 +633,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -4404,7 +4404,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 83352
+                        mmLeft = 79904
                         mmTop = 0
                         mmWidth = 1587
                         BandType = 1
@@ -4646,6 +4646,34 @@ object Report: TppReport
                       mmBottomOffset = 0
                       mmHeight = 22754
                       mmPrintPosition = 0
+                      object ppMemo1: TppMemo
+                        UserName = 'MemoFremdsprachen'
+                        Caption = 'MemoFremdsprachen'
+                        CharWrap = False
+                        Font.Charset = DEFAULT_CHARSET
+                        Font.Color = clBlack
+                        Font.Name = 'Calibri'
+                        Font.Size = 11
+                        Font.Style = []
+                        Lines.Strings = (
+                          
+                            'F'#252'r die modernen Fremdsprachen schlie'#223't dieses Zeugnis Kompetenz' +
+                            'en des Gemeinsamen europ'#228'ischen '
+                          'Referenzrahmens f'#252'r Sprachen (GeR) ein.')
+                        RemoveEmptyLines = False
+                        Transparent = True
+                        mmHeight = 10588
+                        mmLeft = 0
+                        mmTop = 4763
+                        mmWidth = 178065
+                        BandType = 1
+                        LayerName = PageLayer13
+                        mmBottomOffset = 0
+                        mmOverFlowOffset = 0
+                        mmStopPosition = 0
+                        mmMinHeight = 0
+                        mmLeading = 0
+                      end
                       object ppShape22: TppShape
                         UserName = 'Shape22'
                         mmHeight = 7407
@@ -4753,39 +4781,11 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 68258
+                        mmLeft = 66146
                         mmTop = 8997
                         mmWidth = 1587
                         BandType = 1
                         LayerName = PageLayer13
-                      end
-                      object ppMemo1: TppMemo
-                        UserName = 'MemoFremdsprachen'
-                        Caption = 'MemoFremdsprachen'
-                        CharWrap = False
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 11
-                        Font.Style = []
-                        Lines.Strings = (
-                          
-                            'F'#252'r die modernen Fremdsprachen schlie'#223't dieses Zeugnis Kompetenz' +
-                            'en des Gemeinsamen europ'#228'ischen '
-                          'Referenzrahmens f'#252'r Sprachen (GeR) ein.')
-                        RemoveEmptyLines = False
-                        Transparent = True
-                        mmHeight = 10588
-                        mmLeft = 0
-                        mmTop = 4763
-                        mmWidth = 178065
-                        BandType = 1
-                        LayerName = PageLayer13
-                        mmBottomOffset = 0
-                        mmOverFlowOffset = 0
-                        mmStopPosition = 0
-                        mmMinHeight = 0
-                        mmLeading = 0
                       end
                     end
                     object ppDetailBand11: TppDetailBand
