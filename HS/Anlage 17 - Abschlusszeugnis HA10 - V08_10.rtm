@@ -1,8 +1,6 @@
 object Report: TppReport
-  OnFileDeviceCreate = ReportFileDeviceCreate
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
-  OnStartFirstPass = ReportStartFirstPass
   PrinterSetup.BinName = 'Default'
   PrinterSetup.DocumentName = 'Anlage 17 - Abschlusszeugnis HA10 - V08_10.rtm'
   PrinterSetup.Duplex = dpHorizontal
@@ -16,25 +14,23 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
-  Template.FileName = 'S:\SchILD-NRW\SchILD-Reports\Zeugnisse-NRW-master\HS\Anlage 17 - Abschlusszeugnis HA10 - V08_10.rtm'
+  Template.FileName = 
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Zeugnisse-NRW\HS\Anlage 17 -' +
+    ' Abschlusszeugnis HA10 - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
   AllowPrintToFile = True
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
-  BeforeOpenDataPipelines = ReportBeforeOpenDataPipelines
-  BeforePrint = ReportBeforePrint
-  BeforeEmail = ReportBeforeEmail
   CachePages = True
   DeviceType = 'Screen'
   DefaultFileDeviceType = 'PDF'
   EmailSettings.ReportFormat = 'PDF'
+  EmailSettings.DeleteFile = False
   EmailSettings.Enabled = True
   LanguageID = 'Default'
-  OnInitializeParameters = ReportInitializeParameters
-  OnPreviewFormCreate = ReportPreviewFormCreate
   OpenFile = False
   OutlineSettings.CreateNode = True
   OutlineSettings.CreatePageNodes = True
@@ -111,7 +107,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -441,7 +437,7 @@ object Report: TppReport
               PrinterSetup.mmMarginTop = 0
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 420000
-              PrinterSetup.PaperSize = 8
+              PrinterSetup.PaperSize = 256
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -634,7 +630,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -5214,7 +5210,7 @@ object Report: TppReport
                         2069662028556E74657273636872696674656E506572736F6E656E203D202741
                         2729207468656E0D0A202020207342657A656963686E756E67203A3D20556E74
                         6572736368726966747362657A656963686E756E675A7573616D6D656E736574
-                        7A656E28747275652C2053636875656C65724B6C617373655B2741627465696C
+                        7A656E28747275652C204C65726E61627363686E697474655B2741627465696C
                         756E67736C65697465724B727A275D2C2027272C2027272C2027272C2027272C
                         202741627465696C756E67736C656974657227293B2020202020202020202020
                         202020202020202020202020200D0A0D0A20206966207342657A656963686E75
@@ -5228,7 +5224,7 @@ object Report: TppReport
                         657874203A3D207342657A656963686E756E673B0D0A0D0A656E643B0D0A0D43
                         6F6D706F6E656E744E616D65060F4C615F536368756C6C656974756E67094576
                         656E744E616D6506094F6E47657454657874074576656E744944023508436172
-                        6574506F730102140219000001060F5472614576656E7448616E646C65720B50
+                        6574506F73010247020D000001060F5472614576656E7448616E646C65720B50
                         726F6772616D4E616D65061A4C615F4B6C617373656E6C656974756E674F6E47
                         6574546578740B50726F6772616D54797065070B747450726F63656475726506
                         536F757263650CAB01000070726F636564757265204C615F4B6C617373656E6C
@@ -5269,13 +5265,14 @@ object Report: TppReport
                         074576656E7449440235084361726574506F730102010201000001060F547261
                         4576656E7448616E646C65720B50726F6772616D4E616D65061144657461696C
                         4265666F72655072696E740B50726F6772616D54797065070B747450726F6365
-                        6475726506536F75726365067270726F6365647572652044657461696C426566
+                        6475726506536F7572636506A470726F6365647572652044657461696C426566
                         6F72655072696E743B0D0A626567696E0D0A20204C615F4B6C617373656E6C65
-                        6974756E675F5374762E56697369626C65203A3D20556E746572736368726966
-                        74656E4D69745374764B6C617373656E6C65687265723B0D0A656E643B0D0A0D
-                        436F6D706F6E656E744E616D65060644657461696C094576656E744E616D6506
-                        0B4265666F72655072696E74074576656E7449440218084361726574506F7301
-                        02010201000000}
+                        6974756E675F5374762E56697369626C65203A3D2028556E7465727363687269
+                        6674656E4D69745374764B6C617373656E6C65687265722920414E4420285472
+                        696D284C65726E61627363686E697474655B275374764B4C4E6163686E616D65
+                        275D293C3E2727293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
+                        0644657461696C094576656E744E616D65060B4265666F72655072696E740745
+                        76656E7449440218084361726574506F730102010201000000}
                     end
                     object ppDesignLayers39: TppDesignLayers
                       object ppDesignLayer5: TppDesignLayer

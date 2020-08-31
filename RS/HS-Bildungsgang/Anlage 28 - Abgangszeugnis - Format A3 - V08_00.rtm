@@ -4828,6 +4828,7 @@ object Report: TppReport
                         mmTop = 0
                         mmWidth = 22564
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLabel35: TppLabel
                         UserName = 'LaSiegel'
@@ -4845,6 +4846,7 @@ object Report: TppReport
                         mmTop = 10531
                         mmWidth = 10583
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLabel39: TppLabel
                         UserName = 'La_Schulleitung'
@@ -4861,6 +4863,7 @@ object Report: TppReport
                         mmTop = 19038
                         mmWidth = 43127
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLabel42: TppLabel
                         UserName = 'La_Klassenleitung'
@@ -4877,6 +4880,7 @@ object Report: TppReport
                         mmTop = 19038
                         mmWidth = 24342
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLabel43: TppLabel
                         UserName = 'La_KLassenleitung_StV'
@@ -4893,6 +4897,7 @@ object Report: TppReport
                         mmTop = 22742
                         mmWidth = 24342
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLine9: TppLine
                         UserName = 'Line1'
@@ -4903,6 +4908,7 @@ object Report: TppReport
                         mmTop = 16921
                         mmWidth = 74083
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                       object ppLine10: TppLine
                         UserName = 'Line8'
@@ -4913,6 +4919,7 @@ object Report: TppReport
                         mmTop = 16921
                         mmWidth = 74083
                         BandType = 4
+                        LayerName = PageLayer20
                       end
                     end
                     object raCodeModule45: TraCodeModule
@@ -5060,7 +5067,7 @@ object Report: TppReport
                         0A20200D0A202069662028556E74657273636872696674656E506572736F6E65
                         6E203D2027412729207468656E0D0A202020207342657A656963686E756E6720
                         3A3D20556E746572736368726966747362657A656963686E756E675A7573616D
-                        6D656E7365747A656E28747275652C2053636875656C65724B6C617373655B27
+                        6D656E7365747A656E28747275652C204C65726E61627363686E697474655B27
                         41627465696C756E67736C65697465724B727A275D2C2027272C2027272C2027
                         272C2027272C202741627465696C756E67736C656974657227293B2020202020
                         202020202020202020202020202020202020200D0A0D0A20206966207342657A
@@ -5115,13 +5122,14 @@ object Report: TppReport
                         657454657874074576656E7449440235084361726574506F7301020102010000
                         01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
                         44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                        7450726F63656475726506536F75726365067270726F63656475726520446574
+                        7450726F63656475726506536F7572636506A470726F63656475726520446574
                         61696C4265666F72655072696E743B0D0A626567696E0D0A20204C615F4B6C61
-                        7373656E6C656974756E675F5374762E56697369626C65203A3D20556E746572
-                        73636872696674656E4D69745374764B6C617373656E6C65687265723B0D0A65
-                        6E643B0D0A0D436F6D706F6E656E744E616D65060644657461696C094576656E
-                        744E616D65060B4265666F72655072696E74074576656E744944021808436172
-                        6574506F730102010201000000}
+                        7373656E6C656974756E675F5374762E56697369626C65203A3D2028556E7465
+                        7273636872696674656E4D69745374764B6C617373656E6C6568726572292041
+                        4E4420285472696D284C65726E61627363686E697474655B275374764B4C4E61
+                        63686E616D65275D293C3E2727293B0D0A656E643B0D0A0D436F6D706F6E656E
+                        744E616D65060644657461696C094576656E744E616D65060B4265666F726550
+                        72696E74074576656E7449440218084361726574506F730102010204000000}
                     end
                     object ppDesignLayers44: TppDesignLayers
                       object ppDesignLayer46: TppDesignLayer
