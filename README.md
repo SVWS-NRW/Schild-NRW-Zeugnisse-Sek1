@@ -5,3 +5,4 @@ Zeugnisse für SekI und SekII
 * SekI und SekII
 * Alle Pakete
 
+Die aktuellen ZIP-Dateien könenn unter releases herunter geladen werden.
