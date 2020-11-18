@@ -663,7 +663,7 @@ object Report: TppReport
                       object ppDBText14: TppDBText
                         UserName = 'DBTeFach_D'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plDeutsch
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -676,7 +676,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 33602
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = Foreground31
                       end
@@ -817,7 +817,7 @@ object Report: TppReport
                       object ppDBText42: TppDBText
                         UserName = 'DBTeFach_FS'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plFremdsprachen
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -830,7 +830,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 33602
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = Foreground32
                       end
@@ -971,7 +971,7 @@ object Report: TppReport
                       object ppDBText10: TppDBText
                         UserName = 'DBTeFach_M'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plMathematik
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -984,7 +984,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 33602
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = Foreground301
                       end
@@ -1322,7 +1322,7 @@ object Report: TppReport
                             object ppDBText53: TppDBText
                               UserName = 'DBTeFach_NW_Fa'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.plNaturwissenschaften
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clWindowText
@@ -1335,7 +1335,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 4233
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = PageLayer12
                             end
@@ -1725,7 +1725,7 @@ object Report: TppReport
                             object ppDBText33: TppDBText
                               UserName = 'DBTeFach_GL_Fa'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.plGesellschaftslehre
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clWindowText
@@ -1738,7 +1738,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 4233
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = Foreground27
                             end
@@ -2079,7 +2079,7 @@ object Report: TppReport
                             object ppDBText11: TppDBText
                               UserName = 'DBTeFach_AL_Fa'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.plArbeitslehre
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clWindowText
@@ -2092,7 +2092,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 4233
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = PageLayer16
                             end
@@ -2232,7 +2232,7 @@ object Report: TppReport
                       object ppDBText19: TppDBText
                         UserName = 'DBTe_Fach_AL_neu'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plArbeitslehre
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -2242,10 +2242,10 @@ object Report: TppReport
                         ParentDataPipeline = False
                         Transparent = True
                         DataPipelineName = 'plArbeitslehre'
-                        mmHeight = 4784
+                        mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 31835
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = PageLayer21
                       end
@@ -2365,7 +2365,7 @@ object Report: TppReport
                       object ppDBText12: TppDBText
                         UserName = 'DBTe_Fach_RL'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plReligion
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -2375,10 +2375,10 @@ object Report: TppReport
                         ParentDataPipeline = False
                         Transparent = True
                         DataPipelineName = 'plReligion'
-                        mmHeight = 4784
+                        mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 31835
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = Foreground22
                       end
@@ -2479,7 +2479,7 @@ object Report: TppReport
                         UserName = 'DBTeFach_Sp'
                         Anchors = [atLeft, atTop, atBottom]
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plSport
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -2489,10 +2489,10 @@ object Report: TppReport
                         ParentDataPipeline = False
                         Transparent = True
                         DataPipelineName = 'plSport'
-                        mmHeight = 6086
+                        mmHeight = 4763
                         mmLeft = 0
-                        mmTop = 530
-                        mmWidth = 33602
+                        mmTop = 529
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = Foreground23
                       end
@@ -2630,7 +2630,7 @@ object Report: TppReport
                       object ppDBText18: TppDBText
                         UserName = 'DBTeFach_KuMu'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plKunstUndMusik
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -2643,7 +2643,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 33602
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = PageLayer20
                       end
@@ -2893,30 +2893,33 @@ object Report: TppReport
                   6D6506094F6E47657454657874074576656E7449440235084361726574506F73
                   0102010201000001060F5472614576656E7448616E646C65720B50726F677261
                   6D4E616D650615444254655F466163685F57504F6E476574546578740B50726F
-                  6772616D54797065070B747450726F63656475726506536F757263650C9C0100
+                  6772616D54797065070B747450726F63656475726506536F757263650CFB0100
                   0070726F63656475726520444254655F466163685F57504F6E47657454657874
                   2876617220546578743A20537472696E67293B0D0A626567696E0D0A20206966
-                  2054657874203D2027270D0A20207468656E2054657874203A3D205761686C70
-                  666C69636874626572656963685B2755655A6575676E697362657A656963686E
-                  756E67275D3B200D0A2020696620285750426567696E6E4153444A6168726761
-                  6E67203D202730362729206F722028706F73282736272C205761686C70666C69
-                  636874626572656963685B27466163686B727A275D29203D2032290D0A202074
-                  68656E2054657874203A3D2054657874202B2027202865727465696C74206162
-                  204B6C61737365203629270D0A2020656C736520696620285750426567696E6E
-                  4153444A61687267616E67203D202730372729206F722028706F73282737272C
-                  205761686C70666C69636874626572656963685B27466163686B727A275D2920
-                  3D2032290D0A20207468656E2054657874203A3D2054657874202B2027202865
-                  727465696C74206162204B6C61737365203729273B0D0A656E643B0D0A0D436F
-                  6D706F6E656E744E616D65060C444254655F466163685F5750094576656E744E
-                  616D6506094F6E47657454657874074576656E7449440235084361726574506F
-                  730102010201000001060F5472614576656E7448616E646C65720B50726F6772
-                  616D4E616D650612444254654E6F74655F57504F6E5072696E740B50726F6772
-                  616D54797065070B747450726F63656475726506536F75726365065470726F63
-                  656475726520444254654E6F74655F57504F6E5072696E743B0D0A626567696E
-                  0D0A2020444254654E6F74655F57502E436F6C6F72203A3D2046617262654E6F
-                  74656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060B
-                  444254654E6F74655F5750094576656E744E616D6506074F6E5072696E740745
-                  76656E7449440220084361726574506F7301020E0203000000}
+                  2054657874203D202727207468656E200D0A2020202054657874203A3D205761
+                  686C70666C69636874626572656963685B2755655A6575676E697362657A6569
+                  63686E756E67275D3B200D0A20206966204E657565566F726C61676520746865
+                  6E2054657874203A3D2054657874202B2027202865727465696C74206162204B
+                  6C61737365203729270D0A2020656C7365200D0A202020206966202857504265
+                  67696E6E4153444A61687267616E673D2730362729206F722028706F73282736
+                  272C205761686C70666C69636874626572656963685B27466163686B727A275D
+                  29203D203229207468656E200D0A20202020202054657874203A3D2054657874
+                  202B2027202865727465696C74206162204B6C61737365203629270D0A202020
+                  20656C7365200D0A202020202020696620285750426567696E6E4153444A6168
+                  7267616E673D2730372729206F722028706F73282737272C205761686C70666C
+                  69636874626572656963685B27466163686B727A275D29203D20322920746865
+                  6E200D0A202020202020202054657874203A3D2054657874202B202720286572
+                  7465696C74206162204B6C61737365203729273B0D0A656E643B0D0A0D436F6D
+                  706F6E656E744E616D65060C444254655F466163685F5750094576656E744E61
+                  6D6506094F6E47657454657874074576656E7449440235084361726574506F73
+                  0102010201000001060F5472614576656E7448616E646C65720B50726F677261
+                  6D4E616D650612444254654E6F74655F57504F6E5072696E740B50726F677261
+                  6D54797065070B747450726F63656475726506536F75726365065470726F6365
+                  6475726520444254654E6F74655F57504F6E5072696E743B0D0A626567696E0D
+                  0A2020444254654E6F74655F57502E436F6C6F72203A3D2046617262654E6F74
+                  656E66656C643B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060B44
+                  4254654E6F74655F5750094576656E744E616D6506074F6E5072696E74074576
+                  656E7449440220084361726574506F7301020E0203000000}
               end
               object ppDesignLayers11: TppDesignLayers
                 object ppDesignLayer13: TppDesignLayer
@@ -3526,7 +3529,7 @@ object Report: TppReport
                             object ppDBText6: TppDBText
                               UserName = 'DBTe_Kurs_ZUV'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.plZUV
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clWindowText
@@ -3539,7 +3542,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 0
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = PageLayer10
                             end
@@ -3674,7 +3677,7 @@ object Report: TppReport
                             object ppDBText21: TppDBText
                               UserName = 'DBTe_Kurs_KMFOE'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.plZUV
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clWindowText
@@ -3687,7 +3690,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 0
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = PageLayer7
                             end
@@ -3847,7 +3850,7 @@ object Report: TppReport
                             object ppDBText23: TppDBText
                               UserName = 'DBTe_Kurs_EGS1'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.ppEGS
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clBlack
@@ -3860,7 +3863,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 0
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = Foreground38
                             end
@@ -3970,7 +3973,7 @@ object Report: TppReport
                             object ppDBText28: TppDBText
                               UserName = 'DBTe_Kurs_EES'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.ppEGS
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clBlack
@@ -3983,7 +3986,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 0
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = Foreground39
                             end
@@ -4092,7 +4095,7 @@ object Report: TppReport
                             object ppDBText49: TppDBText
                               UserName = 'DBTe_Kurs_EGSN'
                               AutoSize = True
-                              DataField = 'Zeugnisbezeichnung'
+                              DataField = 'UeZeugnisbezeichnung'
                               DataPipeline = dmPipelines.ppEGS
                               Font.Charset = DEFAULT_CHARSET
                               Font.Color = clBlack
@@ -4105,7 +4108,7 @@ object Report: TppReport
                               mmHeight = 4763
                               mmLeft = 0
                               mmTop = 529
-                              mmWidth = 33602
+                              mmWidth = 38100
                               BandType = 4
                               LayerName = PageLayer9
                             end
@@ -4308,7 +4311,7 @@ object Report: TppReport
                       object ppDBText44: TppDBText
                         UserName = 'DBTe_Kurs_AG'
                         AutoSize = True
-                        DataField = 'Zeugnisbezeichnung'
+                        DataField = 'UeZeugnisbezeichnung'
                         DataPipeline = dmPipelines.plAGGT
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
@@ -4321,7 +4324,7 @@ object Report: TppReport
                         mmHeight = 4763
                         mmLeft = 0
                         mmTop = 529
-                        mmWidth = 33602
+                        mmWidth = 38100
                         BandType = 4
                         LayerName = PageLayer11
                       end
