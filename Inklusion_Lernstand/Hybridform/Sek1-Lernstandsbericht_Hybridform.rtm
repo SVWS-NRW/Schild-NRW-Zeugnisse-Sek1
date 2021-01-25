@@ -15,8 +15,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'D:\schild_entwicklung\NeueVersion\SchILD-Reports\Lernstandsberic' +
-    'hte\Sek1\Hybridform\Sek1-Lernstandsbericht_Hybridform.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-Inklus' +
+    'ion\Lernstand_Inklusion\Hybridform\Sek1-Lernstandsbericht_Hybrid' +
+    'form.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -4273,7 +4274,7 @@ object Report: TppReport
             mmPrintPosition = 0
             object ppLabel34: TppLabel
               UserName = 'Label1'
-              Caption = 'Wahlpflichtbereich'
+              Caption = 'Wahlpflichtunterricht'
               Font.Charset = DEFAULT_CHARSET
               Font.Color = clBlack
               Font.Name = 'Arial'
@@ -4283,7 +4284,7 @@ object Report: TppReport
               mmHeight = 4763
               mmLeft = 0
               mmTop = 0
-              mmWidth = 34925
+              mmWidth = 39158
               BandType = 1
               LayerName = PageLayer18
             end
@@ -4698,7 +4699,7 @@ object Report: TppReport
             mmPrintPosition = 0
             object ppLabel36: TppLabel
               UserName = 'Label3'
-              Caption = 'Wahlpflichtbereich'
+              Caption = 'Wahlpflichtunterricht'
               Font.Charset = DEFAULT_CHARSET
               Font.Color = clBlack
               Font.Name = 'Arial'
@@ -4708,7 +4709,7 @@ object Report: TppReport
               mmHeight = 4763
               mmLeft = 0
               mmTop = 0
-              mmWidth = 34925
+              mmWidth = 39158
               BandType = 1
               LayerName = PageLayer19
             end

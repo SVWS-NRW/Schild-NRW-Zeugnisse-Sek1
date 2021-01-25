@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+  PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -15,8 +15,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'D:\schild_entwicklung\NeueVersion\SchILD-Reports\Lernstandsberic' +
-    'hte\Sek1\Hybridform\Sek1-Lernstandsbericht_Hybridform.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-Inklus' +
+    'ion\Lernstand_Inklusion\Hybridform\Sek1-Inklusionszeugnis_Hybrid' +
+    'form.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -148,7 +149,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -595,7 +596,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plReligion
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -719,7 +720,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plDeutsch
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -884,7 +885,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plGesellschaftslehre
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1007,7 +1008,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plFremdsprachen
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1131,7 +1132,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plKunstUndMusik
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1254,7 +1255,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plSport
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1376,7 +1377,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plMathematik
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1499,7 +1500,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plNaturwissenschaften
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1638,7 +1639,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plArbeitslehre
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -1856,7 +1857,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plReligion
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -2113,7 +2114,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plDeutsch
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -2354,7 +2355,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plNaturwissenschaften
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -2595,7 +2596,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plMathematik
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -2836,7 +2837,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plFremdsprachen
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -3077,7 +3078,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plSport
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -3560,7 +3561,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plKunstUndMusik
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -3801,7 +3802,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plArbeitslehre
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -4106,7 +4107,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plZUV
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -4250,7 +4251,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plWahlpflichtbereich
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -4273,7 +4274,7 @@ object Report: TppReport
             mmPrintPosition = 0
             object ppLabel34: TppLabel
               UserName = 'Label1'
-              Caption = 'Wahlpflichtbereich'
+              Caption = 'Wahlpflichtunterricht'
               Font.Charset = DEFAULT_CHARSET
               Font.Color = clBlack
               Font.Name = 'Arial'
@@ -4283,7 +4284,7 @@ object Report: TppReport
               mmHeight = 4763
               mmLeft = 0
               mmTop = 0
-              mmWidth = 34925
+              mmWidth = 39158
               BandType = 1
               LayerName = PageLayer18
             end
@@ -4413,7 +4414,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plZUV
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -4675,7 +4676,7 @@ object Report: TppReport
           AutoStop = False
           DataPipeline = dmPipelines.plWahlpflichtbereich
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Hybridform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
@@ -4686,6 +4687,7 @@ object Report: TppReport
           PrinterSetup.mmPaperHeight = 297000
           PrinterSetup.mmPaperWidth = 210000
           PrinterSetup.PaperSize = 9
+          Template.Offset = 284
           Template.Format = ftASCII
           Units = utMillimeters
           Version = '15.05'
@@ -4698,7 +4700,7 @@ object Report: TppReport
             mmPrintPosition = 0
             object ppLabel36: TppLabel
               UserName = 'Label3'
-              Caption = 'Wahlpflichtbereich'
+              Caption = 'Wahlpflichtunterricht'
               Font.Charset = DEFAULT_CHARSET
               Font.Color = clBlack
               Font.Name = 'Arial'
@@ -4708,7 +4710,7 @@ object Report: TppReport
               mmHeight = 4763
               mmLeft = 0
               mmTop = 0
-              mmWidth = 34925
+              mmWidth = 39158
               BandType = 1
               LayerName = PageLayer19
             end
