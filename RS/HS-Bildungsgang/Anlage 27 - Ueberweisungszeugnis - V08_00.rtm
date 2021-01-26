@@ -4623,53 +4623,58 @@ object Report: TppReport
                   Caption = 'RiTeHinweise'
                   MailMerge = True
                   RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
-                    'rq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\f0\fs14 *\tab Sieh' +
-                    'e \'#39'a7 123 SchulG NRW; die Unterschrift eines Elternteils gen\'#39'f' +
-                    'cgt.\par'#13#10'Hinweise zum Zeugnis\par'#13#10'1.\tab Zur Spalte "Bemerkung' +
-                    'en"\par'#13#10'Hier k\'#39'f6nnen eingetragen werden: \par'#13#10'-\tab besonder' +
-                    'e Leistungsnachweise wie Jugendsportabzeichen oder Schwimmzeugni' +
-                    's sowie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste Hi' +
-                    'lfe)\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im muttersprachli' +
-                    'chen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorversetzu' +
-                    'ng oder zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechsel\par' +
-                    #13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeug' +
-                    'nissen.\par'#13#10'2.\tab Notenstufen; Unterrichtsorganisation\par'#13#10'a)' +
-                    '\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie in Z' +
-                    'eugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 A' +
-                    'bs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\par'#13#10'1. sehr gut' +
-                    ' (1),     2. gut (2),     3. befriedigend (3),     4. ausreichen' +
-                    'd (4),     5. mangelhaft (5),     6. ungen\'#39'fcgend (6)\par'#13#10'b)\t' +
-                    'ab Der Unterricht in Englisch und Mathematik wird in den Klassen' +
-                    ' 7 bis 9 in Fachleistungskursen mit zwei Anspruchsh\'#39'f6hen ertei' +
-                    'lt:\par'#13#10'\tab auf der Grundebene und der Erweiterungsebene. Der ' +
-                    'Unterricht auf der Grundebene orientiert sich an Anforderungen, ' +
-                    'die in Verbindung mit anderen von den Sch\'#39'fclerinnen und Sch\'#39'f' +
-                    'clern zu erbringenden Leistungen als Voraussetzungen f\'#39'fcr die ' +
-                    'Vergabe des Hauptschulabschlusses und des Hauptschulabschlusses ' +
-                    'nach Klasse 10 ma\'#39'dfgebend sind. Die Anforderungen auf der Erwe' +
-                    'iterungsebene sind auf das Erreichen des mittleren Schulabschlus' +
-                    'ses (Fachoberschulreife) und der Berechtigung zum Besuch der gym' +
-                    'nasialen Oberstufe ausgerichtet. In den Fachleistungskursen werd' +
-                    'en die Noten wie unter Buchstabe a ausgewiesen erteilt.\par'#13#10'3.\' +
-                    'tab Abschl\'#39'fcsse der Hauptschule am Ende der Klasse 9 und der K' +
-                    'lasse 10\par'#13#10'Im Bildungsgang Hauptschule der Realschule werden ' +
-                    'am Ende der Klasse 9 und der Klasse 10 folgende Abschl\'#39'fcsse ve' +
-                    'rmittelt:\par'#13#10'-\tab den "Hauptschulabschluss" f\'#39'fcr Sch\'#39'fcler' +
-                    'innen und Sch\'#39'fcler, die das Ziel der Klasse 9 der Hauptschule ' +
-                    'erreicht haben,\par'#13#10'-\tab den "Hauptschulabschluss nach Klasse ' +
-                    '10 " f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Kla' +
-                    'sse 10 der Hauptschule erreicht haben.\par'#13#10'Wer den Hauptschulbi' +
-                    'ldungsgang der Realschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e' +
-                    '4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abga' +
-                    'ngszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'Gegen die E' +
-                    'ntscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu verse' +
-                    'tzen oder einen erreichbaren Abschluss oder eine Berechtigung ni' +
-                    'cht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe de' +
-                    's Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch is' +
-                    't bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schrif' +
-                    'tlich oder zur Niederschrift zu erheben.\par'#13#10'SNr: <SchulNr>, SF' +
-                    'orm: RS\par'#13#10'\b\par'#13#10'}'#13#10#0
+                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
+                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\nowi' +
+                    'dctlpar\fi-140\li140\f0\fs14 *\tab Siehe \'#39'a7 123 SchulG NRW; di' +
+                    'e Unterschrift eines Elternteils gen\'#39'fcgt.\par'#13#10'Hinweise zum Ze' +
+                    'ugnis\par'#13#10'1.\tab Zur Spalte "Bemerkungen"\par'#13#10'\pard\nowidctlpa' +
+                    'r\fi-142\li284 Hier k\'#39'f6nnen eingetragen werden: \par'#13#10'-\tab be' +
+                    'sondere Leistungsnachweise wie Jugendsportabzeichen oder Schwimm' +
+                    'zeugnis sowie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Er' +
+                    'ste Hilfe)\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im muttersp' +
+                    'rachlichen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorve' +
+                    'rsetzung oder zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechs' +
+                    'el\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgan' +
+                    'gszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-140\li140 2.\tab Notenst' +
+                    'ufen; Unterrichtsorganisation\par'#13#10'\pard\nowidctlpar\fi-140\li28' +
+                    '4 a)\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie ' +
+                    'in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 ' +
+                    '48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\par'#13#10'\pard\n' +
+                    'owidctlpar\fi2\li284 1. sehr gut (1),     2. gut (2),     3. bef' +
+                    'riedigend (3),     4. ausreichend (4),     5. mangelhaft (5),   ' +
+                    '  6. ungen\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar\fi-140\li284 b)\ta' +
+                    'b Der Unterricht in Englisch und Mathematik wird in den Klassen ' +
+                    '7 bis 9 in Fachleistungskursen mit zwei Anspruchsh\'#39'f6hen erteil' +
+                    't:\par'#13#10'\tab auf der Grundebene und der Erweiterungsebene. Der U' +
+                    'nterricht auf der Grundebene orientiert sich an Anforderungen, d' +
+                    'ie in Verbindung mit anderen von den Sch\'#39'fclerinnen und Sch\'#39'fc' +
+                    'lern zu erbringenden Leistungen als Voraussetzungen f\'#39'fcr die V' +
+                    'ergabe des Hauptschulabschlusses und des Hauptschulabschlusses n' +
+                    'ach Klasse 10 ma\'#39'dfgebend sind. Die Anforderungen auf der Erwei' +
+                    'terungsebene sind auf das Erreichen des mittleren Schulabschluss' +
+                    'es (Fachoberschulreife) und der Berechtigung zum Besuch der gymn' +
+                    'asialen Oberstufe ausgerichtet. In den Fachleistungskursen werde' +
+                    'n die Noten wie unter Buchstabe a ausgewiesen erteilt.\par'#13#10'\par' +
+                    'd\nowidctlpar\fi-140\li140 3.\tab Abschl\'#39'fcsse der Hauptschule ' +
+                    'am Ende der Klasse 9 und der Klasse 10\par'#13#10'\pard\nowidctlpar\fi' +
+                    '-142\li284 Im Bildungsgang Hauptschule der Realschule werden am ' +
+                    'Ende der Klasse 9 und der Klasse 10 folgende Abschl\'#39'fcsse vermi' +
+                    'ttelt:\par'#13#10'-\tab den "Hauptschulabschluss" f\'#39'fcr Sch\'#39'fclerinn' +
+                    'en und Sch\'#39'fcler, die das Ziel der Klasse 9 der Hauptschule err' +
+                    'eicht haben,\par'#13#10'-\tab den "Hauptschulabschluss nach Klasse 10 ' +
+                    '" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Klasse' +
+                    ' 10 der Hauptschule erreicht haben.\par'#13#10'Wer den Hauptschulbildu' +
+                    'ngsgang der Realschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e4ss' +
+                    't, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abgangs' +
+                    'zeugnis.\par'#13#10'\pard\nowidctlpar\fi-140\li140 4.\tab Rechtsbehelf' +
+                    'sbelehrung:\par'#13#10'\pard\nowidctlpar\fi2\li140 Gegen die Entscheid' +
+                    'ung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen ode' +
+                    'r einen erreichbaren Abschluss oder eine Berechtigung nicht zu v' +
+                    'ergeben, kann innerhalb eines Monats nach Bekanntgabe des Zeugni' +
+                    'sses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist bei de' +
+                    'r Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich od' +
+                    'er zur Niederschrift zu erheben.\par'#13#10'SNr: <SchulNr>, SForm: RS\' +
+                    'par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100277

@@ -14,7 +14,7 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 256
+  PrinterSetup.PaperSize = 157
   SaveAsTemplate = True
   Template.FileName = 
     'C:\SchILD-NRW\SchILD-Reports\GitHub\Schild-NRW-Zeugnisse-Sek1\RS' +
@@ -108,7 +108,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 157
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -439,57 +439,57 @@ object Report: TppReport
                   Caption = 'RiTeHinweise'
                   MailMerge = True
                   RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
-                    'rq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\colortbl ;\red0\g' +
-                    'reen0\blue0;}'#13#10'\viewkind4\uc1\pard\f0\fs14\tab\tab\tab\tab\b Hin' +
-                    'weise zum Zeugnis\par'#13#10'\b0 1.\tab Zur Spalte "Bemerkungen"\par'#13#10 +
-                    '\tab Hier k\'#39'f6nnen eingetragen werden: \par'#13#10'\tab - besondere L' +
-                    'eistungsnachweise wie Jugendsportabzeichen oder Schwimmzeugnis s' +
-                    'owie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste Hilfe' +
-                    ')\par'#13#10'\tab - Angaben \'#39'fcber die Leistungen im muttersprachlich' +
-                    'en Unterricht\par'#13#10'\tab - Angaben zur Wiederholung, Vorversetzun' +
-                    'g oder zum R\'#39'fccktritt\par'#13#10'\tab - Angaben zum Schulwechsel\par' +
-                    #13#10'\tab - Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeu' +
-                    'gnissen.\par'#13#10'2.\tab Notenstufen; Unterrichtsorganisation\par'#13#10'\' +
-                    'tab a) Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie in' +
-                    ' Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48' +
-                    ' Abs. 3 Schulgesetz NRW (SchulG) \par'#13#10'\tab zugrunde gelegt:\par' +
-                    #13#10'\tab 1. sehr gut (1),     \par'#13#10'\tab 2. gut (2),    \par'#13#10'\tab' +
-                    ' 3. befriedigend (3),     \par'#13#10'\tab 4. ausreichend (4),    \par' +
-                    #13#10'\tab 5. mangelhaft (5),     \par'#13#10'\tab 6. ungen\'#39'fcgend (6)\pa' +
-                    'r'#13#10'\tab b) Der Unterricht in Englisch und Mathematik wird in den' +
-                    ' Klassen 7 bis 9 in Fachleistungskursen mit zwei Anspruchsh\'#39'f6h' +
-                    'en erteilt:\par'#13#10'\tab auf der Grundebene und der Erweiterungsebe' +
-                    'ne. Der Unterricht auf der Grundebene orientiert sich an Anforde' +
-                    'rungen, die in Verbindung mit anderen \par'#13#10'\tab von den Sch\'#39'fc' +
-                    'lerinnen und Sch\'#39'fclern zu erbringenden Leistungen als Vorausse' +
-                    'tzungen f\'#39'fcr die Vergabe des Hauptschulabschlusses und des \pa' +
-                    'r'#13#10'\tab Hauptschulabschlusses nach Klasse 10 ma\'#39'dfgebend sind. ' +
-                    'Die Anforderungen auf der Erweiterungsebene sind auf das Erreich' +
-                    'en des mittleren \par'#13#10'\tab Schulabschlusses (Fachoberschulreife' +
-                    ') und der Berechtigung zum Besuch der gymnasialen Oberstufe ausg' +
-                    'erichtet. In den Fachleistungskursen werden \par'#13#10'\tab die Noten' +
-                    ' wie unter Buchstabe a ausgewiesen erteilt.\par'#13#10'3.\tab Abschl\'#39 +
-                    'fcsse der Hauptschule am Ende der Klasse 9 und der Klasse 10\par' +
-                    #13#10'\tab Im Bildungsgang Hauptschule der Realschule werden am Ende' +
-                    ' der Klasse 9 und der Klasse 10 folgende Abschl\'#39'fcsse vermittel' +
-                    't:\par'#13#10'\tab - den "Hauptschulabschluss" f\'#39'fcr Sch\'#39'fclerinnen ' +
-                    'und Sch\'#39'fcler, die das Ziel der Klasse 9 der Hauptschule erreic' +
-                    'ht haben,\par'#13#10'\tab - den "Hauptschulabschluss nach Klasse 10 " ' +
-                    'f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Klasse 1' +
-                    '0 der Hauptschule erreicht haben.\par'#13#10'\tab Wer den Hauptschulbi' +
-                    'ldungsgang der Realschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e' +
-                    '4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abga' +
-                    'ngszeugnis.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\tab Gegen ' +
-                    'die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu ' +
-                    'versetzen oder einen erreichbaren Abschluss oder eine Berechtigu' +
-                    'ng nicht zu vergeben, \par'#13#10'\tab kann innerhalb eines Monats nac' +
-                    'h Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'\t' +
-                    'ab Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse>' +
-                    ', <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.\pa' +
-                    'r'#13#10'\pard\nowidctlpar\ri200\tab\tab\tab\tab\tab\tab\tab\tab\tab\t' +
-                    'ab\tab SNr: <SchulNr>, SForm: RS\par'#13#10'\pard\nowidctlpar\ri200\qr' +
-                    '\par'#13#10'\pard\nowidctlpar\qr\cf1\f1\fs16\par'#13#10'}'#13#10#0
+                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
+                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0' +
+                    '\blue0;}'#13#10'\viewkind4\uc1\pard\nowidctlpar\f0\fs14\tab\tab\tab\ta' +
+                    'b\b Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\tx210\b0 1.\tab ' +
+                    'Zur Spalte "Bemerkungen"\par'#13#10'\tab Hier k\'#39'f6nnen eingetragen we' +
+                    'rden: \par'#13#10'\tab - besondere Leistungsnachweise wie Jugendsporta' +
+                    'bzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwillig be' +
+                    'suchte Kurse (z.B. Erste Hilfe)\par'#13#10'\tab - Angaben \'#39'fcber die ' +
+                    'Leistungen im muttersprachlichen Unterricht\par'#13#10'\tab - Angaben ' +
+                    'zur Wiederholung, Vorversetzung oder zum R\'#39'fccktritt\par'#13#10'\tab ' +
+                    '- Angaben zum Schulwechsel\par'#13#10'\tab - Versetzungsvermerk bei \'#39 +
+                    'dcberweisungs- oder Abgangszeugnissen.\par'#13#10'2.\tab Notenstufen; ' +
+                    'Unterrichtsorganisation\par'#13#10'\tab a) Bei der Bewertung einzelner' +
+                    ' Sch\'#39'fclerleistungen sowie in Zeugnissen werden die folgenden N' +
+                    'otenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) \' +
+                    'par'#13#10'\tab zugrunde gelegt:\par'#13#10'\tab 1. sehr gut (1),     \par'#13#10 +
+                    '\tab 2. gut (2),    \par'#13#10'\tab 3. befriedigend (3),     \par'#13#10'\t' +
+                    'ab 4. ausreichend (4),    \par'#13#10'\tab 5. mangelhaft (5),     \par' +
+                    #13#10'\tab 6. ungen\'#39'fcgend (6)\par'#13#10'\tab b) Der Unterricht in Engli' +
+                    'sch und Mathematik wird in den Klassen 7 bis 9 in Fachleistungsk' +
+                    'ursen mit zwei Anspruchsh\'#39'f6hen erteilt:\par'#13#10'\tab auf der Grun' +
+                    'debene und der Erweiterungsebene. Der Unterricht auf der Grundeb' +
+                    'ene orientiert sich an Anforderungen, die in Verbindung mit ande' +
+                    'ren \par'#13#10'\tab von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbrin' +
+                    'genden Leistungen als Voraussetzungen f\'#39'fcr die Vergabe des Hau' +
+                    'ptschulabschlusses und des \par'#13#10'\tab Hauptschulabschlusses nach' +
+                    ' Klasse 10 ma\'#39'dfgebend sind. Die Anforderungen auf der Erweiter' +
+                    'ungsebene sind auf das Erreichen des mittleren \par'#13#10'\tab Schula' +
+                    'bschlusses (Fachoberschulreife) und der Berechtigung zum Besuch ' +
+                    'der gymnasialen Oberstufe ausgerichtet. In den Fachleistungskurs' +
+                    'en werden \par'#13#10'\tab die Noten wie unter Buchstabe a ausgewiesen' +
+                    ' erteilt.\par'#13#10'3.\tab Abschl\'#39'fcsse der Hauptschule am Ende der ' +
+                    'Klasse 9 und der Klasse 10\par'#13#10'\tab Im Bildungsgang Hauptschule' +
+                    ' der Realschule werden am Ende der Klasse 9 und der Klasse 10 fo' +
+                    'lgende Abschl\'#39'fcsse vermittelt:\par'#13#10'\tab - den "Hauptschulabsc' +
+                    'hluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der K' +
+                    'lasse 9 der Hauptschule erreicht haben,\par'#13#10'\tab - den "Hauptsc' +
+                    'hulabschluss nach Klasse 10 " f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fc' +
+                    'ler, die das Ziel der Klasse 10 der Hauptschule erreicht haben.\' +
+                    'par'#13#10'\tab Wer den Hauptschulbildungsgang der Realschule nach erf' +
+                    '\'#39'fcllter Schulpflicht verl\'#39'e4sst, ohne einen Abschluss erreich' +
+                    't zu haben, erh\'#39'e4lt ein Abgangszeugnis.\par'#13#10'4.\tab Rechtsbehe' +
+                    'lfsbelehrung:\par'#13#10'\tab Gegen die Entscheidung, die Sch\'#39'fclerin' +
+                    ' oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren ' +
+                    'Abschluss oder eine Berechtigung nicht zu vergeben, \par'#13#10'\tab k' +
+                    'ann innerhalb eines Monats nach Bekanntgabe des Zeugnisses Wider' +
+                    'spruch erhoben werden.\par'#13#10'\tab Der Widerspruch ist bei der Sch' +
+                    'ule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zu' +
+                    'r Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\ri200\tx224\t' +
+                    'ab SNr: <SchulNr>, SForm: RS\par'#13#10'\pard\nowidctlpar\ri200\qr\par' +
+                    #13#10'\pard\nowidctlpar\qr\cf1\fs16\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100542
@@ -603,7 +603,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 256
+        PrinterSetup.PaperSize = 157
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Offset = 284
         Template.Format = ftASCII
