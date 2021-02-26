@@ -15,8 +15,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-NRW-AP' +
-    'O-SI\SK\Prognose\Anlage 47 -  Prognosemitteilung.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Schild-NRW-Zeugnisse-Sek1\SK' +
+    '\Vorg'#228'nge\Anlage 47 -  Prognosemitteilung.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -1058,7 +1058,13 @@ object Report: TppReport
     end
   end
   object raCodeModule1: TraCodeModule
-    ProgramStream = {00}
+    ProgramStream = {
+      01060A54726150726F6772616D094368696C645479706502130B50726F677261
+      6D4E616D65060E476C6F62616C4F6E4372656174650B50726F6772616D547970
+      65070B747450726F63656475726506536F75726365064B70726F636564757265
+      20476C6F62616C4F6E4372656174653B0D0A626567696E0D0A204E757245727A
+      69656865724D6974416E73636872656962656E2854727565293B0D0A656E643B
+      0D0A084361726574506F730102000200000000}
   end
   object ppDesignLayers3: TppDesignLayers
     object ppDesignLayer3: TppDesignLayer
@@ -1067,6 +1073,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
