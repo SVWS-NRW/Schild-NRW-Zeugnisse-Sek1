@@ -2138,13 +2138,14 @@ object Report: TppReport
                           'an;}{\f2\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blu' +
                           'e0;}'#13#10'\viewkind4\uc1\pard\nowidctlpar\li142\ri283\tqc\tx4536\tqr' +
                           '\tx9072\b\f0\fs20 Rechtsbehelfsbelehrung\b0 : Gegen die Kursabsc' +
-                          'hlussnoten oder die Entscheidung \'#39'fcber die Nichtvergabe eines ' +
-                          'erreichbaren\cf1  Abschlusses oder einer Berechtigung kann inner' +
-                          'halb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch er' +
-                          'hoben werden. \cf0 Der Widerspruch ist bei der Schule (<Bezeichn' +
-                          'ung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrif' +
-                          't zu erheben\f1\fs16 .\par'#13#10'\pard\nowidctlpar\qr\f0\fs20 SNr: <S' +
-                          'chulNr>, SForm: <SchulformKrz>\par'#13#10'\pard\f2\par'#13#10'}'#13#10#0
+                          'hlussnoten des letzten Halbjahres oder die Entscheidung einen er' +
+                          'reichbaren Abschluss oder eine Berechtigung nicht zu vergeben\cf' +
+                          '1  kann innerhalb eines Monats nach Bekanntgabe des Zeugnisses W' +
+                          'iderspruch erhoben werden. \cf0 Der Widerspruch ist bei der Schu' +
+                          'le (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur' +
+                          ' Niederschrift zu erheben\f1\fs16 .\par'#13#10'\pard\nowidctlpar\qr\f0' +
+                          '\fs20 SNr: <SchulNr>, SForm: <SchulformKrz>\par'#13#10'\pard\f2\par'#13#10'}' +
+                          #13#10#0
                         RemoveEmptyLines = False
                         Stretch = True
                         mmHeight = 24342
@@ -7794,58 +7795,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn1: TppTableColumn
+                        object ppTableColumn19: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn2: TppTableColumn
+                        object ppTableColumn20: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn3: TppTableColumn
+                        object ppTableColumn21: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn4: TppTableColumn
+                        object ppTableColumn22: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn5: TppTableColumn
+                        object ppTableColumn23: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn6: TppTableColumn
+                        object ppTableColumn24: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn7: TppTableColumn
+                        object ppTableColumn25: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn8: TppTableColumn
+                        object ppTableColumn26: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn9: TppTableColumn
+                        object ppTableColumn27: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn10: TppTableColumn
+                        object ppTableColumn28: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn11: TppTableColumn
+                        object ppTableColumn29: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn12: TppTableColumn
+                        object ppTableColumn30: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn13: TppTableColumn
+                        object ppTableColumn31: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn14: TppTableColumn
+                        object ppTableColumn32: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn15: TppTableColumn
+                        object ppTableColumn33: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn16: TppTableColumn
+                        object ppTableColumn34: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn17: TppTableColumn
+                        object ppTableColumn35: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn18: TppTableColumn
+                        object ppTableColumn36: TppTableColumn
                           mmWidth = 22225
                         end
                       end

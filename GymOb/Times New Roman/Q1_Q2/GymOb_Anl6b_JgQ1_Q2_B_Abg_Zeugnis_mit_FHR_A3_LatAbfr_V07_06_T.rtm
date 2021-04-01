@@ -2388,16 +2388,17 @@ object Report: TppReport
                         MailMerge = True
                         RichText = 
                           '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
-                          'rset0 Times New Roman;}{\f1\fnil Times New Roman;}}'#13#10'\viewkind4\' +
-                          'uc1\pard\nowidctlpar\li142\ri283\tqc\tx4536\tqr\tx9072\b\f0\fs20' +
-                          ' Rechtsbehelfsbelehrung:\b0  Gegen die Kursabschlussnoten oder d' +
-                          'ie Entscheidung \'#39'fcber die Nichtvergabe eines erreichbaren Absc' +
-                          'hlusses oder einer Berechtigung kann innerhalb eines Monats nach' +
-                          ' Bekanntgabe des Zeugnisses Widerspruch erhoben werden. Der Wide' +
-                          'rspruch ist bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Or' +
-                          't>) schriftlich oder zur Niederschrift zu erheben.\f1\par'#13#10'\pard' +
-                          '\nowidctlpar\qr SNr: <SchulNr>, SForm: <SchulformKrz>\par'#13#10'\pard' +
-                          '\par'#13#10'}'#13#10#0
+                          'rset0 Times New Roman;}{\f1\fnil Times New Roman;}}'#13#10'{\colortbl ' +
+                          ';\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\nowidctlpar\li142\ri2' +
+                          '83\tqc\tx4536\tqr\tx9072\b\f0\fs20 Rechtsbehelfsbelehrung:\b0  \' +
+                          'cf1 Gegen die Kursabschlussnoten des letzten Halbjahres oder die' +
+                          ' Entscheidung einen erreichbaren Abschluss oder eine Berechtigun' +
+                          'g nicht zu vergeben \cf0 kann innerhalb eines Monats nach Bekann' +
+                          'tgabe des Zeugnisses Widerspruch erhoben werden. Der Widerspruch' +
+                          ' ist bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) sch' +
+                          'riftlich oder zur Niederschrift zu erheben.\f1\par'#13#10'\pard\nowidc' +
+                          'tlpar\qr SNr: <SchulNr>, SForm: <SchulformKrz>\par'#13#10'\pard\par'#13#10'}' +
+                          #13#10#0
                         RemoveEmptyLines = False
                         Stretch = True
                         mmHeight = 24342
@@ -7995,58 +7996,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn19: TppTableColumn
+                        object ppTableColumn1: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn20: TppTableColumn
+                        object ppTableColumn2: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn21: TppTableColumn
+                        object ppTableColumn3: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn22: TppTableColumn
+                        object ppTableColumn4: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn23: TppTableColumn
+                        object ppTableColumn5: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn24: TppTableColumn
+                        object ppTableColumn6: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn25: TppTableColumn
+                        object ppTableColumn7: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn26: TppTableColumn
+                        object ppTableColumn8: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn27: TppTableColumn
+                        object ppTableColumn9: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn28: TppTableColumn
+                        object ppTableColumn10: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn29: TppTableColumn
+                        object ppTableColumn11: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn30: TppTableColumn
+                        object ppTableColumn12: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn31: TppTableColumn
+                        object ppTableColumn13: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn32: TppTableColumn
+                        object ppTableColumn14: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn33: TppTableColumn
+                        object ppTableColumn15: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn34: TppTableColumn
+                        object ppTableColumn16: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn35: TppTableColumn
+                        object ppTableColumn17: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn36: TppTableColumn
+                        object ppTableColumn18: TppTableColumn
                           mmWidth = 22225
                         end
                       end
