@@ -15,8 +15,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Abitursammlung_2019_02_14\3_ZAA\ZAA' +
-    '1\GymOb_Anl5b_JgQ2_B_ZAA1_V0706.rtm'
+    'C:\Schild-NRW\SchILD-Reports\Aktuelle Downloads\Zeugnisse-Sek1\G' +
+    'ymOb\Calibri\Abitur\GymOb_Anl5b_JgQ2_B_ZAA1_V0706.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -4153,12 +4153,12 @@ object Report: TppReport
         'bri;}{\f1\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\bl' +
         'ue0;}'#13#10'\viewkind4\uc1\pard\cf1\b\f0\fs20 Rechtsbehelfsbelehrung:' +
         '\b0  Gegen die Kursabschlussnote des letzten Halbjahres der Qual' +
-        'igikationsphase kann innerhalb eines Monats nach Bekanntgabe Wid' +
-        'erspruch erhoben werden. Der Widerspruch ist bei der Schule \f1 ' +
-        '(\f0 <dbtext datapipeline='#39'EigeneSchule'#39'>Bezeichnung1</dbtext>, ' +
-        '<dbtext datapipeline='#39'EigeneSchule'#39'>Strasse</dbtext>, <dbtext da' +
-        'tapipeline='#39'EigeneSchule'#39'>PlzOrt</dbtext>\f1 )\f0  schriftlich o' +
-        'der zur Niederschrift zu erheben.\par'#13#10'}'#13#10#0
+        'i\f1 f\f0 ikationsphase kann innerhalb eines Monats nach Bekannt' +
+        'gabe Widerspruch erhoben werden. Der Widerspruch ist bei der Sch' +
+        'ule \f1 (\f0 <dbtext datapipeline='#39'EigeneSchule'#39'>Bezeichnung1</d' +
+        'btext>, <dbtext datapipeline='#39'EigeneSchule'#39'>Strasse</dbtext>, <d' +
+        'btext datapipeline='#39'EigeneSchule'#39'>PlzOrt</dbtext>\f1 )\f0  schri' +
+        'ftlich oder zur Niederschrift zu erheben.\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Transparent = True
       mmHeight = 17199
