@@ -15,9 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\GitHub\Schild-NRW-Zeugnisse-Sek1\GE' +
-    '\GE Anlage41 - Ueberweisungszeugnis - V08_10.rtm'
+  Template.FileName =
+    'C:\SVWS\SchILD-NRW-2\SchILD-Reports\Zeugnisse\Schild-NRW-Zeugnisse-Sek1\GE\GE Anlage41 - Ueberweisungszeugnis - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
