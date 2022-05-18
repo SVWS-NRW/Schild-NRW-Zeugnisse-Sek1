@@ -5309,6 +5309,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -5379,8 +5380,8 @@ object Report: TppReport
                         UserName = 'LaDEQuRa'
                         AutoSize = False
                         Caption = 
-                          'Der Hauptschulabschluss ist im Deutschen und Europ'#228'ischen Qualif' +
-                          'ikationsrahmen dem Niveau 2 zugeordnet.'
+                          'Der Hauptschulabschluss nach Klasse 10 ist im Deutschen und Euro' +
+                          'p'#228'ischen Qualifikationsrahmen dem Niveau 2 zugeordnet.'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -6361,6 +6362,7 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
+                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -6431,8 +6433,8 @@ object Report: TppReport
                         UserName = 'LaDEQuRa'
                         AutoSize = False
                         Caption = 
-                          'Der Erste Schulabschluss ist im Deutschen und Europ'#228'ischen Quali' +
-                          'fikationsrahmen dem Niveau 2 zugeordnet.'
+                          'Der Erweiterte Erste Schulabschluss ist im Deutschen und Europ'#228'i' +
+                          'schen Qualifikationsrahmen dem Niveau 2 zugeordnet.'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
