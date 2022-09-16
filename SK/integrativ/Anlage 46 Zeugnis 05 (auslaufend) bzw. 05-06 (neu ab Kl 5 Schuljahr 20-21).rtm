@@ -3984,7 +3984,7 @@ object Report: TppReport
                   mmHeight = 6350
                   mmLeft = 0
                   mmTop = 0
-                  mmWidth = 210344
+                  mmWidth = 170921
                   BandType = 4
                   LayerName = Foreground8
                   mmBottomOffset = 0
@@ -4119,7 +4119,7 @@ object Report: TppReport
                   mmHeight = 6350
                   mmLeft = 0
                   mmTop = 0
-                  mmWidth = 210080
+                  mmWidth = 170921
                   BandType = 4
                   LayerName = Foreground21
                   mmBottomOffset = 0

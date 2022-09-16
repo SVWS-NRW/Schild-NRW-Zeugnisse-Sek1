@@ -5552,7 +5552,7 @@ object Report: TppReport
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 88106
-                  mmLeft = 1323
+                  mmLeft = 263
                   mmTop = 265
                   mmWidth = 185473
                   BandType = 4
@@ -5650,7 +5650,7 @@ object Report: TppReport
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 88106
-                  mmLeft = 1323
+                  mmLeft = 263
                   mmTop = 265
                   mmWidth = 185473
                   BandType = 7
