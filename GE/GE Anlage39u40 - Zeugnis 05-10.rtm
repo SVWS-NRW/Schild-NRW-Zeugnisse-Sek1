@@ -6835,6 +6835,7 @@ object Report: TppReport
             OutlineSettings.CreateNode = True
             ParentPrinterSetup = False
             ParentWidth = False
+            ShiftRelativeTo = ppSubReport20
             TraverseAllData = False
             DataPipelineName = 'EigeneSchule'
             mmHeight = 6350
