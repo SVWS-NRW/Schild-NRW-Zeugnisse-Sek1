@@ -5909,19 +5909,19 @@ object Report: TppReport
                     'Grundebenen orientiert sich an Anforderungen, die in Verbindung ' +
                     'mit anderen von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringen' +
                     'den Leistungen als Voraussetzungen f\'#39'fcr die Vergabe des Ersten' +
-                    ' Schulabschlusses und des Ersten Schulabschlusses ma\'#39'dfgebend s' +
-                    'ind. Die Anforderungen in Erweiterungsebenen sind auf das Erreic' +
-                    'hen des Mittleren Schulabschlusses (Fachoberschulreife) und der ' +
-                    'Berechtigung zum Besuch der gymnasialen Oberstufe ausgerichtet.\' +
-                    'par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284' +
-                    '\ri283\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fc' +
-                    'lerin oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichb' +
-                    'aren Abschluss oder eine Berechtigung nicht zu vergeben, kann in' +
-                    'nerhalb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch' +
-                    ' erhoben werden.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezei' +
-                    'chnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niedersch' +
-                    'rift zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm' +
-                    ': SK\par'#13#10'\pard\cf1\f1\fs16\par'#13#10'}'#13#10#0
+                    ' Schulabschlusses und des Erweiterten Ersten Schulabschlusses ma' +
+                    '\'#39'dfgebend sind. Die Anforderungen in Erweiterungsebenen sind au' +
+                    'f das Erreichen des Mittleren Schulabschlusses (Fachoberschulrei' +
+                    'fe) und der Berechtigung zum Besuch der gymnasialen Oberstufe au' +
+                    'sgerichtet.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowid' +
+                    'ctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung,' +
+                    ' die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder ei' +
+                    'nen erreichbaren Abschluss oder eine Berechtigung nicht zu verge' +
+                    'ben, kann innerhalb eines Monats nach Bekanntgabe des Zeugnisses' +
+                    ' Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist bei der Sc' +
+                    'hule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder z' +
+                    'ur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <Sch' +
+                    'ulNr>, SForm: SK\par'#13#10'\pard\cf1\f1\fs16\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 61383
@@ -6032,7 +6032,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148C00000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30342D3235273B0D0A20205265704175746F7265
+      696F6E203D2027323032332D30352D3038273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C2050666F74656E68617565722C20506CC3BC6D
       7065722C206465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A
       656E643B0D0A084361726574506F7301021B0202000001060D54726156617250
