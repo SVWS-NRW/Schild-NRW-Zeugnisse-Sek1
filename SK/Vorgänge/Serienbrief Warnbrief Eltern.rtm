@@ -15,9 +15,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
-  Template.FileName = 
-    'C:\Users\Jens\OneDrive - neg-velbert.de\Schild-Reports 2.0\Repor' +
-    'tsammlung 2.0\Fertige Reports\Serienbrief Warnbrief Eltern.rtm'
+  Template.FileName =
+    'C:\SchILD-NRW\SchILD-Reports\GitHub\Schild-NRW-Zeugnisse-Sek1\SK\Vorg''#228''nge\Serienbrief Warnbrief Eltern.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
