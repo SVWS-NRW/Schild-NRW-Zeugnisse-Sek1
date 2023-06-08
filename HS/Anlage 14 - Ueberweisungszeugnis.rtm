@@ -5133,59 +5133,59 @@ object Report: TppReport
                     '83\li567\ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 besondere Le' +
                     'istungsnachweise wie Jugendsportabzeichen oder Schwimmzeugnis so' +
                     'wie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste Hilfe)' +
-                    '\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im muttersprachlichen' +
-                    ' Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorversetzung o' +
-                    'der zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechsel\par'#13#10'-\' +
-                    'tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugniss' +
-                    'en.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\tx453' +
-                    '6\tqr\tx9072 2.\tab Notenstufen; Unterrichtsorganisation\par'#13#10'\p' +
-                    'ard\nowidctlpar\fi-283\li567\ri283\qj\tx567\tqc\tx3402\tqr\tx907' +
-                    '2 a)\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie ' +
-                    'in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 ' +
-                    '48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\f1\line\f0 1' +
-                    '. sehr gut (1)\par'#13#10'\tab 2. gut (2)\par'#13#10'\tab 3. befriedigend (3' +
-                    ')\par'#13#10'\tab 4. ausreichend (4)\par'#13#10'\tab  5. mangelhaft (5)\par'#13 +
-                    #10'\tab 6. ungen\'#39'fcgend (6)\par'#13#10'b)\tab Der Unterricht in Englisc' +
-                    'h und Mathematik wird in den Klassen 7 bis 9 in Fachleistungskur' +
-                    'sen mit zwei Anspruchsh\'#39'f6hen erteilt:\par'#13#10'\tab auf der Grunde' +
-                    'bene und der Erweiterungsebene. Der Unterricht auf der Grundeben' +
-                    'e orientiert sich an Anforderungen, die in Verbindung mit andere' +
-                    'n von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Leistu' +
-                    'ngen als Voraussetzungen f\'#39'fcr die Vergabe des Hauptschulabschl' +
-                    'usses und des Hauptschulabschlusses nach Klasse 10 ma\'#39'dfgebend ' +
-                    'sind. Die Anforderungen auf der Erweiterungsebene sind auf das E' +
-                    'rreichen des mittleren Schulabschlusses (Fachoberschulreife) und' +
-                    ' der Berechtigung zum Besuch der gymnasialen Oberstufe ausgerich' +
-                    'tet. In den Fachleistungskursen werden die Noten wie unter Buchs' +
-                    'tabe a ausgewiesen erteilt.\f2\fs0\par'#13#10'\pard\nowidctlpar\fi-284' +
-                    '\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072\f0\fs14 3.\tab Absch' +
-                    'l\'#39'fcsse der Hauptschule am Ende der Klasse 9 und der Klasse 10\' +
-                    'par'#13#10'\pard\nowidctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx907' +
-                    '2 Die Hauptschule vermittelt am Ende der Klasse 9 und der Klasse' +
-                    ' 10 folgende Abschl\'#39'fcsse:\par'#13#10'\pard\nowidctlpar\fi-283\li567\' +
-                    'ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 den "Hauptschulabschl' +
-                    'uss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der Kla' +
-                    'sse 9 der Hauptschule erreicht haben,\par'#13#10'-\tab den "Hauptschul' +
-                    'abschluss nach Klasse 10 " f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler' +
-                    ', die das Ziel der Klasse 10 Typ A der Hauptschule erreicht habe' +
-                    'n oder die Klasse 10 Typ B der Hauptschule nicht erfolgreich abg' +
-                    'eschlossen haben, deren Leistungen jedoch den Versetzungsbedingu' +
-                    'ngen der Klasse 10 Typ A entsprechen,\par'#13#10'-\tab den "mittleren ' +
-                    'Schulabschluss (Fachoberschulreife)" f\'#39'fcr Sch\'#39'fclerinnen und ' +
-                    'Sch\'#39'fcler, die das Ziel der Klasse 10 Typ B erreicht haben.\par' +
-                    #13#10'Wer die Hauptschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e4sst' +
-                    ', ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abgangsz' +
-                    'eugnis.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\t' +
-                    'x4536\tqr\tx9072 4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowid' +
-                    'ctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072 Gegen die Ents' +
-                    'cheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetze' +
-                    'n oder einen erreichbaren Abschluss oder eine Berechtigung nicht' +
-                    ' zu vergeben, kann innerhalb eines Monats nach Bekanntgabe des Z' +
-                    'eugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist b' +
-                    'ei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftli' +
-                    'ch oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\ri2' +
-                    '00\qr SNr: <SchulNr>, SForm: HS\par'#13#10'\pard\nowidctlpar\qr\cf1\f3' +
-                    '\fs16\par'#13#10'}'#13#10#0
+                    '\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im herkunftssprachlic' +
+                    'hen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorversetzun' +
+                    'g oder zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechsel\par'#13 +
+                    #10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugn' +
+                    'issen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\tx' +
+                    '4536\tqr\tx9072 2.\tab Notenstufen; Unterrichtsorganisation\par'#13 +
+                    #10'\pard\nowidctlpar\fi-283\li567\ri283\qj\tx567\tqc\tx3402\tqr\tx' +
+                    '9072 a)\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sow' +
+                    'ie in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39 +
+                    'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\f1\line\f' +
+                    '0 1. sehr gut (1)\par'#13#10'\tab 2. gut (2)\par'#13#10'\tab 3. befriedigend' +
+                    ' (3)\par'#13#10'\tab 4. ausreichend (4)\par'#13#10'\tab  5. mangelhaft (5)\p' +
+                    'ar'#13#10'\tab 6. ungen\'#39'fcgend (6)\par'#13#10'b)\tab Der Unterricht in Engl' +
+                    'isch und Mathematik wird in den Klassen 7 bis 9 in Fachleistungs' +
+                    'kursen mit zwei Anspruchsh\'#39'f6hen erteilt:\par'#13#10'\tab auf der Gru' +
+                    'ndebene und der Erweiterungsebene. Der Unterricht auf der Grunde' +
+                    'bene orientiert sich an Anforderungen, die in Verbindung mit and' +
+                    'eren von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Lei' +
+                    'stungen als Voraussetzungen f\'#39'fcr die Vergabe des Hauptschulabs' +
+                    'chlusses und des Hauptschulabschlusses nach Klasse 10 ma\'#39'dfgebe' +
+                    'nd sind. Die Anforderungen auf der Erweiterungsebene sind auf da' +
+                    's Erreichen des mittleren Schulabschlusses (Fachoberschulreife) ' +
+                    'und der Berechtigung zum Besuch der gymnasialen Oberstufe ausger' +
+                    'ichtet. In den Fachleistungskursen werden die Noten wie unter Bu' +
+                    'chstabe a ausgewiesen erteilt.\f2\fs0\par'#13#10'\pard\nowidctlpar\fi-' +
+                    '284\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072\f0\fs14 3.\tab Ab' +
+                    'schl\'#39'fcsse der Hauptschule am Ende der Klasse 9 und der Klasse ' +
+                    '10\par'#13#10'\pard\nowidctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx' +
+                    '9072 Die Hauptschule vermittelt am Ende der Klasse 9 und der Kla' +
+                    'sse 10 folgende Abschl\'#39'fcsse:\par'#13#10'\pard\nowidctlpar\fi-283\li5' +
+                    '67\ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 den "Hauptschulabs' +
+                    'chluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der ' +
+                    'Klasse 9 der Hauptschule erreicht haben,\par'#13#10'-\tab den "Hauptsc' +
+                    'hulabschluss nach Klasse 10 " f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fc' +
+                    'ler, die das Ziel der Klasse 10 Typ A der Hauptschule erreicht h' +
+                    'aben oder die Klasse 10 Typ B der Hauptschule nicht erfolgreich ' +
+                    'abgeschlossen haben, deren Leistungen jedoch den Versetzungsbedi' +
+                    'ngungen der Klasse 10 Typ A entsprechen,\par'#13#10'-\tab den "mittler' +
+                    'en Schulabschluss (Fachoberschulreife)" f\'#39'fcr Sch\'#39'fclerinnen u' +
+                    'nd Sch\'#39'fcler, die das Ziel der Klasse 10 Typ B erreicht haben.\' +
+                    'par'#13#10'Wer die Hauptschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e4' +
+                    'sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abgan' +
+                    'gszeugnis.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tq' +
+                    'c\tx4536\tqr\tx9072 4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\no' +
+                    'widctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072 Gegen die E' +
+                    'ntscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu verse' +
+                    'tzen oder einen erreichbaren Abschluss oder eine Berechtigung ni' +
+                    'cht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe de' +
+                    's Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch is' +
+                    't bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schrif' +
+                    'tlich oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\' +
+                    'ri200\qr SNr: <SchulNr>, SForm: HS\par'#13#10'\pard\nowidctlpar\qr\cf1' +
+                    '\f3\fs16\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100277
@@ -5229,59 +5229,59 @@ object Report: TppReport
                     '83\li567\ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 besondere Le' +
                     'istungsnachweise wie Jugendsportabzeichen oder Schwimmzeugnis so' +
                     'wie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste Hilfe)' +
-                    '\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im muttersprachlichen' +
-                    ' Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorversetzung o' +
-                    'der zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechsel\par'#13#10'-\' +
-                    'tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugniss' +
-                    'en.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\tx453' +
-                    '6\tqr\tx9072 2.\tab Notenstufen; Unterrichtsorganisation\par'#13#10'\p' +
-                    'ard\nowidctlpar\fi-283\li567\ri283\qj\tx567\tqc\tx3402\tqr\tx907' +
-                    '2 a)\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie ' +
-                    'in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 ' +
-                    '48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\f1\line\f0 1' +
-                    '. sehr gut (1)\par'#13#10'\tab 2. gut (2)\par'#13#10'\tab 3. befriedigend (3' +
-                    ')\par'#13#10'\tab 4. ausreichend (4)\par'#13#10'\tab  5. mangelhaft (5)\par'#13 +
-                    #10'\tab 6. ungen\'#39'fcgend (6)\par'#13#10'b)\tab Der Unterricht in Englisc' +
-                    'h und Mathematik wird in den Klassen 7 bis 9 in Fachleistungskur' +
-                    'sen mit zwei Anspruchsh\'#39'f6hen erteilt:\par'#13#10'\tab auf der Grunde' +
-                    'bene und der Erweiterungsebene. Der Unterricht auf der Grundeben' +
-                    'e orientiert sich an Anforderungen, die in Verbindung mit andere' +
-                    'n von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Leistu' +
-                    'ngen als Voraussetzungen f\'#39'fcr die Vergabe des Ersten Schulabsc' +
-                    'hlusses und des Erweiterten Ersten Schulabschlusses ma\'#39'dfgebend' +
-                    ' sind. Die Anforderungen auf der Erweiterungsebene sind auf das ' +
-                    'Erreichen des Mittleren Schulabschlusses (Fachoberschulreife) un' +
-                    'd der Berechtigung zum Besuch der gymnasialen Oberstufe ausgeric' +
-                    'htet. In den Fachleistungskursen werden die Noten wie unter Buch' +
-                    'stabe a ausgewiesen erteilt.\f2\fs0\par'#13#10'\pard\nowidctlpar\fi-28' +
-                    '4\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072\f0\fs14 3.\tab Absc' +
-                    'hl\'#39'fcsse der Hauptschule am Ende der Klasse 9 und der Klasse 10' +
-                    '\par'#13#10'\pard\nowidctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx90' +
-                    '72 Die Hauptschule vermittelt am Ende der Klasse 9 und der Klass' +
-                    'e 10 folgende Abschl\'#39'fcsse:\par'#13#10'\pard\nowidctlpar\fi-283\li567' +
-                    '\ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 den "Ersten Schulabs' +
-                    'chluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel der ' +
-                    'Klasse 9 der Hauptschule erreicht haben,\par'#13#10'-\tab den "Erweite' +
-                    'rten Ersten Schulabschluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcle' +
-                    'r, die das Ziel der Klasse 10 Typ A der Hauptschule erreicht hab' +
-                    'en oder die Klasse 10 Typ B der Hauptschule nicht erfolgreich ab' +
-                    'geschlossen haben, deren Leistungen jedoch den Versetzungsbeding' +
-                    'ungen der Klasse 10 Typ A entsprechen,\par'#13#10'-\tab den "Mittleren' +
-                    ' Schulabschluss (Fachoberschulreife)" f\'#39'fcr Sch\'#39'fclerinnen und' +
-                    ' Sch\'#39'fcler, die das Ziel der Klasse 10 Typ B erreicht haben.\pa' +
-                    'r'#13#10'Wer die Hauptschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e4ss' +
-                    't, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abgangs' +
-                    'zeugnis.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\' +
-                    'tx4536\tqr\tx9072 4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowi' +
-                    'dctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072 Gegen die Ent' +
-                    'scheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetz' +
-                    'en oder einen erreichbaren Abschluss oder eine Berechtigung nich' +
-                    't zu vergeben, kann innerhalb eines Monats nach Bekanntgabe des ' +
-                    'Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist ' +
-                    'bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftl' +
-                    'ich oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\ri' +
-                    '200\qr SNr: <SchulNr>, SForm: HS\par'#13#10'\pard\nowidctlpar\qr\cf1\f' +
-                    '3\fs16\par'#13#10'}'#13#10#0
+                    '\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im herkunftssprachlic' +
+                    'hen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorversetzun' +
+                    'g oder zum R\'#39'fccktritt\par'#13#10'-\tab Angaben zum Schulwechsel\par'#13 +
+                    #10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugn' +
+                    'issen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\tqc\tx' +
+                    '4536\tqr\tx9072 2.\tab Notenstufen; Unterrichtsorganisation\par'#13 +
+                    #10'\pard\nowidctlpar\fi-283\li567\ri283\qj\tx567\tqc\tx3402\tqr\tx' +
+                    '9072 a)\tab Bei der Bewertung einzelner Sch\'#39'fclerleistungen sow' +
+                    'ie in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39 +
+                    'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt:\f1\line\f' +
+                    '0 1. sehr gut (1)\par'#13#10'\tab 2. gut (2)\par'#13#10'\tab 3. befriedigend' +
+                    ' (3)\par'#13#10'\tab 4. ausreichend (4)\par'#13#10'\tab  5. mangelhaft (5)\p' +
+                    'ar'#13#10'\tab 6. ungen\'#39'fcgend (6)\par'#13#10'b)\tab Der Unterricht in Engl' +
+                    'isch und Mathematik wird in den Klassen 7 bis 9 in Fachleistungs' +
+                    'kursen mit zwei Anspruchsh\'#39'f6hen erteilt:\par'#13#10'\tab auf der Gru' +
+                    'ndebene und der Erweiterungsebene. Der Unterricht auf der Grunde' +
+                    'bene orientiert sich an Anforderungen, die in Verbindung mit and' +
+                    'eren von den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Lei' +
+                    'stungen als Voraussetzungen f\'#39'fcr die Vergabe des Ersten Schula' +
+                    'bschlusses und des Erweiterten Ersten Schulabschlusses ma\'#39'dfgeb' +
+                    'end sind. Die Anforderungen auf der Erweiterungsebene sind auf d' +
+                    'as Erreichen des Mittleren Schulabschlusses (Fachoberschulreife)' +
+                    ' und der Berechtigung zum Besuch der gymnasialen Oberstufe ausge' +
+                    'richtet. In den Fachleistungskursen werden die Noten wie unter B' +
+                    'uchstabe a ausgewiesen erteilt.\f2\fs0\par'#13#10'\pard\nowidctlpar\fi' +
+                    '-284\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072\f0\fs14 3.\tab A' +
+                    'bschl\'#39'fcsse der Hauptschule am Ende der Klasse 9 und der Klasse' +
+                    ' 10\par'#13#10'\pard\nowidctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\t' +
+                    'x9072 Die Hauptschule vermittelt am Ende der Klasse 9 und der Kl' +
+                    'asse 10 folgende Abschl\'#39'fcsse:\par'#13#10'\pard\nowidctlpar\fi-283\li' +
+                    '567\ri283\qj\tqc\tx4536\tqr\tx9072\f1 -\tab\f0 den "Ersten Schul' +
+                    'abschluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'fcler, die das Ziel d' +
+                    'er Klasse 9 der Hauptschule erreicht haben,\par'#13#10'-\tab den "Erwe' +
+                    'iterten Ersten Schulabschluss" f\'#39'fcr Sch\'#39'fclerinnen und Sch\'#39'f' +
+                    'cler, die das Ziel der Klasse 10 Typ A der Hauptschule erreicht ' +
+                    'haben oder die Klasse 10 Typ B der Hauptschule nicht erfolgreich' +
+                    ' abgeschlossen haben, deren Leistungen jedoch den Versetzungsbed' +
+                    'ingungen der Klasse 10 Typ A entsprechen,\par'#13#10'-\tab den "Mittle' +
+                    'ren Schulabschluss (Fachoberschulreife)" f\'#39'fcr Sch\'#39'fclerinnen ' +
+                    'und Sch\'#39'fcler, die das Ziel der Klasse 10 Typ B erreicht haben.' +
+                    '\par'#13#10'Wer die Hauptschule nach erf\'#39'fcllter Schulpflicht verl\'#39'e' +
+                    '4sst, ohne einen Abschluss erreicht zu haben, erh\'#39'e4lt ein Abga' +
+                    'ngszeugnis.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\qj\tx284\t' +
+                    'qc\tx4536\tqr\tx9072 4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\n' +
+                    'owidctlpar\li284\ri283\qj\tx284\tqc\tx4536\tqr\tx9072 Gegen die ' +
+                    'Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu vers' +
+                    'etzen oder einen erreichbaren Abschluss oder eine Berechtigung n' +
+                    'icht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe d' +
+                    'es Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch i' +
+                    'st bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schri' +
+                    'ftlich oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar' +
+                    '\ri200\qr SNr: <SchulNr>, SForm: HS\par'#13#10'\pard\nowidctlpar\qr\cf' +
+                    '1\f3\fs16\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 100277
@@ -5359,7 +5359,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148800000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30352D3330273B0D0A20205265704175746F7265
+      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205265696E68617264742C20506CC3BC6D7065
       722C206465206C612048617965273B0D0A0D0A626567696E0D0A0D0A656E643B
       0D0A084361726574506F730102010201000001060D54726156617250726F6772
@@ -5502,7 +5502,7 @@ object Report: TppReport
       202D273B0D0A656E643B0D0A084361726574506F730102050209000001060A54
       726150726F6772616D094368696C645479706502150B50726F6772616D4E616D
       6506195A6575676E697365696E7374656C6C756E67656E4C6164656E0B50726F
-      6772616D54797065070B747450726F63656475726506536F7572636514057B00
+      6772616D54797065070B747450726F63656475726506536F7572636514247C00
       0070726F636564757265205A6575676E697365696E7374656C6C756E67656E4C
       6164656E285A6575676E6973616E6C616765496E494E49203A20737472696E67
       3B204D69745665727365747A756E67737665726D65726B2C204D6974456C7465
@@ -6484,198 +6484,207 @@ object Report: TppReport
       6E20556E74657273636872696674656E4D69745374764B6C617373656E6C6568
       726572203A3D20426573746165746967756E67282741756368207374762E204B
       6C617373656E6C656974756E6720696E2064656E20556E746572736368726966
-      74656E206D697420617573676562656E3F27293B20202020202020202020200D
-      0A20202020656E643B0D0A0D0A2020736C4461746569696E68616C742E467265
-      653B0D0A2020736C45696E7374656C6C756E67656E2E467265653B0D0A200D0A
-      656E643B0D0A084361726574506F73010202035002000001060A54726150726F
-      6772616D094368696C645479706502150E497346756E6374696F6E5479706509
-      0B50726F6772616D4E616D6506135A6575676E6973566F726E616D6544727563
-      6B0B50726F6772616D54797065070A747446756E6374696F6E06536F75726365
-      0C3A02000066756E6374696F6E205A6575676E6973566F726E616D6544727563
-      6B3A20737472696E673B0D0A0D0A7661720D0A202053636875656C6572566F72
-      6E616D65447275636B203A20737472696E673B200D0A0D0A626567696E0D0A0D
-      0A2020696620285472696D2853636875656C65725B275A757361747A275D2920
-      3C3E20272729207468656E0D0A20202020626567696E200D0A20202020202069
-      6620285A6575676E6973566F726E616D65203D2027412729207468656E0D0A20
-      202020202020202053636875656C6572566F726E616D65447275636B203A3D20
-      5472696D2853636875656C65725B275A757361747A275D290D0A202020202020
-      656C736520696620285A6575676E6973566F726E616D65203D20275727292074
-      68656E0D0A20202020202020202053636875656C6572566F726E616D65447275
-      636B203A3D205472696D2853636875656C65725B27566F726E616D65275D2920
-      2B20272027202B205472696D2853636875656C65725B275A757361747A275D29
-      0D0A202020202020656C73650D0A20202020202020202053636875656C657256
-      6F726E616D65447275636B203A3D205472696D2853636875656C65725B27566F
-      726E616D65275D293B0D0A20202020656E640D0A2020656C73650D0A20202020
-      53636875656C6572566F726E616D65447275636B203A3D205472696D28536368
-      75656C65725B27566F726E616D65275D293B0D0A2020526573756C74203A3D20
-      53636875656C6572566F726E616D65447275636B3B0D0A0D0A656E643B0D0A08
-      4361726574506F730102000200000001060A54726150726F6772616D09436869
-      6C645479706502150E497346756E6374696F6E54797065090B50726F6772616D
-      4E616D65061B5A6575676E6973566F726E616D654E6163686E616D6544727563
-      6B0B50726F6772616D54797065070A747446756E6374696F6E06536F75726365
-      0CB501000066756E6374696F6E205A6575676E6973566F726E616D654E616368
-      6E616D65447275636B3A20737472696E673B0D0A0D0A7661720D0A2020536368
-      75656C6572566F726E616D654E6163686E616D65447275636B203A2073747269
-      6E673B0D0A0D0A626567696E0D0A0D0A2020696620285472696D285363687565
-      6C65725B275A757361747A4E6163686E616D65275D29203D2027272920746865
-      6E0D0A2020202053636875656C6572566F726E616D654E6163686E616D654472
-      75636B203A3D205A6575676E6973566F726E616D65447275636B202B20272027
-      202B205472696D2853636875656C65725B274E616D65275D290D0A2020656C73
-      650D0A2020202053636875656C6572566F726E616D654E6163686E616D654472
-      75636B203A3D205A6575676E6973566F726E616D65447275636B202B20272027
-      202B205472696D2853636875656C65725B275A757361747A4E6163686E616D65
-      275D29202B20272027202B205472696D2853636875656C65725B274E616D6527
-      5D293B200D0A2020526573756C74203A3D202053636875656C6572566F726E61
-      6D654E6163686E616D65447275636B3B0D0A0D0A656E643B0D0A084361726574
-      506F730102000200000001060A54726150726F6772616D094368696C64547970
-      6502150E497346756E6374696F6E54797065090B50726F6772616D4E616D6506
-      0B4C5F564E616D655F41626B0B50726F6772616D54797065070A747446756E63
-      74696F6E06536F757263650C7203000066756E6374696F6E204C5F564E616D65
-      5F41626B28766E3A20737472696E67293A20737472696E673B0D0A766172200D
-      0A202068766E2C20765F6E3A20737472696E673B0D0A20206C652C2062693A20
-      696E74656765723B0D0A0D0A626567696E0D0A0D0A202068766E203A3D205472
-      696D28766E293B0D0A20200D0A202069662068766E203C3E202727207468656E
-      200D0A20202020626567696E200D0A202020202020765F6E203A3D20436F7079
-      2868766E2C20312C203129202B20272E273B0D0A2020202020206C65203A3D20
-      506F73282720272C2068766E293B0D0A2020202020206269203A3D20506F7328
-      272D272C2068766E293B0D0A202020202020696620286C65202B20626929203E
-      2030207468656E200D0A2020202020202020626567696E0D0A20202020202020
-      202020696620286269203E20302920616E642028286C65203D203029206F7220
-      286C65203E2062692929207468656E0D0A202020202020202020202020626567
-      696E0D0A2020202020202020202020202020765F6E203A3D20765F6E202B2027
-      2D273B0D0A202020202020202020202020202044656C6574652868766E2C2031
-      2C206269293B0D0A2020202020202020202020202020765F6E203A3D20765F6E
-      202B20436F70792868766E2C20312C203129202B20272E273B0D0A2020202020
-      20202020202020656E640D0A20202020202020202020656C7365206966202820
-      28286C65203E20302920616E6420286E6F7420556E7465727363687269667465
-      6E4D6974566F726E616D656E4E7572457273746572292920616E642028286269
-      203D203029206F7220286269203E206C6529292029207468656E0D0A20202020
-      2020202020202020626567696E0D0A2020202020202020202020202020765F6E
-      203A3D20765F6E202B202720273B0D0A20202020202020202020202020204465
-      6C6574652868766E2C20312C206C65293B0D0A20202020202020202020202020
-      20765F6E203A3D20765F6E202B20436F70792868766E2C20312C203129202B20
-      272E273B0D0A202020202020202020202020656E643B0D0A2020202020202020
-      656E643B0D0A202020202020765F6E203A3D20765F6E202B202720273B0D0A20
-      202020656E640D0A2020656C7365200D0A20202020765F6E203A3D2027273B20
-      0D0A20200D0A2020526573756C74203A3D20765F6E3B0D0A20200D0A656E643B
-      0D0A084361726574506F730102000200000001060A54726150726F6772616D09
-      4368696C645479706502150E497346756E6374696F6E54797065090B50726F67
-      72616D4E616D650626556E746572736368726966747362657A656963686E756E
-      675A7573616D6D656E7365747A656E0B50726F6772616D54797065070A747446
-      756E6374696F6E06536F757263650C3E06000066756E6374696F6E20556E7465
-      72736368726966747362657A656963686E756E675A7573616D6D656E7365747A
-      656E284175734B7565727A656C4C6164656E3A20626F6F6C65616E3B20766172
-      204C5F4B7565727A656C2C204C5F4E616D652C204C5F566F726E616D652C204C
-      5F546974656C2C204C5F416D747362657A2C204C5F46756E6B74696F6E3A2073
-      7472696E67293A20737472696E673B0D0A766172200D0A20204C5F416E726564
-      65203A20537472696E673B0D0A202073546974656C2C2073566F726E616D652C
-      20734E6163686E616D652C2073416D747362657A2C207346756E6B74696F6E20
-      3A20737472696E673B0D0A20207342657A656963686E756E673A20737472696E
-      673B0D0A20200D0A626567696E0D0A20200D0A20207342657A656963686E756E
-      67203A3D2027273B0D0A200D0A2020696620284175734B7565727A656C4C6164
-      656E20616E6420284C5F4B7565727A656C203C3E2027272929207468656E0D0A
-      202020204C6568726572646174656E4C6164656E284C5F4B7565727A656C2C20
-      4C5F4E616D652C204C5F566F726E616D652C204C5F416E726564652C204C5F54
-      6974656C2C204C5F416D747362657A293B0D0A200D0A20204C5F416E72656465
-      203A3D205472696D284C5F416E72656465293B0D0A20200D0A20207354697465
-      6C203A3D205472696D284C5F546974656C293B0D0A202069662073546974656C
-      203C3E202727207468656E200D0A20202020626567696E0D0A20202020202069
-      6620506F7328272E272C2073546974656C29203D2030207468656E2073546974
-      656C203A3D2073546974656C202B20272E273B0D0A2020202020207354697465
-      6C203A3D2073546974656C202B202720273B200D0A20202020656E643B0D0A20
-      200D0A202073566F726E616D65203A3D204C5F564E616D655F41626B284C5F56
-      6F726E616D65293B0D0A2020734E6163686E616D65203A3D205472696D284C5F
-      4E616D65293B0D0A20200D0A202073416D747362657A203A3D205472696D284C
-      5F416D747362657A293B0D0A20206966202873416D747362657A203C3E202727
-      29207468656E200D0A2020202073416D747362657A203A3D20272C2027202B20
-      73416D747362657A0D0A2020656C7365200D0A2020202073416D747362657A20
-      3A3D2027273B0D0A0D0A20207346756E6B74696F6E203A3D205472696D284C5F
-      46756E6B74696F6E293B0D0A20200D0A2020696620284175734B7565727A656C
-      4C6164656E20616E6420284C5F4B7565727A656C203C3E2027272920616E6420
-      284C5F416E72656465203D202746726175272920616E642028706F7328734675
-      6E6B74696F6E2C20272D2D536368756C6C65697465722D41627465696C756E67
-      736C65697465722D4B6C617373656E6C65687265722D2D2729203E2030292074
-      68656E0D0A202020207346756E6B74696F6E203A3D207346756E6B74696F6E20
-      2B2027696E273B0D0A20200D0A202069662028556E7465727363687269667465
-      6E4D69744E6163686E616D656E20414E442028734E6163686E616D65203C3E20
-      272729297468656E0D0A20202020626567696E0D0A202020202020696620556E
-      74657273636872696674656E4D6974546974656C207468656E207342657A6569
-      63686E756E67203A3D207342657A656963686E756E67202B2073546974656C3B
-      0D0A202020202020696620556E74657273636872696674656E4D6974566F726E
-      616D656E207468656E207342657A656963686E756E67203A3D207342657A6569
-      63686E756E67202B2073566F726E616D653B200D0A2020202020207342657A65
-      6963686E756E67203A3D207342657A656963686E756E67202B20734E6163686E
-      616D653B0D0A202020202020696620556E74657273636872696674656E4D6974
-      416D747362657A656963686E756E67656E207468656E207342657A656963686E
-      756E67203A3D207342657A656963686E756E67202B2073416D747362657A3B0D
-      0A20202020656E643B0D0A202020200D0A20206966207342657A656963686E75
-      6E67203C3E202727207468656E207342657A656963686E756E67203A3D207342
-      657A656963686E756E67202B2027202827202B207346756E6B74696F6E202B20
-      2729273B0D0A202020200D0A2020526573756C74203A3D207342657A65696368
-      6E756E673B0D0A20200D0A656E643B0D0A084361726574506F73010200020000
-      0001060A54726150726F6772616D094368696C645479706502150B50726F6772
-      616D4E616D65061B556E74657273636872696674656E546578746545696E6C65
-      73656E0B50726F6772616D54797065070B747450726F63656475726506536F75
-      726365141204000070726F63656475726520556E74657273636872696674656E
-      546578746545696E6C6573656E28636F6E73742073546578742C207344656661
-      756C7446756E6B74696F6E203A20737472696E673B2076617220624D69744C5F
-      4B727A203A20626F6F6C65616E3B2076617220734C5F4B727A2C20734C5F4675
-      6E6B74696F6E203A20737472696E67293B0D0A766172200D0A20204E616D652C
-      20566F726E616D652C20416E726564652C20546974656C2C20416D747362657A
-      203A20737472696E673B0D0A2020694B6F6D6D612C20694B6C616D6D6572312C
-      20694B6C616D6D657232203A20696E74656765723B0D0A202020200D0A626567
-      696E0D0A0D0A20202F2F205465787420626973207A756D2065727374656E204B
-      6F6D6D61206175736C6573656E2C20646965736572206572737465205465696C
-      207769726420616C73204BC3BC727A656C20696E74657270726574696572740D
-      0A2020694B6F6D6D61203A3D20706F7328272C272C207354657874293B0D0A20
-      20696620694B6F6D6D61203E2030207468656E0D0A20202020734C5F4B727A20
-      3A3D207472696D28636F70792873546578742C20312C20694B6F6D6D612D3129
-      290D0A2020656C736520202020202020202020202020202020202020200D0A20
-      202020734C5F4B727A203A3D207472696D287354657874293B0D0A202020200D
-      0A20202F2F205072C3BC66652C206F6220646965732065696E204C6568726572
-      6BC3BC727A656C2069737420756E64207365747A6520656E7473707265636865
-      6E6420624D69744C5F4B727A0D0A2020566F726E616D65203A3D2027273B0D0A
-      20204C6568726572446174656E4C6164656E28734C5F4B727A2C204E616D652C
-      20566F726E616D652C20416E726564652C20546974656C2C20416D747362657A
-      293B0D0A2020624D69744C5F4B727A203A3D20285472696D28566F726E616D65
-      29203C3E202727293B0D0A20200D0A20202F2F2057656E6E206A612C206C6965
-      73206469652046756E6B74696F6E206175732064656D2054657874206175730D
-      0A2020694B6C616D6D657231203A3D20706F73282728272C207354657874293B
-      0D0A2020694B6C616D6D657232203A3D20706F73282729272C20735465787429
-      3B0D0A202069662028694B6C616D6D657231203D203029206F722028694B6C61
-      6D6D657232203D203029206F722028694B6C616D6D657231203E20694B6C616D
-      6D65723229207468656E0D0A20202020734C5F46756E6B74696F6E203A3D2074
-      72696D287344656661756C7446756E6B74696F6E290D0A2020656C73650D0A20
-      202020734C5F46756E6B74696F6E203A3D207472696D28636F70792873546578
-      742C20694B6C616D6D6572312B312C20694B6C616D6D657232202D20694B6C61
-      6D6D657231202D203129293B0D0A202020200D0A656E643B0D0A084361726574
-      506F730102000200000001060F5472614576656E7448616E646C65720B50726F
-      6772616D4E616D6506115265706F72744265666F72655072696E740B50726F67
-      72616D54797065070B747450726F63656475726506536F7572636506E970726F
-      636564757265205265706F72744265666F72655072696E743B0D0A626567696E
-      0D0A2020536368756C666F726D203A3D20274861757074736368756C65273B0D
-      0A2020536368756C6F7274203A3D20456967656E65536368756C655B274F7274
-      275D3B0D0A2020536368756C666F726D41203A3D20276469652027202B205363
-      68756C666F726D3B0D0A2020536368756C666F726D47203A3D20276465722027
-      202B20536368756C666F726D3B0D0A202045535F416E7A4162203A3D20456967
-      656E65536368756C655B27416E7A61686C41627363686E69747465275D3B0D0A
-      656E643B0D0A0D436F6D706F6E656E744E616D6506065265706F727409457665
-      6E744E616D65060B4265666F72655072696E74074576656E7449440201084361
-      726574506F730102010201000001060F5472614576656E7448616E646C65720B
-      50726F6772616D4E616D65061144657461696C4265666F72655072696E740B50
-      726F6772616D54797065070B747450726F63656475726506536F757263650C2E
-      01000070726F6365647572652044657461696C4265666F72655072696E743B0D
-      0A626567696E0D0A20204E657565566F726C616765203A3D2028284C65726E61
-      627363686E697474655B274A616872275D2D537472546F496E74284C65726E61
-      627363686E697474655B274153444A61687267616E67275D29203E3D20323031
-      35293B0D0A20204E657565566F726C616765416232303231203A3D2028284C65
-      726E61627363686E697474655B274A616872275D2D537472546F496E74284C65
-      726E61627363686E697474655B274153444A61687267616E67275D29203E3D20
-      32303136293B200D0A20204E65756541627363686C75737342657A656963686E
-      756E67203A3D20284C65726E61627363686E697474655B274A616872275D203E
-      3D203230323229203B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-      0644657461696C094576656E744E616D65060B4265666F72655072696E740745
-      76656E7449440218084361726574506F730102010201000000}
+      74656E206D697420617573676562656E3F27293B200D0A2020202020200D0A20
+      20202020206966204D69745665727365747A756E67737665726D65726B207468
+      656E200D0A2020202020202020626567696E0D0A202020202020202020207341
+      6B7475656C6C657257657274203A3D2053656C656374537472696E6745782827
+      4A61687267616E677373747566652077C3A4686C656E2C20696E206465722065
+      7273746D616C69672065696E65205665727365747A756E672073746174746669
+      6E646574272C202730353B30363B30373B30383B3039272C20273B27293B0D0A
+      202020202020202020205665727365747A756E67426567696E6E4153444A6168
+      7267616E67203A3D205472696D2873416B7475656C6C657257657274293B2020
+      2020202020200D0A2020202020202020656E643B202020202020202020200D0A
+      20202020656E643B0D0A0D0A2020736C4461746569696E68616C742E46726565
+      3B0D0A2020736C45696E7374656C6C756E67656E2E467265653B0D0A200D0A65
+      6E643B0D0A084361726574506F73010202035002000001060A54726150726F67
+      72616D094368696C645479706502150E497346756E6374696F6E54797065090B
+      50726F6772616D4E616D6506135A6575676E6973566F726E616D65447275636B
+      0B50726F6772616D54797065070A747446756E6374696F6E06536F757263650C
+      3A02000066756E6374696F6E205A6575676E6973566F726E616D65447275636B
+      3A20737472696E673B0D0A0D0A7661720D0A202053636875656C6572566F726E
+      616D65447275636B203A20737472696E673B200D0A0D0A626567696E0D0A0D0A
+      2020696620285472696D2853636875656C65725B275A757361747A275D29203C
+      3E20272729207468656E0D0A20202020626567696E200D0A2020202020206966
+      20285A6575676E6973566F726E616D65203D2027412729207468656E0D0A2020
+      2020202020202053636875656C6572566F726E616D65447275636B203A3D2054
+      72696D2853636875656C65725B275A757361747A275D290D0A20202020202065
+      6C736520696620285A6575676E6973566F726E616D65203D2027572729207468
+      656E0D0A20202020202020202053636875656C6572566F726E616D6544727563
+      6B203A3D205472696D2853636875656C65725B27566F726E616D65275D29202B
+      20272027202B205472696D2853636875656C65725B275A757361747A275D290D
+      0A202020202020656C73650D0A20202020202020202053636875656C6572566F
+      726E616D65447275636B203A3D205472696D2853636875656C65725B27566F72
+      6E616D65275D293B0D0A20202020656E640D0A2020656C73650D0A2020202053
+      636875656C6572566F726E616D65447275636B203A3D205472696D2853636875
+      656C65725B27566F726E616D65275D293B0D0A2020526573756C74203A3D2053
+      636875656C6572566F726E616D65447275636B3B0D0A0D0A656E643B0D0A0843
+      61726574506F730102000200000001060A54726150726F6772616D094368696C
+      645479706502150E497346756E6374696F6E54797065090B50726F6772616D4E
+      616D65061B5A6575676E6973566F726E616D654E6163686E616D65447275636B
+      0B50726F6772616D54797065070A747446756E6374696F6E06536F757263650C
+      B501000066756E6374696F6E205A6575676E6973566F726E616D654E6163686E
+      616D65447275636B3A20737472696E673B0D0A0D0A7661720D0A202053636875
+      656C6572566F726E616D654E6163686E616D65447275636B203A20737472696E
+      673B0D0A0D0A626567696E0D0A0D0A2020696620285472696D2853636875656C
+      65725B275A757361747A4E6163686E616D65275D29203D20272729207468656E
+      0D0A2020202053636875656C6572566F726E616D654E6163686E616D65447275
+      636B203A3D205A6575676E6973566F726E616D65447275636B202B2027202720
+      2B205472696D2853636875656C65725B274E616D65275D290D0A2020656C7365
+      0D0A2020202053636875656C6572566F726E616D654E6163686E616D65447275
+      636B203A3D205A6575676E6973566F726E616D65447275636B202B2027202720
+      2B205472696D2853636875656C65725B275A757361747A4E6163686E616D6527
+      5D29202B20272027202B205472696D2853636875656C65725B274E616D65275D
+      293B200D0A2020526573756C74203A3D202053636875656C6572566F726E616D
+      654E6163686E616D65447275636B3B0D0A0D0A656E643B0D0A08436172657450
+      6F730102000200000001060A54726150726F6772616D094368696C6454797065
+      02150E497346756E6374696F6E54797065090B50726F6772616D4E616D65060B
+      4C5F564E616D655F41626B0B50726F6772616D54797065070A747446756E6374
+      696F6E06536F757263650C7203000066756E6374696F6E204C5F564E616D655F
+      41626B28766E3A20737472696E67293A20737472696E673B0D0A766172200D0A
+      202068766E2C20765F6E3A20737472696E673B0D0A20206C652C2062693A2069
+      6E74656765723B0D0A0D0A626567696E0D0A0D0A202068766E203A3D20547269
+      6D28766E293B0D0A20200D0A202069662068766E203C3E202727207468656E20
+      0D0A20202020626567696E200D0A202020202020765F6E203A3D20436F707928
+      68766E2C20312C203129202B20272E273B0D0A2020202020206C65203A3D2050
+      6F73282720272C2068766E293B0D0A2020202020206269203A3D20506F732827
+      2D272C2068766E293B0D0A202020202020696620286C65202B20626929203E20
+      30207468656E200D0A2020202020202020626567696E0D0A2020202020202020
+      2020696620286269203E20302920616E642028286C65203D203029206F722028
+      6C65203E2062692929207468656E0D0A20202020202020202020202062656769
+      6E0D0A2020202020202020202020202020765F6E203A3D20765F6E202B20272D
+      273B0D0A202020202020202020202020202044656C6574652868766E2C20312C
+      206269293B0D0A2020202020202020202020202020765F6E203A3D20765F6E20
+      2B20436F70792868766E2C20312C203129202B20272E273B0D0A202020202020
+      202020202020656E640D0A20202020202020202020656C736520696620282028
+      286C65203E20302920616E6420286E6F7420556E74657273636872696674656E
+      4D6974566F726E616D656E4E7572457273746572292920616E64202828626920
+      3D203029206F7220286269203E206C6529292029207468656E0D0A2020202020
+      20202020202020626567696E0D0A2020202020202020202020202020765F6E20
+      3A3D20765F6E202B202720273B0D0A202020202020202020202020202044656C
+      6574652868766E2C20312C206C65293B0D0A2020202020202020202020202020
+      765F6E203A3D20765F6E202B20436F70792868766E2C20312C203129202B2027
+      2E273B0D0A202020202020202020202020656E643B0D0A202020202020202065
+      6E643B0D0A202020202020765F6E203A3D20765F6E202B202720273B0D0A2020
+      2020656E640D0A2020656C7365200D0A20202020765F6E203A3D2027273B200D
+      0A20200D0A2020526573756C74203A3D20765F6E3B0D0A20200D0A656E643B0D
+      0A084361726574506F730102000200000001060A54726150726F6772616D0943
+      68696C645479706502150E497346756E6374696F6E54797065090B50726F6772
+      616D4E616D650626556E746572736368726966747362657A656963686E756E67
+      5A7573616D6D656E7365747A656E0B50726F6772616D54797065070A74744675
+      6E6374696F6E06536F757263650C3E06000066756E6374696F6E20556E746572
+      736368726966747362657A656963686E756E675A7573616D6D656E7365747A65
+      6E284175734B7565727A656C4C6164656E3A20626F6F6C65616E3B2076617220
+      4C5F4B7565727A656C2C204C5F4E616D652C204C5F566F726E616D652C204C5F
+      546974656C2C204C5F416D747362657A2C204C5F46756E6B74696F6E3A207374
+      72696E67293A20737472696E673B0D0A766172200D0A20204C5F416E72656465
+      203A20537472696E673B0D0A202073546974656C2C2073566F726E616D652C20
+      734E6163686E616D652C2073416D747362657A2C207346756E6B74696F6E203A
+      20737472696E673B0D0A20207342657A656963686E756E673A20737472696E67
+      3B0D0A20200D0A626567696E0D0A20200D0A20207342657A656963686E756E67
+      203A3D2027273B0D0A200D0A2020696620284175734B7565727A656C4C616465
+      6E20616E6420284C5F4B7565727A656C203C3E2027272929207468656E0D0A20
+      2020204C6568726572646174656E4C6164656E284C5F4B7565727A656C2C204C
+      5F4E616D652C204C5F566F726E616D652C204C5F416E726564652C204C5F5469
+      74656C2C204C5F416D747362657A293B0D0A200D0A20204C5F416E7265646520
+      3A3D205472696D284C5F416E72656465293B0D0A20200D0A202073546974656C
+      203A3D205472696D284C5F546974656C293B0D0A202069662073546974656C20
+      3C3E202727207468656E200D0A20202020626567696E0D0A2020202020206966
+      20506F7328272E272C2073546974656C29203D2030207468656E207354697465
+      6C203A3D2073546974656C202B20272E273B0D0A20202020202073546974656C
+      203A3D2073546974656C202B202720273B200D0A20202020656E643B0D0A2020
+      0D0A202073566F726E616D65203A3D204C5F564E616D655F41626B284C5F566F
+      726E616D65293B0D0A2020734E6163686E616D65203A3D205472696D284C5F4E
+      616D65293B0D0A20200D0A202073416D747362657A203A3D205472696D284C5F
+      416D747362657A293B0D0A20206966202873416D747362657A203C3E20272729
+      207468656E200D0A2020202073416D747362657A203A3D20272C2027202B2073
+      416D747362657A0D0A2020656C7365200D0A2020202073416D747362657A203A
+      3D2027273B0D0A0D0A20207346756E6B74696F6E203A3D205472696D284C5F46
+      756E6B74696F6E293B0D0A20200D0A2020696620284175734B7565727A656C4C
+      6164656E20616E6420284C5F4B7565727A656C203C3E2027272920616E642028
+      4C5F416E72656465203D202746726175272920616E642028706F73287346756E
+      6B74696F6E2C20272D2D536368756C6C65697465722D41627465696C756E6773
+      6C65697465722D4B6C617373656E6C65687265722D2D2729203E203029207468
+      656E0D0A202020207346756E6B74696F6E203A3D207346756E6B74696F6E202B
+      2027696E273B0D0A20200D0A202069662028556E74657273636872696674656E
+      4D69744E6163686E616D656E20414E442028734E6163686E616D65203C3E2027
+      2729297468656E0D0A20202020626567696E0D0A202020202020696620556E74
+      657273636872696674656E4D6974546974656C207468656E207342657A656963
+      686E756E67203A3D207342657A656963686E756E67202B2073546974656C3B0D
+      0A202020202020696620556E74657273636872696674656E4D6974566F726E61
+      6D656E207468656E207342657A656963686E756E67203A3D207342657A656963
+      686E756E67202B2073566F726E616D653B200D0A2020202020207342657A6569
+      63686E756E67203A3D207342657A656963686E756E67202B20734E6163686E61
+      6D653B0D0A202020202020696620556E74657273636872696674656E4D697441
+      6D747362657A656963686E756E67656E207468656E207342657A656963686E75
+      6E67203A3D207342657A656963686E756E67202B2073416D747362657A3B0D0A
+      20202020656E643B0D0A202020200D0A20206966207342657A656963686E756E
+      67203C3E202727207468656E207342657A656963686E756E67203A3D20734265
+      7A656963686E756E67202B2027202827202B207346756E6B74696F6E202B2027
+      29273B0D0A202020200D0A2020526573756C74203A3D207342657A656963686E
+      756E673B0D0A20200D0A656E643B0D0A084361726574506F7301020002000000
+      01060A54726150726F6772616D094368696C645479706502150B50726F677261
+      6D4E616D65061B556E74657273636872696674656E546578746545696E6C6573
+      656E0B50726F6772616D54797065070B747450726F63656475726506536F7572
+      6365141204000070726F63656475726520556E74657273636872696674656E54
+      6578746545696E6C6573656E28636F6E73742073546578742C20734465666175
+      6C7446756E6B74696F6E203A20737472696E673B2076617220624D69744C5F4B
+      727A203A20626F6F6C65616E3B2076617220734C5F4B727A2C20734C5F46756E
+      6B74696F6E203A20737472696E67293B0D0A766172200D0A20204E616D652C20
+      566F726E616D652C20416E726564652C20546974656C2C20416D747362657A20
+      3A20737472696E673B0D0A2020694B6F6D6D612C20694B6C616D6D6572312C20
+      694B6C616D6D657232203A20696E74656765723B0D0A202020200D0A62656769
+      6E0D0A0D0A20202F2F205465787420626973207A756D2065727374656E204B6F
+      6D6D61206175736C6573656E2C20646965736572206572737465205465696C20
+      7769726420616C73204BC3BC727A656C20696E74657270726574696572740D0A
+      2020694B6F6D6D61203A3D20706F7328272C272C207354657874293B0D0A2020
+      696620694B6F6D6D61203E2030207468656E0D0A20202020734C5F4B727A203A
+      3D207472696D28636F70792873546578742C20312C20694B6F6D6D612D312929
+      0D0A2020656C736520202020202020202020202020202020202020200D0A2020
+      2020734C5F4B727A203A3D207472696D287354657874293B0D0A202020200D0A
+      20202F2F205072C3BC66652C206F6220646965732065696E204C65687265726B
+      C3BC727A656C2069737420756E64207365747A6520656E74737072656368656E
+      6420624D69744C5F4B727A0D0A2020566F726E616D65203A3D2027273B0D0A20
+      204C6568726572446174656E4C6164656E28734C5F4B727A2C204E616D652C20
+      566F726E616D652C20416E726564652C20546974656C2C20416D747362657A29
+      3B0D0A2020624D69744C5F4B727A203A3D20285472696D28566F726E616D6529
+      203C3E202727293B0D0A20200D0A20202F2F2057656E6E206A612C206C696573
+      206469652046756E6B74696F6E206175732064656D2054657874206175730D0A
+      2020694B6C616D6D657231203A3D20706F73282728272C207354657874293B0D
+      0A2020694B6C616D6D657232203A3D20706F73282729272C207354657874293B
+      0D0A202069662028694B6C616D6D657231203D203029206F722028694B6C616D
+      6D657232203D203029206F722028694B6C616D6D657231203E20694B6C616D6D
+      65723229207468656E0D0A20202020734C5F46756E6B74696F6E203A3D207472
+      696D287344656661756C7446756E6B74696F6E290D0A2020656C73650D0A2020
+      2020734C5F46756E6B74696F6E203A3D207472696D28636F7079287354657874
+      2C20694B6C616D6D6572312B312C20694B6C616D6D657232202D20694B6C616D
+      6D657231202D203129293B0D0A202020200D0A656E643B0D0A08436172657450
+      6F730102000200000001060F5472614576656E7448616E646C65720B50726F67
+      72616D4E616D6506115265706F72744265666F72655072696E740B50726F6772
+      616D54797065070B747450726F63656475726506536F7572636506E970726F63
+      6564757265205265706F72744265666F72655072696E743B0D0A626567696E0D
+      0A2020536368756C666F726D203A3D20274861757074736368756C65273B0D0A
+      2020536368756C6F7274203A3D20456967656E65536368756C655B274F727427
+      5D3B0D0A2020536368756C666F726D41203A3D20276469652027202B20536368
+      756C666F726D3B0D0A2020536368756C666F726D47203A3D2027646572202720
+      2B20536368756C666F726D3B0D0A202045535F416E7A4162203A3D2045696765
+      6E65536368756C655B27416E7A61686C41627363686E69747465275D3B0D0A65
+      6E643B0D0A0D436F6D706F6E656E744E616D6506065265706F7274094576656E
+      744E616D65060B4265666F72655072696E74074576656E744944020108436172
+      6574506F730102010201000001060F5472614576656E7448616E646C65720B50
+      726F6772616D4E616D65061144657461696C4265666F72655072696E740B5072
+      6F6772616D54797065070B747450726F63656475726506536F757263650C2E01
+      000070726F6365647572652044657461696C4265666F72655072696E743B0D0A
+      626567696E0D0A20204E657565566F726C616765203A3D2028284C65726E6162
+      7363686E697474655B274A616872275D2D537472546F496E74284C65726E6162
+      7363686E697474655B274153444A61687267616E67275D29203E3D2032303135
+      293B0D0A20204E657565566F726C616765416232303231203A3D2028284C6572
+      6E61627363686E697474655B274A616872275D2D537472546F496E74284C6572
+      6E61627363686E697474655B274153444A61687267616E67275D29203E3D2032
+      303136293B200D0A20204E65756541627363686C75737342657A656963686E75
+      6E67203A3D20284C65726E61627363686E697474655B274A616872275D203E3D
+      203230323229203B0D0A656E643B0D0A0D436F6D706F6E656E744E616D650606
+      44657461696C094576656E744E616D65060B4265666F72655072696E74074576
+      656E7449440218084361726574506F730102010201000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer

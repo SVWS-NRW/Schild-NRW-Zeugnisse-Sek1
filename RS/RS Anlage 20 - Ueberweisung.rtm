@@ -4971,31 +4971,31 @@ object Report: TppReport
               '\tqr\tx9072 Hier k\'#39'f6nnen eingetragen werden:\par'#13#10'-\tab besond' +
               'ere Leistungsnachweise wie Jugendsportabzeichen oder Schwimmzeug' +
               'nis sowie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste ' +
-              'Hilfe),\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im muttersprac' +
-              'hlichen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorverse' +
-              'tzung oder zum R\'#39'fccktritt,\par'#13#10'-\tab Angaben zum Schulwechsel' +
-              ',\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgang' +
-              'szeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc' +
-              '\tx4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li2' +
-              '84\ri283\tx1276\tqc\tx3402\tqr\tx9072 Bei der Bewertung einzelne' +
-              'r Sch\'#39'fclerleistungen sowie in Zeugnissen werden die folgenden ' +
-              'Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) ' +
-              'zugrunde gelegt:\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri283\tx198' +
-              '5\tqc\tx3119\tqr\tx9072 1.\tab sehr gut\tab (1),\par'#13#10'\pard\nowi' +
-              'dctlpar\fi-283\li567\ri283\tx1985 2.\tab gut\tab (2),\par'#13#10'3.\ta' +
-              'b befriedigend\tab (3),\par'#13#10'4.\tab ausreichend\tab (4),\par'#13#10'5.' +
-              '\tab mangelhaft\tab (5),\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\par'#13#10 +
-              '\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072' +
-              ' 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri2' +
-              '83\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fcleri' +
-              'n oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren' +
-              ' Abschluss oder eine Berechtigung nicht zu vergeben, kann innerh' +
-              'alb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch erh' +
-              'oben werden.\par'#13#10'\pard\nowidctlpar\li284\ri283\tx993\tqc\tx4536' +
-              '\tqr\tx9072 Der Widerspruch ist bei der Schule (<Bezeichnung1>, ' +
-              '<Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu er' +
-              'heben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\par'#13#10 +
-              '\pard\nowidctlpar\par'#13#10'\pard\cf1\f1\par'#13#10'}'#13#10#0
+              'Hilfe),\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im herkunftssp' +
+              'rachlichen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorve' +
+              'rsetzung oder zum R\'#39'fccktritt,\par'#13#10'-\tab Angaben zum Schulwech' +
+              'sel,\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abg' +
+              'angszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\' +
+              'tqc\tx4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\' +
+              'li284\ri283\tx1276\tqc\tx3402\tqr\tx9072 Bei der Bewertung einze' +
+              'lner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die folgend' +
+              'en Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (Schul' +
+              'G) zugrunde gelegt:\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri283\tx' +
+              '1985\tqc\tx3119\tqr\tx9072 1.\tab sehr gut\tab (1),\par'#13#10'\pard\n' +
+              'owidctlpar\fi-283\li567\ri283\tx1985 2.\tab gut\tab (2),\par'#13#10'3.' +
+              '\tab befriedigend\tab (3),\par'#13#10'4.\tab ausreichend\tab (4),\par'#13 +
+              #10'5.\tab mangelhaft\tab (5),\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\pa' +
+              'r'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9' +
+              '072 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\' +
+              'ri283\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fcl' +
+              'erin oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichba' +
+              'ren Abschluss oder eine Berechtigung nicht zu vergeben, kann inn' +
+              'erhalb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch ' +
+              'erhoben werden.\par'#13#10'\pard\nowidctlpar\li284\ri283\tx993\tqc\tx4' +
+              '536\tqr\tx9072 Der Widerspruch ist bei der Schule (<Bezeichnung1' +
+              '>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu' +
+              ' erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\pa' +
+              'r'#13#10'\pard\nowidctlpar\par'#13#10'\pard\cf1\f1\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             Stretch = True
             mmHeight = 124884
@@ -5009,27 +5009,6 @@ object Report: TppReport
             mmStopPosition = 0
             mmMinHeight = 0
             mmLeftMargin = 794
-          end
-          object ppRichText2: TppRichText
-            UserName = 'RichText1'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Name = 'Calibri'
-            Font.Size = 10
-            Font.Style = []
-            Caption = 'RichText1'
-            RemoveEmptyLines = False
-            Transparent = True
-            mmHeight = 23548
-            mmLeft = 40746
-            mmTop = 96838
-            mmWidth = 48948
-            BandType = 9
-            LayerName = PageLayer2
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
           end
         end
         object raCodeModule9: TraCodeModule
@@ -5056,7 +5035,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148700000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30352D3330273B0D0A20205265704175746F7265
+      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205065746572732C20506CC3BC6D7065722C20
       6465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D
       0A084361726574506F730102010201000001060D54726156617250726F677261
@@ -5340,8 +5319,8 @@ object Report: TppReport
       0D0A202020200D0A656E643B0D0A084361726574506F73010200020000000106
       0A54726150726F6772616D094368696C645479706502150B50726F6772616D4E
       616D6506195A6575676E697365696E7374656C6C756E67656E4C6164656E0B50
-      726F6772616D54797065070B747450726F63656475726506536F757263651405
-      7B000070726F636564757265205A6575676E697365696E7374656C6C756E6765
+      726F6772616D54797065070B747450726F63656475726506536F757263651424
+      7C000070726F636564757265205A6575676E697365696E7374656C6C756E6765
       6E4C6164656E285A6575676E6973616E6C616765496E494E49203A2073747269
       6E673B204D69745665727365747A756E67737665726D65726B2C204D6974456C
       7465726E737072656368746167556E64576965646572626567696E6E2C20416E
@@ -6322,28 +6301,37 @@ object Report: TppReport
       68656E20556E74657273636872696674656E4D69745374764B6C617373656E6C
       6568726572203A3D20426573746165746967756E67282741756368207374762E
       204B6C617373656E6C656974756E6720696E2064656E20556E74657273636872
-      696674656E206D697420617573676562656E3F27293B20202020202020202020
-      200D0A20202020656E643B0D0A0D0A2020736C4461746569696E68616C742E46
-      7265653B0D0A2020736C45696E7374656C6C756E67656E2E467265653B0D0A20
-      0D0A656E643B0D0A084361726574506F73010202035002000001060F54726145
-      76656E7448616E646C65720B50726F6772616D4E616D6506115265706F727442
-      65666F72655072696E740B50726F6772616D54797065070B747450726F636564
-      75726506536F75726365068370726F636564757265205265706F72744265666F
-      72655072696E743B0D0A626567696E0D0A0D0A2020536368756C666F726D4720
-      3A3D20275265616C736368756C65273B0D0A0D0A202045535F416E7A4162203A
-      3D20456967656E65536368756C655B27416E7A61686C41627363686E69747465
-      275D3B0D0A20200D0A656E643B0D0A0D436F6D706F6E656E744E616D65060652
-      65706F7274094576656E744E616D65060B4265666F72655072696E7407457665
-      6E7449440201084361726574506F730102010201000001060F5472614576656E
-      7448616E646C65720B50726F6772616D4E616D65061144657461696C4265666F
-      72655072696E740B50726F6772616D54797065070B747450726F636564757265
-      06536F75726365068F70726F6365647572652044657461696C4265666F726550
-      72696E743B0D0A626567696E0D0A20204E657565566F726C6167654162323032
-      31203A3D2028284C65726E61627363686E697474655B274A616872275D2D5374
-      72546F496E74284C65726E61627363686E697474655B274153444A6168726761
-      6E67275D29203E3D2032303136293B200D0A656E643B0D0A0D436F6D706F6E65
-      6E744E616D65060644657461696C094576656E744E616D65060B4265666F7265
-      5072696E74074576656E7449440218084361726574506F730102010204000000}
+      696674656E206D697420617573676562656E3F27293B200D0A2020202020200D
+      0A2020202020206966204D69745665727365747A756E67737665726D65726B20
+      7468656E200D0A2020202020202020626567696E0D0A20202020202020202020
+      73416B7475656C6C657257657274203A3D2053656C656374537472696E674578
+      28274A61687267616E677373747566652077C3A4686C656E2C20696E20646572
+      20657273746D616C69672065696E65205665727365747A756E67207374617474
+      66696E646574272C202730353B30363B30373B30383B3039272C20273B27293B
+      0D0A202020202020202020205665727365747A756E67426567696E6E4153444A
+      61687267616E67203A3D205472696D2873416B7475656C6C657257657274293B
+      20202020202020200D0A2020202020202020656E643B20202020202020202020
+      0D0A20202020656E643B0D0A0D0A2020736C4461746569696E68616C742E4672
+      65653B0D0A2020736C45696E7374656C6C756E67656E2E467265653B0D0A200D
+      0A656E643B0D0A084361726574506F73010202035002000001060F5472614576
+      656E7448616E646C65720B50726F6772616D4E616D6506115265706F72744265
+      666F72655072696E740B50726F6772616D54797065070B747450726F63656475
+      726506536F75726365068370726F636564757265205265706F72744265666F72
+      655072696E743B0D0A626567696E0D0A0D0A2020536368756C666F726D47203A
+      3D20275265616C736368756C65273B0D0A0D0A202045535F416E7A4162203A3D
+      20456967656E65536368756C655B27416E7A61686C41627363686E6974746527
+      5D3B0D0A20200D0A656E643B0D0A0D436F6D706F6E656E744E616D6506065265
+      706F7274094576656E744E616D65060B4265666F72655072696E74074576656E
+      7449440201084361726574506F730102010201000001060F5472614576656E74
+      48616E646C65720B50726F6772616D4E616D65061144657461696C4265666F72
+      655072696E740B50726F6772616D54797065070B747450726F63656475726506
+      536F75726365068F70726F6365647572652044657461696C4265666F72655072
+      696E743B0D0A626567696E0D0A20204E657565566F726C616765416232303231
+      203A3D2028284C65726E61627363686E697474655B274A616872275D2D537472
+      546F496E74284C65726E61627363686E697474655B274153444A61687267616E
+      67275D29203E3D2032303136293B200D0A656E643B0D0A0D436F6D706F6E656E
+      744E616D65060644657461696C094576656E744E616D65060B4265666F726550
+      72696E74074576656E7449440218084361726574506F730102010204000000}
   end
   object ppDesignLayers1: TppDesignLayers
     object ppDesignLayer1: TppDesignLayer
