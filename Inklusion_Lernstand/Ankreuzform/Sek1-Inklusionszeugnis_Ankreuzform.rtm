@@ -2,7 +2,7 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Schueler
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+  PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -15,8 +15,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'D:\schild_entwicklung\NeueVersion\SchILD-Reports\Lernstandsberic' +
-    'hte\Sek1\Ankreuzform\Sek1-Lernstandsbericht_Ankreuzform.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\Master_Nov_Inklusion_Lernstand\Ankr' +
+    'euzform\Sek1-Inklusionszeugnis_Ankreuzform.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -1942,7 +1942,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plDeutsch
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -2897,7 +2897,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plDeutsch
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+              PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
@@ -3098,7 +3098,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plFremdsprachen
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -4077,7 +4077,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plMathematik
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -5057,7 +5057,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plNaturwissenschaften
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -5113,7 +5113,6 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
-              Template.Offset = 284
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -5504,7 +5503,7 @@ object Report: TppReport
                     UserName = 'txtBez'
                     AutoSize = True
                     DataField = 'Zeugnisbezeichnung'
-                    DataPipeline = dmPipelines.plSachuntericht
+                    DataPipeline = dmPipelines.plNaturwissenschaften
                     Font.Charset = DEFAULT_CHARSET
                     Font.Color = clBlack
                     Font.Name = 'Arial'
@@ -5512,7 +5511,7 @@ object Report: TppReport
                     Font.Style = [fsBold]
                     ParentDataPipeline = False
                     Transparent = True
-                    DataPipelineName = 'plSachuntericht'
+                    DataPipelineName = 'plNaturwissenschaften'
                     mmHeight = 6085
                     mmLeft = 0
                     mmTop = 0
@@ -6037,7 +6036,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plSport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -7016,7 +7015,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plGesellschaftslehre
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -7072,7 +7071,6 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
-              Template.Offset = 284
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -7463,7 +7461,7 @@ object Report: TppReport
                     UserName = 'txtBez'
                     AutoSize = True
                     DataField = 'Zeugnisbezeichnung'
-                    DataPipeline = dmPipelines.plSprache
+                    DataPipeline = dmPipelines.plGesellschaftslehre
                     Font.Charset = DEFAULT_CHARSET
                     Font.Color = clBlack
                     Font.Name = 'Arial'
@@ -7471,7 +7469,7 @@ object Report: TppReport
                     Font.Style = [fsBold]
                     ParentDataPipeline = False
                     Transparent = True
-                    DataPipelineName = 'plSprache'
+                    DataPipelineName = 'plGesellschaftslehre'
                     mmHeight = 6085
                     mmLeft = 0
                     mmTop = 0
@@ -7996,7 +7994,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plKunstUndMusik
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -8977,7 +8975,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plReligion
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -9033,7 +9031,6 @@ object Report: TppReport
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
-              Template.Offset = 284
               Template.Format = ftASCII
               Units = utMillimeters
               Version = '15.05'
@@ -9954,7 +9951,7 @@ object Report: TppReport
       mmMinHeight = 0
       object ppChildReport1: TppChildReport
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -10040,7 +10037,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plDeutsch
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -10084,7 +10081,7 @@ object Report: TppReport
               AutoStop = False
               DataPipeline = dmPipelines.plAKF_Faecher
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+              PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
@@ -10355,7 +10352,7 @@ object Report: TppReport
         AutoStop = False
         DataPipeline = dmPipelines.plArbeitslehre
         PrinterSetup.BinName = 'Default'
-        PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+        PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
         PrinterSetup.PaperName = 'A4'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
@@ -11230,7 +11227,7 @@ object Report: TppReport
         mmMinHeight = 0
         object ppChildReport23: TppChildReport
           PrinterSetup.BinName = 'Default'
-          PrinterSetup.DocumentName = 'Sek1-Lernstandsbericht_Ankreuzform.rtm'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
           PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.SaveDeviceSettings = False
