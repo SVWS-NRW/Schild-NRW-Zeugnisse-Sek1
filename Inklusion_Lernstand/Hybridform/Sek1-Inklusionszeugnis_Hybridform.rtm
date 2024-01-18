@@ -15,9 +15,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\GitHub\Schild-NRW-Zeugnisse-Sek1\In' +
-    'klusion_Lernstand\Hybridform\Sek1-Inklusionszeugnis_Hybridform.r' +
-    'tm'
+    'C:\SchILD-NRW\SchILD-Reports\Lernstand_Mater_Jan_2024\Inklusion_' +
+    'Lernstand\Hybridform\Sek1-Inklusionszeugnis_Hybridform.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -4032,7 +4031,7 @@ object Report: TppReport
         DataPipelineName = 'plZUV'
         mmHeight = 5027
         mmLeft = 0
-        mmTop = 161661
+        mmTop = 159544
         mmWidth = 178859
         BandType = 4
         LayerName = Foreground
@@ -4311,6 +4310,151 @@ object Report: TppReport
           end
         end
       end
+      object ppSubReport23: TppSubReport
+        UserName = 'srptAGGT'
+        ExpandAll = False
+        NewPrintJob = False
+        OutlineSettings.CreateNode = True
+        ParentWidth = False
+        ShiftRelativeTo = ppSubReport17
+        TraverseAllData = False
+        DataPipelineName = 'plAGGT'
+        mmHeight = 5027
+        mmLeft = 0
+        mmTop = 166159
+        mmWidth = 178859
+        BandType = 4
+        LayerName = Foreground
+        mmBottomOffset = 0
+        mmOverFlowOffset = 0
+        mmStopPosition = 0
+        mmMinHeight = 0
+        object ppChildReport24: TppChildReport
+          AutoStop = False
+          DataPipeline = dmPipelines.plAGGT
+          PrinterSetup.BinName = 'Default'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
+          PrinterSetup.PaperName = 'A4'
+          PrinterSetup.PrinterName = 'Default'
+          PrinterSetup.SaveDeviceSettings = False
+          PrinterSetup.mmMarginBottom = 5000
+          PrinterSetup.mmMarginLeft = 15000
+          PrinterSetup.mmMarginRight = 15000
+          PrinterSetup.mmMarginTop = 5000
+          PrinterSetup.mmPaperHeight = 297000
+          PrinterSetup.mmPaperWidth = 210000
+          PrinterSetup.PaperSize = 9
+          Template.Format = ftASCII
+          Units = utMillimeters
+          Version = '15.05'
+          mmColumnWidth = 0
+          DataPipelineName = 'plAGGT'
+          object ppTitleBand5: TppTitleBand
+            Background.Brush.Style = bsClear
+            mmBottomOffset = 0
+            mmHeight = 5000
+            mmPrintPosition = 0
+            object ppLabel38: TppLabel
+              UserName = 'Label1'
+              Caption = 'Teilnahme an Arbeitsgemeinschaften'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Arial'
+              Font.Size = 11
+              Font.Style = [fsBold]
+              Transparent = True
+              mmHeight = 4763
+              mmLeft = 0
+              mmTop = 0
+              mmWidth = 69321
+              BandType = 1
+              LayerName = PageLayer20
+            end
+          end
+          object ppDetailBand25: TppDetailBand
+            Background1.Brush.Style = bsClear
+            Background2.Brush.Style = bsClear
+            mmBottomOffset = 1000
+            mmHeight = 11906
+            mmPrintPosition = 0
+            object ppDBText23: TppDBText
+              UserName = 'txtFSZB'
+              DataField = 'Zeugnisbezeichnung'
+              DataPipeline = dmPipelines.plAGGT
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Arial'
+              Font.Size = 11
+              Font.Style = []
+              Transparent = True
+              WordWrap = True
+              DataPipelineName = 'plAGGT'
+              mmHeight = 4498
+              mmLeft = 0
+              mmTop = 0
+              mmWidth = 95000
+              BandType = 4
+              LayerName = PageLayer20
+            end
+            object ppDBText24: TppDBText
+              UserName = 'txtFSNote'
+              Color = clSilver
+              DataField = 'Notenklartext'
+              DataPipeline = dmPipelines.plAGGT
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Arial'
+              Font.Size = 11
+              Font.Style = []
+              TextAlignment = taCentered
+              DataPipelineName = 'plAGGT'
+              mmHeight = 5000
+              mmLeft = 100000
+              mmTop = 0
+              mmWidth = 78000
+              BandType = 4
+              LayerName = PageLayer20
+            end
+            object ppLabel39: TppLabel
+              UserName = 'lblUmfang'
+              AutoSize = False
+              Caption = 'Umfang: Voll'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Arial'
+              Font.Size = 10
+              Font.Style = []
+              Transparent = True
+              mmHeight = 4233
+              mmLeft = 100000
+              mmTop = 5027
+              mmWidth = 35000
+              BandType = 4
+              LayerName = PageLayer20
+            end
+          end
+          object raCodeModule25: TraCodeModule
+            ProgramStream = {
+              01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
+              44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
+              7450726F63656475726506536F75726365069570726F63656475726520446574
+              61696C4265666F72655072696E743B0D0A626567696E0D0A202044657461696C
+              2E486569676874203A3D20435F4E4F54454E5F5A45494C453B0D0A20206C626C
+              556D66616E672E43617074696F6E203A3D20556D66616E675465787428205265
+              706F72742E44617461706970656C696E655B2027556D66616E6727205D20293B
+              0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060644657461696C0945
+              76656E744E616D65060B4265666F72655072696E74074576656E744944021808
+              4361726574506F7301022A0205000000}
+          end
+          object ppDesignLayers25: TppDesignLayers
+            object ppDesignLayer25: TppDesignLayer
+              UserName = 'PageLayer20'
+              LayerType = ltBanded
+              Index = 0
+            end
+          end
+        end
+      end
     end
     object ppRegion8: TppRegion
       UserName = 'rgnWP_ZUV_B'
@@ -4340,7 +4484,7 @@ object Report: TppReport
         DataPipelineName = 'plZUV'
         mmHeight = 5027
         mmLeft = 0
-        mmTop = 267229
+        mmTop = 263790
         mmWidth = 180000
         BandType = 4
         LayerName = Foreground
@@ -4849,6 +4993,269 @@ object Report: TppReport
           object ppDesignLayers24: TppDesignLayers
             object ppDesignLayer24: TppDesignLayer
               UserName = 'PageLayer19'
+              LayerType = ltBanded
+              Index = 0
+            end
+          end
+        end
+      end
+      object ppSubReport24: TppSubReport
+        UserName = 'srptAGGT_B'
+        ExpandAll = False
+        KeepTogether = True
+        NewPrintJob = False
+        OutlineSettings.CreateNode = True
+        ShiftRelativeTo = ppSubReport19
+        TraverseAllData = False
+        DataPipelineName = 'plAGGT'
+        mmHeight = 5027
+        mmLeft = 0
+        mmTop = 270405
+        mmWidth = 180000
+        BandType = 4
+        LayerName = Foreground
+        mmBottomOffset = 0
+        mmOverFlowOffset = 0
+        mmStopPosition = 0
+        mmMinHeight = 0
+        object ppChildReport25: TppChildReport
+          AutoStop = False
+          DataPipeline = dmPipelines.plAGGT
+          PrinterSetup.BinName = 'Default'
+          PrinterSetup.DocumentName = 'Sek1-Inklusionszeugnis_Hybridform.rtm'
+          PrinterSetup.PaperName = 'A4'
+          PrinterSetup.PrinterName = 'Default'
+          PrinterSetup.SaveDeviceSettings = False
+          PrinterSetup.mmMarginBottom = 5000
+          PrinterSetup.mmMarginLeft = 15000
+          PrinterSetup.mmMarginRight = 15000
+          PrinterSetup.mmMarginTop = 5000
+          PrinterSetup.mmPaperHeight = 297000
+          PrinterSetup.mmPaperWidth = 210000
+          PrinterSetup.PaperSize = 9
+          Template.Format = ftASCII
+          Units = utMillimeters
+          Version = '15.05'
+          mmColumnWidth = 0
+          DataPipelineName = 'plAGGT'
+          object ppTitleBand6: TppTitleBand
+            Background.Brush.Style = bsClear
+            mmBottomOffset = 0
+            mmHeight = 7000
+            mmPrintPosition = 0
+            object ppLabel42: TppLabel
+              UserName = 'Label3'
+              Caption = 'Teilnahme an Arbeitsgemeinschaften'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Name = 'Arial'
+              Font.Size = 11
+              Font.Style = [fsBold]
+              Transparent = True
+              mmHeight = 4763
+              mmLeft = 0
+              mmTop = 0
+              mmWidth = 69321
+              BandType = 1
+              LayerName = PageLayer21
+            end
+          end
+          object ppDetailBand26: TppDetailBand
+            Background1.Brush.Style = bsClear
+            Background2.Brush.Style = bsClear
+            PrintHeight = phDynamic
+            mmBottomOffset = 3000
+            mmHeight = 41540
+            mmPrintPosition = 0
+            object ppRegion24: TppRegion
+              UserName = 'rgnFach'
+              KeepTogether = True
+              Caption = 'rgnFach'
+              Pen.Style = psClear
+              Stretch = True
+              mmHeight = 28310
+              mmLeft = 0
+              mmTop = 0
+              mmWidth = 184415
+              BandType = 4
+              LayerName = PageLayer21
+              mmBottomOffset = 2000
+              mmOverFlowOffset = 0
+              mmStopPosition = 0
+              mmMinHeight = 0
+              object ppDBMemo2: TppDBMemo
+                UserName = 'mmoLELS'
+                CharWrap = False
+                DataField = 'LELS'
+                DataPipeline = dmPipelines.plKunstUndMusik
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clBlack
+                Font.Name = 'Arial'
+                Font.Size = 11
+                Font.Style = []
+                RemoveEmptyLines = False
+                Stretch = True
+                Transparent = True
+                DataPipelineName = 'plKunstUndMusik'
+                mmHeight = 6879
+                mmLeft = 0
+                mmTop = 6000
+                mmWidth = 179917
+                BandType = 4
+                LayerName = PageLayer21
+                mmBottomOffset = 0
+                mmOverFlowOffset = 0
+                mmStopPosition = 0
+                mmMinHeight = 0
+                mmLeading = 0
+              end
+              object ppMemo39: TppMemo
+                UserName = 'mmoNote_U'
+                Caption = 'mmoNote_U'
+                CharWrap = False
+                Color = clSilver
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clBlack
+                Font.Name = 'Arial'
+                Font.Size = 11
+                Font.Style = []
+                RemoveEmptyLines = False
+                ShiftRelativeTo = ppDBMemo2
+                TextAlignment = taCentered
+                mmHeight = 5027
+                mmLeft = 139965
+                mmTop = 12965
+                mmWidth = 39952
+                BandType = 4
+                LayerName = PageLayer21
+                mmBottomOffset = 0
+                mmOverFlowOffset = 0
+                mmStopPosition = 0
+                mmMinHeight = 0
+                mmLeading = 0
+              end
+              object ppMemo40: TppMemo
+                UserName = 'mmoNote_O'
+                Caption = 'mmoNote_U'
+                CharWrap = False
+                Color = clSilver
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clBlack
+                Font.Name = 'Arial'
+                Font.Size = 11
+                Font.Style = []
+                RemoveEmptyLines = False
+                TextAlignment = taCentered
+                mmHeight = 5027
+                mmLeft = 139965
+                mmTop = 0
+                mmWidth = 39952
+                BandType = 4
+                LayerName = PageLayer21
+                mmBottomOffset = 0
+                mmOverFlowOffset = 0
+                mmStopPosition = 0
+                mmMinHeight = 0
+                mmLeading = 0
+              end
+              object ppMemo41: TppMemo
+                UserName = 'mmoUmfang'
+                Caption = 'mmoUmfang'
+                CharWrap = False
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clBlack
+                Font.Name = 'Arial'
+                Font.Size = 10
+                Font.Style = []
+                RemoveEmptyLines = False
+                Transparent = True
+                mmHeight = 5000
+                mmLeft = 140000
+                mmTop = 18000
+                mmWidth = 40000
+                BandType = 4
+                LayerName = PageLayer21
+                mmBottomOffset = 0
+                mmOverFlowOffset = 0
+                mmStopPosition = 0
+                mmMinHeight = 0
+                mmLeading = 0
+              end
+              object ppLabel43: TppLabel
+                UserName = 'lblZeugnisbez'
+                Caption = 'lblZeugnisbez'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clBlack
+                Font.Name = 'Arial'
+                Font.Size = 11
+                Font.Style = [fsBold]
+                Transparent = True
+                mmHeight = 4763
+                mmLeft = 0
+                mmTop = 0
+                mmWidth = 26194
+                BandType = 4
+                LayerName = PageLayer21
+              end
+            end
+          end
+          object raCodeModule26: TraCodeModule
+            ProgramStream = {
+              01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
+              44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
+              7450726F63656475726506536F757263650CA705000070726F63656475726520
+              44657461696C4265666F72655072696E743B0D0A7661720D0A2020756D663A20
+              737472696E673B0D0A626567696E0D0A20206D6D6F4C454C532E466F6E742E53
+              697A65203A3D20466F6E7453697A6542656D3B0D0A202072676E466163682E4B
+              656570546F676574686572203A3D205A7573616D6D656E68616C74656E3B0D0A
+              2020696620426C6F636B7361747A207468656E0D0A202020206D6D6F4C454C53
+              2E54657874416C69676E6D656E74203A3D20746146756C6C4A75737469666965
+              643B0D0A202020200D0A20206D6D6F4C454C532E44617461706970656C696E65
+              203A3D205265706F72742E44617461706970656C696E653B202020200D0A2020
+              20200D0A20206C626C5A6575676E697362657A2E43617074696F6E203A3D2052
+              65706F72742E44617461706970656C696E655B20275A6575676E697362657A65
+              6963686E756E6727205D3B0D0A202020200D0A20206D6D6F4E6F74655F4F2E4C
+              696E65732E54657874203A3D205265706F72742E44617461706970656C696E65
+              5B20274E6F74656E6B6C61727465787427205D3B0D0A20206D6D6F4E6F74655F
+              552E4C696E65732E54657874203A3D205265706F72742E44617461706970656C
+              696E655B20274E6F74656E6B6C61727465787427205D3B0D0A202020200D0A20
+              20756D66203A3D20556D66616E675465787428205265706F72742E4461746170
+              6970656C696E655B2027556D66616E6727205D20293B0D0A20206D6D6F556D66
+              616E672E4C656674203A3D206D6D6F4E6F74655F552E4C6566743B0D0A20206D
+              6D6F556D66616E672E4C696E65732E54657874203A3D20756D663B20200D0A0D
+              0A20206966204E6F74656E506F736974696F6E203D20274F27207468656E0D0A
+              2020626567696E0D0A202020206D6D6F4E6F74655F552E56697369626C65203A
+              3D2066616C73653B0D0A202020206D6D6F4E6F74655F4F2E56697369626C6520
+              3A3D204E6F74656E626C6F636B536963687462617220616E642028205265706F
+              72742E44617461706970656C696E655B20274E6F74656E4B727A27205D203C3E
+              20272D2D2720293B0D0A202020206D6D6F556D66616E672E56697369626C6520
+              3A3D206D6D6F4E6F74655F4F2E56697369626C6520616E64202820756D66203C
+              3E20272720293B0D0A202020206D6D6F4E6F74655F552E536869667452656C61
+              74697665546F203A3D206E696C3B0D0A202020206D6D6F556D66616E672E5368
+              69667452656C6174697665546F203A3D206E696C3B0D0A0D0A20202020696620
+              6D6D6F556D66616E672E56697369626C65207468656E0D0A2020202062656769
+              6E0D0A2020202020206D6D6F556D66616E672E546F70203A3D206D6D6F4E6F74
+              655F4F2E546F70202B206D6D6F4E6F74655F4F2E4865696768743B0D0A202020
+              2020206D6D6F4C454C532E546F70203A3D206D6D6F556D66616E672E546F7020
+              2B206D6D6F556D66616E672E4865696768743B0D0A20202020656E6420656C73
+              650D0A2020202020206D6D6F4C454C532E546F70203A3D206D6D6F4E6F74655F
+              4F2E546F70202B206D6D6F4E6F74655F4F2E4865696768743B0D0A2020656E64
+              20656C73650D0A2020626567696E0D0A202020206D6D6F4E6F74655F552E5669
+              7369626C65203A3D20204E6F74656E626C6F636B536963687462617220616E64
+              2028205265706F72742E44617461706970656C696E655B20274E6F74656E4B72
+              7A27205D203C3E20272D2D2720293B0D0A202020206D6D6F4E6F74655F4F2E56
+              697369626C65203A3D2066616C73653B0D0A202020206D6D6F4C454C532E5368
+              69667452656C6174697665546F203A3D206E696C3B0D0A202020206D6D6F4E6F
+              74655F552E536869667452656C6174697665546F203A3D206D6D6F4C454C533B
+              0D0A202020206D6D6F556D66616E672E536869667452656C6174697665546F20
+              3A3D206D6D6F4E4F54455F553B0D0A2020656E643B0D0A656E643B0D0A0D436F
+              6D706F6E656E744E616D65060644657461696C094576656E744E616D65060B42
+              65666F72655072696E74074576656E7449440218084361726574506F7301022B
+              0214000000}
+          end
+          object ppDesignLayers26: TppDesignLayers
+            object ppDesignLayer26: TppDesignLayer
+              UserName = 'PageLayer21'
               LayerType = ltBanded
               Index = 0
             end
