@@ -378,9 +378,9 @@ object Report: TppReport
               '{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil Calibri;}{\f1\fn' +
               'il\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\view' +
               'kind4\uc1\pard\cf1\lang1031\f0\fs22 bei gleichbleibenden Lernlei' +
-              'stungen wird <<Tochter/Sohn>> \f1 <<ZeugnisVorname>>, Klasse <<K' +
-              'lasse>>,\f0  am Ende der Klasse <<Jahrgang>> voraussichtlich \pa' +
-              'r'#13#10'\par'#13#10'}'#13#10#0
+              'stungen wird <<Tochter/Sohn>> \f1 <<ZeugnisVornameNachname>>, Kl' +
+              'asse <<Klasse>>,\f0  am Ende der Klasse <<Jahrgang>> voraussicht' +
+              'lich \par'#13#10'\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             mmHeight = 14288
             mmLeft = 0
@@ -497,8 +497,8 @@ object Report: TppReport
               'i;}{\f1\fnil Calibri;}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\view' +
               'kind4\uc1\pard\cf1\lang1031\f0\fs22 Ich habe Ihre Nachricht vom ' +
               '<<Datum>> \'#39'fcber den voraussichtlichen Abschluss <<Tochter/Sohn' +
-              '>> <<ZeugnisVorname>> , Klasse <<Klasse>>, erhalten.\f1\par'#13#10'\pa' +
-              'r'#13#10'}'#13#10#0
+              '>> <<ZeugnisVornameNachname>>, Klasse <<Klasse>>, erhalten.\f1\p' +
+              'ar'#13#10'\par'#13#10'}'#13#10#0
             RemoveEmptyLines = False
             mmHeight = 19579
             mmLeft = 0
@@ -1493,7 +1493,7 @@ object Report: TppReport
             35084361726574506F730102010201000001060F5472614576656E7448616E64
             6C65720B50726F6772616D4E616D65061444657461696C4265666F726547656E
             65726174650B50726F6772616D54797065070B747450726F6365647572650653
-            6F757263650C290A000070726F6365647572652044657461696C4265666F7265
+            6F757263650C490A000070726F6365647572652044657461696C4265666F7265
             47656E65726174653B0D0A0D0A626567696E0D0A09536176655465787431203A
             3D205269636854657874312E546578743B0D0A09536176655465787432203A3D
             205269636854657874322E546578743B0D0A0D0A0969662053636875656C6572
@@ -1520,11 +1520,12 @@ object Report: TppReport
             546F63687465722F536F686E3E3E272C20276D65696E6573204B696E64657327
             293B0D0A09656E643B0D0A0D0A200D0A20205269636854657874312E52696368
             54657874203A3D205265706C61636554657874285269636854657874312E5269
-            6368546578742C20273C3C5A6575676E6973566F726E616D653E3E272C205A65
-            75676E6973566F726E616D65447275636B293B0D0A2020526963685465787432
-            2E5269636854657874203A3D205265706C616365546578742852696368546578
-            74322E52696368546578742C20273C3C5A6575676E6973566F726E616D653E3E
-            272C205A6575676E6973566F726E616D65447275636B293B0D0A0D0A20205269
+            6368546578742C20273C3C5A6575676E6973566F726E616D654E6163686E616D
+            653E3E272C205A6575676E6973566F726E616D654E6163686E616D6544727563
+            6B293B0D0A20205269636854657874322E5269636854657874203A3D20526570
+            6C61636554657874285269636854657874322E52696368546578742C20273C3C
+            5A6575676E6973566F726E616D654E6163686E616D653E3E272C205A6575676E
+            6973566F726E616D654E6163686E616D65447275636B293B0D0A0D0A20205269
             636854657874312E5269636854657874203A3D205265706C6163655465787428
             5269636854657874312E52696368546578742C20273C3C4B6C617373653E3E27
             2C206F664E284C65726E61627363686E697474655B274B6C61737365275D2929
@@ -3067,6 +3068,6 @@ object Report: TppReport
       Index = 0
     end
   end
-  object ppParameterList1: TppParameterList
+  object ppParameterList2: TppParameterList
   end
 end
