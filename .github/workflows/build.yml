@@ -3,15 +3,17 @@ on:
   push:
     branches:
       - master
+permissions:
+  contents: write
 jobs:
   create-zip:
     runs-on: ubuntu-latest
     if: "contains(github.event.head_commit.message, 'release')"
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: mkdir .zip
       - run: for i in */; do zip -r ."/.zip/${i%/}_Zeugnisse.$(date +'%d-%m-%Y').${{ github.run_number }}.zip" "$i" *.pdf; done
-      - uses: softprops/action-gh-release@v1
+      - uses: ncipollo/release-action@v1
         with:
           artifacts: "./.zip/*"
           allowUpdates: true
