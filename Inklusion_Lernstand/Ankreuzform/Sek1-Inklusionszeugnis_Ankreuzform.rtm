@@ -15,8 +15,8 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Lernstand_Mater_Jan_2024\Inklusion_' +
-    'Lernstand\Ankreuzform\Sek1-Inklusionszeugnis_Ankreuzform.rtm'
+    'C:\SchILD-NRW\SchILD-Reports\zkurzfristig\Ankreuzform_angepasst\' +
+    'Sek1-Inklusionszeugnis_Ankreuzform.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -11450,7 +11450,7 @@ object Report: TppReport
                 Background2.Brush.Style = bsClear
                 PrintHeight = phDynamic
                 mmBottomOffset = 0
-                mmHeight = 5821
+                mmHeight = 5000
                 mmPrintPosition = 0
                 object myDBCheckBox58: TmyDBCheckBox
                   UserName = 'chbxStufe1'
@@ -11567,6 +11567,20 @@ object Report: TppReport
                   BandType = 4
                   LayerName = Foreground7
                 end
+                object ppLine39: TppLine
+                  UserName = 'Linie'
+                  ParentHeight = True
+                  ParentWidth = True
+                  Position = lpBottom
+                  StretchWithParent = True
+                  Weight = 0.750000000000000000
+                  mmHeight = 5000
+                  mmLeft = 0
+                  mmTop = 0
+                  mmWidth = 180000
+                  BandType = 4
+                  LayerName = Foreground7
+                end
               end
               object ppGroup21: TppGroup
                 BreakName = 'ppDBText46'
@@ -11586,7 +11600,7 @@ object Report: TppReport
                   mmHeight = 31750
                   mmPrintPosition = 0
                   object ppLine37: TppLine
-                    UserName = 'Linie'
+                    UserName = 'Linie9'
                     ParentHeight = True
                     ParentWidth = True
                     Position = lpBottom
