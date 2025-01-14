@@ -109,6 +109,7 @@ object Report: TppReport
         PrinterSetup.mmPaperWidth = 420000
         PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -475,6 +476,7 @@ object Report: TppReport
                   Font.Size = 8
                   Font.Style = []
                   Caption = 'RiTeHinweise'
+                  MailMerge = True
                   RichText = 
                     '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
                     '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0' +
@@ -556,6 +558,7 @@ object Report: TppReport
                   Font.Size = 8
                   Font.Style = []
                   Caption = 'RiTeHinweise'
+                  MailMerge = True
                   RichText = 
                     '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
                     '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0' +
@@ -4783,7 +4786,7 @@ object Report: TppReport
                     object ppSummaryBand8: TppSummaryBand
                       Background.Brush.Style = bsClear
                       mmBottomOffset = 0
-                      mmHeight = 95779
+                      mmHeight = 96838
                       mmPrintPosition = 0
                       object ppLabel6: TppLabel
                         UserName = 'LaHat1'
@@ -4804,8 +4807,8 @@ object Report: TppReport
                       object ppLabel10: TppLabel
                         UserName = 'La_Erwerb1'
                         Caption = 
-                          'erworben. Der Erweiterte Erste Schlabschluss ist im Deutschen un' +
-                          'd Europ'#228'ischen Qualifikationsrahmen dem Niveau 2 zugeordnet.'
+                          'erworben. Der Erweiterte Erste Schulabschluss ist im Deutschen u' +
+                          'nd Europ'#228'ischen Qualifikationsrahmen dem Niveau 2 zugeordnet.'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clWindowText
                         Font.Name = 'Calibri'
@@ -4813,7 +4816,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         WordWrap = True
-                        mmHeight = 11642
+                        mmHeight = 12700
                         mmLeft = 0
                         mmTop = 84138
                         mmWidth = 182563
@@ -5316,7 +5319,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148700000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
+      696F6E203D2027323032352D30312D3134273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205065746572732C20506CC3BC6D7065722C20
       6465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D
       0A084361726574506F730102010201000001060D54726156617250726F677261
