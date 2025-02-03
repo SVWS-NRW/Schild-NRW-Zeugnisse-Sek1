@@ -14,8 +14,8 @@ object Report: TppReport
   PrinterSetup.mmPaperWidth = 210000
   PrinterSetup.PaperSize = 9
   Template.FileName = 
-    'C:\SchILD-NRW\SchILD-Reports\Lernstand_Mater_Jan_2024\Inklusion_' +
-    'Lernstand\Hybridform\Sek1-Lernstandsbericht_Kopf.rtm'
+    'C:\SchILD-NRW2\SchILD-Reports\Neu\Hybridform\Sek1-Lernstandsberi' +
+    'cht_Kopf.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   ArchiveFileName = '($MyDocuments)\ReportArchive.raf'
@@ -620,6 +620,15 @@ object Report: TppReport
       LookupSettings.SortOrder = soName
       Value = False
       UserName = 'MitJahrgang'
+    end
+    object ppParameter2: TppParameter
+      AutoSearchSettings.LogicalPrefix = []
+      AutoSearchSettings.Mandatory = True
+      DataType = dtString
+      LookupSettings.DisplayType = dtNameOnly
+      LookupSettings.SortOrder = soName
+      Value = ''
+      UserName = 'dtSchuleSeit'
     end
   end
 end
