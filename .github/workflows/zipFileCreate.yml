@@ -44,14 +44,15 @@ jobs:
       # 5) ZIP-Archiv bauen, ohne Ordner und Dateien aus .zipignore
       - name: Build ZIP (uses .zipignore)
         shell: bash
-        run: for i in */; do zip -r ."/.zip/${i%/}_Zeugnisse.$(date +'%d-%m-%Y').v${{ VERSION }}.zip" "$i" *.pdf; done
-
+        run: for i in */; do zip -r ."/.zip/${i%/}_Zeugnisse-v${ VERSION }-$(date +'%d.%m.%Y').zip" "$i" *.pdf; done
+          
       # 6) GitHub Release erstellen oder aktualisieren
       - name: Create/Update GitHub Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: ".zip/*"                         # alle ZIPs im .zip-Ordner anhängen
           allowUpdates: true                          # Release bei gleichem Tag aktualisieren
+          replacesArtifacts: true                     # vorhandene Assets ersetzen
           tag: "${{ github.ref_name }}"               # = vX.Y.Z
           name: "Release v${{ steps.ver.outputs.version }}"
           token: ${{ secrets.GITHUB_TOKEN }}
