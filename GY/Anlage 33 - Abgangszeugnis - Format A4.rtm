@@ -4827,9 +4827,9 @@ object Report: TppReport
             ParentWidth = False
             TraverseAllData = False
             DataPipelineName = 'EigeneSchule'
-            mmHeight = 6288
+            mmHeight = 6350
             mmLeft = 10054
-            mmTop = 234686
+            mmTop = 234950
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -4863,73 +4863,10 @@ object Report: TppReport
                 Background2.Brush.Style = bsClear
                 PrintHeight = phDynamic
                 mmBottomOffset = 0
-                mmHeight = 62177
+                mmHeight = 48683
                 mmPrintPosition = 0
                 object ppRichText2: TppRichText
-                  UserName = 'RiTeHinweiseAlt'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clWindowText
-                  Font.Name = 'Calibri'
-                  Font.Size = 8
-                  Font.Style = []
-                  Caption = 'RiTeHinweiseAlt'
-                  MailMerge = True
-                  RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
-                    'rq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brdrw2' +
-                    '0\brsp20 \nowidctlpar\fi-180\li180\ri283\qc\tqc\tx4536\tqr\tx907' +
-                    '2\b\f0\fs14 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-180\l' +
-                    'i180\ri283\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkung' +
-                    'en":\line Hier k\'#39'f6nnen eingetragen werden: Erwerb der Berechti' +
-                    'gung zum Besuch der Qualifikationsphase der gymnasialen Oberstuf' +
-                    'e, Erwerb der Berechtigung zum Besuch der Einf\'#39'fchrungsphase de' +
-                    'r gymnasialen Oberstufe, Erwerb des mittleren Schulabschlusses (' +
-                    'Fachoberschulreife), Erwerb eines dem Hauptschulabschluss gleich' +
-                    'wertigen Abschlusses nach Klasse 10, Erwerb eines dem Hauptschul' +
-                    'abschluss gleichwertigen Abschlusses nach Klasse 9, Teilnahme an' +
-                    ' einem Angebot der informatischen Bildung, besondere Leistungsna' +
-                    'chweise wie Jugendsportabzeichen oder Schwimmzeugnis sowie Angab' +
-                    'en \'#39'fcber freiwillig besuchte Kurse (z.B. Erste Hilfe), Angaben' +
-                    ' \'#39'fcber die Leistungen im herkunftssprachlichen Unterricht, Ang' +
-                    'aben zur Wiederholung, Vorversetzung oder zum R\'#39'fccktritt, Anga' +
-                    'ben zum Schulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- od' +
-                    'er Abgangszeugnissen.\par'#13#10'\tab An einem Gymnasium mit neunj\'#39'e4' +
-                    'hrigem Bildungsgang wird die Teilnahme an einem Angebot zur info' +
-                    'rmatischen Bildung vermerkt.\par'#13#10'2.\tab Notenstufen:\line Bei d' +
-                    'er Bewertung einzelner Sch\'#39'fclerleistungen sowie in Zeugnissen ' +
-                    'werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 Sc' +
-                    'hulG NRW zugrunde gelegt:\line 1. sehr gut (1), 2. gut (2), 3. b' +
-                    'efriedigend (3), 4. ausreichend (4), 5. mangelhaft (5), 6. ungen' +
-                    '\'#39'fcgend (6)\par'#13#10'3.\tab Rechtsbehelfsbelehrung:\line Gegen die ' +
-                    'Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu vers' +
-                    'etzen oder einen erreichbaren Abschluss oder eine Berechtigung n' +
-                    'icht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe d' +
-                    'es Zeugnisses Widerspruch erhoben werden. Der Widerspruch ist be' +
-                    'i der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlic' +
-                    'h oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\qr S' +
-                    'Nr: <SchulNr>, SForm: GY\b\par'#13#10'}'#13#10#0
-                  RemoveEmptyLines = False
-                  Stretch = True
-                  mmHeight = 61383
-                  mmLeft = 1588
-                  mmTop = 265
-                  mmWidth = 186796
-                  BandType = 4
-                  LayerName = Foreground102
-                  mmBottomOffset = 0
-                  mmOverFlowOffset = 0
-                  mmStopPosition = 0
-                  mmMinHeight = 0
-                end
-              end
-              object ppSummaryBand8: TppSummaryBand
-                Background.Brush.Style = bsClear
-                PrintHeight = phDynamic
-                mmBottomOffset = 0
-                mmHeight = 61648
-                mmPrintPosition = 0
-                object ppRichText6: TppRichText
-                  UserName = 'RiTeHinweiseNeu'
+                  UserName = 'RiTeHinweiseNeu1'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
@@ -4941,8 +4878,8 @@ object Report: TppReport
                     '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
                     'rq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brdrw2' +
                     '0\brsp20 \nowidctlpar\fi-180\li180\ri283\qc\tqc\tx4536\tqr\tx907' +
-                    '2\b\f0\fs14 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-180\l' +
-                    'i180\ri283\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkung' +
+                    '2\b\f0\fs14 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-280\l' +
+                    'i280\ri283\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkung' +
                     'en":\line Hier k\'#39'f6nnen eingetragen werden: Erwerb der Berechti' +
                     'gung zum Besuch der Qualifikationsphase der gymnasialen Oberstuf' +
                     'e, Erwerb der Berechtigung zum Besuch der Einf\'#39'fchrungsphase de' +
@@ -4951,32 +4888,33 @@ object Report: TppReport
                     'ses, Erwerb des Ersten Schulabschlusses, Teilnahme an einem Ange' +
                     'bot der informatischen Bildung, besondere Leistungsnachweise wie' +
                     ' Jugendsportabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber ' +
-                    'freiwillig besuchte Kurse (z.B. Erste Hilfe), Angaben \'#39'fcber di' +
-                    'e Leistungen im herkunftssprachlichen Unterricht, Angaben zur Wi' +
-                    'ederholung, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Sch' +
-                    'ulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangsz' +
-                    'eugnissen.\par'#13#10'\tab An einem Gymnasium mit neunj\'#39'e4hrigem Bild' +
-                    'ungsgang wird die Teilnahme an einem Angebot zur informatischen ' +
-                    'Bildung vermerkt.\par'#13#10'2.\tab Notenstufen:\line Bei der Bewertun' +
-                    'g einzelner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die ' +
-                    'folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG NRW zu' +
-                    'grunde gelegt:\line 1. sehr gut (1), 2. gut (2), 3. befriedigend' +
-                    ' (3), 4. ausreichend (4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6' +
-                    ')\par'#13#10'3.\tab Rechtsbehelfsbelehrung:\line Gegen die Entscheidun' +
-                    'g, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder ' +
-                    'einen erreichbaren Abschluss oder eine Berechtigung nicht zu ver' +
-                    'geben, kann innerhalb eines Monats nach Bekanntgabe des Zeugniss' +
-                    'es Widerspruch erhoben werden. Der Widerspruch ist bei der Schul' +
-                    'e (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur ' +
-                    'Niederschrift zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulN' +
-                    'r>, SForm: GY\b\par'#13#10'}'#13#10#0
+                    'freiwillig besuchte Kurse (z.B. Erste Hilfe), Angaben zur Wieder' +
+                    'holung, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Schulwe' +
+                    'chsel, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugn' +
+                    'issen.\par'#13#10'1.a)\tab Zur Spalte "Weiterer Unterricht"\par'#13#10'\tab ' +
+                    'Hier k\'#39'f6nnen insbesondere eingetragen werden: Angaben \'#39'fcber ' +
+                    'die Leistungen in Angeboten, die unter Verwendung von Erg\'#39'e4nzu' +
+                    'ngsstunden realisiert werden, soweit diese der Leistungsbewertun' +
+                    'g unterliegen, Angaben \'#39'fcber die Leistungen im herkunftssprach' +
+                    'lichen Unterricht, \par'#13#10'2.\tab Notenstufen: Bei der Bewertung e' +
+                    'inzelner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die fol' +
+                    'genden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG NRW zugru' +
+                    'nde gelegt:\line 1. sehr gut (1), 2. gut (2), 3. befriedigend (3' +
+                    '), 4. ausreichend (4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\p' +
+                    'ar'#13#10'3.\tab Rechtsbehelfsbelehrung:\line Gegen die Entscheidung, ' +
+                    'die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder ein' +
+                    'en erreichbaren Abschluss oder eine Berechtigung nicht zu vergeb' +
+                    'en, kann innerhalb eines Monats nach Bekanntgabe des Zeugnisses ' +
+                    'Widerspruch erhoben werden. Der Widerspruch ist bei der Schule (' +
+                    '<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) zu erheben.\par'#13#10'\pard\n' +
+                    'owidctlpar\qr SNr: <SchulNr>, SForm: GY\b\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
-                  mmHeight = 61383
+                  mmHeight = 48419
                   mmLeft = 1588
                   mmTop = 265
                   mmWidth = 186796
-                  BandType = 7
+                  BandType = 4
                   LayerName = Foreground102
                   mmBottomOffset = 0
                   mmOverFlowOffset = 0
@@ -4985,23 +4923,7 @@ object Report: TppReport
                 end
               end
               object raCodeModule1: TraCodeModule
-                ProgramStream = {
-                  01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
-                  44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                  7450726F63656475726506536F75726365065E70726F63656475726520446574
-                  61696C4265666F72655072696E743B0D0A626567696E0D0A202064657461696C
-                  2E76697369626C65203A3D206E6F74204E65756541627363686C75737342657A
-                  656963686E756E673B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-                  0644657461696C094576656E744E616D65060B4265666F72655072696E740745
-                  76656E7449440218084361726574506F730102010204000001060F5472614576
-                  656E7448616E646C65720B50726F6772616D4E616D65061253756D6D61727942
-                  65666F72655072696E740B50726F6772616D54797065070B747450726F636564
-                  75726506536F75726365065C70726F6365647572652053756D6D617279426566
-                  6F72655072696E743B0D0A626567696E0D0A202073756D6D6172792E76697369
-                  626C65203A3D204E65756541627363686C75737342657A656963686E756E673B
-                  0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060753756D6D61727909
-                  4576656E744E616D65060B4265666F72655072696E74074576656E7449440218
-                  084361726574506F730102010204000000}
+                ProgramStream = {00}
               end
               object ppDesignLayers28: TppDesignLayers
                 object ppDesignLayer30: TppDesignLayer
@@ -5081,7 +5003,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148200000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C20506CC3BC6D7065722C206465206C61204861
       7965273B0D0A2020200D0A0D0A626567696E0D0A0D0A656E643B0D0A08436172
       6574506F730102010201000001060D54726156617250726F6772616D09436869

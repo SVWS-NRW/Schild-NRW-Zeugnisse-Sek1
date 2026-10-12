@@ -165,7 +165,7 @@ object Report: TppReport
                 Background1.Brush.Style = bsClear
                 Background2.Brush.Style = bsClear
                 mmBottomOffset = 0
-                mmHeight = 4233
+                mmHeight = 229394
                 mmPrintPosition = 0
               end
               object ppPageStyle4: TppPageStyle
@@ -197,34 +197,42 @@ object Report: TppReport
                     '\tqr\tx9072 Hier k\'#39'f6nnen eingetragen werden:\par'#13#10'-\tab besond' +
                     'ere Leistungsnachweise wie Jugendsportabzeichen oder Schwimmzeug' +
                     'nis sowie Angaben \'#39'fcber freiwillig besuchte Kurse (z.B. Erste ' +
-                    'Hilfe),\par'#13#10'-\tab Angaben \'#39'fcber die Leistungen im herkunftssp' +
-                    'rachlichen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung, Vorve' +
-                    'rsetzung oder zum R\'#39'fccktritt,\par'#13#10'-\tab Angaben zum Schulwech' +
-                    'sel,\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abg' +
-                    'angszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\' +
-                    'tqc\tx4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\' +
-                    'li284\ri283\tx1276\tqc\tx3402\tqr\tx9072 Bei der Bewertung einze' +
-                    'lner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die folgend' +
-                    'en Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (Schul' +
-                    'G) zugrunde gelegt:\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri283\tx' +
-                    '1985\tqc\tx3119\tqr\tx9072 1.\tab sehr gut\tab (1),\par'#13#10'\pard\n' +
-                    'owidctlpar\fi-283\li567\ri283\tx1985 2.\tab gut\tab (2),\par'#13#10'3.' +
-                    '\tab befriedigend\tab (3),\par'#13#10'4.\tab ausreichend\tab (4),\par'#13 +
-                    #10'5.\tab mangelhaft\tab (5),\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\pa' +
-                    'r'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9' +
-                    '072 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\' +
-                    'ri283\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fcl' +
-                    'erin oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichba' +
-                    'ren Abschluss oder eine Berechtigung nicht zu vergeben, kann inn' +
-                    'erhalb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch ' +
-                    'erhoben werden.\par'#13#10'\pard\nowidctlpar\li284\ri283\tx993\tqc\tx4' +
-                    '536\tqr\tx9072 Der Widerspruch ist bei der Schule (<Bezeichnung1' +
-                    '>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu' +
-                    ' erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\pa' +
-                    'r'#13#10'\pard\nowidctlpar\par'#13#10'\pard\cf1\f1\par'#13#10'}'#13#10#0
+                    'Hilfe),\par'#13#10'-\tab Angaben zur Unterrichtung in den Klassen 5 un' +
+                    'd 6 nach den Bildungsgangzielen der Hauptschule,\par'#13#10'-\tab Anga' +
+                    'ben zur Wiederholung, Vorversetzung oder zum R\'#39'fccktritt,\par'#13#10 +
+                    '-\tab Angaben zum Schulwechsel,\par'#13#10'-\tab Versetzungsvermerk be' +
+                    'i \'#39'dcberweisungs- oder Abgangszeugnissen.\par'#13#10'\pard\nowidctlpa' +
+                    'r\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 1.a) Zur Spalte' +
+                    ' "Weiterer Unterricht"\par'#13#10'\pard\nowidctlpar\fi-280\li560\ri283' +
+                    '\tx284\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen insbesondere eingetr' +
+                    'agen werden:\par'#13#10'- \tab Angaben \'#39'fcber die Leistungen in Angeb' +
+                    'oten, die unter Verwendung von Erg\'#39'e4nzungsstunden realisiert w' +
+                    'erden, soweit diese der Leistungsbewertung unterliegen,\par'#13#10'- \' +
+                    'tab Angaben \'#39'fcber die Leistungen im Herkunftssprachlichen Unte' +
+                    'rricht.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx45' +
+                    '36\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri' +
+                    '283\tx1276\tqc\tx3402\tqr\tx9072 Bei der Bewertung einzelner Sch' +
+                    '\'#39'fclerleistungen sowie in Zeugnissen werden die folgenden Noten' +
+                    'stufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugru' +
+                    'nde gelegt:\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri283\tx1985\tqc' +
+                    '\tx3119\tqr\tx9072 1.\tab sehr gut\tab (1),\par'#13#10'\pard\nowidctlp' +
+                    'ar\fi-283\li567\ri283\tx1985 2.\tab gut\tab (2),\par'#13#10'3.\tab bef' +
+                    'riedigend\tab (3),\par'#13#10'4.\tab ausreichend\tab (4),\par'#13#10'5.\tab ' +
+                    'mangelhaft\tab (5),\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\par'#13#10'\pard' +
+                    '\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 3.\t' +
+                    'ab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283\tq' +
+                    'c\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fclerin ode' +
+                    'r den Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren Absc' +
+                    'hluss oder eine Berechtigung nicht zu vergeben, kann innerhalb e' +
+                    'ines Monats nach Bekanntgabe des Zeugnisses Widerspruch erhoben ' +
+                    'werden.\par'#13#10'\pard\nowidctlpar\li284\ri283\tx993\tqc\tx4536\tqr\' +
+                    'tx9072 Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Stra' +
+                    'sse>, <PLZ> <Ort>) zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <S' +
+                    'chulNr>, SForm: RS\par'#13#10'\pard\nowidctlpar\par'#13#10'\pard\cf1\f1\par'#13 +
+                    #10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
-                  mmHeight = 124884
+                  mmHeight = 132821
                   mmLeft = 26988
                   mmTop = 75936
                   mmWidth = 156104
@@ -5567,7 +5575,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148700000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205065746572732C20506CC3BC6D7065722C20
       6465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D
       0A084361726574506F730102030202000001060D54726156617250726F677261

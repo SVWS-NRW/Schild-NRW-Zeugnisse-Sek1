@@ -3479,7 +3479,7 @@ object Report: TppReport
             Weight = 0.750000000000000000
             mmHeight = 2117
             mmLeft = 10054
-            mmTop = 215290
+            mmTop = 207870
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -5189,7 +5189,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6350
             mmLeft = 14288
-            mmTop = 182034
+            mmTop = 174614
             mmWidth = 181505
             BandType = 4
             LayerName = Foreground3
@@ -5525,7 +5525,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 10054
-            mmTop = 217480
+            mmTop = 210060
             mmWidth = 169455
             BandType = 4
             LayerName = Foreground3
@@ -5719,7 +5719,7 @@ object Report: TppReport
             DataPipelineName = 'EigeneSchule'
             mmHeight = 6273
             mmLeft = 10054
-            mmTop = 226417
+            mmTop = 218997
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -5753,7 +5753,7 @@ object Report: TppReport
                 Background2.Brush.Style = bsClear
                 PrintHeight = phDynamic
                 mmBottomOffset = 0
-                mmHeight = 62971
+                mmHeight = 63765
                 mmPrintPosition = 0
                 object ppRichText2: TppRichText
                   UserName = 'RiTeHinweiseAlt'
@@ -5766,55 +5766,58 @@ object Report: TppReport
                   MailMerge = True
                   RichText = 
                     '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
-                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\col' +
-                    'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brd' +
-                    'rw20\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072\b\f0\fs1' +
-                    '4 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283' +
-                    '\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":\par'#13#10 +
-                    '\pard\nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nn' +
-                    'en eingetragen werden: Erwerb des Hauptschulabschlusses, Erwerb ' +
-                    'des Hauptschulabschlusses nach Klasse 10, Erwerb des mittleren S' +
-                    'chulabschlusses (Fachoberschulreife), Erwerb des mittleren Schul' +
-                    'abschlusses (Fachoberschulreife) mit Berechtigung zum Besuch der' +
-                    ' gymnasialen Oberstufe, besondere Leistungsnachweise wie Jugends' +
-                    'portabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwill' +
-                    'ig besuchte Kurse (z.B. Erste Hilfe), Angaben \'#39'fcber die Leistu' +
-                    'ngen im herkunftssprachlichen Unterricht, Angaben zur Wiederholu' +
-                    'ng, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Schulwechse' +
-                    'l, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugnisse' +
-                    'n.\fs22\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx4536\tqr' +
-                    '\tx9072\fs14 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri2' +
-                    '83\tqc\tx4536\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerl' +
-                    'eistungen sowie in Zeugnissen werden die folgenden Notenstufen g' +
-                    'em\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13#10'1. sehr' +
-                    ' gut (1), 2. gut (2), 3. befriedigend (3), 4. ausreichend (4), 5' +
-                    '. mangelhaft (5), 6. ungen\'#39'fcgend (6)\fs22\par'#13#10'\pard\nowidctlp' +
-                    'ar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072\fs14 3.\tab In den K' +
-                    'lassen 7 bis 10 wird der Unterricht in den F\'#39'e4chern Englisch u' +
-                    'nd Mathematik, in den Klassen 8 (ggf. 9) bis 10 im Fach Deutsch,' +
-                    ' ab Klasse 9 in Physik oder Chemie auf zwei Anspruchsebenen erte' +
-                    'ilt. Ihren Leistungen in dem jeweiligen Fach entsprechend werden' +
-                    ' die Sch\'#39'fclerinnen und Sch\'#39'fcler entweder Grundebenen oder Er' +
-                    'weiterungsebenen zugewiesen. Der Unterricht in Grundebenen orien' +
-                    'tiert sich an Anforderungen, die in Verbindung mit anderen von d' +
-                    'en Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Leistungen al' +
-                    's Voraussetzungen f\'#39'fcr die Vergabe des Hauptschulabschlusses u' +
-                    'nd des Hauptschulabschlusses nach Klasse 10 ma\'#39'dfgebend sind. D' +
-                    'ie Anforderungen in Erweiterungsebenen sind auf das Erreichen de' +
-                    's mittleren Schulabschlusses (Fachoberschulreife) und der Berech' +
-                    'tigung zum Besuch der gymnasialen Oberstufe ausgerichtet.\par'#13#10'4' +
-                    '.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283' +
-                    '\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fclerin ' +
-                    'oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren A' +
-                    'bschluss oder eine Berechtigung nicht zu vergeben, kann innerhal' +
-                    'b eines Monats nach Bekanntgabe des Zeugnisses Widerspruch erhob' +
-                    'en werden.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnung' +
-                    '1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift z' +
-                    'u erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: GE\c' +
-                    'f1\f1\fs16\par'#13#10'}'#13#10#0
+                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\brdr' +
+                    't\brdrs\brdrw20\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx90' +
+                    '72\b\f0\fs14 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\' +
+                    'li284\ri283\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkun' +
+                    'gen":\par'#13#10'\pard\nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 H' +
+                    'ier k\'#39'f6nnen eingetragen werden: Erwerb des Ersten Schulabschlu' +
+                    'sses, Erwerb des Erweiterten Ersten Schulabschlusses, Erwerb des' +
+                    ' Mittleren Schulabschlusses (Fachoberschulreife), Erwerb des Mit' +
+                    'tleren Schulabschlusses (Fachoberschulreife) mit Berechtigung zu' +
+                    'm Besuch der gymnasialen Oberstufe, besondere Leistungsnachweise' +
+                    ' wie Jugendsportabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fc' +
+                    'ber freiwillig besuchte Kurse (z.B. Erste Hilfe), Angaben zur Wi' +
+                    'ederholung, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Sch' +
+                    'ulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangsz' +
+                    'eugnissen.\fs22\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx' +
+                    '4536\tqr\tx9072\fs14 1.a)\tab  Zur Spalte "Weiterer Unterricht":' +
+                    '\par'#13#10'\tab Hier k\'#39'f6nnen insbesondere eingetragen werden: Angab' +
+                    'en \'#39'fcber die Leistungen in Angeboten, die unter Verwendung von' +
+                    ' Erg\'#39'e4nzungsstunden realisiert werden, soweit diese der Leistu' +
+                    'ngsbewertung unterliegen, Angaben \'#39'fcber die Leistungen im herk' +
+                    'unftssprachlichen Unterricht\par'#13#10'2.\tab Notenstufen\par'#13#10'\pard\' +
+                    'nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Bei der Bewertung ' +
+                    'einzelner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die fo' +
+                    'lgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde' +
+                    ' gelegt:\par'#13#10'1. sehr gut (1), 2. gut (2), 3. befriedigend (3), ' +
+                    '4. ausreichend (4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\fs22' +
+                    '\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072' +
+                    '\fs14 3.\tab In den Klassen 7 bis 10 wird der Unterricht in den ' +
+                    'F\'#39'e4chern Englisch und Mathematik, in den Klassen 8 (ggf. 9) bi' +
+                    's 10 im Fach Deutsch, ab Klasse 9 in Biologie, Physik oder Chemi' +
+                    'e auf zwei Anspruchsebenen erteilt. Ihren Leistungen in dem jewe' +
+                    'iligen Fach entsprechend werden die Sch\'#39'fclerinnen und Sch\'#39'fcl' +
+                    'er entweder Grundebenen oder Erweiterungsebenen zugewiesen. Der ' +
+                    'Unterricht in Grundebenen orientiert sich an Anforderungen, die ' +
+                    'in Verbindung mit anderen von den Sch\'#39'fclerinnen und Sch\'#39'fcler' +
+                    'n zu erbringenden Leistungen als Voraussetzungen f\'#39'fcr die Verg' +
+                    'abe des Ersten Schulabschlusses und des Erweiterten Ersten Schul' +
+                    'abschlusses ma\'#39'dfgebend sind. Die Anforderungen in Erweiterungs' +
+                    'ebenen sind auf das Erreichen des Mittleren Schulabschlusses (Fa' +
+                    'choberschulreife) und der Berechtigung zum Besuch der gymnasiale' +
+                    'n Oberstufe ausgerichtet.\par'#13#10'4.\tab Rechtsbehelfsbelehrung:\pa' +
+                    'r'#13#10'\pard\nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Gegen die' +
+                    ' Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu ver' +
+                    'setzen oder einen erreichbaren Abschluss oder eine Berechtigung ' +
+                    'nicht zu vergeben, kann innerhalb eines Monats nach Bekanntgabe ' +
+                    'des Zeugnisses Widerspruch erhoben werden. Der Widerspruch ist b' +
+                    'ei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) zu erhebe' +
+                    'n.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: GE\b\par'#13#10'}'#13 +
+                    #10#0
                   RemoveEmptyLines = False
                   Stretch = True
-                  mmHeight = 62706
+                  mmHeight = 63500
                   mmLeft = 1588
                   mmTop = 265
                   mmWidth = 186796
@@ -5826,101 +5829,8 @@ object Report: TppReport
                   mmMinHeight = 0
                 end
               end
-              object ppSummaryBand12: TppSummaryBand
-                Background.Brush.Style = bsClear
-                PrintHeight = phDynamic
-                mmBottomOffset = 0
-                mmHeight = 62971
-                mmPrintPosition = 0
-                object ppRichText3: TppRichText
-                  UserName = 'RiTeHinweiseNeu'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 8
-                  Font.Style = []
-                  Caption = 'RiTeHinweiseNeu'
-                  MailMerge = True
-                  RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
-                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\col' +
-                    'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brd' +
-                    'rw20\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072\b\f0\fs1' +
-                    '4 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283' +
-                    '\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":\par'#13#10 +
-                    '\pard\nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nn' +
-                    'en eingetragen werden: Erwerb des Ersten Schulabschlusses, Erwer' +
-                    'b des Erweiterten Ersten Schulabschlusses, Erwerb des Mittleren ' +
-                    'Schulabschlusses (Fachoberschulreife), Erwerb des Mittleren Schu' +
-                    'labschlusses (Fachoberschulreife) mit Berechtigung zum Besuch de' +
-                    'r gymnasialen Oberstufe, besondere Leistungsnachweise wie Jugend' +
-                    'sportabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwil' +
-                    'lig besuchte Kurse (z.B. Erste Hilfe), Angaben \'#39'fcber die Leist' +
-                    'ungen im herkunftssprachlichen Unterricht, Angaben zur Wiederhol' +
-                    'ung, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Schulwechs' +
-                    'el, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugniss' +
-                    'en.\fs22\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx4536\tq' +
-                    'r\tx9072\fs14 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri' +
-                    '283\tqc\tx4536\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fcler' +
-                    'leistungen sowie in Zeugnissen werden die folgenden Notenstufen ' +
-                    'gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13#10'1. seh' +
-                    'r gut (1), 2. gut (2), 3. befriedigend (3), 4. ausreichend (4), ' +
-                    '5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\fs22\par'#13#10'\pard\nowidctl' +
-                    'par\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072\fs14 3.\tab In den ' +
-                    'Klassen 7 bis 10 wird der Unterricht in den F\'#39'e4chern Englisch ' +
-                    'und Mathematik, in den Klassen 8 (ggf. 9) bis 10 im Fach Deutsch' +
-                    ', ab Klasse 9 in Physik oder Chemie auf zwei Anspruchsebenen ert' +
-                    'eilt. Ihren Leistungen in dem jeweiligen Fach entsprechend werde' +
-                    'n die Sch\'#39'fclerinnen und Sch\'#39'fcler entweder Grundebenen oder E' +
-                    'rweiterungsebenen zugewiesen. Der Unterricht in Grundebenen orie' +
-                    'ntiert sich an Anforderungen, die in Verbindung mit anderen von ' +
-                    'den Sch\'#39'fclerinnen und Sch\'#39'fclern zu erbringenden Leistungen a' +
-                    'ls Voraussetzungen f\'#39'fcr die Vergabe des Ersten Schulabschlusse' +
-                    's und des Erweiterten Ersten Schulabschlusses ma\'#39'dfgebend sind.' +
-                    ' Die Anforderungen in Erweiterungsebenen sind auf das Erreichen ' +
-                    'des Mittleren Schulabschlusses (Fachoberschulreife) und der Bere' +
-                    'chtigung zum Besuch der gymnasialen Oberstufe ausgerichtet.\par'#13 +
-                    #10'4.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri2' +
-                    '83\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fcleri' +
-                    'n oder den Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren' +
-                    ' Abschluss oder eine Berechtigung nicht zu vergeben, kann innerh' +
-                    'alb eines Monats nach Bekanntgabe des Zeugnisses Widerspruch erh' +
-                    'oben werden.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnu' +
-                    'ng1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift' +
-                    ' zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: GE' +
-                    '\cf1\f1\fs16\par'#13#10'}'#13#10#0
-                  RemoveEmptyLines = False
-                  Stretch = True
-                  mmHeight = 62706
-                  mmLeft = 1588
-                  mmTop = 265
-                  mmWidth = 186796
-                  BandType = 7
-                  LayerName = PageLayer4
-                  mmBottomOffset = 0
-                  mmOverFlowOffset = 0
-                  mmStopPosition = 0
-                  mmMinHeight = 0
-                end
-              end
               object raCodeModule14: TraCodeModule
-                ProgramStream = {
-                  01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
-                  44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                  7450726F63656475726506536F75726365065E70726F63656475726520446574
-                  61696C4265666F72655072696E743B0D0A626567696E0D0A202064657461696C
-                  2E76697369626C65203A3D206E6F74204E65756541627363686C75737342657A
-                  656963686E756E673B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-                  0644657461696C094576656E744E616D65060B4265666F72655072696E740745
-                  76656E7449440218084361726574506F730102010204000001060F5472614576
-                  656E7448616E646C65720B50726F6772616D4E616D65061253756D6D61727942
-                  65666F72655072696E740B50726F6772616D54797065070B747450726F636564
-                  75726506536F75726365065C70726F6365647572652053756D6D617279426566
-                  6F72655072696E743B0D0A626567696E0D0A202073756D6D6172792E76697369
-                  626C65203A3D204E65756541627363686C75737342657A656963686E756E673B
-                  0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060753756D6D61727909
-                  4576656E744E616D65060B4265666F72655072696E74074576656E7449440218
-                  084361726574506F730102000200000000}
+                ProgramStream = {00}
               end
               object ppDesignLayers26: TppDesignLayers
                 object ppDesignLayer26: TppDesignLayer
@@ -5982,7 +5892,7 @@ object Report: TppReport
       65070B747450726F63656475726506536F7572636514A200000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A2020536368756C666F
       726D203D2027476573616D74736368756C65273B0D0A20200D0A202052657056
-      657273696F6E203D2027323032362D30372D3039273B0D0A2020526570417574
+      657273696F6E203D2027323032362D31302D3132273B0D0A2020526570417574
       6F72656E203D20274DC3BC6C6C65722C20506CC3BC6D7065722C206465206C61
       2048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D0A08436172
       6574506F730102010201000001060D54726156617250726F6772616D09436869

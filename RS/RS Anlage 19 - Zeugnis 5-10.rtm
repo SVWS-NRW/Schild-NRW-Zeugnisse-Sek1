@@ -4530,7 +4530,7 @@ object Report: TppReport
             Weight = 0.750000000000000000
             mmHeight = 2117
             mmLeft = 10056
-            mmTop = 240471
+            mmTop = 231726
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -4793,7 +4793,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 0
-            mmTop = 189707
+            mmTop = 187057
             mmWidth = 210000
             BandType = 4
             LayerName = Foreground3
@@ -4891,7 +4891,7 @@ object Report: TppReport
             DataPipelineName = 'EigeneSchule'
             mmHeight = 6285
             mmLeft = 10056
-            mmTop = 243118
+            mmTop = 234373
             mmWidth = 189971
             BandType = 4
             LayerName = Foreground3
@@ -4948,27 +4948,34 @@ object Report: TppReport
                     'tlpar\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen ein' +
                     'getragen werden: besondere Leistungsnachweise wie Jugendsportabz' +
                     'eichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwillig besu' +
-                    'chte Kurse (z.B. Erste Hilfe), Angaben \'#39'fcber die Leistungen im' +
-                    ' herkunftssprachlichen Unterricht, Angaben zur Wiederholung, Vor' +
-                    'versetzung oder zum R\'#39'fccktritt, Angaben zum Schulwechsel, Vers' +
-                    'etzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugnissen.\par'#13 +
-                    #10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx907' +
-                    '2 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri283\tqc\tx34' +
-                    '02\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerleistungen s' +
-                    'owie in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df ' +
-                    '\'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt: \par'#13#10'1' +
-                    '. sehr gut (1), 2. gut (2), 3. befriedigend (3), 4. ausreichend ' +
-                    '(4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\par'#13#10'\pard\nowidctl' +
-                    'par\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 3.\tab Rechts' +
-                    'behelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283\tx284\tqc\t' +
-                    'x4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39'fclerin oder d' +
-                    'en Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren Abschlu' +
-                    'ss oder eine Berechtigung nicht zu vergeben, kann innerhalb eine' +
-                    's Monats nach Bekanntgabe des Zeugnisses Widerspruch erhoben wer' +
-                    'den.\par'#13#10'Der Widerspruch ist bei der Schule (<Bezeichnung1>, <S' +
-                    'trasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erhe' +
-                    'ben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\f1\fs16' +
-                    '\par'#13#10'}'#13#10#0
+                    'chte Kurse (z.B. Erste Hilfe), Angaben zur Unterrichtung in den ' +
+                    'Klassen 5 und 6 nach den Bildungsgangzielen der Hauptschule, Ang' +
+                    'aben zur Wiederholung, Vorversetzung oder zum R\'#39'fccktritt, Anga' +
+                    'ben zum Schulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- od' +
+                    'er Abgangszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\' +
+                    'tx284\tqc\tx4536\tqr\tx9072 1.a)\tab Zur Spalte "Weiterer Unterr' +
+                    'icht"\par'#13#10'\pard\nowidctlpar\li280\ri283\tx284\tqc\tx4536\tqr\tx' +
+                    '9072 Hier k\'#39'f6nnen insbesondere eingetragen werden: Angaben \'#39'f' +
+                    'cber die Leistungen in Angeboten, die unter Verwendung von Erg\'#39 +
+                    'e4nzungsstunden realisiert werden, soweit diese der Leistungsbew' +
+                    'ertung unterliegen, Angaben \'#39'fcber die Leistungen im Herkunftss' +
+                    'prachlichen Unterricht.\tab\par'#13#10'\pard\nowidctlpar\fi-284\li284\' +
+                    'ri283\tx284\tqc\tx4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\' +
+                    'nowidctlpar\li284\ri283\tqc\tx3402\tqr\tx9072 Bei der Bewertung ' +
+                    'einzelner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die fo' +
+                    'lgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (' +
+                    'SchulG) zugrunde gelegt: \par'#13#10'1. sehr gut (1), 2. gut (2), 3. b' +
+                    'efriedigend (3), 4. ausreichend (4), 5. mangelhaft (5), 6. ungen' +
+                    '\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc' +
+                    '\tx4536\tqr\tx9072 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\now' +
+                    'idctlpar\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 Gegen die Entsc' +
+                    'heidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen' +
+                    ' oder einen erreichbaren Abschluss oder eine Berechtigung nicht ' +
+                    'zu vergeben, kann innerhalb eines Monats nach Bekanntgabe des Ze' +
+                    'ugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist be' +
+                    'i der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) zu erheben' +
+                    '.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\f1\fs16\pa' +
+                    'r'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 61383
@@ -5006,7 +5013,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 14288
-            mmTop = 137584
+            mmTop = 134934
             mmWidth = 181505
             BandType = 4
             LayerName = Foreground3
@@ -5342,7 +5349,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 14288
-            mmTop = 214588
+            mmTop = 211938
             mmWidth = 181505
             BandType = 4
             LayerName = Foreground3
@@ -5537,7 +5544,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148700000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032362D30372D3039273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205065746572732C20506CC3BC6D7065722C20
       6465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D
       0A084361726574506F730102010201000001060D54726156617250726F677261
