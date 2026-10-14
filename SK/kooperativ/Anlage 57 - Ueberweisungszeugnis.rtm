@@ -4974,7 +4974,7 @@ object Report: TppReport
                 Background2.Brush.Style = bsClear
                 PrintHeight = phDynamic
                 mmBottomOffset = 0
-                mmHeight = 62177
+                mmHeight = 53975
                 mmPrintPosition = 0
                 object ppRichText1: TppRichText
                   UserName = 'RiTeHinweise'
@@ -4987,47 +4987,47 @@ object Report: TppReport
                   MailMerge = True
                   RichText = 
                     '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
-                    'rq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\colortbl ;\red0\g' +
-                    'reen0\blue0;}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brdrw20\brsp20 \n' +
-                    'owidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072\b\f0\fs14 Hinweise zum' +
-                    ' Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx4536\tq' +
-                    'r\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":\par'#13#10'\pard\nowidctl' +
-                    'par\li284\ri283\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen eingetragen' +
-                    ' werden: besondere Leistungsnachweise wie Jugendsportabzeichen o' +
-                    'der Schwimmzeugnis sowie Angaben \'#39'fcber freiwillig besuchte Kur' +
-                    'se (z.B. Erste Hilfe), Angaben \'#39'fcber die Leistungen im herkunf' +
-                    'tssprachlichen Unterricht, Angaben zur Wiederholung, Vorversetzu' +
-                    'ng oder zum R\'#39'fccktritt, Angaben zum Schulwechsel, Versetzungsv' +
-                    'ermerk bei \'#39'dcberweisungs- oder Abgangszeugnissen.\par'#13#10'\pard\n' +
-                    'owidctlpar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072 2.\tab Noten' +
-                    'stufen; Unterrichtsorganisation\par'#13#10'\pard\nowidctlpar\li284\ri2' +
-                    '83\tqc\tx4536\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerl' +
-                    'eistungen sowie in Zeugnissen werden die folgenden Notenstufen g' +
-                    'em\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde gele' +
-                    'gt: \par'#13#10'1. sehr gut (1), 2. gut (2), 3. befriedigend (3), 4. a' +
-                    'usreichend(4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\par'#13#10'\par' +
-                    'd\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 3.\' +
-                    'tab F\'#39'fcr die Klassen 7 bis 10 gilt:\par'#13#10'\pard\nowidctlpar\li2' +
-                    '84\ri283\tqc\tx4536\tqr\tx9072 Der Unterricht in der in der koop' +
-                    'erativen Organisationsform mit drei Bildungsg\'#39'e4ngen orientiert' +
-                    ' sich an den Vorgaben der jeweiligen Schulform.\line Der Unterri' +
-                    'cht in der kooperativen Organisationsform mit zwei Anforderungse' +
-                    'benen orientiert sich auf der Grundebene an den Anforderungen de' +
-                    'r Haupt- und Realschule und auf der Erweiterungsebene an den Anf' +
-                    'orderungen der Realschule und des Gymnasiums.\par'#13#10'\pard\nowidct' +
-                    'lpar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072 4.\tab Rechtsbehel' +
-                    'fsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283\tqc\tx4536\tqr\t' +
-                    'x9072 Gegen die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcl' +
-                    'er nicht zu versetzen oder einen erreichbaren Abschluss oder ein' +
-                    'e Berechtigung nicht zu vergeben, kann innerhalb eines Monats na' +
-                    'ch Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'D' +
-                    'er Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse>, <P' +
-                    'LZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.\par'#13#10'\' +
-                    'pard\nowidctlpar\qr SNr: <SchulNr>, SForm: SK\cf1\f1\fs16\par'#13#10'}' +
-                    #13#10#0
+                    'rq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brdrw2' +
+                    '0\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072\b\f0\fs14 H' +
+                    'inweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tq' +
+                    'c\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":\par'#13#10'\pa' +
+                    'rd\nowidctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen ' +
+                    'eingetragen werden: besondere Leistungsnachweise wie Jugendsport' +
+                    'abzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwillig b' +
+                    'esuchte Kurse (z.B. Erste Hilfe), Angaben zur Wiederholung, Vorv' +
+                    'ersetzung oder zum R\'#39'fccktritt, Angaben zum Schulwechsel, Verse' +
+                    'tzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeugnissen.\par'#13#10 +
+                    '\pard\nowidctlpar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072 1.a) ' +
+                    '\tab Zur Spalte "Weiterer Unterricht"\par'#13#10'\pard\nowidctlpar\li2' +
+                    '84\ri283\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen insbesondere einge' +
+                    'tragen werden:Angaben \'#39'fcber die Leistungen in Angeboten, die u' +
+                    'nter Verwendung von Erg\'#39'e4nzungsstunden realisiert werden, sowe' +
+                    'it diese der Leistungsbewertung unterliegen, Angaben \'#39'fcber die' +
+                    ' Leistungen im herkunftssprachlichen Unterricht.\par'#13#10'\pard\nowi' +
+                    'dctlpar\fi-284\li284\ri283\tqc\tx4536\tqr\tx9072 2.\tab Notenstu' +
+                    'fen: Bei der Bewertung einzelner Sch\'#39'fclerleistungen sowie in Z' +
+                    'eugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 A' +
+                    'bs. 3 Schulgesetz NRW (SchulG) zugrunde gelegt: \par'#13#10'\pard\nowi' +
+                    'dctlpar\li284\ri283\tqc\tx4536\tqr\tx9072 1. sehr gut (1), 2. gu' +
+                    't (2), 3. befriedigend (3), 4. ausreichend(4), 5. mangelhaft (5)' +
+                    ', 6. ungen\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283' +
+                    '\tqc\tx4536\tqr\tx9072 3.\tab F\'#39'fcr die Klassen 7 bis 10 gilt: ' +
+                    'Der Unterricht in der kooperativen Organisationsform mit drei Bi' +
+                    'ldungsg\'#39'e4ngen orientiert sich an den Vorgaben der jeweiligen S' +
+                    'chulform. Der Unterricht in der kooperativen Organisationsform m' +
+                    'it zwei Anforderungsebenen orientiert sich auf der Grundebene an' +
+                    ' den Anforderungen der Haupt- und Realschule und auf der Erweite' +
+                    'rungsebene an den Anforderungen der Realschule und des Gymnasium' +
+                    's.\par'#13#10'4.\tab Rechtsbehelfsbelehrung: Gegen die Entscheidung, d' +
+                    'ie Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder eine' +
+                    'n erreichbaren Abschluss oder eine Berechtigung nicht zu vergebe' +
+                    'n, kann innerhalb eines Monats nach Bekanntgabe des Zeugnisses W' +
+                    'iderspruch erhoben werden. Der Widerspruch ist bei der Schule (<' +
+                    'Bezeichnung1>, <Strasse>, <PLZ> <Ort>) zu erheben.\par'#13#10'\pard\no' +
+                    'widctlpar\qr SNr: <SchulNr>, SForm: SK\b\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
-                  mmHeight = 61383
+                  mmHeight = 53711
                   mmLeft = 1058
                   mmTop = 265
                   mmWidth = 186532
@@ -5455,7 +5455,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148C00000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032362D30372D3039273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C2050666F74656E68617565722C20506CC3BC6D
       7065722C206465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A
       656E643B0D0A084361726574506F7301021B0202000001060D54726156617250

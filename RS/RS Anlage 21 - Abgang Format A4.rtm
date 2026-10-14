@@ -544,7 +544,7 @@ object Report: TppReport
             Weight = 0.750000000000000000
             mmHeight = 2114
             mmLeft = 10054
-            mmTop = 245002
+            mmTop = 227247
             mmWidth = 190000
             BandType = 4
             LayerName = Foreground3
@@ -4586,7 +4586,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6352
             mmLeft = 10054
-            mmTop = 238660
+            mmTop = 220905
             mmWidth = 169455
             BandType = 4
             LayerName = Foreground3
@@ -4705,120 +4705,6 @@ object Report: TppReport
               end
             end
           end
-          object ppSubReport15: TppSubReport
-            UserName = 'SubReport_ZeugnisInfo'
-            ExpandAll = False
-            NewPrintJob = False
-            OutlineSettings.CreateNode = True
-            ParentPrinterSetup = False
-            ParentWidth = False
-            TraverseAllData = False
-            DataPipelineName = 'EigeneSchule'
-            mmHeight = 6295
-            mmLeft = 10056
-            mmTop = 247088
-            mmWidth = 189971
-            BandType = 4
-            LayerName = Foreground3
-            mmBottomOffset = 0
-            mmOverFlowOffset = 0
-            mmStopPosition = 0
-            mmMinHeight = 0
-            object ppChildReport9: TppChildReport
-              AutoStop = False
-              DataPipeline = dmPipelines.EigeneSchule
-              PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = '(Anl 8) Zeugnis 5 - 9 HS V5.0'
-              PrinterSetup.Duplex = dpVertical
-              PrinterSetup.PaperName = 'A4'
-              PrinterSetup.PrinterName = 'Default'
-              PrinterSetup.SaveDeviceSettings = False
-              PrinterSetup.mmMarginBottom = 10000
-              PrinterSetup.mmMarginLeft = 10000
-              PrinterSetup.mmMarginRight = 10000
-              PrinterSetup.mmMarginTop = 10000
-              PrinterSetup.mmPaperHeight = 297000
-              PrinterSetup.mmPaperWidth = 210000
-              PrinterSetup.PaperSize = 9
-              Template.Format = ftASCII
-              Units = utScreenPixels
-              Version = '15.05'
-              mmColumnWidth = 0
-              DataPipelineName = 'EigeneSchule'
-              object ppDetailBand21: TppDetailBand
-                Background1.Brush.Style = bsClear
-                Background2.Brush.Style = bsClear
-                PrintHeight = phDynamic
-                mmBottomOffset = 0
-                mmHeight = 46567
-                mmPrintPosition = 0
-                object ppRichText1: TppRichText
-                  UserName = 'RiTeHinweise'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Name = 'Calibri'
-                  Font.Size = 8
-                  Font.Style = []
-                  Caption = 'RiTeHinweise'
-                  MailMerge = True
-                  RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
-                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\col' +
-                    'ortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\brdrt\brdrs\brd' +
-                    'rw20\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072\b\f0\fs1' +
-                    '4 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283' +
-                    '\tx284\tqc\tx4536\tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":' +
-                    '\par'#13#10'\pard\nowidctlpar\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 ' +
-                    'Hier k\'#39'f6nnen eingetragen werden: besondere Leistungsnachweise ' +
-                    'wie Jugendsportabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcb' +
-                    'er freiwillig besuchte Kurse (z.B. Erste Hilfe), Angaben \'#39'fcber' +
-                    ' die Leistungen im muttersprachlichen Unterricht, Angaben zur Wi' +
-                    'ederholung, Vorversetzung oder zum R\'#39'fccktritt, Angaben zum Sch' +
-                    'ulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangsz' +
-                    'eugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\t' +
-                    'x4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284' +
-                    '\ri283\tqc\tx3402\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fc' +
-                    'lerleistungen sowie in Zeugnissen werden die folgenden Notenstuf' +
-                    'en gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (SchulG) zugrunde ' +
-                    'gelegt: \par'#13#10'1. sehr gut (1), 2. gut (2), 3. befriedigend (3), ' +
-                    '4. ausreichend(4), 5. mangelhaft (5), 6. ungen\'#39'fcgend (6)\par'#13#10 +
-                    '\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\tqr\tx9072' +
-                    ' 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri2' +
-                    '83\tx284\tqc\tx4536\tqr\tx9072 Gegen die Entscheidung, die Sch\'#39 +
-                    'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder einen erreic' +
-                    'hbaren Abschluss oder eine Berechtigung nicht zu vergeben, kann ' +
-                    'innerhalb eines Monats nach Bekanntgabe des Zeugnisses Widerspru' +
-                    'ch erhoben werden.\par'#13#10'Der Widerspruch ist bei der Schule (<Bez' +
-                    'eichnung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Nieders' +
-                    'chrift zu erheben.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SFo' +
-                    'rm: RS\par'#13#10'\pard\cf1\f1\fs16\par'#13#10'}'#13#10#0
-                  RemoveEmptyLines = False
-                  Stretch = True
-                  mmHeight = 44979
-                  mmLeft = 1588
-                  mmTop = 0
-                  mmWidth = 186532
-                  BandType = 4
-                  LayerName = Foreground11
-                  mmBottomOffset = 0
-                  mmOverFlowOffset = 0
-                  mmStopPosition = 0
-                  mmMinHeight = 0
-                  mmLeftMargin = 794
-                end
-              end
-              object raCodeModule11: TraCodeModule
-                ProgramStream = {00}
-              end
-              object ppDesignLayers14: TppDesignLayers
-                object ppDesignLayer15: TppDesignLayer
-                  UserName = 'Foreground11'
-                  LayerType = ltBanded
-                  Index = 0
-                end
-              end
-            end
-          end
           object ppSubReport12: TppSubReport
             UserName = 'SubReport_JgSt_AbgF'
             ExpandAll = False
@@ -4925,7 +4811,7 @@ object Report: TppReport
             TraverseAllData = False
             mmHeight = 6350
             mmLeft = 14817
-            mmTop = 219869
+            mmTop = 202114
             mmWidth = 181505
             BandType = 4
             LayerName = Foreground3
@@ -5252,6 +5138,128 @@ object Report: TppReport
             BandType = 4
             LayerName = Foreground3
           end
+          object ppSubReport15: TppSubReport
+            UserName = 'SubReport_ZeugnisInfo'
+            ExpandAll = False
+            NewPrintJob = False
+            OutlineSettings.CreateNode = True
+            ParentPrinterSetup = False
+            ParentWidth = False
+            TraverseAllData = False
+            DataPipelineName = 'EigeneSchule'
+            mmHeight = 6350
+            mmLeft = 10054
+            mmTop = 230425
+            mmWidth = 189971
+            BandType = 4
+            LayerName = Foreground3
+            mmBottomOffset = 0
+            mmOverFlowOffset = 0
+            mmStopPosition = 0
+            mmMinHeight = 0
+            object ppChildReport9: TppChildReport
+              AutoStop = False
+              DataPipeline = dmPipelines.EigeneSchule
+              PrinterSetup.BinName = 'Default'
+              PrinterSetup.DocumentName = '(Anl 8) Zeugnis 5 - 9 HS V5.0'
+              PrinterSetup.Duplex = dpVertical
+              PrinterSetup.PaperName = 'A4'
+              PrinterSetup.PrinterName = 'Default'
+              PrinterSetup.SaveDeviceSettings = False
+              PrinterSetup.mmMarginBottom = 10000
+              PrinterSetup.mmMarginLeft = 10000
+              PrinterSetup.mmMarginRight = 10000
+              PrinterSetup.mmMarginTop = 10000
+              PrinterSetup.mmPaperHeight = 297000
+              PrinterSetup.mmPaperWidth = 210000
+              PrinterSetup.PaperSize = 9
+              Template.Format = ftASCII
+              Units = utScreenPixels
+              Version = '15.05'
+              mmColumnWidth = 0
+              DataPipelineName = 'EigeneSchule'
+              object ppDetailBand21: TppDetailBand
+                Background1.Brush.Style = bsClear
+                Background2.Brush.Style = bsClear
+                PrintHeight = phDynamic
+                mmBottomOffset = 0
+                mmHeight = 62177
+                mmPrintPosition = 0
+                object ppRichText1: TppRichText
+                  UserName = 'RiTeHinweise'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clWindowText
+                  Font.Name = 'Calibri'
+                  Font.Size = 8
+                  Font.Style = []
+                  Caption = 'RiTeHinweise'
+                  MailMerge = True
+                  RichText = 
+                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fswiss\fp' +
+                    'rq2\fcharset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'\viewkind4\uc1\pard' +
+                    '\brdrt\brdrs\brdrw20\brsp20 \nowidctlpar\ri283\tqc\tx4536\tqr\tx' +
+                    '9072\f0\fs14 *Siehe \'#39'a7 123 Schulgesetz NRW; die Unterschrift e' +
+                    'ines Elternteils gen\'#39'fcgt.\b\par'#13#10'\pard\brdrt\brdrs\brdrw20\brs' +
+                    'p20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx9072 Hinweise zum Zeu' +
+                    'gnis\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc\tx4536\' +
+                    'tqr\tx9072\b0 1.\tab Zur Spalte "Bemerkungen":\par'#13#10'\pard\nowidc' +
+                    'tlpar\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 Hier k\'#39'f6nnen ein' +
+                    'getragen werden: besondere Leistungsnachweise wie Jugendsportabz' +
+                    'eichen oder Schwimmzeugnis sowie Angaben \'#39'fcber freiwillig besu' +
+                    'chte Kurse (z.B. Erste Hilfe), Angaben zur Unterrichtung in den ' +
+                    'Klassen 5 und 6 nach den Bildungsgangzielen der Hauptschule, Ang' +
+                    'aben zur Wiederholung, Vorversetzung oder zum R\'#39'fccktritt, Anga' +
+                    'ben zum Schulwechsel, Versetzungsvermerk bei \'#39'dcberweisungs- od' +
+                    'er Abgangszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\' +
+                    'tx284\tqc\tx4536\tqr\tx9072 1.a)\tab Zur Spalte "Weiterer Unterr' +
+                    'icht"\par'#13#10'\pard\nowidctlpar\li280\ri283\tx284\tqc\tx4536\tqr\tx' +
+                    '9072 Hier k\'#39'f6nnen insbesondere eingetragen werden: Angaben \'#39'f' +
+                    'cber die Leistungen in Angeboten, die unter Verwendung von Erg\'#39 +
+                    'e4nzungsstunden realisiert werden, soweit diese der Leistungsbew' +
+                    'ertung unterliegen, Angaben \'#39'fcber die Leistungen im Herkunftss' +
+                    'prachlichen Unterricht.\tab\par'#13#10'\pard\nowidctlpar\fi-284\li284\' +
+                    'ri283\tx284\tqc\tx4536\tqr\tx9072 2.\tab Notenstufen\par'#13#10'\pard\' +
+                    'nowidctlpar\li284\ri283\tqc\tx3402\tqr\tx9072 Bei der Bewertung ' +
+                    'einzelner Sch\'#39'fclerleistungen sowie in Zeugnissen werden die fo' +
+                    'lgenden Notenstufen gem\'#39'e4\'#39'df \'#39'a7 48 Abs. 3 Schulgesetz NRW (' +
+                    'SchulG) zugrunde gelegt: \par'#13#10'1. sehr gut (1), 2. gut (2), 3. b' +
+                    'efriedigend (3), 4. ausreichend (4), 5. mangelhaft (5), 6. ungen' +
+                    '\'#39'fcgend (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\tx284\tqc' +
+                    '\tx4536\tqr\tx9072 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\now' +
+                    'idctlpar\li284\ri283\tx284\tqc\tx4536\tqr\tx9072 Gegen die Entsc' +
+                    'heidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht zu versetzen' +
+                    ' oder einen erreichbaren Abschluss oder eine Berechtigung nicht ' +
+                    'zu vergeben, kann innerhalb eines Monats nach Bekanntgabe des Ze' +
+                    'ugnisses Widerspruch erhoben werden.\par'#13#10'Der Widerspruch ist be' +
+                    'i der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>) zu erheben' +
+                    '.\par'#13#10'\pard\nowidctlpar\qr SNr: <SchulNr>, SForm: RS\f1\fs16\pa' +
+                    'r'#13#10'}'#13#10#0
+                  RemoveEmptyLines = False
+                  Stretch = True
+                  mmHeight = 61383
+                  mmLeft = 1058
+                  mmTop = 265
+                  mmWidth = 186532
+                  BandType = 4
+                  mmBottomOffset = 0
+                  mmOverFlowOffset = 0
+                  mmStopPosition = 0
+                  mmMinHeight = 0
+                  mmLeftMargin = 794
+                end
+              end
+              object raCodeModule11: TraCodeModule
+                ProgramStream = {00}
+              end
+              object ppDesignLayers14: TppDesignLayers
+                object ppDesignLayer15: TppDesignLayer
+                  UserName = 'Foreground31'
+                  LayerType = ltBanded
+                  Index = 0
+                end
+              end
+            end
+          end
         end
         object ppPageStyle2: TppPageStyle
           Background.Brush.Style = bsClear
@@ -5339,7 +5347,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148700000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30352D3330273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C205065746572732C20506CC3BC6D7065722C20
       6465206C612048617965273B0D0A0D0A0D0A626567696E0D0A0D0A656E643B0D
       0A084361726574506F730102010210000001060D54726156617250726F677261

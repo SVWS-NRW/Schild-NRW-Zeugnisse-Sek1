@@ -4917,38 +4917,35 @@ object Report: TppReport
           mmBottomOffset = 0
           mmHeight = 297128
           mmPrintPosition = 0
-          object ppSubReport20: TppSubReport
-            UserName = 'SubReport_ZeugnisInfos'
+          object ppSubReport7: TppSubReport
+            UserName = 'SubReport1'
             ExpandAll = False
             NewPrintJob = False
             OutlineSettings.CreateNode = True
-            ParentPrinterSetup = False
-            ParentWidth = False
-            PrintBehavior = pbFixed
             TraverseAllData = False
             DataPipelineName = 'EigeneSchule'
-            mmHeight = 166688
-            mmLeft = 10054
-            mmTop = 10054
-            mmWidth = 189971
+            mmHeight = 5027
+            mmLeft = 0
+            mmTop = 19844
+            mmWidth = 210000
             BandType = 4
             LayerName = PageLayer21
             mmBottomOffset = 0
             mmOverFlowOffset = 0
             mmStopPosition = 0
             mmMinHeight = 0
-            object ppChildReport23: TppChildReport
+            object ppChildReport7: TppChildReport
               AutoStop = False
               DataPipeline = dmPipelines.EigeneSchule
               PrinterSetup.BinName = 'Default'
-              PrinterSetup.DocumentName = '(Anl 16) Ueberweisung RS V5.0'
+              PrinterSetup.DocumentName = 'Anlage 32 - Ueberweisungszeugnis.rtm'
               PrinterSetup.Duplex = dpVertical
               PrinterSetup.PaperName = 'A4'
               PrinterSetup.PrinterName = 'Default'
               PrinterSetup.SaveDeviceSettings = False
               PrinterSetup.mmMarginBottom = 0
               PrinterSetup.mmMarginLeft = 0
-              PrinterSetup.mmMarginRight = 20108
+              PrinterSetup.mmMarginRight = 0
               PrinterSetup.mmMarginTop = 0
               PrinterSetup.mmPaperHeight = 297000
               PrinterSetup.mmPaperWidth = 210000
@@ -4963,84 +4960,10 @@ object Report: TppReport
                 Background2.Brush.Style = bsClear
                 PrintHeight = phDynamic
                 mmBottomOffset = 0
-                mmHeight = 165629
+                mmHeight = 160602
                 mmPrintPosition = 0
-                object ppRichText1: TppRichText
-                  UserName = 'RiTeHinweiseAlt'
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clWindowText
-                  Font.Name = 'Calibri'
-                  Font.Size = 10
-                  Font.Style = []
-                  KeepTogether = True
-                  Caption = 'RiTeHinweiseAlt'
-                  MailMerge = True
-                  RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
-                    '{\f0\fswiss\fprq2\fcharset0 Calibri;}}'#13#10'\viewkind4\uc1\pard\brdr' +
-                    't\brdrs\brdrw20\brsp20 \nowidctlpar\ri283\qc\tqc\tx4536\tqr\tx90' +
-                    '72\b\f0\fs20 Hinweise zum Zeugnis\par'#13#10'\pard\nowidctlpar\fi-360\' +
-                    'li720\ri283\b0\fs14\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283\fs' +
-                    '20 1.\tab Zur Spalte \'#39'84Bemerkungen\ldblquote :\par'#13#10'\pard\nowi' +
-                    'dctlpar\fi-283\li567\ri283\tx567\tqc\tx4536\tqr\tx9072 Hier k\'#39'f' +
-                    '6nnen eingetragen werden:\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri' +
-                    '283 -\tab Erwerb der Berechtigung zum Besuch \fs18 der Qualifika' +
-                    'tionsphase der gymnasialen Oberstufe\fs20 ,\par'#13#10'-\tab Erwerb de' +
-                    'r Berechtigung zum Besuch \fs18 der Einf\'#39'fchrungsphase der gymn' +
-                    'asialen Oberstufe,\fs20\par'#13#10'-\tab Erwerb des mittleren Schulabs' +
-                    'chlusses (Fachoberschulreife), \par'#13#10'-\tab Erwerb eines dem Haup' +
-                    'tschulabschluss gleichwertigen Abschlusses nach Klasse 10, \par'#13 +
-                    #10'-\tab Erwerb eines dem Hauptschulabschluss gleichwertigen Absch' +
-                    'lusses nach Klasse 9, \par'#13#10'-\tab Teilnahme an einem Angebot der' +
-                    ' informatischen Bildung,  \par'#13#10'\pard\nowidctlpar\fi-283\li567\r' +
-                    'i283\tx567\tqc\tx4536\tqr\tx9072 -\tab besondere Leistungsnachwe' +
-                    'ise wie Jugendsportabzeichen oder Schwimmzeugnis sowie Angaben \' +
-                    #39'fcber freiwillig besuchte Kurse (z.B. Erste Hilfe),\par'#13#10'\pard\' +
-                    'nowidctlpar\fi-283\li567\ri283 -\tab Angaben \'#39'fcber die Leistun' +
-                    'gen im herkunftssprachlichen Unterricht\par'#13#10'-\tab Angaben zur W' +
-                    'iederholung, Vorversetzung oder zum R\'#39'fccktritt,\par'#13#10'-\tab Ang' +
-                    'aben zum Schulwechsel,\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcber' +
-                    'weisungs- oder Abgangszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\' +
-                    'li284\ri283 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri28' +
-                    '3\tqc\tx3402\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerle' +
-                    'istungen sowie in Zeugnissen werden die folgenden Notenstufen ge' +
-                    'm\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13#10'\pard\no' +
-                    'widctlpar\fi-283\li567\ri283\tx1843 1.\tab sehr gut\tab (1),\par' +
-                    #13#10'2.\tab gut\tab (2),\par'#13#10'3.\tab befriedigend\tab (3),\par'#13#10'4.\' +
-                    'tab ausreichend\tab (4),\par'#13#10'5.\tab mangelhaft\tab (5),\par'#13#10'6.' +
-                    '\tab ungen\'#39'fcgend\tab (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\r' +
-                    'i283 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284' +
-                    '\ri283 Gegen die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fc' +
-                    'ler nicht zu versetzen oder einen erreichbaren Abschluss oder ei' +
-                    'ne Berechtigung nicht zu vergeben, kann innerhalb eines Monats n' +
-                    'ach Bekanntgabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10 +
-                    'Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse>, <' +
-                    'PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.\par'#13#10 +
-                    '\pard\nowidctlpar\qr\fs14 SNr: <SchulNr>, SForm: GY\par'#13#10'\pard\n' +
-                    'owidctlpar\fs20\par'#13#10'\pard\par'#13#10'\b\par'#13#10'}'#13#10#0
-                  RemoveEmptyLines = False
-                  Stretch = True
-                  mmHeight = 160602
-                  mmLeft = 4233
-                  mmTop = 4233
-                  mmWidth = 181505
-                  BandType = 4
-                  LayerName = PageLayer16
-                  mmBottomOffset = 0
-                  mmOverFlowOffset = 0
-                  mmStopPosition = 0
-                  mmMinHeight = 0
-                  mmLeftMargin = 794
-                end
-              end
-              object ppSummaryBand8: TppSummaryBand
-                Background.Brush.Style = bsClear
-                PrintHeight = phDynamic
-                mmBottomOffset = 0
-                mmHeight = 166159
-                mmPrintPosition = 0
-                object ppRichText2: TppRichText
-                  UserName = 'RiTeHinweiseNeu'
+                object ppRichText3: TppRichText
+                  UserName = 'RiTeHinweiseNeu2'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clWindowText
                   Font.Name = 'Calibri'
@@ -5069,36 +4992,40 @@ object Report: TppReport
                     'tqc\tx4536\tqr\tx9072 -\tab besondere Leistungsnachweise wie Jug' +
                     'endsportabzeichen oder Schwimmzeugnis sowie Angaben \'#39'fcber frei' +
                     'willig besuchte Kurse (z.B. Erste Hilfe),\par'#13#10'\pard\nowidctlpar' +
-                    '\fi-283\li567\ri283 -\tab Angaben \'#39'fcber die Leistungen im herk' +
-                    'unftssprachlichen Unterricht\par'#13#10'-\tab Angaben zur Wiederholung' +
-                    ', Vorversetzung oder zum R\'#39'fccktritt,\par'#13#10'-\tab Angaben zum Sc' +
-                    'hulwechsel,\par'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- o' +
-                    'der Abgangszeugnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283' +
-                    ' 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\li284\ri283\tqc\tx340' +
-                    '2\tqr\tx9072 Bei der Bewertung einzelner Sch\'#39'fclerleistungen so' +
-                    'wie in Zeugnissen werden die folgenden Notenstufen gem\'#39'e4\'#39'df \' +
-                    #39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13#10'\pard\nowidctlpar\f' +
-                    'i-283\li567\ri283\tx1843 1.\tab sehr gut\tab (1),\par'#13#10'2.\tab gu' +
-                    't\tab (2),\par'#13#10'3.\tab befriedigend\tab (3),\par'#13#10'4.\tab ausreic' +
-                    'hend\tab (4),\par'#13#10'5.\tab mangelhaft\tab (5),\par'#13#10'6.\tab ungen\' +
-                    #39'fcgend\tab (6)\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283 3.\tab' +
-                    ' Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctlpar\li284\ri283 Gege' +
-                    'n die Entscheidung, die Sch\'#39'fclerin oder den Sch\'#39'fcler nicht z' +
-                    'u versetzen oder einen erreichbaren Abschluss oder eine Berechti' +
-                    'gung nicht zu vergeben, kann innerhalb eines Monats nach Bekannt' +
-                    'gabe des Zeugnisses Widerspruch erhoben werden.\par'#13#10'Der Widersp' +
-                    'ruch ist bei der Schule (<Bezeichnung1>, <Strasse>, <PLZ> <Ort>)' +
-                    ' schriftlich oder zur Niederschrift zu erheben.\par'#13#10'\pard\nowid' +
-                    'ctlpar\qr\fs14 SNr: <SchulNr>, SForm: GY\par'#13#10'\pard\nowidctlpar\' +
-                    'fs20\par'#13#10'\pard\par'#13#10'\b\par'#13#10'}'#13#10#0
+                    '\fi-283\li567\ri283 -\tab Angaben zur Wiederholung, Vorversetzun' +
+                    'g oder zum R\'#39'fccktritt,\par'#13#10'-\tab Angaben zum Schulwechsel,\pa' +
+                    'r'#13#10'-\tab Versetzungsvermerk bei \'#39'dcberweisungs- oder Abgangszeu' +
+                    'gnissen.\par'#13#10'\pard\nowidctlpar\fi-284\li284\ri283 1.a) Zur Spal' +
+                    'te "Weiterer Unterricht"\par'#13#10'\pard\nowidctlpar\fi-283\li567\ri2' +
+                    '83 Hier k\'#39'f6nnen insbesondere eingetragen werden:\par'#13#10'-\tab An' +
+                    'gaben \'#39'fcber die Leistungen in Angeboten, die unter Verwendung ' +
+                    'von Erg\'#39'e4nzungsstunden realisiert werden, soweit diese der Lei' +
+                    'stungsbewertung unterliegen,\par'#13#10'-\tab Angaben \'#39'fcber die Leis' +
+                    'tungen im herkunftssprachlichen Unterricht\par'#13#10'\pard\nowidctlpa' +
+                    'r\fi-284\li284\ri283 2.\tab Notenstufen\par'#13#10'\pard\nowidctlpar\l' +
+                    'i284\ri283\tqc\tx3402\tqr\tx9072 Bei der Bewertung einzelner Sch' +
+                    '\'#39'fclerleistungen sowie in Zeugnissen werden die folgenden Noten' +
+                    'stufen gem\'#39'e4\'#39'df \'#39'a7 48 Absatz 3 SchulG zugrunde gelegt:\par'#13 +
+                    #10'\pard\nowidctlpar\fi-283\li567\ri283\tx1843 1.\tab sehr gut\tab' +
+                    ' (1),\par'#13#10'2.\tab gut\tab (2),\par'#13#10'3.\tab befriedigend\tab (3),' +
+                    '\par'#13#10'4.\tab ausreichend\tab (4),\par'#13#10'5.\tab mangelhaft\tab (5)' +
+                    ',\par'#13#10'6.\tab ungen\'#39'fcgend\tab (6)\par'#13#10'\pard\nowidctlpar\fi-28' +
+                    '4\li284\ri283 3.\tab Rechtsbehelfsbelehrung:\par'#13#10'\pard\nowidctl' +
+                    'par\li284\ri283 Gegen die Entscheidung, die Sch\'#39'fclerin oder de' +
+                    'n Sch\'#39'fcler nicht zu versetzen oder einen erreichbaren Abschlus' +
+                    's oder eine Berechtigung nicht zu vergeben, kann innerhalb eines' +
+                    ' Monats nach Bekanntgabe des Zeugnisses Widerspruch erhoben werd' +
+                    'en. Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Strasse' +
+                    '>, <PLZ> <Ort>) zu erheben.\par'#13#10'\pard\nowidctlpar\qr\fs14 SNr: ' +
+                    '<SchulNr>, SForm: GY\par'#13#10'\pard\nowidctlpar\fs20\par'#13#10'\pard\par'#13 +
+                    #10'\b\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
                   Stretch = True
                   mmHeight = 160602
-                  mmLeft = 4233
-                  mmTop = 4233
+                  mmLeft = 14288
+                  mmTop = 0
                   mmWidth = 181505
-                  BandType = 7
-                  LayerName = PageLayer16
+                  BandType = 4
                   mmBottomOffset = 0
                   mmOverFlowOffset = 0
                   mmStopPosition = 0
@@ -5106,44 +5033,14 @@ object Report: TppReport
                   mmLeftMargin = 794
                 end
               end
-              object ppPageStyle4: TppPageStyle
-                Background.Brush.Style = bsClear
-                EndPage = 0
-                SinglePage = 0
-                StartPage = 0
-                mmBottomOffset = 0
-                mmHeight = 277000
-                mmPrintPosition = 0
+              object raCodeModule1: TraCodeModule
+                ProgramStream = {00}
               end
-              object raCodeModule23: TraCodeModule
-                ProgramStream = {
-                  01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650611
-                  44657461696C4265666F72655072696E740B50726F6772616D54797065070B74
-                  7450726F63656475726506536F75726365065E70726F63656475726520446574
-                  61696C4265666F72655072696E743B0D0A626567696E0D0A202064657461696C
-                  2E76697369626C65203A3D206E6F74204E65756541627363686C75737342657A
-                  656963686E756E673B0D0A656E643B0D0A0D436F6D706F6E656E744E616D6506
-                  0644657461696C094576656E744E616D65060B4265666F72655072696E740745
-                  76656E7449440218084361726574506F730102330203000001060F5472614576
-                  656E7448616E646C65720B50726F6772616D4E616D65061253756D6D61727942
-                  65666F72655072696E740B50726F6772616D54797065070B747450726F636564
-                  75726506536F75726365065C70726F6365647572652053756D6D617279426566
-                  6F72655072696E743B0D0A626567696E0D0A202073756D6D6172792E76697369
-                  626C65203A3D204E65756541627363686C75737342657A656963686E756E673B
-                  0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060753756D6D61727909
-                  4576656E744E616D65060B4265666F72655072696E74074576656E7449440218
-                  084361726574506F730102160203000000}
-              end
-              object ppDesignLayers31: TppDesignLayers
-                object ppDesignLayer31: TppDesignLayer
-                  UserName = 'PageLayer7'
-                  LayerType = ltPage
-                  Index = 0
-                end
+              object ppDesignLayers28: TppDesignLayers
                 object ppDesignLayer33: TppDesignLayer
-                  UserName = 'PageLayer16'
+                  UserName = 'PageLayer7'
                   LayerType = ltBanded
-                  Index = 1
+                  Index = 0
                 end
               end
             end
@@ -5225,7 +5122,7 @@ object Report: TppReport
       726F6772616D4E616D650609436F6E7374616E74730B50726F6772616D547970
       65070B747450726F63656475726506536F75726365148200000070726F636564
       75726520436F6E7374616E74733B0D0A636F6E73740D0A202052657056657273
-      696F6E203D2027323032332D30362D3037273B0D0A20205265704175746F7265
+      696F6E203D2027323032362D31302D3132273B0D0A20205265704175746F7265
       6E203D20274DC3BC6C6C65722C20506CC3BC6D7065722C206465206C61204861
       7965273B0D0A2020200D0A0D0A626567696E0D0A0D0A656E643B0D0A08436172
       6574506F730102010201000001060D54726156617250726F6772616D09436869
